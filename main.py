@@ -18,11 +18,12 @@ async def on_ready():
 async def on_voice_state_update(member, before, after):
     user = member
     voice_channel = user.voice.channel
-    if voice_channel != None:
+    
+    if (voice_channel != None and before.channel != after.channel):
         try:
             vc = await voice_channel.connect()
-            await asyncio.sleep(0.5)
-            audio_source = discord.FFmpegPCMAudio('voice_1.mp3')
+            await asyncio.sleep(0.2)
+            audio_source = discord.FFmpegPCMAudio('voice_2.mp3')
             vc.play(audio_source,after=None)
             vc.source.volume = 10.0
             await asyncio.sleep(2)
@@ -93,6 +94,24 @@ async def on_message(message):
                 print('erroR')
         return
     
+    if message.content == '!垃圾遊戲':
+        user = message.author
+        voice_channel = user.voice.channel
+        if voice_channel != None:
+            try:
+                vc = await voice_channel.connect()
+                await asyncio.sleep(0.5)
+                audio_source = discord.FFmpegPCMAudio('voice_2.mp3')
+                vc.play(audio_source,after=None)
+                vc.source.volume = 10.0
+                # while not player.is_done():
+                #     await asyncio.sleep(1)
+                # player.stop()
+                await asyncio.sleep(2)
+                await vc.disconnect()
+            except:
+                print('erroR')
+        return
 
     a_msg = ['哭啊', '不是誒老哥', '誒你剛有看到嗎 我剛很強吧', '外掛啦外掛', '這對面很有水準誒','我要吐了']
 
