@@ -56,18 +56,18 @@ async def on_message(message):
             await message.channel.send('回你媽')
         return
 
-    for member in mentions:
-        if member.id == 429658144042516480:
-            await message.channel.send('閉嘴啦魂爆')
-            return
+    # for member in mentions:
+    #     if member.id == 429658144042516480:
+    #         await message.channel.send('閉嘴啦魂爆')
+    #         return
 
-    # if client.get_user(429658144042516480) in mentions:
+    # # if client.get_user(429658144042516480) in mentions:
+    # #     await message.channel.send('閉嘴啦魂爆')
+    # #     return
+
+    # if 'chi' in message.content.lower() and verbose:
     #     await message.channel.send('閉嘴啦魂爆')
     #     return
-
-    if 'chi' in message.content.lower() and verbose:
-        await message.channel.send('閉嘴啦魂爆')
-        return
     
     if message.content.startswith('!把') and message.content.endswith('關廁所'):
         for member in mentions:
@@ -112,6 +112,63 @@ async def on_message(message):
             except:
                 print('erroR')
         return
+      
+    if '!阿致分隊' in message.content:
+        if message.content == '!阿致分隊':
+            l = [1,2,3,4,5,6,7,8,9,10]
+            random.shuffle(l)
+            blue = []
+            red = []
+            for i in range(10):
+                if(i<5):
+                    blue.append(l[i])
+                else:
+                    red.append(l[i])
+            await message.channel.send('藍方: '+' ,'.join(str(x) for x in sorted(blue)))
+            await message.channel.send('紅方: '+' ,'.join(str(x) for x in sorted(red)))
+        elif len(mentions)==10:
+            l = [0,1,2,3,4,5,6,7,8,9]
+            random.shuffle(l)
+            blue = []
+            red = []
+            for i in l:
+                if(len(blue)<5):
+                    blue.append(mentions[i])
+                else:
+                    red.append(mentions[i])
+            await message.channel.send('藍方: '+' ,'.join('<@'+str(x.id)+'> ' for x in blue))
+            await message.channel.send('紅方: '+' ,'.join('<@'+str(x.id)+'> ' for x in red))
+        
+        elif 'all' in message.content:
+            user = message.author
+            voice_channel = user.voice.channel
+            print(voice_channel.members)
+            players = voice_channel.members
+            if '--' in message.content:
+                for m in mentions:
+                    if m in players:
+                        players.remove(m)
+            print(players)
+            await message.channel.send('藍方: '+' ,'.join('<@'+str(x.id)+'> ' for x in players))
+            if len(players)==10:
+                l = [0,1,2,3,4,5,6,7,8,9]
+                random.shuffle(l)
+                blue = []
+                red = []
+                for i in l:
+                    if(len(blue)<5):
+                        blue.append(players[i])
+                    else:
+                        red.append(players[i])
+                await message.channel.send('藍方: '+' ,'.join('<@'+str(x.id)+'> ' for x in blue))
+                await message.channel.send('紅方: '+' ,'.join('<@'+str(x.id)+'> ' for x in red))
+            else:
+                await message.channel.send('你覺得東方哈佛不會算術?')
+        else:
+            await message.channel.send('公殺小')
+
+        
+
 
     a_msg = ['哭啊', '不是誒老哥', '誒你剛有看到嗎 我剛很強吧', '外掛啦外掛', '這對面很有水準誒','我要吐了']
 
