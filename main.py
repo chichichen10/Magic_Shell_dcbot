@@ -187,22 +187,22 @@ async def on_message(message):
 
     if message.content == '!阿致能幹嘛':
         help_msg='''
-        
-        !阿致嘴閉閉: 讓阿致少講點話
-        !阿致回來: 本來的阿致
-        !阿致吸奶: 吸起來
-        !垃圾遊戲: G社不倒遊戲不會好
-        !阿致分隊 [[@user1] [@user2] [...] [@user10] | --no [@user1] [@user2] [...]]:
-                  沒有參數:語音裡面剛好10個人分兩隊
-                  @10個人: 10個人分兩隊
-                  --no @不打的人: 在語音裡面要打的10個人分兩隊
 
-        讓阿致更好 歡迎捐款 
-                  BTC : 34H1toJmtK3G2XYoJcX19eUy4LKuC8A2Bh
-                  ETH : 0x257cB5aB793761e6eCF2CFF97BfBD99C0f5feEd3
-                  DOGE: D6kYuic82rrX64Z9VopibgkSmCUdWf54qr
-                  USDT: 0x257cB5aB793761e6eCF2CFF97BfBD99C0f5feEd3(ERC20)            
-                  USDT: TVuWm5qjjSc79Zz1vFkeLvhsHzR3NrFm24(TRC20)
+        !阿致嘴閉閉: 讓阿致少講點話
+!阿致回來: 本來的阿致
+!阿致吸奶: 吸起來
+!垃圾遊戲: G社不倒遊戲不會好
+!阿致分隊 [[@user1] [@user2] [...] [@user10] | --no [@user1] [@user2] [...]]:
+                    沒有參數:語音裡面剛好10個人分兩隊
+                    @10個人: 10個人分兩隊
+                    --no @不打的人: 在語音裡面要打的10個人分兩隊
+
+讓阿致更好 歡迎捐款 
+BTC : 34H1toJmtK3G2XYoJcX19eUy4LKuC8A2Bh
+ETH : 0x257cB5aB793761e6eCF2CFF97BfBD99C0f5feEd3
+DOGE: D6kYuic82rrX64Z9VopibgkSmCUdWf54qr
+USDT: 0x257cB5aB793761e6eCF2CFF97BfBD99C0f5feEd3(ERC20)            
+USDT: TVuWm5qjjSc79Zz1vFkeLvhsHzR3NrFm24(TRC20)
 
         '''
         await message.channel.send(help_msg)
