@@ -114,7 +114,7 @@ async def on_message(message):
         return
       
     if '!阿致分隊' in message.content:
-        if message.content == '!阿致分隊':
+        if message.content == '!阿致分隊 --n':
             l = [1,2,3,4,5,6,7,8,9,10]
             random.shuffle(l)
             blue = []
@@ -127,19 +127,11 @@ async def on_message(message):
             await message.channel.send('藍方: '+' ,'.join(str(x) for x in sorted(blue)))
             await message.channel.send('紅方: '+' ,'.join(str(x) for x in sorted(red)))
         elif len(mentions)==10:
-            l = [0,1,2,3,4,5,6,7,8,9]
-            random.shuffle(l)
-            blue = []
-            red = []
-            for i in l:
-                if(len(blue)<5):
-                    blue.append(mentions[i])
-                else:
-                    red.append(mentions[i])
-            await message.channel.send('藍方: '+' ,'.join('<@'+str(x.id)+'> ' for x in blue))
-            await message.channel.send('紅方: '+' ,'.join('<@'+str(x.id)+'> ' for x in red))
+            random.shuffle(mentions)
+            await message.channel.send('藍方: '+' ,'.join('<@'+str(x.id)+'> ' for x in mentions[:5]))
+            await message.channel.send('紅方: '+' ,'.join('<@'+str(x.id)+'> ' for x in mentions[5:]))
         
-        elif 'all' in message.content:
+        else:
             user = message.author
             voice_channel = user.voice.channel
             print(voice_channel.members)
@@ -151,22 +143,14 @@ async def on_message(message):
             print(players)
             await message.channel.send('藍方: '+' ,'.join('<@'+str(x.id)+'> ' for x in players))
             if len(players)==10:
-                l = [0,1,2,3,4,5,6,7,8,9]
-                random.shuffle(l)
-                blue = []
-                red = []
-                for i in l:
-                    if(len(blue)<5):
-                        blue.append(players[i])
-                    else:
-                        red.append(players[i])
-                await message.channel.send('藍方: '+' ,'.join('<@'+str(x.id)+'> ' for x in blue))
-                await message.channel.send('紅方: '+' ,'.join('<@'+str(x.id)+'> ' for x in red))
-            else:
-                await message.channel.send('你覺得東方哈佛不會算術?')
-        else:
-            await message.channel.send('公殺小')
-
+                random.shuffle(players)
+                await message.channel.send('藍方: '+' ,'.join('<@'+str(x.id)+'> ' for x in players[:5]))
+                await message.channel.send('紅方: '+' ,'.join('<@'+str(x.id)+'> ' for x in players[5:]))
+            elif len(players)<10:
+                await message.channel.send('人不夠 北七')
+            elif len(players)>10:
+                await message.channel.send('人山人海 北七')
+        return
         
 
 
