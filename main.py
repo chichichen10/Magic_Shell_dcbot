@@ -31,7 +31,7 @@ async def on_voice_state_update(member, before, after):
         try:
             vc = await voice_channel.connect()
             await asyncio.sleep(0.2)
-            audio_source = discord.FFmpegPCMAudio('voice_'+str(random.choice(range(1,11)))+'.mp3')
+            audio_source = discord.FFmpegPCMAudio('voice_'+str(random.choice(range(1,17)))+'.mp3')
             vc.play(audio_source,after=None)
             vc.source.volume = 10.0
             await asyncio.sleep(2)
@@ -60,6 +60,22 @@ async def on_message(message):
         if not verbose:
             await message.channel.send('想不到吧')
             verbose = True
+            user = message.author
+            voice_channel = None
+            if(user.voice):
+                voice_channel = user.voice.channel
+            if (voice_channel != None):
+                try:
+                    vc = await voice_channel.connect()
+                    await asyncio.sleep(0.2)
+                    audio_source = discord.FFmpegPCMAudio('voice_15.mp3')
+                    vc.play(audio_source,after=None)
+                    vc.source.volume = 10.0
+                    await asyncio.sleep(2)
+                    await vc.disconnect()
+                except:
+                    print('erroR')
+
         else:
             await message.channel.send('回你媽')
         return
@@ -93,7 +109,7 @@ async def on_message(message):
             try:
                 vc = await voice_channel.connect()
                 await asyncio.sleep(0.5)
-                audio_source = discord.FFmpegPCMAudio('voice_'+str(random.choice(range(1,11)))+'.mp3')
+                audio_source = discord.FFmpegPCMAudio('voice_'+str(random.choice(range(1,17)))+'.mp3')
                 vc.play(audio_source,after=None)
                 vc.source.volume = 10.0
                 # while not player.is_done():
@@ -170,6 +186,7 @@ async def on_message(message):
                 for m in mentions:
                     if m in players:
                         players.remove(m)
+            print(len(players))
             if len(players)==10:
                 random.shuffle(players)
                 await message.channel.send('藍方: '+' ,'.join('<@'+str(x.id)+'> ' for x in players[:5]))
