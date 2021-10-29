@@ -218,6 +218,9 @@ DOGE: D6kYuic82rrX64Z9VopibgkSmCUdWf54qr
 USDT: 0x257cB5aB793761e6eCF2CFF97BfBD99C0f5feEd3(ERC20)            
 USDT: TVuWm5qjjSc79Zz1vFkeLvhsHzR3NrFm24(TRC20)
 
+歡迎協作
+https://github.com/chichichen10/Magic_Shell_dcbot
+
         '''
         await message.channel.send(help_msg)
         return
