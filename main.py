@@ -31,7 +31,7 @@ async def on_voice_state_update(member, before, after):
         try:
             vc = await voice_channel.connect()
             await asyncio.sleep(0.2)
-            audio_source = discord.FFmpegPCMAudio('voice_2.mp3')
+            audio_source = discord.FFmpegPCMAudio('voice_'+str(random.choice(range(1,11)))+'.mp3')
             vc.play(audio_source,after=None)
             vc.source.volume = 10.0
             await asyncio.sleep(2)
@@ -83,14 +83,17 @@ async def on_message(message):
             await message.channel.send('<@'+str(member.id)+'> 下去')
         return
 
-    if message.content == '!阿致吸奶':
+    if message.content == '!阿致講話':
         user = message.author
+        if not user.voice:
+            await message.channel.send('先進來講話 北七')
+            return
         voice_channel = user.voice.channel
         if voice_channel != None:
             try:
                 vc = await voice_channel.connect()
                 await asyncio.sleep(0.5)
-                audio_source = discord.FFmpegPCMAudio('voice_1.mp3')
+                audio_source = discord.FFmpegPCMAudio('voice_'+str(random.choice(range(1,11)))+'.mp3')
                 vc.play(audio_source,after=None)
                 vc.source.volume = 10.0
                 # while not player.is_done():
@@ -139,9 +142,12 @@ async def on_message(message):
             random.shuffle(mentions)
             await message.channel.send('藍方: '+' ,'.join('<@'+str(x.id)+'> ' for x in mentions[:5]))
             await message.channel.send('紅方: '+' ,'.join('<@'+str(x.id)+'> ' for x in mentions[5:]))
-            await message.channel.send('倒數5秒')
-            await asyncio.sleep(5)
-            await message.channel.send('下去')
+            new_msg = await message.channel.send('倒數5秒')
+            for i in range(5):
+                await asyncio.sleep(1)
+                await new_msg.edit(content='倒數'+str(4-i)+'秒')
+            await asyncio.sleep(1)
+            await new_msg.edit(content='下去')
             blue_channel = await guild.create_voice_channel('藍隊')
             for player in mentions[:5]:
                 if player.voice:
@@ -168,14 +174,17 @@ async def on_message(message):
                 random.shuffle(players)
                 await message.channel.send('藍方: '+' ,'.join('<@'+str(x.id)+'> ' for x in players[:5]))
                 await message.channel.send('紅方: '+' ,'.join('<@'+str(x.id)+'> ' for x in players[5:]))
-                await message.channel.send('倒數5秒')
+                new_msg = await message.channel.send('倒數5秒')
+                for i in range(5):
+                    await asyncio.sleep(1)
+                    await new_msg.edit(content='倒數'+str(4-i)+'秒')
+                await asyncio.sleep(1)
+                await new_msg.edit(content='下去')
                 blue_channel = await guild.create_voice_channel('藍隊')
-                red_channel = await guild.create_voice_channel('紅隊')
-                await asyncio.sleep(5)
-                await message.channel.send('下去')
                 for player in players[:5]:
                     if player.voice:
                         await player.move_to(blue_channel)
+                red_channel = await guild.create_voice_channel('紅隊')
                 for player in players[5:]:
                     if player.voice:
                         await player.move_to(red_channel)
@@ -185,13 +194,18 @@ async def on_message(message):
                 await message.channel.send('人山人海 北七')
         return
 
+    if message.content == '!阿致挖礦':
+        await message.channel.send('邁向財富自由\nhttps://max.maicoin.com/signup?r=1448ee5b')
+        return
+
     if message.content == '!阿致能幹嘛':
         help_msg='''
 
         !阿致嘴閉閉: 讓阿致少講點話
 !阿致回來: 本來的阿致
-!阿致吸奶: 吸起來
+!阿致講話: 美妙的發言
 !垃圾遊戲: G社不倒遊戲不會好
+!阿致挖礦: 恭喜你發現財富密碼
 !阿致分隊 [[@user1] [@user2] [...] [@user10] | --no [@user1] [@user2] [...]]:
                     沒有參數:語音裡面剛好10個人分兩隊
                     @10個人: 10個人分兩隊
