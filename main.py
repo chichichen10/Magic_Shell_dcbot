@@ -3,6 +3,7 @@ import discord
 import random
 import os
 import asyncio
+from replit import db
 
 client = discord.Client()
 
@@ -16,6 +17,8 @@ async def on_ready():
 
 @client.event
 async def on_voice_state_update(member, before, after):
+    if(db["mode"]=="0"):
+        return
     user = member
     if (user == client.user):
         return
@@ -63,6 +66,33 @@ async def on_message(message):
     global verbose
     mentions = message.mentions
     if message.author == client.user:
+        return
+
+    if message.content == '!阿致當兵':
+        await message.channel.send('信仰堅定 紀律嚴明')
+        verbose = False
+        db["mode"] = "0"
+        return
+    
+    if message.content == '!阿致放假':
+        await message.channel.send('放假啦老哥')
+        verbose = True
+        db["mode"] = "1"
+        user = message.author
+        voice_channel = None
+        if (user.voice):
+            voice_channel = user.voice.channel
+        if (voice_channel != None):
+            try:
+                vc = await voice_channel.connect()
+                await asyncio.sleep(0.2)
+                audio_source = discord.FFmpegPCMAudio('voice_15.mp3')
+                vc.play(audio_source, after=None)
+                vc.source.volume = 10.0
+                await asyncio.sleep(2)
+                await vc.disconnect()
+            except:
+                print('erroR')
         return
 
     if message.content == '!阿致嘴閉閉':
@@ -253,6 +283,8 @@ async def on_message(message):
 
         !阿致嘴閉閉: 讓阿致少講點話
 !阿致回來: 本來的阿致
+!阿致當兵: 停止阿致的語音問候
+!阿致放假: 開始問候你全家
 !阿致講話: 美妙的發言
 !垃圾遊戲: G社不倒遊戲不會好
 !阿致挖礦: 恭喜你發現財富密碼
