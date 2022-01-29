@@ -4,6 +4,10 @@ import random
 import os
 import asyncio
 from replit import db
+from gtts import gTTS
+from pydub import AudioSegment, effects
+from logger import logger as log
+from audio_player import dc_player
 
 client = discord.Client()
 
@@ -12,12 +16,12 @@ verbose = True
 
 @client.event
 async def on_ready():
-    print('目前登入身份：', client.user)
+    log.info('目前登入身份：' + str(client.user))
 
 
 @client.event
 async def on_voice_state_update(member, before, after):
-    if(db["mode"]=="0"):
+    if (db["mode"] == "0"):
         return
     user = member
     if (user == client.user):
@@ -32,32 +36,141 @@ async def on_voice_state_update(member, before, after):
                 await vc.delete()
 
     if (voice_channel != None and before.channel != after.channel):
-        player_ids = [x.id for x in voice_channel.members]
+        # player_ids = [x.id for x in voice_channel.members]
         if (user.id == 429657581313720321):
             try:
+                log.info('Magic Shell back.')
                 vc = await voice_channel.connect()
                 await asyncio.sleep(0.2)
                 audio_source = discord.FFmpegPCMAudio('recording.webm')
                 vc.play(audio_source, after=None)
                 vc.source.volume = 10.0
-                await asyncio.sleep(2)
+                while (vc.is_playing()):
+                    await asyncio.sleep(0.5)
+                await asyncio.sleep(1)
                 await vc.disconnect()
-            except:
-                print('erroR')
+            except Exception as e:
+                log.err(e)
             return
-        elif(429657581313720321 in player_ids):
-            return
+        # elif (429657581313720321 in player_ids):
+        #     return
         try:
-            vc = await voice_channel.connect()
+            # await dc_player.play(voice_channel,'bye.mp3')
+            # await dc_player.play(voice_channel,'voice_6.mp3')
+            name = user.display_name
+            log.info(name + ' in ' + user.guild.name + '[' +
+                     user.voice.channel.name + ']')
+            if (name == '楓夜' and random.choice(range(1, 3)) == 1):
+                name = '他媽的孫偉夫'
+            if (random.choice(range(1, 3)) == 1
+                    and db.prefix("random_" + name)):
+                names = db.prefix("random_" + name)
+                name = db[random.choice(names)]
+            elif ("nickname_" + name in db.prefix("nickname_")):
+                name = db["nickname_" + name]
+            name_voice_file = "name/" + name + ".mp3"
+            welcome_num = str(random.choice(range(1, 3)))
+            welcome_voice = "welcome" + welcome_num + "/" + name + ".mp3"
+            if (not os.path.isfile(welcome_voice)):
+                if (not os.path.isfile(name_voice_file)):
+                    tts = gTTS(text=name, lang='zh-tw')
+                    tts.save(name_voice_file)
+                pre_welcome = AudioSegment.from_mp3('prewelcome' +
+                                                    welcome_num + '.mp3')
+                name_voice_origin = AudioSegment.from_mp3(name_voice_file)
+                name_voice = effects.speedup(name_voice_origin, 1.3)
+                if (welcome_num == '2'):
+                    post_welcome = AudioSegment.from_mp3('postwelcome' +
+                                                         welcome_num + '.mp3')
+                    welcome = pre_welcome + name_voice + post_welcome
+                else:
+                    welcome = pre_welcome + name_voice
+                welcome.export(welcome_voice, format="mp3")
+            for i in range(10):
+                try:
+                    vc = await voice_channel.connect()
+                    break
+                except discord.ClientException:
+                    await asyncio.sleep(0.5)
+            try:
+                await asyncio.sleep(0.2)
+                audio_source2 = discord.FFmpegPCMAudio(welcome_voice)
+                vc.play(audio_source2, after=None)
+                vc.source.volume = 10.0
+                await asyncio.sleep(1)
+                while (vc.is_playing()):
+                    await asyncio.sleep(0.1)
+                await asyncio.sleep(0.1)
+                audio_source = discord.FFmpegPCMAudio(
+                    'voice_' + str(random.choice(range(1, 17))) + '.mp3')
+                vc.play(audio_source, after=None)
+                while (vc.is_playing()):
+                    await asyncio.sleep(0.5)
+                await asyncio.sleep(1)
+            except:
+                print('error!')
+            await vc.disconnect()
+        except Exception as e:
+            print(e)
+    elif (user.id == 429657581313720321 and after.channel == None):
+        try:
+            vc = await before.channel.connect()
             await asyncio.sleep(0.2)
-            audio_source = discord.FFmpegPCMAudio(
-                'voice_' + str(random.choice(range(1, 17))) + '.mp3')
+            audio_source = discord.FFmpegPCMAudio('recording2.webm')
             vc.play(audio_source, after=None)
             vc.source.volume = 10.0
-            await asyncio.sleep(2)
+            while (vc.is_playing()):
+                await asyncio.sleep(0.5)
+            await asyncio.sleep(1)
             await vc.disconnect()
         except:
-            print('erroR')
+            log.err('ERROR')
+        return
+    elif (after.channel == None):
+        try:
+            name = user.display_name
+            log.info(name + ' out ' + user.guild.name + '[' +
+                     before.channel.name + ']')
+            if (name == 'Chi'):
+                name = 'Chee'
+            if (name == '楓夜' and random.choice(range(1, 3)) == 1):
+                name = '他媽的孫偉夫'
+            name_voice_file = "name/" + name + ".mp3"
+            bye_voice = "bye/" + name + ".mp3"
+            if (not os.path.isfile(bye_voice)):
+                if (not os.path.isfile(name_voice_file)):
+                    tts = gTTS(text=name, lang='zh-tw')
+                    tts.save(name_voice_file)
+                pre_bye = AudioSegment.from_mp3('bye.mp3')
+                name_voice_origin = AudioSegment.from_mp3(name_voice_file)
+                name_voice = effects.speedup(name_voice_origin, 1.3)
+                bye = name_voice + pre_bye
+                bye.export(bye_voice, format="mp3")
+            for i in range(10):
+                try:
+                    vc = await before.channel.connect()
+                    break
+                except discord.ClientException:
+                    await asyncio.sleep(0.5)
+            try:
+                print('hi')
+                await asyncio.sleep(0.2)
+                audio_source3 = discord.FFmpegPCMAudio(bye_voice)
+                vc.play(audio_source3, after=None)
+                vc.source.volume = 10.0
+                await asyncio.sleep(1)
+                while (vc.is_playing()):
+                    await asyncio.sleep(0.1)
+                await asyncio.sleep(0.1)
+            except Exception as e:
+                print('this error')
+                print(e)
+            await vc.disconnect()
+            print('end')
+        except Exception as e:
+            print(e)
+            print('that')
+
     return
 
 
@@ -73,7 +186,7 @@ async def on_message(message):
         verbose = False
         db["mode"] = "0"
         return
-    
+
     if message.content == '!阿致放假':
         await message.channel.send('放假啦老哥')
         verbose = True
@@ -127,18 +240,12 @@ async def on_message(message):
             await message.channel.send('回你媽')
         return
 
-    # for member in mentions:
-    #     if member.id == 429658144042516480:
-    #         await message.channel.send('閉嘴啦魂爆')
-    #         return
-
-    # # if client.get_user(429658144042516480) in mentions:
-    # #     await message.channel.send('閉嘴啦魂爆')
-    # #     return
-
-    # if 'chi' in message.content.lower() and verbose:
-    #     await message.channel.send('閉嘴啦魂爆')
-    #     return
+    if "!阿致叫我" in message.content:
+        random_name = message.content[5:]
+        db["random_" + message.author.display_name + "_" +
+           str(hash(random_name))] = random_name
+        await message.channel.send(random.choice(["考慮", "喔", "我想想", "不要"]))
+        return
 
     if message.content.startswith('!把') and message.content.endswith('關廁所'):
         guild = message.author.guild
@@ -191,6 +298,17 @@ async def on_message(message):
             except:
                 print('erroR')
         return
+
+    # if message.content == '!阿致重整':
+    #     guild = message.author.guild
+    #     channel = await guild.create_voice_channel('廁所')
+
+    #     for player in mentions:
+    #         if player.voice:
+    #             await player.move_to(channel)
+    #             await message.channel.send('<@' + str(player.id) + '> 下去')
+
+    #     return
 
     if '!阿致分隊' in message.content:
         if message.content == '!阿致分隊 --n':
@@ -278,6 +396,14 @@ async def on_message(message):
             '邁向財富自由\nhttps://max.maicoin.com/signup?r=1448ee5b')
         return
 
+    if message.content == '!阿致新功能':
+        msg = '''
+
+        !阿致叫我[你想要的名字]: 阿致可能會這樣叫你 e.g.!阿致叫我智障)
+        '''
+        await message.channel.send(msg)
+        return
+
     if message.content == '!阿致能幹嘛':
         help_msg = '''
 
@@ -287,6 +413,7 @@ async def on_message(message):
 !阿致放假: 開始問候你全家
 !阿致講話: 美妙的發言
 !垃圾遊戲: G社不倒遊戲不會好
+!阿致叫我[你想要的名字]: 阿致可能會這樣叫你 e.g.!阿致叫我智障)
 !阿致挖礦: 恭喜你發現財富密碼
 !阿致分隊 [[@user1] [@user2] [...] [@user10] | --no [@user1] [@user2] [...]]:
                     沒有參數:語音裡面剛好10個人分兩隊
