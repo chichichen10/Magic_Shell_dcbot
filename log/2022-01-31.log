@@ -1,0 +1,19 @@
+2022-01-30 18:38:04,080 INFO: logging in using static token
+2022-01-30 18:38:04,349 INFO: Shard ID None has sent the IDENTIFY payload.
+2022-01-30 18:38:04,465 INFO: Shard ID None has connected to Gateway: ["gateway-prd-main-nb20",{"micros":73868,"calls":["discord-sessions-green-prd-2-47",{"micros":70587,"calls":["start_session",{"micros":55747,"calls":["api-prd-main-sgdf",{"micros":51700,"calls":["get_user",{"micros":3064},"add_authorized_ip",{"micros":2713},"get_guilds",{"micros":8077},"coros_wait",{"micros":2}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":2,"calls":[]}]}]}] (Session ID: f0e4e4abae6978ec58efd6fee2221597).
+2022-01-30 18:38:06,534 INFO: 目前登入身份：神奇海螺#3847
+2022-01-30 18:52:15,864 INFO: SparkleZ out 9又4分之8.7月台[打不出幹話就講出來啊]
+2022-01-30 18:52:15,865 INFO: Connecting to voice...
+2022-01-30 18:52:15,865 INFO: Starting voice handshake... (connection attempt 1)
+2022-01-30 18:52:16,808 INFO: Voice handshake complete. Endpoint found hongkong2245.discord.media
+2022-01-30 18:52:18,119 INFO: selected the voice protocol for use (xsalsa20_poly1305_lite)
+2022-01-31 04:11:35,886 INFO: logging in using static token
+2022-01-31 04:11:36,154 INFO: Shard ID None has sent the IDENTIFY payload.
+2022-01-31 04:11:36,242 INFO: Shard ID None has connected to Gateway: ["gateway-prd-main-5s0b",{"micros":47802,"calls":["discord-sessions-green-prd-2-149",{"micros":46987,"calls":["start_session",{"micros":34090,"calls":["api-prd-main-bv86",{"micros":30561,"calls":["get_user",{"micros":3250},"add_authorized_ip",{"micros":1410},"get_guilds",{"micros":6356},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":2722,"calls":[]}]}]}] (Session ID: 60ad5ffe66ce9795da094677190c29e6).
+2022-01-31 07:05:51,633 INFO: logging in using static token
+2022-01-31 07:05:51,881 INFO: Shard ID None has sent the IDENTIFY payload.
+2022-01-31 07:05:52,001 INFO: Shard ID None has connected to Gateway: ["gateway-prd-main-1bw8",{"micros":80421,"calls":["discord-sessions-green-prd-2-167",{"micros":74204,"calls":["start_session",{"micros":32862,"calls":["discord-api-fc9875cfc-2z5t8",{"micros":29767,"calls":["get_user",{"micros":2303},"add_authorized_ip",{"micros":2592},"get_guilds",{"micros":5249},"coros_wait",{"micros":0}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":1,"calls":[]}]}]}] (Session ID: 5913abdc33956c16a311d1f01a8391d3).
+2022-01-31 07:05:54,052 INFO: 目前登入身份：神奇海螺#3847
+2022-01-31 07:34:19,755 INFO: KyrieR in 9又4分之8.7月台[打不出幹話就講出來啊]
+2022-01-31 07:34:19,792 INFO: Connecting to voice...
+2022-01-31 07:34:19,793 INFO: Starting voice handshake... (connection attempt 1)

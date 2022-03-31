@@ -7,9 +7,13 @@ from replit import db
 from gtts import gTTS
 from pydub import AudioSegment, effects
 from logger import logger as log
-from audio_player import dc_player
+from audio_player import DC_player
+import youtube_dl
+from youtube_search import YoutubeSearch
 
 client = discord.Client()
+
+dc_player = DC_player()
 
 verbose = True
 
@@ -26,37 +30,48 @@ async def on_voice_state_update(member, before, after):
     user = member
     if (user == client.user):
         return
+    if (user.display_name == "傑哥KTV"):
+        return
     voice_channel = None
     if (user.voice):
         voice_channel = user.voice.channel
     guild = user.guild
     for vc in guild.voice_channels:
-        if vc.name == '紅隊' or vc.name == '藍隊' or vc.name == '廁所':
+        if vc.name == '紅隊' or vc.name == '藍隊' or vc.name == '垃圾車':
             if (not vc.members):
                 await vc.delete()
 
     if (voice_channel != None and before.channel != after.channel):
         # player_ids = [x.id for x in voice_channel.members]
-        if (user.id == 429657581313720321):
-            try:
-                log.info('Magic Shell back.')
-                vc = await voice_channel.connect()
-                await asyncio.sleep(0.2)
-                audio_source = discord.FFmpegPCMAudio('recording.webm')
-                vc.play(audio_source, after=None)
-                vc.source.volume = 10.0
-                while (vc.is_playing()):
-                    await asyncio.sleep(0.5)
-                await asyncio.sleep(1)
-                await vc.disconnect()
-            except Exception as e:
-                log.err(e)
-            return
+        # if (user.id == 429657581313720321):
+        #     try:
+        #         log.info('Magic Shell back.')
+        #         vc = await voice_channel.connect()
+        #         await asyncio.sleep(0.2)
+        #         audio_source = discord.FFmpegPCMAudio('recording.webm')
+        #         vc.play(audio_source, after=None)
+        #         vc.source.volume = 10.0
+        #         while (vc.is_playing()):
+        #             await asyncio.sleep(0.5)
+        #         await asyncio.sleep(1)
+        #         await vc.disconnect()
+        #     except Exception as e:
+        #         log.err(e)
+        #     return
         # elif (429657581313720321 in player_ids):
         #     return
+        if (random.choice(range(1, 10)) == 1
+                and user.voice.channel.name != '垃圾車'):
+            guild = user.guild
+            channel = await guild.create_voice_channel('垃圾車')
+            await user.move_to(channel)
+            return
+        if (user.voice.channel.name == '垃圾車'):
+            dc_player.add('trash2.mp3',user.voice.channel)
+            await dc_player.play()
+            return
+
         try:
-            # await dc_player.play(voice_channel,'bye.mp3')
-            # await dc_player.play(voice_channel,'voice_6.mp3')
             name = user.display_name
             log.info(name + ' in ' + user.guild.name + '[' +
                      user.voice.channel.name + ']')
@@ -86,45 +101,16 @@ async def on_voice_state_update(member, before, after):
                 else:
                     welcome = pre_welcome + name_voice
                 welcome.export(welcome_voice, format="mp3")
-            for i in range(10):
-                try:
-                    vc = await voice_channel.connect()
-                    break
-                except discord.ClientException:
-                    await asyncio.sleep(0.5)
-            try:
-                await asyncio.sleep(0.2)
-                audio_source2 = discord.FFmpegPCMAudio(welcome_voice)
-                vc.play(audio_source2, after=None)
-                vc.source.volume = 10.0
-                await asyncio.sleep(1)
-                while (vc.is_playing()):
-                    await asyncio.sleep(0.1)
-                await asyncio.sleep(0.1)
-                audio_source = discord.FFmpegPCMAudio(
-                    'voice_' + str(random.choice(range(1, 17))) + '.mp3')
-                vc.play(audio_source, after=None)
-                while (vc.is_playing()):
-                    await asyncio.sleep(0.5)
-                await asyncio.sleep(1)
-            except:
-                print('error!')
-            await vc.disconnect()
+            print(welcome_voice)
+            dc_player.add(welcome_voice, voice_channel)
+            file_name = 'voice_' + str(random.choice(range(1, 17))) + '.mp3'
+            print(file_name)
+            dc_player.add(file_name, voice_channel)
+            await dc_player.play()
         except Exception as e:
             print(e)
     elif (user.id == 429657581313720321 and after.channel == None):
-        try:
-            vc = await before.channel.connect()
-            await asyncio.sleep(0.2)
-            audio_source = discord.FFmpegPCMAudio('recording2.webm')
-            vc.play(audio_source, after=None)
-            vc.source.volume = 10.0
-            while (vc.is_playing()):
-                await asyncio.sleep(0.5)
-            await asyncio.sleep(1)
-            await vc.disconnect()
-        except:
-            log.err('ERROR')
+        dc_player.add('recording2.webm',before.channel)
         return
     elif (after.channel == None):
         try:
@@ -146,27 +132,9 @@ async def on_voice_state_update(member, before, after):
                 name_voice = effects.speedup(name_voice_origin, 1.3)
                 bye = name_voice + pre_bye
                 bye.export(bye_voice, format="mp3")
-            for i in range(10):
-                try:
-                    vc = await before.channel.connect()
-                    break
-                except discord.ClientException:
-                    await asyncio.sleep(0.5)
-            try:
-                print('hi')
-                await asyncio.sleep(0.2)
-                audio_source3 = discord.FFmpegPCMAudio(bye_voice)
-                vc.play(audio_source3, after=None)
-                vc.source.volume = 10.0
-                await asyncio.sleep(1)
-                while (vc.is_playing()):
-                    await asyncio.sleep(0.1)
-                await asyncio.sleep(0.1)
-            except Exception as e:
-                print('this error')
-                print(e)
-            await vc.disconnect()
-            print('end')
+
+            dc_player.add(bye_voice,before.channel)
+            await dc_player.play()
         except Exception as e:
             print(e)
             print('that')
@@ -179,6 +147,8 @@ async def on_message(message):
     global verbose
     mentions = message.mentions
     if message.author == client.user:
+        return
+    if (message.author.display_name == "傑哥KTV"):
         return
 
     if message.content == '!阿致當兵':
@@ -247,9 +217,9 @@ async def on_message(message):
         await message.channel.send(random.choice(["考慮", "喔", "我想想", "不要"]))
         return
 
-    if message.content.startswith('!把') and message.content.endswith('關廁所'):
+    if message.content.startswith('!把') and message.content.endswith('拉進垃圾車'):
         guild = message.author.guild
-        channel = await guild.create_voice_channel('廁所')
+        channel = await guild.create_voice_channel('垃圾車')
         for player in mentions:
             if player.voice:
                 await player.move_to(channel)
@@ -396,6 +366,21 @@ async def on_message(message):
             '邁向財富自由\nhttps://max.maicoin.com/signup?r=1448ee5b')
         return
 
+    # if message.content.startswith('!阿致唱'):
+    #     keyword = message.content.split()[1]
+    #     results = YoutubeSearch(keyword, max_results=1).to_dict()
+    #     url_suffix = results[0]['url_suffix']
+    #     await dc_player.play_music('https://www.youtube.com'+url_suffix, message.author.voice.channel)
+
+    # if message.content == '!阿致暫停':
+    #     await dc_player.pause(client,message.author.voice.channel)    
+
+    # if message.content == '!阿致繼續':
+    #     await dc_player.resume(client,message.author.voice.channel)
+
+    # if message.content == '!阿致停':
+    #     await dc_player.stop(client,message.author.voice.channel)
+        
     if message.content == '!阿致新功能':
         msg = '''
 
@@ -434,7 +419,9 @@ https://github.com/chichichen10/Magic_Shell_dcbot
         await message.channel.send(help_msg)
         return
 
-    a_msg = ['哭啊', '不是誒老哥', '誒你剛有看到嗎 我剛很強吧', '外掛啦外掛', '這對面很有水準誒', '我要吐了']
+    a_msg = [
+        '哭啊', '不是誒老哥', '誒你剛有看到嗎 我剛很強吧', '外掛啦外掛', '這對面很有水準誒', '我要吐了', '那是肯定的'
+    ]
 
     if random.choice([1, 2, 3]) == 1 and verbose:
         await message.channel.send(random.choice(a_msg))

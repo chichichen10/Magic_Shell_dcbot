@@ -1,0 +1,21 @@
+2022-03-18 17:20:24,425 INFO: logging in using static token
+2022-03-18 17:20:24,681 INFO: Shard ID None has sent the IDENTIFY payload.
+2022-03-18 17:20:24,815 INFO: Shard ID None has connected to Gateway: ["gateway-prd-main-zfl2",{"micros":87278,"calls":["discord-sessions-blue-prd-2-152",{"micros":79390,"calls":["start_session",{"micros":54818,"calls":["discord-api-777d6df4cf-6ts6z",{"micros":50335,"calls":["get_user",{"micros":7564},"add_authorized_ip",{"micros":3528},"get_guilds",{"micros":8845},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":24,"calls":[]},"presence_connect",{"micros":11093,"calls":[]}]}]}] (Session ID: 4bf9b8e0b7b50e5c698200042ebcca70).
+2022-03-18 17:20:26,863 INFO: 目前登入身份：神奇海螺#3847
+2022-03-18 17:26:52,884 INFO: MaiMai的Pool out 9又4分之8.7月台[打不出幹話就講出來啊]
+2022-03-18 17:26:52,885 INFO: Connecting to voice...
+2022-03-18 17:26:52,885 INFO: Starting voice handshake... (connection attempt 1)
+2022-03-18 17:26:53,297 INFO: wawa的n out 9又4分之8.7月台[打不出幹話就講出來啊]
+2022-03-18 17:26:53,841 INFO: Voice handshake complete. Endpoint found hongkong6207.discord.media
+2022-03-18 17:26:55,119 INFO: selected the voice protocol for use (xsalsa20_poly1305_lite)
+2022-03-18 17:26:55,334 INFO: received secret key for voice connection
+2022-03-18 17:26:57,445 INFO: Preparing to terminate ffmpeg process 138.
+2022-03-18 17:26:57,446 INFO: ffmpeg process 138 successfully terminated with return code of 0.
+2022-03-18 17:27:00,436 INFO: Preparing to terminate ffmpeg process 149.
+2022-03-18 17:27:00,437 INFO: ffmpeg process 149 successfully terminated with return code of 0.
+2022-03-18 17:27:01,464 INFO: The voice handshake is being terminated for Channel ID 428109526550708238 (Guild ID 428109526550708234)
+2022-03-18 17:27:01,465 INFO: Disconnecting from voice normally, close code 1000.
+2022-03-18 20:00:10,152 INFO: logging in using static token
+2022-03-18 20:00:10,417 INFO: Shard ID None has sent the IDENTIFY payload.
+2022-03-18 20:00:10,582 INFO: Shard ID None has connected to Gateway: ["gateway-prd-main-2dx6",{"micros":119945,"calls":["discord-sessions-blue-prd-2-48",{"micros":118013,"calls":["start_session",{"micros":108266,"calls":["discord-api-7cbb8f5667-486c4",{"micros":103631,"calls":["get_user",{"micros":13532},"add_authorized_ip",{"micros":7125},"get_guilds",{"micros":19301},"coros_wait",{"micros":2}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":1,"calls":[]}]}]}] (Session ID: fd21a54b82eae024b2138aeb431428a1).
+2022-03-18 20:00:12,630 INFO: 目前登入身份：神奇海螺#3847

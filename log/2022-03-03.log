@@ -1,0 +1,27 @@
+2022-03-02 16:48:41,168 INFO: logging in using static token
+2022-03-02 16:48:41,451 INFO: Shard ID None has sent the IDENTIFY payload.
+2022-03-02 16:48:41,580 INFO: Shard ID None has connected to Gateway: ["gateway-prd-main-t1q7",{"micros":84873,"calls":["discord-sessions-green-prd-2-73",{"micros":83390,"calls":["start_session",{"micros":40934,"calls":["api-prd-main-0tlt",{"micros":37041,"calls":["get_user",{"micros":4560},"add_authorized_ip",{"micros":1778},"get_guilds",{"micros":8213},"coros_wait",{"micros":2}]}]},"guilds_connect",{"micros":3,"calls":[]},"presence_connect",{"micros":34042,"calls":[]}]}]}] (Session ID: 43d541bac369cc3bb28b7a6717bc31cb).
+2022-03-02 16:48:43,609 INFO: 目前登入身份：神奇海螺#3847
+2022-03-02 17:05:28,643 INFO: 飄飄的飄飄大仙 out 9又4分之8.7月台[123是什麼敷衍的名字]
+2022-03-02 17:05:28,643 INFO: Connecting to voice...
+2022-03-02 17:05:28,643 INFO: Starting voice handshake... (connection attempt 1)
+2022-03-02 17:05:28,997 INFO: Voice handshake complete. Endpoint found hongkong576.discord.media
+2022-03-02 17:05:30,352 INFO: selected the voice protocol for use (xsalsa20_poly1305_lite)
+2022-03-02 17:05:30,579 INFO: received secret key for voice connection
+2022-03-02 17:05:33,450 INFO: Preparing to terminate ffmpeg process 121.
+2022-03-02 17:05:33,450 INFO: ffmpeg process 121 successfully terminated with return code of 0.
+2022-03-02 17:05:33,617 INFO: The voice handshake is being terminated for Channel ID 728631391809437746 (Guild ID 428109526550708234)
+2022-03-02 17:05:33,617 INFO: Disconnecting from voice normally, close code 1000.
+2022-03-02 17:17:35,899 INFO: Connecting to voice...
+2022-03-02 17:17:35,899 INFO: Starting voice handshake... (connection attempt 1)
+2022-03-02 17:17:36,090 INFO: Voice handshake complete. Endpoint found us-central8863.discord.media
+2022-03-02 17:17:36,205 INFO: selected the voice protocol for use (xsalsa20_poly1305_lite)
+2022-03-02 17:17:36,224 INFO: received secret key for voice connection
+2022-03-02 17:17:39,690 INFO: Preparing to terminate ffmpeg process 133.
+2022-03-02 17:17:39,690 INFO: ffmpeg process 133 successfully terminated with return code of 0.
+2022-03-02 17:17:40,937 INFO: The voice handshake is being terminated for Channel ID 728631391809437746 (Guild ID 428109526550708234)
+2022-03-02 17:17:40,938 INFO: Disconnecting from voice normally, close code 1000.
+2022-03-02 17:37:50,676 INFO: logging in using static token
+2022-03-02 17:37:50,917 INFO: Shard ID None has sent the IDENTIFY payload.
+2022-03-02 17:37:51,036 INFO: Shard ID None has connected to Gateway: ["gateway-prd-main-fxsd",{"micros":80435,"calls":["discord-sessions-green-prd-2-39",{"micros":79582,"calls":["start_session",{"micros":56250,"calls":["api-prd-main-v2j2",{"micros":52576,"calls":["get_user",{"micros":5011},"add_authorized_ip",{"micros":4991},"get_guilds",{"micros":7945},"coros_wait",{"micros":2}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":13830,"calls":[]}]}]}] (Session ID: 3950ffef35af6747b07b14ec63c102b1).
+2022-03-02 17:37:53,059 INFO: 目前登入身份：神奇海螺#3847

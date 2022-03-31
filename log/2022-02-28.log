@@ -1,0 +1,4 @@
+2022-02-27 20:55:54,703 INFO: logging in using static token
+2022-02-27 20:55:54,949 INFO: Shard ID None has sent the IDENTIFY payload.
+2022-02-27 20:55:55,070 INFO: Shard ID None has connected to Gateway: ["gateway-prd-main-dg2t",{"micros":83812,"calls":["discord-sessions-green-prd-2-20",{"micros":82881,"calls":["start_session",{"micros":51438,"calls":["api-prd-main-b9b9",{"micros":48161,"calls":["get_user",{"micros":2580},"add_authorized_ip",{"micros":1484},"get_guilds",{"micros":13985},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":14157,"calls":[]}]}]}] (Session ID: fcd4c8ff8284e2a9303610c95dd8e962).
+2022-02-27 20:55:57,104 INFO: 目前登入身份：神奇海螺#3847
