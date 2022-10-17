@@ -1,0 +1,584 @@
+2022-08-26 20:31:58,699 INFO: logging in using static token
+2022-08-26 20:31:59,063 INFO: Shard ID None has sent the IDENTIFY payload.
+2022-08-26 20:31:59,214 INFO: Shard ID None has connected to Gateway: ["gateway-prd-main-mv7b",{"micros":100352,"calls":["id_created",{"micros":480,"calls":[]},"session_lookup_time",{"micros":8955,"calls":[]},"session_lookup_finished",{"micros":15,"calls":[]},"discord-sessions-green-prd-2-184",{"micros":90433,"calls":["start_session",{"micros":66396,"calls":["discord-api-5774b9bb89-ksjcb",{"micros":57874,"calls":["get_user",{"micros":10499},"get_guilds",{"micros":9577},"send_scheduled_deletion_message",{"micros":12},"guild_join_requests",{"micros":2},"authorized_ip_coro",{"micros":11}]}]},"starting_guild_connect",{"micros":22,"calls":[]},"presence_started",{"micros":3606,"calls":[]},"guilds_started",{"micros":20397,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":2,"calls":[]},"connect_finished",{"micros":6,"calls":[]},"build_ready",{"micros":3,"calls":[]},"optimize_ready",{"micros":0,"calls":[]},"split_ready",{"micros":1,"calls":[]},"clean_ready",{"micros":0,"calls":[]}]}]}] (Session ID: dc1c676a9fc17489e665902fe1cce38b).
+2022-08-26 20:32:01,253 INFO: 目前登入身份：神奇海螺#3847
+2022-08-26 23:29:03,876 INFO: Got a request to RESUME the websocket.
+2022-08-26 23:29:03,938 ERROR: Attempting a reconnect in 1.96s
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/http.py", line 967, in get_gateway
+    data = await self.request(Route('GET', '/gateway'))
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/http.py", line 216, in request
+    raise HTTPException(r, data)
+discord.errors.HTTPException: 429 Too Many Requests (error code: 0): You are being blocked from accessing our API temporarily due to exceeding our rate limits frequently. Please read our docs at https://discord.com/developers/docs/topics/rate-limits to prevent this moving forward.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/client.py", line 563, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 494, in wait_for
+    return fut.result()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/gateway.py", line 305, in from_client
+    gateway = gateway or await client.http.get_gateway()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/http.py", line 969, in get_gateway
+    raise GatewayNotFound() from exc
+discord.errors.GatewayNotFound: The gateway to connect to discord was not found.
+2022-08-26 23:29:05,961 ERROR: Attempting a reconnect in 0.69s
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/http.py", line 967, in get_gateway
+    data = await self.request(Route('GET', '/gateway'))
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/http.py", line 216, in request
+    raise HTTPException(r, data)
+discord.errors.HTTPException: 429 Too Many Requests (error code: 0): You are being blocked from accessing our API temporarily due to exceeding our rate limits frequently. Please read our docs at https://discord.com/developers/docs/topics/rate-limits to prevent this moving forward.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/client.py", line 563, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 494, in wait_for
+    return fut.result()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/gateway.py", line 305, in from_client
+    gateway = gateway or await client.http.get_gateway()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/http.py", line 969, in get_gateway
+    raise GatewayNotFound() from exc
+discord.errors.GatewayNotFound: The gateway to connect to discord was not found.
+2022-08-26 23:29:06,748 ERROR: Attempting a reconnect in 6.98s
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/http.py", line 967, in get_gateway
+    data = await self.request(Route('GET', '/gateway'))
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/http.py", line 216, in request
+    raise HTTPException(r, data)
+discord.errors.HTTPException: 429 Too Many Requests (error code: 0): You are being blocked from accessing our API temporarily due to exceeding our rate limits frequently. Please read our docs at https://discord.com/developers/docs/topics/rate-limits to prevent this moving forward.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/client.py", line 563, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 494, in wait_for
+    return fut.result()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/gateway.py", line 305, in from_client
+    gateway = gateway or await client.http.get_gateway()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/http.py", line 969, in get_gateway
+    raise GatewayNotFound() from exc
+discord.errors.GatewayNotFound: The gateway to connect to discord was not found.
+2022-08-26 23:29:13,793 ERROR: Attempting a reconnect in 5.47s
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/http.py", line 967, in get_gateway
+    data = await self.request(Route('GET', '/gateway'))
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/http.py", line 216, in request
+    raise HTTPException(r, data)
+discord.errors.HTTPException: 429 Too Many Requests (error code: 0): You are being blocked from accessing our API temporarily due to exceeding our rate limits frequently. Please read our docs at https://discord.com/developers/docs/topics/rate-limits to prevent this moving forward.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/client.py", line 563, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 494, in wait_for
+    return fut.result()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/gateway.py", line 305, in from_client
+    gateway = gateway or await client.http.get_gateway()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/http.py", line 969, in get_gateway
+    raise GatewayNotFound() from exc
+discord.errors.GatewayNotFound: The gateway to connect to discord was not found.
+2022-08-26 23:29:19,344 ERROR: Attempting a reconnect in 3.93s
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/http.py", line 967, in get_gateway
+    data = await self.request(Route('GET', '/gateway'))
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/http.py", line 216, in request
+    raise HTTPException(r, data)
+discord.errors.HTTPException: 429 Too Many Requests (error code: 0): You are being blocked from accessing our API temporarily due to exceeding our rate limits frequently. Please read our docs at https://discord.com/developers/docs/topics/rate-limits to prevent this moving forward.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/client.py", line 563, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 494, in wait_for
+    return fut.result()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/gateway.py", line 305, in from_client
+    gateway = gateway or await client.http.get_gateway()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/http.py", line 969, in get_gateway
+    raise GatewayNotFound() from exc
+discord.errors.GatewayNotFound: The gateway to connect to discord was not found.
+2022-08-26 23:29:23,326 ERROR: Attempting a reconnect in 53.39s
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/http.py", line 967, in get_gateway
+    data = await self.request(Route('GET', '/gateway'))
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/http.py", line 216, in request
+    raise HTTPException(r, data)
+discord.errors.HTTPException: 429 Too Many Requests (error code: 0): You are being blocked from accessing our API temporarily due to exceeding our rate limits frequently. Please read our docs at https://discord.com/developers/docs/topics/rate-limits to prevent this moving forward.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/client.py", line 563, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 494, in wait_for
+    return fut.result()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/gateway.py", line 305, in from_client
+    gateway = gateway or await client.http.get_gateway()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/http.py", line 969, in get_gateway
+    raise GatewayNotFound() from exc
+discord.errors.GatewayNotFound: The gateway to connect to discord was not found.
+2022-08-26 23:30:16,856 ERROR: Attempting a reconnect in 34.24s
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/http.py", line 967, in get_gateway
+    data = await self.request(Route('GET', '/gateway'))
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/http.py", line 216, in request
+    raise HTTPException(r, data)
+discord.errors.HTTPException: 429 Too Many Requests (error code: 0): You are being blocked from accessing our API temporarily due to exceeding our rate limits frequently. Please read our docs at https://discord.com/developers/docs/topics/rate-limits to prevent this moving forward.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/client.py", line 563, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 494, in wait_for
+    return fut.result()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/gateway.py", line 305, in from_client
+    gateway = gateway or await client.http.get_gateway()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/http.py", line 969, in get_gateway
+    raise GatewayNotFound() from exc
+discord.errors.GatewayNotFound: The gateway to connect to discord was not found.
+2022-08-26 23:30:51,216 ERROR: Attempting a reconnect in 26.45s
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/http.py", line 967, in get_gateway
+    data = await self.request(Route('GET', '/gateway'))
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/http.py", line 216, in request
+    raise HTTPException(r, data)
+discord.errors.HTTPException: 429 Too Many Requests (error code: 0): You are being blocked from accessing our API temporarily due to exceeding our rate limits frequently. Please read our docs at https://discord.com/developers/docs/topics/rate-limits to prevent this moving forward.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/client.py", line 563, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 494, in wait_for
+    return fut.result()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/gateway.py", line 305, in from_client
+    gateway = gateway or await client.http.get_gateway()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/http.py", line 969, in get_gateway
+    raise GatewayNotFound() from exc
+discord.errors.GatewayNotFound: The gateway to connect to discord was not found.
+2022-08-26 23:31:17,774 ERROR: Attempting a reconnect in 380.64s
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/http.py", line 967, in get_gateway
+    data = await self.request(Route('GET', '/gateway'))
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/http.py", line 216, in request
+    raise HTTPException(r, data)
+discord.errors.HTTPException: 429 Too Many Requests (error code: 0): You are being blocked from accessing our API temporarily due to exceeding our rate limits frequently. Please read our docs at https://discord.com/developers/docs/topics/rate-limits to prevent this moving forward.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/client.py", line 563, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 494, in wait_for
+    return fut.result()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/gateway.py", line 305, in from_client
+    gateway = gateway or await client.http.get_gateway()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/http.py", line 969, in get_gateway
+    raise GatewayNotFound() from exc
+discord.errors.GatewayNotFound: The gateway to connect to discord was not found.
+2022-08-26 23:37:38,578 ERROR: Attempting a reconnect in 291.10s
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/http.py", line 967, in get_gateway
+    data = await self.request(Route('GET', '/gateway'))
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/http.py", line 216, in request
+    raise HTTPException(r, data)
+discord.errors.HTTPException: 429 Too Many Requests (error code: 0): You are being blocked from accessing our API temporarily due to exceeding our rate limits frequently. Please read our docs at https://discord.com/developers/docs/topics/rate-limits to prevent this moving forward.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/client.py", line 563, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 494, in wait_for
+    return fut.result()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/gateway.py", line 305, in from_client
+    gateway = gateway or await client.http.get_gateway()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/http.py", line 969, in get_gateway
+    raise GatewayNotFound() from exc
+discord.errors.GatewayNotFound: The gateway to connect to discord was not found.
+2022-08-26 23:42:29,860 ERROR: Attempting a reconnect in 671.65s
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/http.py", line 967, in get_gateway
+    data = await self.request(Route('GET', '/gateway'))
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/http.py", line 216, in request
+    raise HTTPException(r, data)
+discord.errors.HTTPException: 429 Too Many Requests (error code: 0): You are being blocked from accessing our API temporarily due to exceeding our rate limits frequently. Please read our docs at https://discord.com/developers/docs/topics/rate-limits to prevent this moving forward.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/client.py", line 563, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 494, in wait_for
+    return fut.result()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/gateway.py", line 305, in from_client
+    gateway = gateway or await client.http.get_gateway()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/http.py", line 969, in get_gateway
+    raise GatewayNotFound() from exc
+discord.errors.GatewayNotFound: The gateway to connect to discord was not found.
+2022-08-26 23:53:41,870 INFO: Shard ID None has sent the RESUME payload.
+2022-08-26 23:53:41,911 INFO: Shard ID None session has been invalidated.
+2022-08-26 23:53:41,953 INFO: Got a request to IDENTIFY the websocket.
+2022-08-26 23:53:47,072 INFO: Shard ID None has sent the IDENTIFY payload.
+2022-08-26 23:53:47,228 INFO: Shard ID None has connected to Gateway: ["gateway-prd-main-3p9r",{"micros":114658,"calls":["id_created",{"micros":712,"calls":[]},"session_lookup_time",{"micros":1242,"calls":[]},"session_lookup_finished",{"micros":15,"calls":[]},"discord-sessions-green-prd-2-173",{"micros":112218,"calls":["start_session",{"micros":47878,"calls":["discord-api-5dc44cfc8f-tp4vm",{"micros":40203,"calls":["get_user",{"micros":9756},"get_guilds",{"micros":5851},"send_scheduled_deletion_message",{"micros":15},"guild_join_requests",{"micros":2586},"authorized_ip_coro",{"micros":17}]}]},"starting_guild_connect",{"micros":36,"calls":[]},"presence_started",{"micros":12468,"calls":[]},"guilds_started",{"micros":51821,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":2,"calls":[]},"connect_finished",{"micros":7,"calls":[]},"build_ready",{"micros":5,"calls":[]},"optimize_ready",{"micros":0,"calls":[]},"split_ready",{"micros":0,"calls":[]},"clean_ready",{"micros":1,"calls":[]}]}]}] (Session ID: 5557c4546ce564871a41ea0d2cc7a7ec).
+2022-08-26 23:53:49,407 INFO: 目前登入身份：神奇海螺#3847
+2022-08-27 00:56:56,694 INFO: logging in using static token
+2022-08-27 00:56:57,059 INFO: Shard ID None has sent the IDENTIFY payload.
+2022-08-27 00:56:57,260 INFO: Shard ID None has connected to Gateway: ["gateway-prd-main-vqdx",{"micros":108594,"calls":["id_created",{"micros":369,"calls":[]},"session_lookup_time",{"micros":321,"calls":[]},"session_lookup_finished",{"micros":12,"calls":[]},"discord-sessions-green-prd-2-195",{"micros":107508,"calls":["start_session",{"micros":47212,"calls":["discord-api-5dc44cfc8f-6fmt7",{"micros":43514,"calls":["get_user",{"micros":6937},"get_guilds",{"micros":4449},"send_scheduled_deletion_message",{"micros":8},"guild_join_requests",{"micros":6136},"authorized_ip_coro",{"micros":11}]}]},"starting_guild_connect",{"micros":33,"calls":[]},"presence_started",{"micros":35908,"calls":[]},"guilds_started",{"micros":5294,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":19044,"calls":[]},"connect_finished",{"micros":19051,"calls":[]},"build_ready",{"micros":6,"calls":[]},"optimize_ready",{"micros":0,"calls":[]},"split_ready",{"micros":1,"calls":[]},"clean_ready",{"micros":1,"calls":[]}]}]}] (Session ID: cb59fe4c09ba2b6227d72220be73dde3).
+2022-08-27 00:56:59,429 INFO: 目前登入身份：神奇海螺#3847
+2022-08-27 02:21:04,260 INFO: Got a request to RESUME the websocket.
+2022-08-27 02:21:04,457 INFO: Shard ID None has sent the RESUME payload.
+2022-08-27 02:21:04,540 INFO: Shard ID None has successfully RESUMED session cb59fe4c09ba2b6227d72220be73dde3 under trace ["gateway-prd-main-chlv",{"micros":689,"calls":["id_created",{"micros":0,"calls":[]},"session_lookup_time",{"micros":351,"calls":[]},"session_lookup_finished",{"micros":10,"calls":[]},"discord-sessions-green-prd-2-195",{"micros":24}]}].
+2022-08-27 02:26:37,761 INFO: logging in using static token
+2022-08-27 02:26:38,105 INFO: Shard ID None has sent the IDENTIFY payload.
+2022-08-27 02:26:38,272 INFO: Shard ID None has connected to Gateway: ["gateway-prd-main-g3t0",{"micros":74662,"calls":["id_created",{"micros":452,"calls":[]},"session_lookup_time",{"micros":295,"calls":[]},"session_lookup_finished",{"micros":12,"calls":[]},"discord-sessions-green-prd-2-144",{"micros":73501,"calls":["start_session",{"micros":42255,"calls":["discord-api-5dc44cfc8f-cfwpk",{"micros":37796,"calls":["get_user",{"micros":16073},"get_guilds",{"micros":4181},"send_scheduled_deletion_message",{"micros":12},"guild_join_requests",{"micros":2},"authorized_ip_coro",{"micros":13}]}]},"starting_guild_connect",{"micros":28,"calls":[]},"presence_started",{"micros":588,"calls":[]},"guilds_started",{"micros":20875,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":9738,"calls":[]},"connect_finished",{"micros":9744,"calls":[]},"build_ready",{"micros":6,"calls":[]},"optimize_ready",{"micros":1,"calls":[]},"split_ready",{"micros":1,"calls":[]},"clean_ready",{"micros":0,"calls":[]}]}]}] (Session ID: 1fe07c6518744533e1847956d95d7780).
+2022-08-27 02:26:40,299 INFO: 目前登入身份：神奇海螺#3847
+2022-08-27 03:31:28,231 INFO: Got a request to RESUME the websocket.
+2022-08-27 03:31:28,414 INFO: Shard ID None has sent the RESUME payload.
+2022-08-27 03:31:28,496 INFO: Shard ID None has successfully RESUMED session 1fe07c6518744533e1847956d95d7780 under trace ["gateway-prd-main-12mk",{"micros":473,"calls":["id_created",{"micros":0,"calls":[]},"session_lookup_time",{"micros":276,"calls":[]},"session_lookup_finished",{"micros":18,"calls":[]},"discord-sessions-green-prd-2-144",{"micros":16}]}].
+2022-08-27 05:07:32,316 INFO: Got a request to RESUME the websocket.
+2022-08-27 05:07:32,499 INFO: Shard ID None has sent the RESUME payload.
+2022-08-27 05:07:32,579 INFO: Shard ID None has successfully RESUMED session 1fe07c6518744533e1847956d95d7780 under trace ["gateway-prd-main-chlv",{"micros":537,"calls":["id_created",{"micros":0,"calls":[]},"session_lookup_time",{"micros":246,"calls":[]},"session_lookup_finished",{"micros":46,"calls":[]},"discord-sessions-green-prd-2-144",{"micros":18}]}].
+2022-08-27 06:56:19,828 INFO: Got a request to RESUME the websocket.
+2022-08-27 06:56:20,022 INFO: Shard ID None has sent the RESUME payload.
+2022-08-27 06:56:20,105 INFO: Shard ID None has successfully RESUMED session 1fe07c6518744533e1847956d95d7780 under trace ["gateway-prd-main-vtl3",{"micros":547,"calls":["id_created",{"micros":0,"calls":[]},"session_lookup_time",{"micros":232,"calls":[]},"session_lookup_finished",{"micros":8,"calls":[]},"discord-sessions-green-prd-2-144",{"micros":18}]}].
+2022-08-27 07:48:13,360 INFO: Lexor in 9又4分之8.7月台[欸欸欸這樣配可以嗎(思]
+2022-08-27 07:48:13,499 INFO: Connecting to voice...
+2022-08-27 07:48:13,499 INFO: Starting voice handshake... (connection attempt 1)
+2022-08-27 07:48:14,039 INFO: Voice handshake complete. Endpoint found hongkong6360.discord.media
+2022-08-27 07:48:14,243 ERROR: Exception occurred during Voice Protocol voice server update handler
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/state.py", line 102, in logging_coroutine
+    await coroutine
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/voice_client.py", line 295, in on_voice_server_update
+    await self.ws.close(4000)
+AttributeError: 'NoneType' object has no attribute 'close'
+2022-08-27 07:48:14,974 INFO: selected the voice protocol for use (xsalsa20_poly1305_lite)
+2022-08-27 07:48:15,162 INFO: received secret key for voice connection
+2022-08-27 07:48:17,593 INFO: Preparing to terminate ffmpeg process 634.
+2022-08-27 07:48:17,594 INFO: ffmpeg process 634 successfully terminated with return code of 0.
+2022-08-27 07:48:18,238 INFO: MaiMai的Pool in 9又4分之8.7月台[欸欸欸這樣配可以嗎(思]
+2022-08-27 07:48:19,095 INFO: Preparing to terminate ffmpeg process 645.
+2022-08-27 07:48:19,096 INFO: ffmpeg process 645 successfully terminated with return code of 0.
+2022-08-27 07:48:23,424 INFO: Preparing to terminate ffmpeg process 655.
+2022-08-27 07:48:23,425 INFO: ffmpeg process 655 successfully terminated with return code of 0.
+2022-08-27 07:48:26,826 INFO: Preparing to terminate ffmpeg process 665.
+2022-08-27 07:48:26,827 INFO: ffmpeg process 665 successfully terminated with return code of 0.
+2022-08-27 07:48:27,880 INFO: The voice handshake is being terminated for Channel ID 868516155525046333 (Guild ID 428109526550708234)
+2022-08-27 07:48:27,880 INFO: Disconnecting from voice normally, close code 1000.
+2022-08-27 07:48:37,495 INFO: DADA的DIAO in 9又4分之8.7月台[欸欸欸這樣配可以嗎(思]
+2022-08-27 07:48:37,587 INFO: Connecting to voice...
+2022-08-27 07:48:37,587 INFO: Starting voice handshake... (connection attempt 1)
+2022-08-27 07:48:37,881 INFO: Voice handshake complete. Endpoint found hongkong6360.discord.media
+2022-08-27 07:48:38,809 INFO: selected the voice protocol for use (xsalsa20_poly1305_lite)
+2022-08-27 07:48:38,999 INFO: received secret key for voice connection
+2022-08-27 07:48:41,770 INFO: Preparing to terminate ffmpeg process 676.
+2022-08-27 07:48:41,771 INFO: ffmpeg process 676 successfully terminated with return code of 0.
+2022-08-27 07:48:44,113 INFO: Preparing to terminate ffmpeg process 686.
+2022-08-27 07:48:44,113 INFO: ffmpeg process 686 successfully terminated with return code of 0.
+2022-08-27 07:48:45,137 INFO: The voice handshake is being terminated for Channel ID 868516155525046333 (Guild ID 428109526550708234)
+2022-08-27 07:48:45,137 INFO: Disconnecting from voice normally, close code 1000.
+2022-08-27 08:12:29,958 INFO: BunnyplayGG in 9又4分之8.7月台[打不出幹話就講出來啊]
+2022-08-27 08:12:30,054 INFO: Connecting to voice...
+2022-08-27 08:12:30,054 INFO: Starting voice handshake... (connection attempt 1)
+2022-08-27 08:12:30,674 INFO: Voice handshake complete. Endpoint found hongkong2085.discord.media
+2022-08-27 08:12:30,841 ERROR: Exception occurred during Voice Protocol voice server update handler
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/state.py", line 102, in logging_coroutine
+    await coroutine
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/voice_client.py", line 295, in on_voice_server_update
+    await self.ws.close(4000)
+AttributeError: 'NoneType' object has no attribute 'close'
+2022-08-27 08:12:31,604 INFO: selected the voice protocol for use (xsalsa20_poly1305_lite)
+2022-08-27 08:12:31,794 INFO: received secret key for voice connection
+2022-08-27 08:12:32,048 INFO: 不偷家的飄飄大仙 in 9又4分之8.7月台[打不出幹話就講出來啊]
+2022-08-27 08:12:34,183 INFO: Preparing to terminate ffmpeg process 750.
+2022-08-27 08:12:34,184 INFO: ffmpeg process 750 successfully terminated with return code of 0.
+2022-08-27 08:12:37,579 INFO: Preparing to terminate ffmpeg process 760.
+2022-08-27 08:12:37,579 INFO: ffmpeg process 760 successfully terminated with return code of 0.
+2022-08-27 08:12:42,224 INFO: Preparing to terminate ffmpeg process 770.
+2022-08-27 08:12:42,224 INFO: ffmpeg process 770 successfully terminated with return code of 0.
+2022-08-27 08:12:44,431 INFO: Preparing to terminate ffmpeg process 780.
+2022-08-27 08:12:44,432 INFO: ffmpeg process 780 successfully terminated with return code of 0.
+2022-08-27 08:12:45,476 INFO: The voice handshake is being terminated for Channel ID 428109526550708238 (Guild ID 428109526550708234)
+2022-08-27 08:12:45,476 INFO: Disconnecting from voice normally, close code 1000.
+2022-08-27 08:56:14,024 INFO: Got a request to RESUME the websocket.
+2022-08-27 08:56:14,208 INFO: Shard ID None has sent the RESUME payload.
+2022-08-27 08:56:14,289 INFO: Shard ID None has successfully RESUMED session 1fe07c6518744533e1847956d95d7780 under trace ["gateway-prd-main-kl60",{"micros":602,"calls":["id_created",{"micros":0,"calls":[]},"session_lookup_time",{"micros":245,"calls":[]},"session_lookup_finished",{"micros":21,"calls":[]},"discord-sessions-green-prd-2-144",{"micros":18}]}].
+2022-08-27 08:56:18,828 INFO: MaiMai的Pool out 9又4分之8.7月台[欸欸欸這樣配可以嗎(思]
+2022-08-27 08:56:18,829 INFO: Connecting to voice...
+2022-08-27 08:56:18,829 INFO: Starting voice handshake... (connection attempt 1)
+2022-08-27 08:56:19,692 INFO: Voice handshake complete. Endpoint found hongkong6360.discord.media
+2022-08-27 08:56:20,615 INFO: selected the voice protocol for use (xsalsa20_poly1305_lite)
+2022-08-27 08:56:20,803 INFO: received secret key for voice connection
+2022-08-27 08:56:22,094 INFO: DADA的DIAO out 9又4分之8.7月台[欸欸欸這樣配可以嗎(思]
+2022-08-27 08:56:22,913 INFO: Preparing to terminate ffmpeg process 827.
+2022-08-27 08:56:22,914 INFO: ffmpeg process 827 successfully terminated with return code of 0.
+2022-08-27 08:56:26,013 INFO: Preparing to terminate ffmpeg process 837.
+2022-08-27 08:56:26,014 INFO: ffmpeg process 837 successfully terminated with return code of 0.
+2022-08-27 08:56:27,042 INFO: The voice handshake is being terminated for Channel ID 868516155525046333 (Guild ID 428109526550708234)
+2022-08-27 08:56:27,043 INFO: Disconnecting from voice normally, close code 1000.
+2022-08-27 08:56:28,528 INFO: Lexor out 9又4分之8.7月台[欸欸欸這樣配可以嗎(思]
+2022-08-27 08:56:28,529 INFO: Connecting to voice...
+2022-08-27 08:56:28,529 INFO: Starting voice handshake... (connection attempt 1)
+2022-08-27 08:56:28,895 INFO: Voice handshake complete. Endpoint found oregon10002.discord.media
+2022-08-27 08:56:29,005 INFO: selected the voice protocol for use (xsalsa20_poly1305_lite)
+2022-08-27 08:56:29,022 INFO: received secret key for voice connection
+2022-08-27 08:56:30,711 INFO: Preparing to terminate ffmpeg process 864.
+2022-08-27 08:56:30,712 INFO: ffmpeg process 864 successfully terminated with return code of 0.
+2022-08-27 08:56:31,741 INFO: The voice handshake is being terminated for Channel ID 868516155525046333 (Guild ID 428109526550708234)
+2022-08-27 08:56:31,742 INFO: Disconnecting from voice normally, close code 1000.
+2022-08-27 10:14:53,042 INFO: Got a request to RESUME the websocket.
+2022-08-27 10:14:53,233 INFO: Shard ID None has sent the RESUME payload.
+2022-08-27 10:14:53,316 INFO: Shard ID None has successfully RESUMED session 1fe07c6518744533e1847956d95d7780 under trace ["gateway-prd-main-n97l",{"micros":1032,"calls":["id_created",{"micros":0,"calls":[]},"session_lookup_time",{"micros":488,"calls":[]},"session_lookup_finished",{"micros":17,"calls":[]},"discord-sessions-green-prd-2-144",{"micros":19}]}].
+2022-08-27 10:17:50,129 INFO: BunnyplayGG out 9又4分之8.7月台[打不出幹話就講出來啊]
+2022-08-27 10:17:50,131 INFO: Connecting to voice...
+2022-08-27 10:17:50,131 INFO: Starting voice handshake... (connection attempt 1)
+2022-08-27 10:17:50,987 INFO: Voice handshake complete. Endpoint found hongkong2085.discord.media
+2022-08-27 10:17:51,954 INFO: selected the voice protocol for use (xsalsa20_poly1305_lite)
+2022-08-27 10:17:52,145 INFO: received secret key for voice connection
+2022-08-27 10:17:54,513 INFO: Preparing to terminate ffmpeg process 1002.
+2022-08-27 10:17:54,514 INFO: ffmpeg process 1002 successfully terminated with return code of 0.
+2022-08-27 10:17:55,448 INFO: SparkleZ in 9又4分之8.7月台[打不出幹話就講出來啊]
+2022-08-27 10:17:57,566 INFO: Preparing to terminate ffmpeg process 1012.
+2022-08-27 10:17:57,567 INFO: ffmpeg process 1012 successfully terminated with return code of 0.
+2022-08-27 10:18:00,341 INFO: Preparing to terminate ffmpeg process 1022.
+2022-08-27 10:18:00,342 INFO: ffmpeg process 1022 successfully terminated with return code of 0.
+2022-08-27 10:18:01,408 INFO: The voice handshake is being terminated for Channel ID 428109526550708238 (Guild ID 428109526550708234)
+2022-08-27 10:18:01,408 INFO: Disconnecting from voice normally, close code 1000.
+2022-08-27 10:20:35,220 INFO: SparkleZ out 9又4分之8.7月台[打不出幹話就講出來啊]
+2022-08-27 10:20:35,220 INFO: Connecting to voice...
+2022-08-27 10:20:35,221 INFO: Starting voice handshake... (connection attempt 1)
+2022-08-27 10:20:36,097 INFO: Voice handshake complete. Endpoint found hongkong2085.discord.media
+2022-08-27 10:20:37,015 INFO: selected the voice protocol for use (xsalsa20_poly1305_lite)
+2022-08-27 10:20:37,203 INFO: received secret key for voice connection
+2022-08-27 10:20:39,191 INFO: Preparing to terminate ffmpeg process 1033.
+2022-08-27 10:20:39,191 INFO: ffmpeg process 1033 successfully terminated with return code of 0.
+2022-08-27 10:20:40,217 INFO: The voice handshake is being terminated for Channel ID 428109526550708238 (Guild ID 428109526550708234)
+2022-08-27 10:20:40,218 INFO: Disconnecting from voice normally, close code 1000.
+2022-08-27 10:34:25,554 INFO: 不偷家的飄飄大仙 out 9又4分之8.7月台[打不出幹話就講出來啊]
+2022-08-27 10:34:25,555 INFO: Connecting to voice...
+2022-08-27 10:34:25,555 INFO: Starting voice handshake... (connection attempt 1)
+2022-08-27 10:34:25,925 INFO: Voice handshake complete. Endpoint found oregon10000.discord.media
+2022-08-27 10:34:26,030 INFO: selected the voice protocol for use (xsalsa20_poly1305_lite)
+2022-08-27 10:34:26,066 INFO: received secret key for voice connection
+2022-08-27 10:34:28,955 INFO: Preparing to terminate ffmpeg process 1062.
+2022-08-27 10:34:28,956 INFO: ffmpeg process 1062 successfully terminated with return code of 0.
+2022-08-27 10:34:29,986 INFO: The voice handshake is being terminated for Channel ID 428109526550708238 (Guild ID 428109526550708234)
+2022-08-27 10:34:29,986 INFO: Disconnecting from voice normally, close code 1000.
+2022-08-27 13:49:24,774 INFO: 不偷家的飄飄大仙 in 9又4分之8.7月台[打不出幹話就講出來啊]
+2022-08-27 13:49:24,995 INFO: Connecting to voice...
+2022-08-27 13:49:24,995 INFO: Starting voice handshake... (connection attempt 1)
+2022-08-27 13:49:25,390 INFO: Voice handshake complete. Endpoint found hongkong3064.discord.media
+2022-08-27 13:49:25,600 ERROR: Exception occurred during Voice Protocol voice server update handler
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/state.py", line 102, in logging_coroutine
+    await coroutine
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/voice_client.py", line 295, in on_voice_server_update
+    await self.ws.close(4000)
+AttributeError: 'NoneType' object has no attribute 'close'
+2022-08-27 13:49:26,349 INFO: selected the voice protocol for use (xsalsa20_poly1305_lite)
+2022-08-27 13:49:26,553 INFO: received secret key for voice connection
+2022-08-27 13:49:30,142 INFO: Preparing to terminate ffmpeg process 1378.
+2022-08-27 13:49:30,143 INFO: ffmpeg process 1378 successfully terminated with return code of 0.
+2022-08-27 13:49:32,323 INFO: Preparing to terminate ffmpeg process 1388.
+2022-08-27 13:49:32,323 INFO: ffmpeg process 1388 successfully terminated with return code of 0.
+2022-08-27 13:49:33,390 INFO: The voice handshake is being terminated for Channel ID 428109526550708238 (Guild ID 428109526550708234)
+2022-08-27 13:49:33,390 INFO: Disconnecting from voice normally, close code 1000.
+2022-08-27 14:11:57,610 INFO: Got a request to RESUME the websocket.
+2022-08-27 14:11:57,859 INFO: Shard ID None has sent the RESUME payload.
+2022-08-27 14:11:57,947 INFO: Shard ID None has successfully RESUMED session 1fe07c6518744533e1847956d95d7780 under trace ["gateway-prd-main-62kj",{"micros":3527,"calls":["id_created",{"micros":0,"calls":[]},"session_lookup_time",{"micros":3138,"calls":[]},"session_lookup_finished",{"micros":8,"calls":[]},"discord-sessions-green-prd-2-144",{"micros":27}]}].
+2022-08-27 14:17:49,452 INFO: BunnyplayGG in 9又4分之8.7月台[打不出幹話就講出來啊]
+2022-08-27 14:17:49,592 INFO: Connecting to voice...
+2022-08-27 14:17:49,593 INFO: Starting voice handshake... (connection attempt 1)
+2022-08-27 14:17:50,341 INFO: Voice handshake complete. Endpoint found hongkong3064.discord.media
+2022-08-27 14:17:51,274 INFO: selected the voice protocol for use (xsalsa20_poly1305_lite)
+2022-08-27 14:17:51,465 INFO: received secret key for voice connection
+2022-08-27 14:17:53,855 INFO: Preparing to terminate ffmpeg process 1435.
+2022-08-27 14:17:53,856 INFO: ffmpeg process 1435 successfully terminated with return code of 0.
+2022-08-27 14:17:57,252 INFO: Preparing to terminate ffmpeg process 1445.
+2022-08-27 14:17:57,254 INFO: ffmpeg process 1445 successfully terminated with return code of 0.
+2022-08-27 14:17:58,303 INFO: The voice handshake is being terminated for Channel ID 428109526550708238 (Guild ID 428109526550708234)
+2022-08-27 14:17:58,304 INFO: Disconnecting from voice normally, close code 1000.
+2022-08-27 14:18:32,159 INFO: Fiven-chung in 9又4分之8.7月台[打不出幹話就講出來啊]
+2022-08-27 14:18:32,313 INFO: Connecting to voice...
+2022-08-27 14:18:32,314 INFO: Starting voice handshake... (connection attempt 1)
+2022-08-27 14:18:32,618 INFO: Voice handshake complete. Endpoint found hongkong3064.discord.media
+2022-08-27 14:18:33,563 INFO: selected the voice protocol for use (xsalsa20_poly1305_lite)
+2022-08-27 14:18:33,782 INFO: received secret key for voice connection
+2022-08-27 14:18:35,649 INFO: Preparing to terminate ffmpeg process 1456.
+2022-08-27 14:18:35,649 INFO: ffmpeg process 1456 successfully terminated with return code of 0.
+2022-08-27 14:18:37,840 INFO: Preparing to terminate ffmpeg process 1466.
+2022-08-27 14:18:37,841 INFO: ffmpeg process 1466 successfully terminated with return code of 0.
+2022-08-27 14:18:38,905 INFO: The voice handshake is being terminated for Channel ID 428109526550708238 (Guild ID 428109526550708234)
+2022-08-27 14:18:38,905 INFO: Disconnecting from voice normally, close code 1000.
+2022-08-27 14:19:26,722 INFO: DADA的DIAO in 9又4分之8.7月台[打不出幹話就講出來啊]
+2022-08-27 14:19:26,821 INFO: Connecting to voice...
+2022-08-27 14:19:26,821 INFO: Starting voice handshake... (connection attempt 1)
+2022-08-27 14:19:27,107 INFO: Voice handshake complete. Endpoint found hongkong3064.discord.media
+2022-08-27 14:19:28,035 INFO: selected the voice protocol for use (xsalsa20_poly1305_lite)
+2022-08-27 14:19:28,223 INFO: received secret key for voice connection
+2022-08-27 14:19:30,993 INFO: Preparing to terminate ffmpeg process 1477.
+2022-08-27 14:19:30,994 INFO: ffmpeg process 1477 successfully terminated with return code of 0.
+2022-08-27 14:19:33,709 INFO: Preparing to terminate ffmpeg process 1487.
+2022-08-27 14:19:33,710 INFO: ffmpeg process 1487 successfully terminated with return code of 0.
+2022-08-27 14:19:34,755 INFO: The voice handshake is being terminated for Channel ID 428109526550708238 (Guild ID 428109526550708234)
+2022-08-27 14:19:34,756 INFO: Disconnecting from voice normally, close code 1000.
+2022-08-27 15:45:05,857 INFO: Chi in 9又4分之8.7月台[打不出幹話就講出來啊]
+2022-08-27 15:45:06,118 INFO: Connecting to voice...
+2022-08-27 15:45:06,118 INFO: Starting voice handshake... (connection attempt 1)
+2022-08-27 15:45:06,634 INFO: Voice handshake complete. Endpoint found hongkong3064.discord.media
+2022-08-27 15:45:07,569 INFO: selected the voice protocol for use (xsalsa20_poly1305_lite)
+2022-08-27 15:45:07,785 INFO: received secret key for voice connection
+2022-08-27 15:45:09,454 INFO: Preparing to terminate ffmpeg process 1643.
+2022-08-27 15:45:09,455 INFO: ffmpeg process 1643 successfully terminated with return code of 0.
+2022-08-27 15:45:10,971 INFO: Preparing to terminate ffmpeg process 1653.
+2022-08-27 15:45:10,971 INFO: ffmpeg process 1653 successfully terminated with return code of 0.
+2022-08-27 15:45:12,513 INFO: The voice handshake is being terminated for Channel ID 428109526550708238 (Guild ID 428109526550708234)
+2022-08-27 15:45:12,515 INFO: Disconnecting from voice normally, close code 1000.
+2022-08-27 15:46:59,735 INFO: Chi out 9又4分之8.7月台[打不出幹話就講出來啊]
+2022-08-27 15:46:59,736 INFO: Connecting to voice...
+2022-08-27 15:46:59,736 INFO: Starting voice handshake... (connection attempt 1)
+2022-08-27 15:47:00,451 INFO: Voice handshake complete. Endpoint found hongkong3064.discord.media
+2022-08-27 15:47:01,377 INFO: selected the voice protocol for use (xsalsa20_poly1305_lite)
+2022-08-27 15:47:01,574 INFO: received secret key for voice connection
+2022-08-27 15:47:03,143 INFO: Preparing to terminate ffmpeg process 1664.
+2022-08-27 15:47:03,144 INFO: ffmpeg process 1664 successfully terminated with return code of 0.
+2022-08-27 15:47:04,188 INFO: The voice handshake is being terminated for Channel ID 428109526550708238 (Guild ID 428109526550708234)
+2022-08-27 15:47:04,189 INFO: Disconnecting from voice normally, close code 1000.
+2022-08-27 16:01:03,093 INFO: SparkleZ in 9又4分之8.7月台[打不出幹話就講出來啊]
+2022-08-27 16:01:03,305 INFO: Connecting to voice...
+2022-08-27 16:01:03,305 INFO: Starting voice handshake... (connection attempt 1)
+2022-08-27 16:01:03,965 INFO: Voice handshake complete. Endpoint found hongkong3064.discord.media
+2022-08-27 16:01:04,888 INFO: selected the voice protocol for use (xsalsa20_poly1305_lite)
+2022-08-27 16:01:05,082 INFO: received secret key for voice connection
+2022-08-27 16:01:07,071 INFO: Preparing to terminate ffmpeg process 1692.
+2022-08-27 16:01:07,071 INFO: ffmpeg process 1692 successfully terminated with return code of 0.
+2022-08-27 16:01:09,065 INFO: Preparing to terminate ffmpeg process 1702.
+2022-08-27 16:01:09,066 INFO: ffmpeg process 1702 successfully terminated with return code of 0.
+2022-08-27 16:01:10,109 INFO: The voice handshake is being terminated for Channel ID 428109526550708238 (Guild ID 428109526550708234)
+2022-08-27 16:01:10,109 INFO: Disconnecting from voice normally, close code 1000.
+2022-08-27 16:07:20,691 INFO: DADA的DIAO out 9又4分之8.7月台[打不出幹話就講出來啊]
+2022-08-27 16:07:20,691 INFO: Connecting to voice...
+2022-08-27 16:07:20,691 INFO: Starting voice handshake... (connection attempt 1)
+2022-08-27 16:07:21,589 INFO: Voice handshake complete. Endpoint found hongkong3064.discord.media
+2022-08-27 16:07:22,513 INFO: selected the voice protocol for use (xsalsa20_poly1305_lite)
+2022-08-27 16:07:22,710 INFO: received secret key for voice connection
+2022-08-27 16:07:24,798 INFO: Preparing to terminate ffmpeg process 1713.
+2022-08-27 16:07:24,799 INFO: ffmpeg process 1713 successfully terminated with return code of 0.
+2022-08-27 16:07:25,826 INFO: The voice handshake is being terminated for Channel ID 428109526550708238 (Guild ID 428109526550708234)
+2022-08-27 16:07:25,827 INFO: Disconnecting from voice normally, close code 1000.
+2022-08-27 16:07:32,064 INFO: Lexor in 9又4分之8.7月台[打不出幹話就講出來啊]
+2022-08-27 16:07:32,215 INFO: Connecting to voice...
+2022-08-27 16:07:32,216 INFO: Starting voice handshake... (connection attempt 1)
+2022-08-27 16:07:32,515 INFO: Voice handshake complete. Endpoint found hongkong3064.discord.media
+2022-08-27 16:07:33,465 INFO: selected the voice protocol for use (xsalsa20_poly1305_lite)
+2022-08-27 16:07:33,711 INFO: BunnyplayGG out 9又4分之8.7月台[打不出幹話就講出來啊]
+2022-08-27 16:07:33,712 INFO: received secret key for voice connection
+2022-08-27 16:07:36,101 INFO: Preparing to terminate ffmpeg process 1724.
+2022-08-27 16:07:36,106 INFO: ffmpeg process 1724 successfully terminated with return code of 0.
+2022-08-27 16:07:38,282 INFO: Preparing to terminate ffmpeg process 1734.
+2022-08-27 16:07:38,283 INFO: ffmpeg process 1734 successfully terminated with return code of 0.
+2022-08-27 16:07:41,712 INFO: Preparing to terminate ffmpeg process 1744.
+2022-08-27 16:07:41,713 INFO: ffmpeg process 1744 successfully terminated with return code of 0.
+2022-08-27 16:07:42,761 INFO: The voice handshake is being terminated for Channel ID 428109526550708238 (Guild ID 428109526550708234)
+2022-08-27 16:07:42,762 INFO: Disconnecting from voice normally, close code 1000.
+2022-08-27 16:15:36,216 INFO: Got a request to RESUME the websocket.
+2022-08-27 16:15:36,400 INFO: Shard ID None has sent the RESUME payload.
+2022-08-27 16:15:36,493 INFO: Shard ID None has successfully RESUMED session 1fe07c6518744533e1847956d95d7780 under trace ["gateway-prd-main-b8pj",{"micros":1728,"calls":["id_created",{"micros":0,"calls":[]},"session_lookup_time",{"micros":1313,"calls":[]},"session_lookup_finished",{"micros":18,"calls":[]},"discord-sessions-green-prd-2-144",{"micros":21}]}].
+2022-08-27 16:19:25,902 INFO: 楓夜 in 9又4分之8.7月台[打不出幹話就講出來啊]
+2022-08-27 16:19:26,014 INFO: Connecting to voice...
+2022-08-27 16:19:26,014 INFO: Starting voice handshake... (connection attempt 1)
+2022-08-27 16:19:26,566 INFO: Voice handshake complete. Endpoint found hongkong3064.discord.media
+2022-08-27 16:19:27,496 INFO: selected the voice protocol for use (xsalsa20_poly1305_lite)
+2022-08-27 16:19:27,687 INFO: received secret key for voice connection
+2022-08-27 16:19:30,735 INFO: Preparing to terminate ffmpeg process 1794.
+2022-08-27 16:19:30,736 INFO: ffmpeg process 1794 successfully terminated with return code of 0.
+2022-08-27 16:19:33,074 INFO: Preparing to terminate ffmpeg process 1804.
+2022-08-27 16:19:33,075 INFO: ffmpeg process 1804 successfully terminated with return code of 0.
+2022-08-27 16:19:34,119 INFO: The voice handshake is being terminated for Channel ID 428109526550708238 (Guild ID 428109526550708234)
+2022-08-27 16:19:34,119 INFO: Disconnecting from voice normally, close code 1000.
+2022-08-27 16:22:37,552 INFO: Connecting to voice...
+2022-08-27 16:22:37,552 INFO: Starting voice handshake... (connection attempt 1)
+2022-08-27 16:22:38,337 INFO: Voice handshake complete. Endpoint found hongkong5172.discord.media
+2022-08-27 16:22:38,565 ERROR: Exception occurred during Voice Protocol voice server update handler
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/state.py", line 102, in logging_coroutine
+    await coroutine
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/voice_client.py", line 295, in on_voice_server_update
+    await self.ws.close(4000)
+AttributeError: 'NoneType' object has no attribute 'close'
+2022-08-27 16:22:39,272 INFO: selected the voice protocol for use (xsalsa20_poly1305_lite)
+2022-08-27 16:22:39,471 INFO: received secret key for voice connection
+2022-08-27 16:22:44,820 INFO: Preparing to terminate ffmpeg process 1815.
+2022-08-27 16:22:44,821 INFO: ffmpeg process 1815 successfully terminated with return code of 0.
+2022-08-27 16:22:45,900 INFO: The voice handshake is being terminated for Channel ID 1013121368470081666 (Guild ID 428109526550708234)
+2022-08-27 16:22:45,901 INFO: Disconnecting from voice normally, close code 1000.
+2022-08-27 16:23:10,173 INFO: MaiMai的Pool in 9又4分之8.7月台[打不出幹話就講出來啊]
+2022-08-27 16:23:10,273 INFO: Connecting to voice...
+2022-08-27 16:23:10,273 INFO: Starting voice handshake... (connection attempt 1)
+2022-08-27 16:23:10,563 INFO: Voice handshake complete. Endpoint found hongkong3064.discord.media
+2022-08-27 16:23:11,482 INFO: selected the voice protocol for use (xsalsa20_poly1305_lite)
+2022-08-27 16:23:11,693 INFO: received secret key for voice connection
+2022-08-27 16:23:14,482 INFO: Preparing to terminate ffmpeg process 1826.
+2022-08-27 16:23:14,483 INFO: ffmpeg process 1826 successfully terminated with return code of 0.
+2022-08-27 16:23:17,127 INFO: Preparing to terminate ffmpeg process 1836.
+2022-08-27 16:23:17,127 INFO: ffmpeg process 1836 successfully terminated with return code of 0.
+2022-08-27 16:23:18,141 INFO: The voice handshake is being terminated for Channel ID 428109526550708238 (Guild ID 428109526550708234)
+2022-08-27 16:23:18,142 INFO: Disconnecting from voice normally, close code 1000.
+2022-08-27 17:06:00,482 INFO: MaiMai的Pool out 9又4分之8.7月台[打不出幹話就講出來啊]
+2022-08-27 17:06:00,482 INFO: Connecting to voice...
+2022-08-27 17:06:00,483 INFO: Starting voice handshake... (connection attempt 1)
+2022-08-27 17:06:01,353 INFO: Voice handshake complete. Endpoint found hongkong3064.discord.media
+2022-08-27 17:06:02,303 INFO: selected the voice protocol for use (xsalsa20_poly1305_lite)
+2022-08-27 17:06:02,495 INFO: received secret key for voice connection
+2022-08-27 17:06:04,037 INFO: 楓夜 out 9又4分之8.7月台[打不出幹話就講出來啊]
+2022-08-27 17:06:04,605 INFO: Preparing to terminate ffmpeg process 1901.
+2022-08-27 17:06:04,606 INFO: ffmpeg process 1901 successfully terminated with return code of 0.
+2022-08-27 17:06:07,989 INFO: Preparing to terminate ffmpeg process 1911.
+2022-08-27 17:06:07,990 INFO: ffmpeg process 1911 successfully terminated with return code of 0.
+2022-08-27 17:06:09,058 INFO: The voice handshake is being terminated for Channel ID 428109526550708238 (Guild ID 428109526550708234)
+2022-08-27 17:06:09,059 INFO: Disconnecting from voice normally, close code 1000.
+2022-08-27 17:06:17,546 INFO: Fiven-chung out 9又4分之8.7月台[打不出幹話就講出來啊]
+2022-08-27 17:06:17,547 INFO: Connecting to voice...
+2022-08-27 17:06:17,547 INFO: Starting voice handshake... (connection attempt 1)
+2022-08-27 17:06:17,900 INFO: Voice handshake complete. Endpoint found hongkong3064.discord.media
+2022-08-27 17:06:18,834 INFO: selected the voice protocol for use (xsalsa20_poly1305_lite)
+2022-08-27 17:06:19,026 INFO: received secret key for voice connection
+2022-08-27 17:06:20,954 INFO: Preparing to terminate ffmpeg process 1922.
+2022-08-27 17:06:20,955 INFO: ffmpeg process 1922 successfully terminated with return code of 0.
+2022-08-27 17:06:22,043 INFO: The voice handshake is being terminated for Channel ID 428109526550708238 (Guild ID 428109526550708234)
+2022-08-27 17:06:22,043 INFO: Disconnecting from voice normally, close code 1000.
+2022-08-27 18:03:24,130 INFO: 不偷家的飄飄大仙 out 9又4分之8.7月台[打不出幹話就講出來啊]
+2022-08-27 18:03:24,130 INFO: Connecting to voice...
+2022-08-27 18:03:24,130 INFO: Starting voice handshake... (connection attempt 1)
+2022-08-27 18:03:24,982 INFO: Voice handshake complete. Endpoint found hongkong3064.discord.media
+2022-08-27 18:03:25,906 INFO: selected the voice protocol for use (xsalsa20_poly1305_lite)
+2022-08-27 18:03:26,102 INFO: received secret key for voice connection
+2022-08-27 18:03:28,998 INFO: Preparing to terminate ffmpeg process 2021.
+2022-08-27 18:03:28,998 INFO: ffmpeg process 2021 successfully terminated with return code of 0.
+2022-08-27 18:03:30,031 INFO: The voice handshake is being terminated for Channel ID 428109526550708238 (Guild ID 428109526550708234)
+2022-08-27 18:03:30,032 INFO: Disconnecting from voice normally, close code 1000.
+2022-08-27 18:03:31,481 INFO: SparkleZ out 9又4分之8.7月台[打不出幹話就講出來啊]
+2022-08-27 18:03:31,482 INFO: Connecting to voice...
+2022-08-27 18:03:31,482 INFO: Starting voice handshake... (connection attempt 1)
+2022-08-27 18:03:31,791 INFO: Voice handshake complete. Endpoint found hongkong3064.discord.media
+2022-08-27 18:03:32,324 INFO: Lexor out 9又4分之8.7月台[打不出幹話就講出來啊]
+2022-08-27 18:03:32,715 INFO: selected the voice protocol for use (xsalsa20_poly1305_lite)
+2022-08-27 18:03:32,934 INFO: received secret key for voice connection
+2022-08-27 18:03:34,931 INFO: Preparing to terminate ffmpeg process 2032.
+2022-08-27 18:03:34,931 INFO: ffmpeg process 2032 successfully terminated with return code of 0.
+2022-08-27 18:03:37,648 INFO: Preparing to terminate ffmpeg process 2042.
+2022-08-27 18:03:37,649 INFO: ffmpeg process 2042 successfully terminated with return code of 0.
+2022-08-27 18:03:38,676 INFO: The voice handshake is being terminated for Channel ID 428109526550708238 (Guild ID 428109526550708234)
+2022-08-27 18:03:38,677 INFO: Disconnecting from voice normally, close code 1000.
+2022-08-27 18:22:19,161 INFO: Got a request to RESUME the websocket.
+2022-08-27 18:22:19,368 INFO: Shard ID None has sent the RESUME payload.
+2022-08-27 18:22:19,452 INFO: Shard ID None has successfully RESUMED session 1fe07c6518744533e1847956d95d7780 under trace ["gateway-prd-main-m3zs",{"micros":592,"calls":["id_created",{"micros":0,"calls":[]},"session_lookup_time",{"micros":283,"calls":[]},"session_lookup_finished",{"micros":8,"calls":[]},"discord-sessions-green-prd-2-144",{"micros":20}]}].

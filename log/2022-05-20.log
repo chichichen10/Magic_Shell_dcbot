@@ -1,0 +1,20 @@
+2022-05-19 19:57:05,953 INFO: logging in using static token
+2022-05-19 19:57:06,266 INFO: Shard ID None has sent the IDENTIFY payload.
+2022-05-19 19:57:06,411 INFO: Shard ID None has connected to Gateway: ["gateway-prd-main-td0x",{"micros":102489,"calls":["discord-sessions-green-prd-2-70",{"micros":98098,"calls":["start_session",{"micros":50729,"calls":["discord-api-b669d5667-nwk75",{"micros":44950,"calls":["get_user",{"micros":7926},"add_authorized_ip",{"micros":1854},"get_guilds",{"micros":15809},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":29,"calls":[]},"presence_connect",{"micros":2,"calls":[]}]}]}] (Session ID: f07e7c7b9917b616a88c41fbc9c61a14).
+2022-05-19 19:57:08,544 INFO: 目前登入身份：神奇海螺#3847
+2022-05-19 21:14:14,401 INFO: logging in using static token
+2022-05-19 21:14:14,676 INFO: Shard ID None has sent the IDENTIFY payload.
+2022-05-19 21:14:14,787 INFO: Shard ID None has connected to Gateway: ["gateway-prd-main-4cg6",{"micros":69702,"calls":["discord-sessions-green-prd-2-76",{"micros":68662,"calls":["start_session",{"micros":45145,"calls":["discord-api-65ccd468db-sdknq",{"micros":40048,"calls":["get_user",{"micros":7473},"add_authorized_ip",{"micros":1570},"get_guilds",{"micros":7600},"coros_wait",{"micros":2}]}]},"guilds_connect",{"micros":27,"calls":[]},"presence_connect",{"micros":1,"calls":[]}]}]}] (Session ID: 7b311b7b5c1da2cc9b10df406fd35eea).
+2022-05-19 21:14:16,903 INFO: 目前登入身份：神奇海螺#3847
+2022-05-19 21:17:41,874 INFO: KyrieR out 9又4分之8.7月台[123是什麼敷衍的名字]
+2022-05-19 21:17:41,874 INFO: Connecting to voice...
+2022-05-19 21:17:41,874 INFO: Starting voice handshake... (connection attempt 1)
+2022-05-19 21:17:41,948 INFO: Voice handshake complete. Endpoint found us-central849.discord.media
+2022-05-19 21:17:42,060 INFO: selected the voice protocol for use (xsalsa20_poly1305_lite)
+2022-05-19 21:17:42,075 INFO: received secret key for voice connection
+2022-05-19 21:17:45,354 INFO: Preparing to terminate ffmpeg process 140.
+2022-05-19 21:17:45,355 INFO: ffmpeg process 140 successfully terminated with return code of 0.
+2022-05-19 21:17:48,211 INFO: Preparing to terminate ffmpeg process 151.
+2022-05-19 21:17:48,212 INFO: ffmpeg process 151 successfully terminated with return code of 0.
+2022-05-19 21:17:49,217 INFO: The voice handshake is being terminated for Channel ID 728631391809437746 (Guild ID 428109526550708234)
+2022-05-19 21:17:49,218 INFO: Disconnecting from voice normally, close code 1000.

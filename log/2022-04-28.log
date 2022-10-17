@@ -1,0 +1,36 @@
+2022-04-27 19:39:43,520 INFO: logging in using static token
+2022-04-27 19:39:43,885 INFO: Shard ID None has sent the IDENTIFY payload.
+2022-04-27 19:39:44,051 INFO: Shard ID None has connected to Gateway: ["gateway-prd-main-3jvm",{"micros":102410,"calls":["discord-sessions-green-prd-2-61",{"micros":101535,"calls":["start_session",{"micros":65772,"calls":["discord-api-58f68b7d47-rqvbb",{"micros":61371,"calls":["get_user",{"micros":19832},"add_authorized_ip",{"micros":2401},"get_guilds",{"micros":7250},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":44,"calls":[]},"presence_connect",{"micros":15504,"calls":[]}]}]}] (Session ID: 505ffefca6304548dbecc7cacdf0b167).
+2022-04-27 19:39:46,105 INFO: 目前登入身份：神奇海螺#3847
+2022-04-27 23:51:18,155 INFO: logging in using static token
+2022-04-27 23:51:18,514 INFO: Shard ID None has sent the IDENTIFY payload.
+2022-04-27 23:51:18,659 INFO: Shard ID None has connected to Gateway: ["gateway-prd-main-mqjt",{"micros":89349,"calls":["discord-sessions-green-prd-2-57",{"micros":88306,"calls":["start_session",{"micros":53803,"calls":["discord-api-5bd5c5478f-vsrzr",{"micros":50444,"calls":["get_user",{"micros":7796},"add_authorized_ip",{"micros":3362},"get_guilds",{"micros":4079},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":47,"calls":[]},"presence_connect",{"micros":18711,"calls":[]}]}]}] (Session ID: ca92867a9f3abf0728834b7ae008d41c).
+2022-04-27 23:51:20,724 INFO: 目前登入身份：神奇海螺#3847
+2022-04-28 03:00:59,442 INFO: logging in using static token
+2022-04-28 03:00:59,800 INFO: Shard ID None has sent the IDENTIFY payload.
+2022-04-28 03:00:59,928 INFO: Shard ID None has connected to Gateway: ["gateway-prd-main-jp8c",{"micros":69155,"calls":["discord-sessions-green-prd-2-114",{"micros":68375,"calls":["start_session",{"micros":48265,"calls":["discord-api-7c7df694fd-n4khj",{"micros":42175,"calls":["get_user",{"micros":8422},"add_authorized_ip",{"micros":3576},"get_guilds",{"micros":6204},"coros_wait",{"micros":3}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":1,"calls":[]}]}]}] (Session ID: e8dd2fbceb15a7fb83ad90e50c1f823f).
+2022-04-28 03:01:01,979 INFO: 目前登入身份：神奇海螺#3847
+2022-04-28 04:32:04,224 INFO: logging in using static token
+2022-04-28 04:32:04,616 INFO: Shard ID None has sent the IDENTIFY payload.
+2022-04-28 04:32:04,733 INFO: Shard ID None has connected to Gateway: ["gateway-prd-main-21mg",{"micros":60441,"calls":["discord-sessions-green-prd-2-149",{"micros":59647,"calls":["start_session",{"micros":37807,"calls":["discord-api-7c7df694fd-gnhsw",{"micros":34414,"calls":["get_user",{"micros":7768},"add_authorized_ip",{"micros":2187},"get_guilds",{"micros":5464},"coros_wait",{"micros":0}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":2182,"calls":[]}]}]}] (Session ID: 4005ab7a6fc43c20f486fe712ee9abb8).
+2022-04-28 04:32:06,779 INFO: 目前登入身份：神奇海螺#3847
+2022-04-28 15:05:53,418 INFO: logging in using static token
+2022-04-28 15:05:53,865 INFO: Shard ID None has sent the IDENTIFY payload.
+2022-04-28 15:05:54,070 INFO: Shard ID None has connected to Gateway: ["gateway-prd-main-kcvz",{"micros":150319,"calls":["discord-sessions-green-prd-2-29",{"micros":145840,"calls":["start_session",{"micros":104289,"calls":["discord-api-7c7df694fd-kkwqv",{"micros":97796,"calls":["get_user",{"micros":16061},"add_authorized_ip",{"micros":4749},"get_guilds",{"micros":40442},"coros_wait",{"micros":2}]}]},"guilds_connect",{"micros":25,"calls":[]},"presence_connect",{"micros":10,"calls":[]}]}]}] (Session ID: b3b6e43ca7b24fb826d39026d3acb82e).
+2022-04-28 15:05:55,416 INFO: Connecting to voice...
+2022-04-28 15:05:55,416 INFO: Starting voice handshake... (connection attempt 1)
+2022-04-28 15:05:56,229 INFO: Voice handshake complete. Endpoint found hongkong4324.discord.media
+2022-04-28 15:05:56,237 INFO: 目前登入身份：神奇海螺#3847
+2022-04-28 15:05:56,409 ERROR: Exception occurred during Voice Protocol voice server update handler
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/state.py", line 102, in logging_coroutine
+    await coroutine
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/voice_client.py", line 295, in on_voice_server_update
+    await self.ws.close(4000)
+AttributeError: 'NoneType' object has no attribute 'close'
+2022-04-28 15:05:57,568 INFO: selected the voice protocol for use (xsalsa20_poly1305_lite)
+2022-04-28 15:05:57,790 INFO: received secret key for voice connection
+2022-04-28 15:06:03,179 INFO: Preparing to terminate ffmpeg process 143.
+2022-04-28 15:06:03,179 INFO: ffmpeg process 143 successfully terminated with return code of 0.
+2022-04-28 15:06:04,264 INFO: The voice handshake is being terminated for Channel ID 969253134226567208 (Guild ID 428109526550708234)
+2022-04-28 15:06:04,264 INFO: Disconnecting from voice normally, close code 1000.

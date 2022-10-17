@@ -1,0 +1,14 @@
+2022-04-26 18:42:49,821 INFO: logging in using static token
+2022-04-26 18:42:50,100 INFO: Shard ID None has sent the IDENTIFY payload.
+2022-04-26 18:42:50,729 INFO: Shard ID None has connected to Gateway: ["gateway-prd-main-6qwk",{"micros":589740,"calls":["discord-sessions-green-prd-2-134",{"micros":588324,"calls":["start_session",{"micros":548442,"calls":["discord-api-77dd5d684f-dkz2x",{"micros":541714,"calls":["get_user",{"micros":8374},"add_authorized_ip",{"micros":1732},"get_guilds",{"micros":504809},"coros_wait",{"micros":2}]}]},"guilds_connect",{"micros":26,"calls":[]},"presence_connect",{"micros":24381,"calls":[]}]}]}] (Session ID: 61b2f4ada14517d7dffcda7d349de428).
+2022-04-26 18:42:52,786 INFO: 目前登入身份：神奇海螺#3847
+2022-04-26 19:54:40,897 INFO: logging in using static token
+2022-04-26 19:54:40,962 INFO: Cleaning up tasks.
+2022-04-26 19:54:40,962 INFO: Closing the event loop.
+2022-04-26 20:02:33,471 INFO: logging in using static token
+2022-04-26 20:02:33,534 INFO: Cleaning up tasks.
+2022-04-26 20:02:33,535 INFO: Closing the event loop.
+2022-04-26 20:50:08,101 INFO: logging in using static token
+2022-04-26 20:50:08,382 INFO: Shard ID None has sent the IDENTIFY payload.
+2022-04-26 20:50:08,509 INFO: Shard ID None has connected to Gateway: ["gateway-prd-main-3jvm",{"micros":85159,"calls":["discord-sessions-green-prd-2-39",{"micros":80724,"calls":["start_session",{"micros":44329,"calls":["discord-api-77dd5d684f-stz65",{"micros":39060,"calls":["get_user",{"micros":7940},"add_authorized_ip",{"micros":2830},"get_guilds",{"micros":5734},"coros_wait",{"micros":2}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":8085,"calls":[]}]}]}] (Session ID: f92cb96ee6522883053d6c5e149839a6).
+2022-04-26 20:50:10,552 INFO: 目前登入身份：神奇海螺#3847

@@ -1,0 +1,36 @@
+2022-05-05 17:42:16,258 INFO: logging in using static token
+2022-05-05 17:42:16,524 INFO: Shard ID None has sent the IDENTIFY payload.
+2022-05-05 17:42:16,678 INFO: Shard ID None has connected to Gateway: ["gateway-prd-main-d0p3",{"micros":112015,"calls":["discord-sessions-green-prd-2-150",{"micros":110849,"calls":["start_session",{"micros":83806,"calls":["discord-api-6cd8c6964f-szmtv",{"micros":71696,"calls":["get_user",{"micros":19246},"add_authorized_ip",{"micros":5166},"get_guilds",{"micros":10024},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":385,"calls":[]}]}]}] (Session ID: f0866cc4b65373f24b6825deb5ff5c77).
+2022-05-05 17:42:18,736 INFO: 目前登入身份：神奇海螺#3847
+2022-05-05 17:57:14,547 INFO: logging in using static token
+2022-05-05 17:57:14,617 INFO: Cleaning up tasks.
+2022-05-05 17:57:14,617 INFO: Closing the event loop.
+2022-05-05 18:12:12,615 INFO: logging in using static token
+2022-05-05 18:12:12,915 INFO: Shard ID None has sent the IDENTIFY payload.
+2022-05-05 18:12:13,062 INFO: Shard ID None has connected to Gateway: ["gateway-prd-main-6qwk",{"micros":74430,"calls":["discord-sessions-green-prd-2-8",{"micros":73318,"calls":["start_session",{"micros":52483,"calls":["discord-api-6cd8c6964f-zrp8v",{"micros":47715,"calls":["get_user",{"micros":9184},"add_authorized_ip",{"micros":2651},"get_guilds",{"micros":5171},"coros_wait",{"micros":2}]}]},"guilds_connect",{"micros":31,"calls":[]},"presence_connect",{"micros":770,"calls":[]}]}]}] (Session ID: 55ec6c72d6b12d50a7d962d7eea0aa69).
+2022-05-05 18:12:15,131 INFO: 目前登入身份：神奇海螺#3847
+2022-05-05 18:18:17,038 INFO: logging in using static token
+2022-05-05 18:18:17,297 INFO: Shard ID None has sent the IDENTIFY payload.
+2022-05-05 18:18:17,408 INFO: Shard ID None has connected to Gateway: ["gateway-prd-main-wgk4",{"micros":72056,"calls":["discord-sessions-green-prd-2-71",{"micros":71209,"calls":["start_session",{"micros":63980,"calls":["discord-api-6cd8c6964f-w57rw",{"micros":53485,"calls":["get_user",{"micros":10432},"add_authorized_ip",{"micros":3025},"get_guilds",{"micros":7538},"coros_wait",{"micros":3}]}]},"guilds_connect",{"micros":27,"calls":[]},"presence_connect",{"micros":3008,"calls":[]}]}]}] (Session ID: 9c15a892a80d5674c6555390547dfdf0).
+2022-05-05 18:18:19,489 INFO: 目前登入身份：神奇海螺#3847
+2022-05-06 00:53:02,473 INFO: logging in using static token
+2022-05-06 00:53:02,735 INFO: Shard ID None has sent the IDENTIFY payload.
+2022-05-06 00:53:02,892 INFO: Shard ID None has connected to Gateway: ["gateway-prd-main-h5l3",{"micros":114891,"calls":["discord-sessions-green-prd-2-128",{"micros":110604,"calls":["start_session",{"micros":92311,"calls":["discord-api-86d5d7c9bc-sfmks",{"micros":87209,"calls":["get_user",{"micros":11780},"add_authorized_ip",{"micros":7453},"get_guilds",{"micros":18124},"coros_wait",{"micros":2}]}]},"guilds_connect",{"micros":3,"calls":[]},"presence_connect",{"micros":25,"calls":[]}]}]}] (Session ID: 5db71e5424c9fa5d7189333cc24b8a55).
+2022-05-06 00:53:04,939 INFO: 目前登入身份：神奇海螺#3847
+2022-05-06 12:26:50,318 INFO: logging in using static token
+2022-05-06 12:26:50,583 INFO: Shard ID None has sent the IDENTIFY payload.
+2022-05-06 12:26:50,748 INFO: Shard ID None has connected to Gateway: ["gateway-prd-main-8n31",{"micros":122336,"calls":["discord-sessions-green-prd-2-69",{"micros":121395,"calls":["start_session",{"micros":70451,"calls":["discord-api-6584558444-khg6w",{"micros":65135,"calls":["get_user",{"micros":6326},"add_authorized_ip",{"micros":3211},"get_guilds",{"micros":23395},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":34848,"calls":[]}]}]}] (Session ID: 50b836b9317c28fef9fd386222b5e73f).
+2022-05-06 12:26:52,804 INFO: 目前登入身份：神奇海螺#3847
+2022-05-06 12:27:50,514 INFO: SparkleZ in 9又4分之8.7月台[打不出幹話就講出來啊]
+2022-05-06 12:27:50,537 INFO: Connecting to voice...
+2022-05-06 12:27:50,537 INFO: Starting voice handshake... (connection attempt 1)
+2022-05-06 12:27:51,371 INFO: Voice handshake complete. Endpoint found singapore756.discord.media
+2022-05-06 12:27:51,598 ERROR: Exception occurred during Voice Protocol voice server update handler
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/state.py", line 102, in logging_coroutine
+    await coroutine
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/voice_client.py", line 295, in on_voice_server_update
+    await self.ws.close(4000)
+AttributeError: 'NoneType' object has no attribute 'close'
+2022-05-06 12:27:52,839 INFO: selected the voice protocol for use (xsalsa20_poly1305_lite)
+2022-05-06 12:27:53,090 INFO: received secret key for voice connection

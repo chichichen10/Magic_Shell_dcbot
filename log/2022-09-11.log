@@ -1,0 +1,373 @@
+2022-09-10 23:28:05,051 INFO: logging in using static token
+2022-09-10 23:28:05,110 INFO: Cleaning up tasks.
+2022-09-10 23:28:05,110 INFO: Closing the event loop.
+2022-09-11 14:55:02,497 INFO: logging in using static token
+2022-09-11 14:55:02,854 INFO: Shard ID None has sent the IDENTIFY payload.
+2022-09-11 14:55:03,034 INFO: Shard ID None has connected to Gateway: ["gateway-prd-main-tt1p",{"micros":95907,"calls":["id_created",{"micros":627,"calls":[]},"session_lookup_time",{"micros":2026,"calls":[]},"session_lookup_finished",{"micros":14,"calls":[]},"discord-sessions-blue-prd-2-123",{"micros":92049,"calls":["start_session",{"micros":45539,"calls":["discord-api-595d596dbd-pwpxp",{"micros":41974,"calls":["get_user",{"micros":8726},"get_guilds",{"micros":4667},"send_scheduled_deletion_message",{"micros":10},"guild_join_requests",{"micros":1},"authorized_ip_coro",{"micros":12}]}]},"starting_guild_connect",{"micros":45,"calls":[]},"presence_started",{"micros":21652,"calls":[]},"guilds_started",{"micros":16040,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":8746,"calls":[]},"connect_finished",{"micros":8753,"calls":[]},"build_ready",{"micros":18,"calls":[]},"optimize_ready",{"micros":0,"calls":[]},"split_ready",{"micros":1,"calls":[]},"clean_ready",{"micros":0,"calls":[]}]}]}] (Session ID: bb2790c17010ccdf9b3d0509b90a9888).
+2022-09-11 14:55:05,111 INFO: 目前登入身份：神奇海螺#3847
+2022-09-11 15:14:59,005 INFO: Chi in 9又4分之8.7月台[打不出幹話就講出來啊]
+2022-09-11 15:14:59,136 INFO: Connecting to voice...
+2022-09-11 15:14:59,136 INFO: Starting voice handshake... (connection attempt 1)
+2022-09-11 15:14:59,423 INFO: Voice handshake complete. Endpoint found hongkong8769.discord.media
+2022-09-11 15:15:00,288 INFO: selected the voice protocol for use (xsalsa20_poly1305_lite)
+2022-09-11 15:15:00,460 INFO: received secret key for voice connection
+2022-09-11 15:15:02,671 INFO: Preparing to terminate ffmpeg process 178.
+2022-09-11 15:15:02,672 INFO: ffmpeg process 178 successfully terminated with return code of 0.
+2022-09-11 15:15:05,244 INFO: Preparing to terminate ffmpeg process 189.
+2022-09-11 15:15:05,245 INFO: ffmpeg process 189 successfully terminated with return code of 0.
+2022-09-11 15:15:06,310 INFO: The voice handshake is being terminated for Channel ID 428109526550708238 (Guild ID 428109526550708234)
+2022-09-11 15:15:06,310 INFO: Disconnecting from voice normally, close code 1000.
+2022-09-11 15:27:52,903 INFO: Got a request to RESUME the websocket.
+2022-09-11 15:27:53,088 INFO: Shard ID None has sent the RESUME payload.
+2022-09-11 15:27:53,174 INFO: Shard ID None has successfully RESUMED session bb2790c17010ccdf9b3d0509b90a9888 under trace ["gateway-prd-main-8n0p",{"micros":4184,"calls":["id_created",{"micros":0,"calls":[]},"session_lookup_time",{"micros":2299,"calls":[]},"session_lookup_finished",{"micros":10,"calls":[]},"discord-sessions-blue-prd-2-123",{"micros":20}]}].
+2022-09-11 16:07:59,536 INFO: MaiMai的Pool out 9又4分之8.7月台[打不出幹話就講出來啊]
+2022-09-11 16:07:59,536 INFO: Connecting to voice...
+2022-09-11 16:07:59,537 INFO: Starting voice handshake... (connection attempt 1)
+2022-09-11 16:07:59,802 INFO: wawa的n out 9又4分之8.7月台[打不出幹話就講出來啊]
+2022-09-11 16:07:59,838 INFO: Voice handshake complete. Endpoint found hongkong8769.discord.media
+2022-09-11 16:08:00,684 INFO: selected the voice protocol for use (xsalsa20_poly1305_lite)
+2022-09-11 16:08:00,863 INFO: received secret key for voice connection
+2022-09-11 16:08:02,972 INFO: Preparing to terminate ffmpeg process 275.
+2022-09-11 16:08:02,973 INFO: ffmpeg process 275 successfully terminated with return code of 0.
+2022-09-11 16:08:05,966 INFO: Preparing to terminate ffmpeg process 285.
+2022-09-11 16:08:05,966 INFO: ffmpeg process 285 successfully terminated with return code of 0.
+2022-09-11 16:08:06,994 INFO: The voice handshake is being terminated for Channel ID 428109526550708238 (Guild ID 428109526550708234)
+2022-09-11 16:08:06,995 INFO: Disconnecting from voice normally, close code 1000.
+2022-09-11 16:16:21,861 INFO: BunnyplayGG out 9又4分之8.7月台[打不出幹話就講出來啊]
+2022-09-11 16:16:21,862 INFO: Connecting to voice...
+2022-09-11 16:16:21,862 INFO: Starting voice handshake... (connection attempt 1)
+2022-09-11 16:16:22,719 INFO: Voice handshake complete. Endpoint found hongkong8769.discord.media
+2022-09-11 16:16:23,580 INFO: selected the voice protocol for use (xsalsa20_poly1305_lite)
+2022-09-11 16:16:23,752 INFO: received secret key for voice connection
+2022-09-11 16:16:26,123 INFO: Preparing to terminate ffmpeg process 331.
+2022-09-11 16:16:26,124 INFO: ffmpeg process 331 successfully terminated with return code of 0.
+2022-09-11 16:16:27,173 INFO: The voice handshake is being terminated for Channel ID 428109526550708238 (Guild ID 428109526550708234)
+2022-09-11 16:16:27,174 INFO: Disconnecting from voice normally, close code 1000.
+2022-09-11 16:37:38,168 INFO: Fiven-chung out 9又4分之8.7月台[打不出幹話就講出來啊]
+2022-09-11 16:37:38,168 INFO: Connecting to voice...
+2022-09-11 16:37:38,168 INFO: Starting voice handshake... (connection attempt 1)
+2022-09-11 16:37:38,461 INFO: Voice handshake complete. Endpoint found hongkong8769.discord.media
+2022-09-11 16:37:39,345 INFO: selected the voice protocol for use (xsalsa20_poly1305_lite)
+2022-09-11 16:37:39,527 INFO: received secret key for voice connection
+2022-09-11 16:37:41,455 INFO: Preparing to terminate ffmpeg process 377.
+2022-09-11 16:37:41,456 INFO: ffmpeg process 377 successfully terminated with return code of 0.
+2022-09-11 16:37:42,542 INFO: The voice handshake is being terminated for Channel ID 428109526550708238 (Guild ID 428109526550708234)
+2022-09-11 16:37:42,543 INFO: Disconnecting from voice normally, close code 1000.
+2022-09-11 17:03:56,121 INFO: Chi out 9又4分之8.7月台[打不出幹話就講出來啊]
+2022-09-11 17:03:56,121 INFO: Connecting to voice...
+2022-09-11 17:03:56,122 INFO: Starting voice handshake... (connection attempt 1)
+2022-09-11 17:03:56,409 INFO: Voice handshake complete. Endpoint found hongkong8769.discord.media
+2022-09-11 17:03:57,308 INFO: selected the voice protocol for use (xsalsa20_poly1305_lite)
+2022-09-11 17:03:57,488 INFO: received secret key for voice connection
+2022-09-11 17:03:59,071 INFO: Preparing to terminate ffmpeg process 406.
+2022-09-11 17:03:59,073 INFO: ffmpeg process 406 successfully terminated with return code of 0.
+2022-09-11 17:04:00,119 INFO: The voice handshake is being terminated for Channel ID 428109526550708238 (Guild ID 428109526550708234)
+2022-09-11 17:04:00,120 INFO: Disconnecting from voice normally, close code 1000.
+2022-09-11 17:23:55,000 INFO: Got a request to RESUME the websocket.
+2022-09-11 17:23:55,226 INFO: Shard ID None has sent the RESUME payload.
+2022-09-11 17:23:55,317 INFO: Shard ID None has successfully RESUMED session bb2790c17010ccdf9b3d0509b90a9888 under trace ["gateway-prd-main-0dg8",{"micros":989,"calls":["id_created",{"micros":0,"calls":[]},"session_lookup_time",{"micros":484,"calls":[]},"session_lookup_finished",{"micros":9,"calls":[]},"discord-sessions-blue-prd-2-123",{"micros":54}]}].
+2022-09-11 17:24:13,927 INFO: 不偷家的飄飄大仙 out 9又4分之8.7月台[打不出幹話就講出來啊]
+2022-09-11 17:24:13,928 INFO: Connecting to voice...
+2022-09-11 17:24:13,928 INFO: Starting voice handshake... (connection attempt 1)
+2022-09-11 17:24:14,090 INFO: Voice handshake complete. Endpoint found oregon10000.discord.media
+2022-09-11 17:24:14,222 INFO: selected the voice protocol for use (xsalsa20_poly1305_lite)
+2022-09-11 17:24:14,242 INFO: received secret key for voice connection
+2022-09-11 17:24:17,132 INFO: Preparing to terminate ffmpeg process 490.
+2022-09-11 17:24:17,133 INFO: ffmpeg process 490 successfully terminated with return code of 0.
+2022-09-11 17:24:18,165 INFO: The voice handshake is being terminated for Channel ID 428109526550708238 (Guild ID 428109526550708234)
+2022-09-11 17:24:18,166 INFO: Disconnecting from voice normally, close code 1000.
+2022-09-11 19:13:34,518 INFO: Got a request to RESUME the websocket.
+2022-09-11 19:13:34,571 ERROR: Attempting a reconnect in 1.35s
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/http.py", line 967, in get_gateway
+    data = await self.request(Route('GET', '/gateway'))
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/http.py", line 216, in request
+    raise HTTPException(r, data)
+discord.errors.HTTPException: 429 Too Many Requests (error code: 0): You are being blocked from accessing our API temporarily due to exceeding our rate limits frequently. Please read our docs at https://discord.com/developers/docs/topics/rate-limits to prevent this moving forward.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/client.py", line 563, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 494, in wait_for
+    return fut.result()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/gateway.py", line 305, in from_client
+    gateway = gateway or await client.http.get_gateway()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/http.py", line 969, in get_gateway
+    raise GatewayNotFound() from exc
+discord.errors.GatewayNotFound: The gateway to connect to discord was not found.
+2022-09-11 19:13:35,978 ERROR: Attempting a reconnect in 1.93s
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/http.py", line 967, in get_gateway
+    data = await self.request(Route('GET', '/gateway'))
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/http.py", line 216, in request
+    raise HTTPException(r, data)
+discord.errors.HTTPException: 429 Too Many Requests (error code: 0): You are being blocked from accessing our API temporarily due to exceeding our rate limits frequently. Please read our docs at https://discord.com/developers/docs/topics/rate-limits to prevent this moving forward.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/client.py", line 563, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 494, in wait_for
+    return fut.result()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/gateway.py", line 305, in from_client
+    gateway = gateway or await client.http.get_gateway()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/http.py", line 969, in get_gateway
+    raise GatewayNotFound() from exc
+discord.errors.GatewayNotFound: The gateway to connect to discord was not found.
+2022-09-11 19:13:37,952 ERROR: Attempting a reconnect in 1.48s
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/http.py", line 967, in get_gateway
+    data = await self.request(Route('GET', '/gateway'))
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/http.py", line 216, in request
+    raise HTTPException(r, data)
+discord.errors.HTTPException: 429 Too Many Requests (error code: 0): You are being blocked from accessing our API temporarily due to exceeding our rate limits frequently. Please read our docs at https://discord.com/developers/docs/topics/rate-limits to prevent this moving forward.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/client.py", line 563, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 494, in wait_for
+    return fut.result()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/gateway.py", line 305, in from_client
+    gateway = gateway or await client.http.get_gateway()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/http.py", line 969, in get_gateway
+    raise GatewayNotFound() from exc
+discord.errors.GatewayNotFound: The gateway to connect to discord was not found.
+2022-09-11 19:13:39,479 ERROR: Attempting a reconnect in 3.51s
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/http.py", line 967, in get_gateway
+    data = await self.request(Route('GET', '/gateway'))
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/http.py", line 216, in request
+    raise HTTPException(r, data)
+discord.errors.HTTPException: 429 Too Many Requests (error code: 0): You are being blocked from accessing our API temporarily due to exceeding our rate limits frequently. Please read our docs at https://discord.com/developers/docs/topics/rate-limits to prevent this moving forward.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/client.py", line 563, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 494, in wait_for
+    return fut.result()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/gateway.py", line 305, in from_client
+    gateway = gateway or await client.http.get_gateway()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/http.py", line 969, in get_gateway
+    raise GatewayNotFound() from exc
+discord.errors.GatewayNotFound: The gateway to connect to discord was not found.
+2022-09-11 19:13:43,035 ERROR: Attempting a reconnect in 4.65s
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/http.py", line 967, in get_gateway
+    data = await self.request(Route('GET', '/gateway'))
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/http.py", line 216, in request
+    raise HTTPException(r, data)
+discord.errors.HTTPException: 429 Too Many Requests (error code: 0): You are being blocked from accessing our API temporarily due to exceeding our rate limits frequently. Please read our docs at https://discord.com/developers/docs/topics/rate-limits to prevent this moving forward.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/client.py", line 563, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 494, in wait_for
+    return fut.result()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/gateway.py", line 305, in from_client
+    gateway = gateway or await client.http.get_gateway()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/http.py", line 969, in get_gateway
+    raise GatewayNotFound() from exc
+discord.errors.GatewayNotFound: The gateway to connect to discord was not found.
+2022-09-11 19:13:47,733 ERROR: Attempting a reconnect in 47.49s
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/http.py", line 967, in get_gateway
+    data = await self.request(Route('GET', '/gateway'))
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/http.py", line 216, in request
+    raise HTTPException(r, data)
+discord.errors.HTTPException: 429 Too Many Requests (error code: 0): You are being blocked from accessing our API temporarily due to exceeding our rate limits frequently. Please read our docs at https://discord.com/developers/docs/topics/rate-limits to prevent this moving forward.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/client.py", line 563, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 494, in wait_for
+    return fut.result()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/gateway.py", line 305, in from_client
+    gateway = gateway or await client.http.get_gateway()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/http.py", line 969, in get_gateway
+    raise GatewayNotFound() from exc
+discord.errors.GatewayNotFound: The gateway to connect to discord was not found.
+2022-09-11 19:14:35,332 ERROR: Attempting a reconnect in 2.37s
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/http.py", line 967, in get_gateway
+    data = await self.request(Route('GET', '/gateway'))
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/http.py", line 216, in request
+    raise HTTPException(r, data)
+discord.errors.HTTPException: 429 Too Many Requests (error code: 0): You are being blocked from accessing our API temporarily due to exceeding our rate limits frequently. Please read our docs at https://discord.com/developers/docs/topics/rate-limits to prevent this moving forward.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/client.py", line 563, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 494, in wait_for
+    return fut.result()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/gateway.py", line 305, in from_client
+    gateway = gateway or await client.http.get_gateway()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/http.py", line 969, in get_gateway
+    raise GatewayNotFound() from exc
+discord.errors.GatewayNotFound: The gateway to connect to discord was not found.
+2022-09-11 19:14:37,738 ERROR: Attempting a reconnect in 188.83s
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/http.py", line 967, in get_gateway
+    data = await self.request(Route('GET', '/gateway'))
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/http.py", line 216, in request
+    raise HTTPException(r, data)
+discord.errors.HTTPException: 429 Too Many Requests (error code: 0): You are being blocked from accessing our API temporarily due to exceeding our rate limits frequently. Please read our docs at https://discord.com/developers/docs/topics/rate-limits to prevent this moving forward.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/client.py", line 563, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 494, in wait_for
+    return fut.result()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/gateway.py", line 305, in from_client
+    gateway = gateway or await client.http.get_gateway()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/http.py", line 969, in get_gateway
+    raise GatewayNotFound() from exc
+discord.errors.GatewayNotFound: The gateway to connect to discord was not found.
+2022-09-11 19:17:46,733 ERROR: Attempting a reconnect in 350.01s
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/http.py", line 967, in get_gateway
+    data = await self.request(Route('GET', '/gateway'))
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/http.py", line 216, in request
+    raise HTTPException(r, data)
+discord.errors.HTTPException: 429 Too Many Requests (error code: 0): You are being blocked from accessing our API temporarily due to exceeding our rate limits frequently. Please read our docs at https://discord.com/developers/docs/topics/rate-limits to prevent this moving forward.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/client.py", line 563, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 494, in wait_for
+    return fut.result()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/gateway.py", line 305, in from_client
+    gateway = gateway or await client.http.get_gateway()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/http.py", line 969, in get_gateway
+    raise GatewayNotFound() from exc
+discord.errors.GatewayNotFound: The gateway to connect to discord was not found.
+2022-09-11 19:23:36,906 ERROR: Attempting a reconnect in 29.42s
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/http.py", line 967, in get_gateway
+    data = await self.request(Route('GET', '/gateway'))
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/http.py", line 216, in request
+    raise HTTPException(r, data)
+discord.errors.HTTPException: 429 Too Many Requests (error code: 0): You are being blocked from accessing our API temporarily due to exceeding our rate limits frequently. Please read our docs at https://discord.com/developers/docs/topics/rate-limits to prevent this moving forward.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/client.py", line 563, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 494, in wait_for
+    return fut.result()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/gateway.py", line 305, in from_client
+    gateway = gateway or await client.http.get_gateway()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/http.py", line 969, in get_gateway
+    raise GatewayNotFound() from exc
+discord.errors.GatewayNotFound: The gateway to connect to discord was not found.
+2022-09-11 19:24:06,404 ERROR: Attempting a reconnect in 78.16s
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/http.py", line 967, in get_gateway
+    data = await self.request(Route('GET', '/gateway'))
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/http.py", line 216, in request
+    raise HTTPException(r, data)
+discord.errors.HTTPException: 429 Too Many Requests (error code: 0): You are being blocked from accessing our API temporarily due to exceeding our rate limits frequently. Please read our docs at https://discord.com/developers/docs/topics/rate-limits to prevent this moving forward.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/client.py", line 563, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 494, in wait_for
+    return fut.result()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/gateway.py", line 305, in from_client
+    gateway = gateway or await client.http.get_gateway()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/http.py", line 969, in get_gateway
+    raise GatewayNotFound() from exc
+discord.errors.GatewayNotFound: The gateway to connect to discord was not found.
+2022-09-11 19:25:24,713 ERROR: Attempting a reconnect in 838.67s
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/http.py", line 967, in get_gateway
+    data = await self.request(Route('GET', '/gateway'))
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/http.py", line 216, in request
+    raise HTTPException(r, data)
+discord.errors.HTTPException: 429 Too Many Requests (error code: 0): You are being blocked from accessing our API temporarily due to exceeding our rate limits frequently. Please read our docs at https://discord.com/developers/docs/topics/rate-limits to prevent this moving forward.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/client.py", line 563, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 494, in wait_for
+    return fut.result()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/gateway.py", line 305, in from_client
+    gateway = gateway or await client.http.get_gateway()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/http.py", line 969, in get_gateway
+    raise GatewayNotFound() from exc
+discord.errors.GatewayNotFound: The gateway to connect to discord was not found.
+2022-09-11 19:39:23,533 ERROR: Attempting a reconnect in 654.91s
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/http.py", line 967, in get_gateway
+    data = await self.request(Route('GET', '/gateway'))
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/http.py", line 216, in request
+    raise HTTPException(r, data)
+discord.errors.HTTPException: 429 Too Many Requests (error code: 0): You are being blocked from accessing our API temporarily due to exceeding our rate limits frequently. Please read our docs at https://discord.com/developers/docs/topics/rate-limits to prevent this moving forward.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/client.py", line 563, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 494, in wait_for
+    return fut.result()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/gateway.py", line 305, in from_client
+    gateway = gateway or await client.http.get_gateway()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/http.py", line 969, in get_gateway
+    raise GatewayNotFound() from exc
+discord.errors.GatewayNotFound: The gateway to connect to discord was not found.
+2022-09-11 19:50:18,744 INFO: Shard ID None has sent the RESUME payload.
+2022-09-11 19:50:18,827 INFO: Shard ID None session has been invalidated.
+2022-09-11 19:50:18,911 INFO: Got a request to IDENTIFY the websocket.
+2022-09-11 19:50:24,072 INFO: Shard ID None has sent the IDENTIFY payload.
+2022-09-11 19:50:24,381 INFO: Shard ID None has connected to Gateway: ["gateway-prd-main-0tqr",{"micros":225978,"calls":["id_created",{"micros":606,"calls":[]},"session_lookup_time",{"micros":2988,"calls":[]},"session_lookup_finished",{"micros":14,"calls":[]},"discord-sessions-blue-prd-2-61",{"micros":221559,"calls":["start_session",{"micros":187006,"calls":["discord-api-595d596dbd-57g6z",{"micros":182226,"calls":["get_user",{"micros":131404},"get_guilds",{"micros":4343},"send_scheduled_deletion_message",{"micros":8},"guild_join_requests",{"micros":1},"authorized_ip_coro",{"micros":13}]}]},"starting_guild_connect",{"micros":27,"calls":[]},"presence_started",{"micros":7641,"calls":[]},"guilds_started",{"micros":26849,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":1,"calls":[]},"connect_finished",{"micros":7,"calls":[]},"build_ready",{"micros":26,"calls":[]},"optimize_ready",{"micros":0,"calls":[]},"split_ready",{"micros":1,"calls":[]},"clean_ready",{"micros":1,"calls":[]}]}]}] (Session ID: d097638a2e42c020ec9402145b0465ee).
+2022-09-11 19:50:26,440 INFO: 目前登入身份：神奇海螺#3847
+2022-09-11 20:12:36,712 INFO: Got a request to RESUME the websocket.
+2022-09-11 20:12:36,906 INFO: Shard ID None has sent the RESUME payload.
+2022-09-11 20:12:36,995 INFO: Shard ID None has successfully RESUMED session d097638a2e42c020ec9402145b0465ee under trace ["gateway-prd-main-wp25",{"micros":6463,"calls":["id_created",{"micros":0,"calls":[]},"session_lookup_time",{"micros":6072,"calls":[]},"session_lookup_finished",{"micros":13,"calls":[]},"discord-sessions-blue-prd-2-61",{"micros":32}]}].
+2022-09-11 23:12:38,881 INFO: Got a request to RESUME the websocket.
+2022-09-11 23:12:39,074 INFO: Shard ID None has sent the RESUME payload.
+2022-09-11 23:12:39,158 INFO: Shard ID None has successfully RESUMED session d097638a2e42c020ec9402145b0465ee under trace ["gateway-prd-main-89z9",{"micros":553,"calls":["id_created",{"micros":0,"calls":[]},"session_lookup_time",{"micros":286,"calls":[]},"session_lookup_finished",{"micros":19,"calls":[]},"discord-sessions-blue-prd-2-61",{"micros":18}]}].
+2022-09-12 00:59:07,844 INFO: Got a request to RESUME the websocket.
+2022-09-12 00:59:08,040 INFO: Shard ID None has sent the RESUME payload.
+2022-09-12 00:59:08,128 INFO: Shard ID None has successfully RESUMED session d097638a2e42c020ec9402145b0465ee under trace ["gateway-prd-main-n473",{"micros":601,"calls":["id_created",{"micros":0,"calls":[]},"session_lookup_time",{"micros":264,"calls":[]},"session_lookup_finished",{"micros":7,"calls":[]},"discord-sessions-blue-prd-2-61",{"micros":20}]}].
+2022-09-12 02:47:37,613 INFO: Got a request to RESUME the websocket.
+2022-09-12 02:47:37,825 INFO: Shard ID None has sent the RESUME payload.
+2022-09-12 02:47:37,909 INFO: Shard ID None has successfully RESUMED session d097638a2e42c020ec9402145b0465ee under trace ["gateway-prd-main-3p69",{"micros":643,"calls":["id_created",{"micros":0,"calls":[]},"session_lookup_time",{"micros":383,"calls":[]},"session_lookup_finished",{"micros":10,"calls":[]},"discord-sessions-blue-prd-2-61",{"micros":27}]}].
+2022-09-12 06:42:28,539 INFO: Got a request to RESUME the websocket.
+2022-09-12 06:42:28,730 INFO: Shard ID None has sent the RESUME payload.
+2022-09-12 06:42:28,824 INFO: Shard ID None has successfully RESUMED session d097638a2e42c020ec9402145b0465ee under trace ["gateway-prd-main-2rf5",{"micros":9053,"calls":["id_created",{"micros":0,"calls":[]},"session_lookup_time",{"micros":238,"calls":[]},"session_lookup_finished",{"micros":15,"calls":[]},"discord-sessions-blue-prd-2-61",{"micros":19}]}].
+2022-09-12 08:59:01,774 INFO: Got a request to RESUME the websocket.
+2022-09-12 08:59:01,960 INFO: Shard ID None has sent the RESUME payload.
+2022-09-12 08:59:02,040 INFO: Shard ID None has successfully RESUMED session d097638a2e42c020ec9402145b0465ee under trace ["gateway-prd-main-1mg1",{"micros":477,"calls":["id_created",{"micros":0,"calls":[]},"session_lookup_time",{"micros":250,"calls":[]},"session_lookup_finished",{"micros":22,"calls":[]},"discord-sessions-blue-prd-2-61",{"micros":17}]}].
+2022-09-12 09:39:00,390 INFO: Websocket closed with 1006, attempting a reconnect.
+2022-09-12 09:39:00,390 INFO: Got a request to RESUME the websocket.
+2022-09-12 09:39:00,578 INFO: Shard ID None has sent the RESUME payload.
+2022-09-12 09:39:00,658 INFO: Shard ID None has successfully RESUMED session d097638a2e42c020ec9402145b0465ee under trace ["gateway-prd-main-v7cv",{"micros":540,"calls":["id_created",{"micros":0,"calls":[]},"session_lookup_time",{"micros":260,"calls":[]},"session_lookup_finished",{"micros":13,"calls":[]},"discord-sessions-blue-prd-2-61",{"micros":17}]}].
+2022-09-12 10:13:28,738 INFO: Got a request to RESUME the websocket.
+2022-09-12 10:13:28,925 INFO: Shard ID None has sent the RESUME payload.
+2022-09-12 10:13:29,007 INFO: Shard ID None has successfully RESUMED session d097638a2e42c020ec9402145b0465ee under trace ["gateway-prd-main-4h0m",{"micros":515,"calls":["id_created",{"micros":0,"calls":[]},"session_lookup_time",{"micros":289,"calls":[]},"session_lookup_finished",{"micros":12,"calls":[]},"discord-sessions-blue-prd-2-61",{"micros":20}]}].
+2022-09-12 10:49:51,847 INFO: Got a request to RESUME the websocket.
+2022-09-12 10:49:52,017 INFO: Shard ID None has sent the RESUME payload.
+2022-09-12 10:49:52,096 INFO: Shard ID None has successfully RESUMED session d097638a2e42c020ec9402145b0465ee under trace ["gateway-prd-main-rg7d",{"micros":524,"calls":["id_created",{"micros":0,"calls":[]},"session_lookup_time",{"micros":299,"calls":[]},"session_lookup_finished",{"micros":13,"calls":[]},"discord-sessions-blue-prd-2-61",{"micros":16}]}].

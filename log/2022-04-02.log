@@ -1,0 +1,27 @@
+2022-04-02 04:46:19,428 INFO: logging in using static token
+2022-04-02 04:46:19,655 INFO: Shard ID None has sent the IDENTIFY payload.
+2022-04-02 04:46:19,802 INFO: Shard ID None has connected to Gateway: ["gateway-prd-main-k6dw",{"micros":107323,"calls":["discord-sessions-blue-prd-2-90",{"micros":106085,"calls":["start_session",{"micros":89097,"calls":["discord-api-7666969f8c-fjgfs",{"micros":82948,"calls":["get_user",{"micros":12758},"add_authorized_ip",{"micros":6131},"get_guilds",{"micros":13352},"coros_wait",{"micros":2}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":2323,"calls":[]}]}]}] (Session ID: e944831fb26d910065929bc5d279a2d3).
+2022-04-02 04:46:21,843 INFO: 目前登入身份：神奇海螺#3847
+2022-04-02 04:53:27,917 INFO: 飄飄的飄飄大仙 in 9又4分之8.7月台[打不出幹話就講出來啊]
+2022-04-02 04:53:27,955 INFO: Connecting to voice...
+2022-04-02 04:53:27,955 INFO: Starting voice handshake... (connection attempt 1)
+2022-04-02 04:53:28,688 INFO: Voice handshake complete. Endpoint found hongkong3490.discord.media
+2022-04-02 04:53:28,895 ERROR: Exception occurred during Voice Protocol voice server update handler
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/state.py", line 102, in logging_coroutine
+    await coroutine
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/voice_client.py", line 295, in on_voice_server_update
+    await self.ws.close(4000)
+AttributeError: 'NoneType' object has no attribute 'close'
+2022-04-02 04:53:29,904 INFO: selected the voice protocol for use (xsalsa20_poly1305_lite)
+2022-04-02 04:53:30,111 INFO: received secret key for voice connection
+2022-04-02 04:53:33,458 INFO: Preparing to terminate ffmpeg process 168.
+2022-04-02 04:53:33,458 INFO: ffmpeg process 168 successfully terminated with return code of 0.
+2022-04-02 04:53:36,372 INFO: Preparing to terminate ffmpeg process 179.
+2022-04-02 04:53:36,373 INFO: ffmpeg process 179 successfully terminated with return code of 0.
+2022-04-02 04:53:37,459 INFO: The voice handshake is being terminated for Channel ID 428109526550708238 (Guild ID 428109526550708234)
+2022-04-02 04:53:37,460 INFO: Disconnecting from voice normally, close code 1000.
+2022-04-02 09:17:54,703 INFO: logging in using static token
+2022-04-02 09:17:54,923 INFO: Shard ID None has sent the IDENTIFY payload.
+2022-04-02 09:17:55,029 INFO: Shard ID None has connected to Gateway: ["gateway-prd-main-wggp",{"micros":68293,"calls":["discord-sessions-blue-prd-2-81",{"micros":67123,"calls":["start_session",{"micros":52301,"calls":["discord-api-7666969f8c-89q5b",{"micros":47359,"calls":["get_user",{"micros":6448},"add_authorized_ip",{"micros":9809},"get_guilds",{"micros":6205},"coros_wait",{"micros":2}]}]},"guilds_connect",{"micros":29,"calls":[]},"presence_connect",{"micros":10241,"calls":[]}]}]}] (Session ID: b27153aba9953585249b156c15bbe346).
+2022-04-02 09:17:57,074 INFO: 目前登入身份：神奇海螺#3847

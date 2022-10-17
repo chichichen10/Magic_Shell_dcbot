@@ -60,7 +60,7 @@ async def on_voice_state_update(member, before, after):
         #     return
         # elif (429657581313720321 in player_ids):
         #     return
-        if (random.choice(range(1, 10)) == 1
+        if (random.choice(range(1, 50)) == 25
                 and user.voice.channel.name != '垃圾車'):
             guild = user.guild
             channel = await guild.create_voice_channel('垃圾車')
@@ -77,6 +77,8 @@ async def on_voice_state_update(member, before, after):
                      user.voice.channel.name + ']')
             if (name == '楓夜' and random.choice(range(1, 3)) == 1):
                 name = '他媽的孫偉夫'
+            if (name == 'Bananaa'):
+                name = '他媽的張耕綸'
             if (random.choice(range(1, 3)) == 1
                     and db.prefix("random_" + name)):
                 names = db.prefix("random_" + name)
@@ -103,7 +105,9 @@ async def on_voice_state_update(member, before, after):
                 welcome.export(welcome_voice, format="mp3")
             print(welcome_voice)
             dc_player.add(welcome_voice, voice_channel)
-            file_name = 'voice_' + str(random.choice(range(1, 17))) + '.mp3'
+            file_name = 'voice_' + str(random.choice(range(1, 19))) + '.mp3'
+            if (user.id == 429657581313720321):
+                file_name = 'voice_angry.mp3'
             print(file_name)
             dc_player.add(file_name, voice_channel)
             await dc_player.play()
@@ -121,6 +125,8 @@ async def on_voice_state_update(member, before, after):
                 name = 'Chee'
             if (name == '楓夜' and random.choice(range(1, 3)) == 1):
                 name = '他媽的孫偉夫'
+            if (name == 'Bananaa'):
+                name = '美國的走狗的張耕綸'
             name_voice_file = "name/" + name + ".mp3"
             bye_voice = "bye/" + name + ".mp3"
             if (not os.path.isfile(bye_voice)):
