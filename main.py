@@ -8,10 +8,13 @@ from gtts import gTTS
 from pydub import AudioSegment, effects
 from logger import logger as log
 from audio_player import DC_player
-import youtube_dl
-from youtube_search import YoutubeSearch
+from discord import app_commands
+# import youtube_dl
+# from youtube_search import YoutubeSearch
 
-client = discord.Client()
+intents = discord.Intents.default()
+intents.message_content = True
+client = discord.Client(command_prefix="!",intents=intents)
 
 dc_player = DC_player()
 
@@ -92,12 +95,12 @@ async def on_voice_state_update(member, before, after):
                 if (not os.path.isfile(name_voice_file)):
                     tts = gTTS(text=name, lang='zh-tw')
                     tts.save(name_voice_file)
-                pre_welcome = AudioSegment.from_mp3('prewelcome' +
+                pre_welcome = AudioSegment.from_mp3('voice/prewelcome' +
                                                     welcome_num + '.mp3')
                 name_voice_origin = AudioSegment.from_mp3(name_voice_file)
                 name_voice = effects.speedup(name_voice_origin, 1.3)
                 if (welcome_num == '2'):
-                    post_welcome = AudioSegment.from_mp3('postwelcome' +
+                    post_welcome = AudioSegment.from_mp3('voice/postwelcome' +
                                                          welcome_num + '.mp3')
                     welcome = pre_welcome + name_voice + post_welcome
                 else:
@@ -105,9 +108,9 @@ async def on_voice_state_update(member, before, after):
                 welcome.export(welcome_voice, format="mp3")
             print(welcome_voice)
             dc_player.add(welcome_voice, voice_channel)
-            file_name = 'voice_' + str(random.choice(range(1, 19))) + '.mp3'
+            file_name = 'voice/voice_' + str(random.choice(range(1, 25))) + '.mp3'
             if (user.id == 429657581313720321):
-                file_name = 'voice_angry.mp3'
+                file_name = 'voice/voice_angry.mp3'
             print(file_name)
             dc_player.add(file_name, voice_channel)
             await dc_player.play()
@@ -133,7 +136,7 @@ async def on_voice_state_update(member, before, after):
                 if (not os.path.isfile(name_voice_file)):
                     tts = gTTS(text=name, lang='zh-tw')
                     tts.save(name_voice_file)
-                pre_bye = AudioSegment.from_mp3('bye.mp3')
+                pre_bye = AudioSegment.from_mp3('voice/bye.mp3')
                 name_voice_origin = AudioSegment.from_mp3(name_voice_file)
                 name_voice = effects.speedup(name_voice_origin, 1.3)
                 bye = name_voice + pre_bye
@@ -372,6 +375,11 @@ async def on_message(message):
             '邁向財富自由\nhttps://max.maicoin.com/signup?r=1448ee5b')
         return
 
+    if message.content == '.sync' and message.author.name =='Chi':
+        tree.clear_commands(guild=message.guild)
+        await tree.sync()
+        new_msg = await message.channel.send('done')
+
     # if message.content.startswith('!阿致唱'):
     #     keyword = message.content.split()[1]
     #     results = YoutubeSearch(keyword, max_results=1).to_dict()
@@ -432,5 +440,85 @@ https://github.com/chichichen10/Magic_Shell_dcbot
     if random.choice([1, 2, 3]) == 1 and verbose:
         await message.channel.send(random.choice(a_msg))
 
+tree = app_commands.CommandTree(client)
 
-client.run(os.environ['BOT_TOKEN'])
+@tree.command(name='測試',description='拉基')
+@app_commands.describe(name='名字')
+async def test(interaction: discord.Interaction, name:discord.Member):
+    await interaction.response.send_message("Test "+ name.name)
+    await interaction.channel.send("Second "+ interaction.user.name)
+
+@tree.command(name='阿致嘴閉閉',description='叫阿致閉嘴')
+async def cmd_silent(interaction: discord.Interaction):
+    global verbose
+    if verbose:
+        await interaction.response.send_message('好啊都這樣')
+        verbose = False
+    else:
+        await interaction.response.send_message('到底想怎樣')
+
+@tree.command(name='阿致回來',description='回到阿致的懷抱')
+async def cmd_back(interaction: discord.Interaction):
+    global verbose
+    if not verbose:
+        await interaction.response.send_message('想不到吧')
+        verbose = True
+    else:
+        await interaction.response.send_message('回你媽')
+    
+@tree.command(name='拉進垃圾車',description='拉~進~垃~圾~車~~~')
+@app_commands.describe(user='是誰要被拉進去ㄋ')
+async def cmd_trash(interaction: discord.Interaction, user:discord.Member):
+    guild = interaction.user.guild
+    channel = await guild.create_voice_channel('垃圾車')
+    if user.voice:
+        await user.move_to(channel)
+        await interaction.response.send_message('<@' + str(user.id) + '> 下去')
+    
+@tree.command(name='阿致分隊',description='內戰啦內戰')
+@app_commands.describe()
+async def cmd_split(interaction: discord.Interaction):
+    guild = interaction.user.guild
+    user =interaction.user
+    if not user.voice:
+        await interaction.response.send_message('先進語音啦',ephemeral=True)
+        return
+    voice_channel = user.voice.channel
+    print(voice_channel.members)
+    players = voice_channel.members
+    if len(players) == 10:
+        random.shuffle(players)
+        await interaction.channel.send('藍方: ' +
+                                   ' ,'.join('<@' + str(x.id) + '> '
+                                             for x in players[:5]))
+        await interaction.channel.send('紅方: ' +
+                                   ' ,'.join('<@' + str(x.id) + '> '
+                                             for x in players[5:]))
+        new_msg = await interaction.channel.send('倒數5秒')
+        for i in range(5):
+            await asyncio.sleep(1)
+            await new_msg.edit(content='倒數' + str(4 - i) + '秒')
+        await asyncio.sleep(1)
+        await new_msg.edit(content='下去')
+        blue_channel = await guild.create_voice_channel('藍隊')
+        for player in players[:5]:
+            if player.voice:
+                await player.move_to(blue_channel)
+        red_channel = await guild.create_voice_channel('紅隊')
+        for player in players[5:]:
+            if player.voice:
+                await player.move_to(red_channel)
+    elif len(players) < 10:
+        await interaction.response.send_message('人不夠 北七',ephemeral=True)
+    elif len(players) > 10:
+        await interaction.response.send_message('人山人海 北七',ephemeral=True)
+    
+
+try:
+    client.run(os.environ['BOT_TOKEN'])
+    #only run when updated commands
+    # sync()
+except:
+    os.system("kill 1")
+    
+

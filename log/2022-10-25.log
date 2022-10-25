@@ -1,0 +1,72 @@
+2022-10-25 07:49:17,800 INFO: logging in using static token
+2022-10-25 07:49:18,406 INFO: Shard ID None has connected to Gateway (Session ID: ca6e92bc78fcfb44c05df9ca1c03ec2f).
+2022-10-25 07:49:20,411 INFO: 目前登入身份：神奇海螺#3847
+2022-10-25 09:56:09,086 INFO: Shard ID None has successfully RESUMED session ca6e92bc78fcfb44c05df9ca1c03ec2f.
+2022-10-25 13:05:10,269 INFO: logging in using static token
+2022-10-25 13:05:10,746 INFO: Shard ID None has connected to Gateway (Session ID: e3a2be57979ec0831eaa275fababbc4b).
+2022-10-25 13:05:12,750 INFO: 目前登入身份：神奇海螺#3847
+2022-10-25 14:00:00,048 INFO: Shard ID None has successfully RESUMED session e3a2be57979ec0831eaa275fababbc4b.
+2022-10-25 14:34:51,170 INFO: Shard ID None has successfully RESUMED session e3a2be57979ec0831eaa275fababbc4b.
+2022-10-25 14:48:23,681 INFO: Chi in 9又4分之8.7月台[123是什麼敷衍的名字]
+2022-10-25 14:48:23,803 INFO: Connecting to voice...
+2022-10-25 14:48:23,804 INFO: Starting voice handshake... (connection attempt 1)
+2022-10-25 14:48:24,004 INFO: Voice handshake complete. Endpoint found japan2626.discord.media
+2022-10-25 14:48:26,826 INFO: ffmpeg process 514 successfully terminated with return code of 0.
+2022-10-25 14:48:28,844 INFO: ffmpeg process 525 successfully terminated with return code of 0.
+2022-10-25 14:48:29,790 INFO: Fiven-chung in 9又4分之8.7月台[123是什麼敷衍的名字]
+2022-10-25 14:48:31,756 INFO: ffmpeg process 535 successfully terminated with return code of 0.
+2022-10-25 14:48:33,875 INFO: ffmpeg process 545 successfully terminated with return code of 0.
+2022-10-25 14:48:34,919 INFO: The voice handshake is being terminated for Channel ID 728631391809437746 (Guild ID 428109526550708234)
+2022-10-25 14:48:34,919 INFO: Disconnecting from voice normally, close code 1000.
+2022-10-25 14:48:52,279 INFO: 神奇海螺 in 9又4分之8.7月台[123是什麼敷衍的名字]
+2022-10-25 14:48:52,360 INFO: Connecting to voice...
+2022-10-25 14:48:52,360 INFO: Starting voice handshake... (connection attempt 1)
+2022-10-25 14:48:52,565 INFO: Voice handshake complete. Endpoint found japan2626.discord.media
+2022-10-25 14:48:56,589 INFO: ffmpeg process 572 successfully terminated with return code of 0.
+2022-10-25 14:49:03,332 INFO: ffmpeg process 582 successfully terminated with return code of 0.
+2022-10-25 14:49:04,375 INFO: The voice handshake is being terminated for Channel ID 728631391809437746 (Guild ID 428109526550708234)
+2022-10-25 14:49:04,376 INFO: Disconnecting from voice normally, close code 1000.
+2022-10-25 14:49:18,346 INFO: BunnyplayGG in 9又4分之8.7月台[123是什麼敷衍的名字]
+2022-10-25 14:49:18,466 INFO: Connecting to voice...
+2022-10-25 14:49:18,466 INFO: Starting voice handshake... (connection attempt 1)
+2022-10-25 14:49:18,655 INFO: Voice handshake complete. Endpoint found japan2626.discord.media
+2022-10-25 14:49:22,125 INFO: ffmpeg process 593 successfully terminated with return code of 0.
+2022-10-25 14:49:24,803 INFO: ffmpeg process 603 successfully terminated with return code of 0.
+2022-10-25 14:49:25,871 INFO: The voice handshake is being terminated for Channel ID 728631391809437746 (Guild ID 428109526550708234)
+2022-10-25 14:49:25,872 INFO: Disconnecting from voice normally, close code 1000.
+2022-10-25 14:54:35,567 INFO: 貓嗷嗚飄飄大仙 in 9又4分之8.7月台[123是什麼敷衍的名字]
+2022-10-25 14:54:35,636 INFO: Connecting to voice...
+2022-10-25 14:54:35,636 INFO: Starting voice handshake... (connection attempt 1)
+2022-10-25 14:54:35,850 INFO: Voice handshake complete. Endpoint found japan2626.discord.media
+2022-10-25 14:54:39,734 INFO: ffmpeg process 614 successfully terminated with return code of 0.
+2022-10-25 14:54:41,794 INFO: ffmpeg process 624 successfully terminated with return code of 0.
+2022-10-25 14:54:42,838 INFO: The voice handshake is being terminated for Channel ID 728631391809437746 (Guild ID 428109526550708234)
+2022-10-25 14:54:42,839 INFO: Disconnecting from voice normally, close code 1000.
+2022-10-25 15:10:27,309 INFO: Shard ID None has successfully RESUMED session e3a2be57979ec0831eaa275fababbc4b.
+2022-10-25 15:22:24,294 INFO: Shard ID None has successfully RESUMED session e3a2be57979ec0831eaa275fababbc4b.
+2022-10-25 15:45:43,394 INFO: Shard ID None has successfully RESUMED session e3a2be57979ec0831eaa275fababbc4b.
+2022-10-25 16:54:23,486 INFO: 貓嗷嗚飄飄大仙 out 9又4分之8.7月台[123是什麼敷衍的名字]
+2022-10-25 16:54:23,486 INFO: Connecting to voice...
+2022-10-25 16:54:23,487 INFO: Starting voice handshake... (connection attempt 1)
+2022-10-25 16:54:23,694 INFO: Voice handshake complete. Endpoint found japan2626.discord.media
+2022-10-25 16:54:27,374 INFO: ffmpeg process 994 successfully terminated with return code of 0.
+2022-10-25 16:54:28,446 INFO: The voice handshake is being terminated for Channel ID 728631391809437746 (Guild ID 428109526550708234)
+2022-10-25 16:54:28,448 INFO: Disconnecting from voice normally, close code 1000.
+2022-10-25 16:55:55,824 INFO: BunnyplayGG out 9又4分之8.7月台[123是什麼敷衍的名字]
+2022-10-25 16:55:55,824 INFO: Connecting to voice...
+2022-10-25 16:55:55,824 INFO: Starting voice handshake... (connection attempt 1)
+2022-10-25 16:55:56,032 INFO: Voice handshake complete. Endpoint found japan2626.discord.media
+2022-10-25 16:55:59,500 INFO: ffmpeg process 1005 successfully terminated with return code of 0.
+2022-10-25 16:56:00,554 INFO: The voice handshake is being terminated for Channel ID 728631391809437746 (Guild ID 428109526550708234)
+2022-10-25 16:56:00,555 INFO: Disconnecting from voice normally, close code 1000.
+2022-10-25 16:56:37,981 INFO: Chi out 9又4分之8.7月台[123是什麼敷衍的名字]
+2022-10-25 16:56:37,982 INFO: Connecting to voice...
+2022-10-25 16:56:37,982 INFO: Starting voice handshake... (connection attempt 1)
+2022-10-25 16:56:38,278 INFO: Voice handshake complete. Endpoint found japan2626.discord.media
+2022-10-25 16:56:38,972 INFO: Fiven-chung out 9又4分之8.7月台[123是什麼敷衍的名字]
+2022-10-25 16:56:40,974 INFO: ffmpeg process 1016 successfully terminated with return code of 0.
+2022-10-25 16:56:43,952 INFO: ffmpeg process 1026 successfully terminated with return code of 0.
+2022-10-25 16:56:45,044 INFO: The voice handshake is being terminated for Channel ID 728631391809437746 (Guild ID 428109526550708234)
+2022-10-25 16:56:45,045 INFO: Disconnecting from voice normally, close code 1000.
+2022-10-25 17:44:31,889 INFO: Shard ID None has successfully RESUMED session e3a2be57979ec0831eaa275fababbc4b.
+2022-10-25 17:57:42,193 INFO: Shard ID None has successfully RESUMED session e3a2be57979ec0831eaa275fababbc4b.

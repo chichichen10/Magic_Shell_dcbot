@@ -1,0 +1,906 @@
+2022-10-18 16:17:33,508 INFO: logging in using static token
+2022-10-18 16:17:33,612 INFO: Cleaning up tasks.
+2022-10-18 16:17:33,613 INFO: Closing the event loop.
+2022-10-18 17:28:16,013 INFO: logging in using static token
+2022-10-18 17:28:16,370 INFO: Shard ID None has sent the IDENTIFY payload.
+2022-10-18 17:28:16,495 INFO: Shard ID None has connected to Gateway: ["gateway-prd-us-east1-b-t6qs",{"micros":78992,"calls":["id_created",{"micros":928,"calls":[]},"session_lookup_time",{"micros":407,"calls":[]},"session_lookup_finished",{"micros":12,"calls":[]},"discord-sessions-green-prd-2-97",{"micros":76550,"calls":["start_session",{"micros":73227,"calls":["discord-api-6cb55d5df4-x4snx",{"micros":57546,"calls":["get_user",{"micros":24967},"get_guilds",{"micros":5166},"send_scheduled_deletion_message",{"micros":11},"guild_join_requests",{"micros":209},"authorized_ip_coro",{"micros":15}]}]},"starting_guild_connect",{"micros":55,"calls":[]},"presence_started",{"micros":459,"calls":[]},"guilds_started",{"micros":127,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":2656,"calls":[]},"connect_finished",{"micros":2661,"calls":[]},"build_ready",{"micros":19,"calls":[]},"optimize_ready",{"micros":0,"calls":[]},"split_ready",{"micros":0,"calls":[]},"clean_ready",{"micros":1,"calls":[]}]}]}] (Session ID: 335ad2a21690ee35516f53e56f17ef27).
+2022-10-18 17:28:18,527 INFO: 目前登入身份：神奇海螺#3847
+2022-10-18 17:28:27,022 INFO: 1 in test[一般]
+2022-10-18 17:28:27,032 INFO: Connecting to voice...
+2022-10-18 17:28:27,032 INFO: Starting voice handshake... (connection attempt 1)
+2022-10-18 17:28:27,138 INFO: Voice handshake complete. Endpoint found japan8185.discord.media
+2022-10-18 17:28:27,311 ERROR: Exception occurred during Voice Protocol voice server update handler
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/state.py", line 102, in logging_coroutine
+    await coroutine
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/voice_client.py", line 295, in on_voice_server_update
+    await self.ws.close(4000)
+AttributeError: 'NoneType' object has no attribute 'close'
+2022-10-18 17:28:28,033 INFO: selected the voice protocol for use (xsalsa20_poly1305_lite)
+2022-10-18 17:28:28,201 INFO: received secret key for voice connection
+2022-10-18 17:28:30,311 INFO: Preparing to terminate ffmpeg process 168.
+2022-10-18 17:28:30,312 INFO: ffmpeg process 168 successfully terminated with return code of 0.
+2022-10-18 17:28:32,884 INFO: Preparing to terminate ffmpeg process 187.
+2022-10-18 17:28:32,885 INFO: ffmpeg process 187 successfully terminated with return code of 0.
+2022-10-18 17:28:33,951 INFO: The voice handshake is being terminated for Channel ID 876364970638585882 (Guild ID 876364969904578591)
+2022-10-18 17:28:33,951 INFO: Disconnecting from voice normally, close code 1000.
+2022-10-18 17:28:34,642 INFO: 1 out test[一般]
+2022-10-18 17:28:34,643 INFO: Connecting to voice...
+2022-10-18 17:28:34,643 INFO: Starting voice handshake... (connection attempt 1)
+2022-10-18 17:28:34,738 INFO: Voice handshake complete. Endpoint found us-central4293.discord.media
+2022-10-18 17:28:34,886 INFO: selected the voice protocol for use (xsalsa20_poly1305_lite)
+2022-10-18 17:28:34,919 INFO: received secret key for voice connection
+2022-10-18 17:28:36,306 INFO: Preparing to terminate ffmpeg process 206.
+2022-10-18 17:28:36,306 INFO: ffmpeg process 206 successfully terminated with return code of 0.
+2022-10-18 17:28:37,331 INFO: The voice handshake is being terminated for Channel ID 876364970638585882 (Guild ID 876364969904578591)
+2022-10-18 17:28:37,332 INFO: Disconnecting from voice normally, close code 1000.
+2022-10-18 19:03:37,012 INFO: logging in using static token
+2022-10-18 19:03:38,641 INFO: Shard ID None has connected to Gateway (Session ID: 9a0406bc7ecc7a592ab6c44d96537e25).
+2022-10-18 19:03:40,657 INFO: 目前登入身份：神奇海螺#3847
+2022-10-18 19:11:52,849 INFO: logging in using static token
+2022-10-18 19:11:53,314 INFO: Shard ID None has connected to Gateway (Session ID: 22f00fa4ace6c58ee22db472c5fc4fce).
+2022-10-18 19:11:55,330 INFO: 目前登入身份：神奇海螺#3847
+2022-10-18 19:14:45,134 INFO: logging in using static token
+2022-10-18 19:14:45,636 INFO: Shard ID None has connected to Gateway (Session ID: 8bf0bd785011ab65a49421afbc1b9251).
+2022-10-18 19:14:47,775 INFO: 目前登入身份：神奇海螺#3847
+2022-10-18 19:16:29,841 INFO: logging in using static token
+2022-10-18 19:16:30,381 INFO: Shard ID None has connected to Gateway (Session ID: 5ee676198bb1a15d4550bf2be897624a).
+2022-10-18 19:16:32,385 INFO: 目前登入身份：神奇海螺#3847
+2022-10-18 19:18:00,657 INFO: logging in using static token
+2022-10-18 19:18:01,307 INFO: Shard ID None has connected to Gateway (Session ID: aaf82d38b8452a1862ca55aad68e79ba).
+2022-10-18 19:18:03,325 INFO: 目前登入身份：神奇海螺#3847
+2022-10-18 19:25:56,933 INFO: Chi in 9又4分之8.7月台[123是什麼敷衍的名字]
+2022-10-18 19:25:56,954 INFO: Connecting to voice...
+2022-10-18 19:25:56,954 INFO: Starting voice handshake... (connection attempt 1)
+2022-10-18 19:25:57,057 INFO: Voice handshake complete. Endpoint found japan5753.discord.media
+2022-10-18 19:25:57,220 ERROR: Exception occurred during Voice Protocol voice server update handler
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/state.py", line 157, in logging_coroutine
+    await coroutine
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/voice_client.py", line 337, in on_voice_server_update
+    await self.ws.close(4000)
+AttributeError: '_MissingSentinel' object has no attribute 'close'
+2022-10-18 19:25:59,829 INFO: Chi out 9又4分之8.7月台[123是什麼敷衍的名字]
+2022-10-18 19:26:00,314 INFO: ffmpeg process 2369 successfully terminated with return code of 0.
+2022-10-18 19:26:02,450 INFO: ffmpeg process 2388 successfully terminated with return code of 0.
+2022-10-18 19:26:05,021 INFO: ffmpeg process 2406 successfully terminated with return code of 0.
+2022-10-18 19:26:06,067 INFO: The voice handshake is being terminated for Channel ID 728631391809437746 (Guild ID 428109526550708234)
+2022-10-18 19:26:06,067 INFO: Disconnecting from voice normally, close code 1000.
+2022-10-18 19:33:09,049 INFO: logging in using static token
+2022-10-18 19:33:09,588 INFO: Shard ID None has connected to Gateway (Session ID: 9297449fc00a41d76e528a58ab4bd042).
+2022-10-18 19:33:11,618 INFO: 目前登入身份：神奇海螺#3847
+2022-10-18 19:33:23,711 INFO: logging in using static token
+2022-10-18 19:33:24,240 INFO: Shard ID None has connected to Gateway (Session ID: c459fb973e22380e2c44c5e2bb83843e).
+2022-10-18 19:33:26,268 INFO: 目前登入身份：神奇海螺#3847
+2022-10-18 19:35:36,592 INFO: logging in using static token
+2022-10-18 19:35:37,113 INFO: Shard ID None has connected to Gateway (Session ID: 6fffc50b1df7e2b08c4f457c0ef962e3).
+2022-10-18 19:35:39,132 INFO: 目前登入身份：神奇海螺#3847
+2022-10-18 19:36:24,540 INFO: logging in using static token
+2022-10-18 19:36:25,180 INFO: Shard ID None has connected to Gateway (Session ID: cde49a7443f2a4c99585b2d783b1502a).
+2022-10-18 19:36:27,195 INFO: 目前登入身份：神奇海螺#3847
+2022-10-18 19:36:39,379 INFO: done
+2022-10-18 19:43:36,021 INFO: Chi in 9又4分之8.7月台[123是什麼敷衍的名字]
+2022-10-18 19:43:36,042 INFO: Connecting to voice...
+2022-10-18 19:43:36,042 INFO: Starting voice handshake... (connection attempt 1)
+2022-10-18 19:43:36,152 INFO: Voice handshake complete. Endpoint found japan9888.discord.media
+2022-10-18 19:43:36,313 ERROR: Exception occurred during Voice Protocol voice server update handler
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/state.py", line 157, in logging_coroutine
+    await coroutine
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/voice_client.py", line 337, in on_voice_server_update
+    await self.ws.close(4000)
+AttributeError: '_MissingSentinel' object has no attribute 'close'
+2022-10-18 19:43:37,630 INFO: Chi out 9又4分之8.7月台[123是什麼敷衍的名字]
+2022-10-18 19:43:38,877 INFO: ffmpeg process 3416 successfully terminated with return code of 0.
+2022-10-18 19:43:42,288 INFO: ffmpeg process 3438 successfully terminated with return code of 0.
+2022-10-18 19:43:44,903 INFO: ffmpeg process 3459 successfully terminated with return code of 0.
+2022-10-18 19:43:45,948 INFO: The voice handshake is being terminated for Channel ID 728631391809437746 (Guild ID 428109526550708234)
+2022-10-18 19:43:45,949 INFO: Disconnecting from voice normally, close code 1000.
+2022-10-18 19:47:06,419 INFO: logging in using static token
+2022-10-18 19:47:07,037 INFO: Shard ID None has connected to Gateway (Session ID: a4020e64f3fe2eaefc52f9b3868d3703).
+2022-10-18 19:47:09,042 INFO: 目前登入身份：神奇海螺#3847
+2022-10-18 19:47:35,259 INFO: logging in using static token
+2022-10-18 19:47:35,760 INFO: Shard ID None has connected to Gateway (Session ID: c5f1f0d572cfb735122a5dc6d42a3044).
+2022-10-18 19:47:37,778 INFO: 目前登入身份：神奇海螺#3847
+2022-10-18 19:47:43,525 ERROR: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/client.py", line 409, in _run_event
+    await coro(*args, **kwargs)
+  File "main.py", line 379, in on_message
+    await tree.sync(message.guild)
+TypeError: sync() takes 1 positional argument but 2 were given
+2022-10-18 19:49:07,876 INFO: logging in using static token
+2022-10-18 19:49:08,313 INFO: Shard ID None has connected to Gateway (Session ID: 57c9e647a57c8aee57333b2f2a66790b).
+2022-10-18 19:49:10,325 INFO: 目前登入身份：神奇海螺#3847
+2022-10-18 19:49:30,105 ERROR: Ignoring exception in command tree
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/app_commands/tree.py", line 1089, in wrapper
+    await self._call(interaction)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/app_commands/tree.py", line 1219, in _call
+    command, options = self._get_app_command_options(data)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/app_commands/tree.py", line 1125, in _get_app_command_options
+    raise CommandNotFound(name, parents)
+discord.app_commands.errors.CommandNotFound: Application command 'sss' not found
+2022-10-18 19:51:02,831 INFO: logging in using static token
+2022-10-18 19:51:03,305 INFO: Shard ID None has connected to Gateway (Session ID: 831bd3e36e7cf09eb4c1bf08952dbced).
+2022-10-18 19:51:05,322 INFO: 目前登入身份：神奇海螺#3847
+2022-10-18 19:54:08,472 INFO: logging in using static token
+2022-10-18 19:54:09,002 INFO: Shard ID None has connected to Gateway (Session ID: caef0540b3382b78de81fb4616951370).
+2022-10-18 19:54:11,016 INFO: 目前登入身份：神奇海螺#3847
+2022-10-18 19:54:20,597 ERROR: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/client.py", line 409, in _run_event
+    await coro(*args, **kwargs)
+  File "main.py", line 379, in on_message
+    await tree.clear_commands(guild=message.guild)
+TypeError: object NoneType can't be used in 'await' expression
+2022-10-18 19:54:52,153 INFO: logging in using static token
+2022-10-18 19:54:52,659 INFO: Shard ID None has connected to Gateway (Session ID: 0428763dd5b1c7da387286546930d8b5).
+2022-10-18 19:54:54,677 INFO: 目前登入身份：神奇海螺#3847
+2022-10-18 19:55:45,962 INFO: logging in using static token
+2022-10-18 19:55:46,411 INFO: Shard ID None has connected to Gateway (Session ID: bcc444819bba96b3a31ed3c191a8f173).
+2022-10-18 19:55:48,422 INFO: 目前登入身份：神奇海螺#3847
+2022-10-18 19:55:55,761 ERROR: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/client.py", line 409, in _run_event
+    await coro(*args, **kwargs)
+  File "main.py", line 379, in on_message
+    tree.clear_commands()
+TypeError: clear_commands() missing 1 required keyword-only argument: 'guild'
+2022-10-18 19:56:14,468 INFO: logging in using static token
+2022-10-18 19:56:15,004 INFO: Shard ID None has connected to Gateway (Session ID: 7fcf33a0c2a6ef60724ad5b798f80833).
+2022-10-18 19:56:17,012 INFO: 目前登入身份：神奇海螺#3847
+2022-10-18 19:58:59,938 INFO: logging in using static token
+2022-10-18 19:59:00,538 INFO: Shard ID None has connected to Gateway (Session ID: 0517b0d76a5b9bc115a97d4e2874119b).
+2022-10-18 19:59:02,542 INFO: 目前登入身份：神奇海螺#3847
+2022-10-18 19:59:41,578 INFO: logging in using static token
+2022-10-18 19:59:42,110 INFO: Shard ID None has connected to Gateway (Session ID: b839d4b35d63067c63c06e7898dfe926).
+2022-10-18 19:59:50,513 INFO: logging in using static token
+2022-10-18 19:59:51,085 INFO: Shard ID None has connected to Gateway (Session ID: 3573634dab4a483c08c1f96909840bc1).
+2022-10-18 19:59:53,098 INFO: 目前登入身份：神奇海螺#3847
+2022-10-18 20:03:20,157 INFO: logging in using static token
+2022-10-18 20:03:20,692 INFO: Shard ID None has connected to Gateway (Session ID: 218cd626809759cf0b7ce1ca2b622563).
+2022-10-18 20:03:22,709 INFO: 目前登入身份：神奇海螺#3847
+2022-10-18 20:08:03,370 INFO: logging in using static token
+2022-10-18 20:08:03,931 INFO: Shard ID None has connected to Gateway (Session ID: 0ea88e2b853aee24e2d9d74ca4c4b1ba).
+2022-10-18 20:08:05,949 INFO: 目前登入身份：神奇海螺#3847
+2022-10-18 20:11:51,156 INFO: logging in using static token
+2022-10-18 20:11:51,708 INFO: Shard ID None has connected to Gateway (Session ID: f39cf09d1efe64b868d345de5bedb9f9).
+2022-10-18 20:11:53,713 INFO: 目前登入身份：神奇海螺#3847
+2022-10-18 20:12:27,557 ERROR: Ignoring exception in command tree
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/app_commands/tree.py", line 1089, in wrapper
+    await self._call(interaction)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/app_commands/tree.py", line 1219, in _call
+    command, options = self._get_app_command_options(data)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/app_commands/tree.py", line 1125, in _get_app_command_options
+    raise CommandNotFound(name, parents)
+discord.app_commands.errors.CommandNotFound: Application command 'test' not found
+2022-10-18 20:15:39,051 INFO: logging in using static token
+2022-10-18 20:15:40,084 INFO: Shard ID None has connected to Gateway (Session ID: 9c5285a3db15a77c31d8b2f9fb7d4a57).
+2022-10-18 20:15:42,118 INFO: 目前登入身份：神奇海螺#3847
+2022-10-18 20:21:42,269 INFO: logging in using static token
+2022-10-18 20:21:42,842 INFO: Shard ID None has connected to Gateway (Session ID: a7ea39bd4f2892fea0571b97c4388698).
+2022-10-18 20:21:44,851 INFO: 目前登入身份：神奇海螺#3847
+2022-10-18 20:37:48,138 INFO: logging in using static token
+2022-10-18 20:37:48,686 INFO: Shard ID None has connected to Gateway (Session ID: 4fd3924616c40117440f9e80530f8b8b).
+2022-10-18 20:37:50,699 INFO: 目前登入身份：神奇海螺#3847
+2022-10-18 20:40:29,514 INFO: logging in using static token
+2022-10-18 20:40:30,069 INFO: Shard ID None has connected to Gateway (Session ID: 6120fd25af7e1eb74604efbe6d5c2ed8).
+2022-10-18 20:40:32,074 INFO: 目前登入身份：神奇海螺#3847
+2022-10-18 20:41:33,886 ERROR: Ignoring exception in command '阿致嘴閉閉'
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/app_commands/commands.py", line 851, in _do_call
+    return await self._callback(interaction, **params)  # type: ignore
+  File "main.py", line 455, in cmd_silent
+    await interaction.response.send_message('好啊都這樣')
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/interactions.py", line 692, in send_message
+    raise InteractionResponded(self._parent)
+discord.errors.InteractionResponded: This interaction has already been responded to before
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/app_commands/tree.py", line 1240, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/app_commands/commands.py", line 876, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/app_commands/commands.py", line 869, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command '阿致嘴閉閉' raised an exception: InteractionResponded: This interaction has already been responded to before
+2022-10-18 20:42:22,414 INFO: logging in using static token
+2022-10-18 20:42:22,892 INFO: Shard ID None has connected to Gateway (Session ID: 5df9e1a8daaaa5a6556d14b0de4c8b78).
+2022-10-18 20:42:24,899 INFO: 目前登入身份：神奇海螺#3847
+2022-10-18 20:42:41,280 INFO: logging in using static token
+2022-10-18 20:42:41,821 INFO: Shard ID None has connected to Gateway (Session ID: 7501021cc07b57a25f9b42cceb434775).
+2022-10-18 20:42:43,852 INFO: 目前登入身份：神奇海螺#3847
+2022-10-18 21:19:34,667 INFO: logging in using static token
+2022-10-18 21:19:35,198 INFO: Shard ID None has connected to Gateway (Session ID: dc9348c6fbc1cbb6eabfc7c1f529029c).
+2022-10-18 21:19:37,212 INFO: 目前登入身份：神奇海螺#3847
+2022-10-18 21:38:48,767 INFO: logging in using static token
+2022-10-18 21:38:49,662 INFO: Shard ID None has connected to Gateway (Session ID: 265ddf4026bd838df436dd89035e4afb).
+2022-10-18 21:38:51,671 INFO: 目前登入身份：神奇海螺#3847
+2022-10-18 21:46:11,795 INFO: 1 in test[一般]
+2022-10-18 21:46:11,813 INFO: Connecting to voice...
+2022-10-18 21:46:11,813 INFO: Starting voice handshake... (connection attempt 1)
+2022-10-18 21:46:11,900 INFO: Voice handshake complete. Endpoint found japan2752.discord.media
+2022-10-18 21:46:12,055 ERROR: Exception occurred during Voice Protocol voice server update handler
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/state.py", line 157, in logging_coroutine
+    await coroutine
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/voice_client.py", line 337, in on_voice_server_update
+    await self.ws.close(4000)
+AttributeError: '_MissingSentinel' object has no attribute 'close'
+2022-10-18 21:46:15,049 INFO: ffmpeg process 10825 successfully terminated with return code of 0.
+2022-10-18 21:46:17,043 INFO: ffmpeg process 10844 successfully terminated with return code of 0.
+2022-10-18 21:46:18,085 INFO: The voice handshake is being terminated for Channel ID 876364970638585882 (Guild ID 876364969904578591)
+2022-10-18 21:46:18,086 INFO: Disconnecting from voice normally, close code 1000.
+2022-10-18 21:46:21,291 ERROR: Ignoring exception in command '拉進垃圾車'
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/app_commands/commands.py", line 851, in _do_call
+    return await self._callback(interaction, **params)  # type: ignore
+  File "main.py", line 470, in cmd_trash
+    guild = interaction.author.guild
+AttributeError: 'Interaction' object has no attribute 'author'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/app_commands/tree.py", line 1240, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/app_commands/commands.py", line 876, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/app_commands/commands.py", line 869, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command '拉進垃圾車' raised an exception: AttributeError: 'Interaction' object has no attribute 'author'
+2022-10-18 21:47:12,261 INFO: logging in using static token
+2022-10-18 21:47:12,787 INFO: Shard ID None has connected to Gateway (Session ID: 4231b2e5abfc7e4351f73a570ce97386).
+2022-10-18 21:47:14,798 INFO: 目前登入身份：神奇海螺#3847
+2022-10-18 21:47:40,740 ERROR: Ignoring exception in command '拉進垃圾車'
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/app_commands/commands.py", line 851, in _do_call
+    return await self._callback(interaction, **params)  # type: ignore
+  File "main.py", line 470, in cmd_trash
+    guild = user.author.guild
+AttributeError: 'Member' object has no attribute 'author'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/app_commands/tree.py", line 1240, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/app_commands/commands.py", line 876, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/app_commands/commands.py", line 869, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command '拉進垃圾車' raised an exception: AttributeError: 'Member' object has no attribute 'author'
+2022-10-18 21:48:11,895 ERROR: Ignoring exception in command '拉進垃圾車'
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/app_commands/commands.py", line 851, in _do_call
+    return await self._callback(interaction, **params)  # type: ignore
+  File "main.py", line 470, in cmd_trash
+    guild = user.author.guild
+AttributeError: 'Member' object has no attribute 'author'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/app_commands/tree.py", line 1240, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/app_commands/commands.py", line 876, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/app_commands/commands.py", line 869, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command '拉進垃圾車' raised an exception: AttributeError: 'Member' object has no attribute 'author'
+2022-10-18 21:48:45,644 INFO: logging in using static token
+2022-10-18 21:48:46,711 INFO: Shard ID None has connected to Gateway (Session ID: 44a3d8798ed5972b37464d79d07b83db).
+2022-10-18 21:48:48,714 INFO: 目前登入身份：神奇海螺#3847
+2022-10-18 21:51:06,921 INFO: Connecting to voice...
+2022-10-18 21:51:06,921 INFO: Starting voice handshake... (connection attempt 1)
+2022-10-18 21:51:07,558 INFO: Voice handshake complete. Endpoint found japan2873.discord.media
+2022-10-18 21:51:07,722 ERROR: Exception occurred during Voice Protocol voice server update handler
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/state.py", line 157, in logging_coroutine
+    await coroutine
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/voice_client.py", line 337, in on_voice_server_update
+    await self.ws.close(4000)
+AttributeError: '_MissingSentinel' object has no attribute 'close'
+2022-10-18 21:51:13,975 INFO: ffmpeg process 11014 successfully terminated with return code of 0.
+2022-10-18 21:51:15,054 INFO: The voice handshake is being terminated for Channel ID 1032048205422133338 (Guild ID 876364969904578591)
+2022-10-18 21:51:15,055 INFO: Disconnecting from voice normally, close code 1000.
+2022-10-18 21:51:29,371 INFO: Connecting to voice...
+2022-10-18 21:51:29,372 INFO: Starting voice handshake... (connection attempt 1)
+2022-10-18 21:51:29,587 INFO: Voice handshake complete. Endpoint found japan4506.discord.media
+2022-10-18 21:51:35,985 INFO: ffmpeg process 11034 successfully terminated with return code of 0.
+2022-10-18 21:51:37,063 INFO: The voice handshake is being terminated for Channel ID 1032048298049155082 (Guild ID 876364969904578591)
+2022-10-18 21:51:37,064 INFO: Disconnecting from voice normally, close code 1000.
+2022-10-18 21:53:10,934 INFO: logging in using static token
+2022-10-18 21:53:11,577 INFO: Shard ID None has connected to Gateway (Session ID: f19c5ac3adcccb60067455611b0fab0c).
+2022-10-18 21:53:13,584 INFO: 目前登入身份：神奇海螺#3847
+2022-10-18 21:55:12,148 INFO: 1 in test[一般]
+2022-10-18 21:55:12,163 INFO: Connecting to voice...
+2022-10-18 21:55:12,164 INFO: Starting voice handshake... (connection attempt 1)
+2022-10-18 21:55:12,381 INFO: Voice handshake complete. Endpoint found japan493.discord.media
+2022-10-18 21:55:15,531 INFO: ffmpeg process 11180 successfully terminated with return code of 0.
+2022-10-18 21:55:17,545 INFO: ffmpeg process 11199 successfully terminated with return code of 0.
+2022-10-18 21:55:18,567 INFO: The voice handshake is being terminated for Channel ID 876364970638585882 (Guild ID 876364969904578591)
+2022-10-18 21:55:18,568 INFO: Disconnecting from voice normally, close code 1000.
+2022-10-18 21:55:21,946 INFO: 1 out test[一般]
+2022-10-18 21:55:21,947 INFO: Connecting to voice...
+2022-10-18 21:55:21,947 INFO: Starting voice handshake... (connection attempt 1)
+2022-10-18 21:55:22,034 INFO: Voice handshake complete. Endpoint found us-central7398.discord.media
+2022-10-18 21:55:23,588 INFO: ffmpeg process 11218 successfully terminated with return code of 0.
+2022-10-18 21:55:24,612 INFO: The voice handshake is being terminated for Channel ID 876364970638585882 (Guild ID 876364969904578591)
+2022-10-18 21:55:24,613 INFO: Disconnecting from voice normally, close code 1000.
+2022-10-18 23:46:39,652 INFO: Shard ID None has successfully RESUMED session f19c5ac3adcccb60067455611b0fab0c.
+2022-10-19 01:31:31,307 INFO: logging in using static token
+2022-10-19 01:31:31,998 INFO: Shard ID None has connected to Gateway (Session ID: a1dbe51b0c76b80d4c6689a925b21209).
+2022-10-19 01:31:34,021 INFO: 目前登入身份：神奇海螺#3847
+2022-10-19 03:32:01,608 INFO: Shard ID None has successfully RESUMED session a1dbe51b0c76b80d4c6689a925b21209.
+2022-10-19 03:55:30,578 INFO: Shard ID None has successfully RESUMED session a1dbe51b0c76b80d4c6689a925b21209.
+2022-10-19 06:49:10,108 INFO: Shard ID None has successfully RESUMED session a1dbe51b0c76b80d4c6689a925b21209.
+2022-10-19 08:01:44,310 INFO: Shard ID None has successfully RESUMED session a1dbe51b0c76b80d4c6689a925b21209.
+2022-10-19 08:18:39,355 INFO: Shard ID None has successfully RESUMED session a1dbe51b0c76b80d4c6689a925b21209.
+2022-10-19 10:34:43,294 INFO: Shard ID None has successfully RESUMED session a1dbe51b0c76b80d4c6689a925b21209.
+2022-10-19 10:56:15,993 INFO: Shard ID None has successfully RESUMED session a1dbe51b0c76b80d4c6689a925b21209.
+2022-10-19 14:12:40,836 INFO: MaiMai的Pool in 9又4分之8.7月台[123是什麼敷衍的名字]
+2022-10-19 14:12:40,854 INFO: Connecting to voice...
+2022-10-19 14:12:40,854 INFO: Starting voice handshake... (connection attempt 1)
+2022-10-19 14:12:41,064 INFO: Voice handshake complete. Endpoint found hongkong3557.discord.media
+2022-10-19 14:12:41,218 ERROR: Exception occurred during Voice Protocol voice server update handler
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/state.py", line 157, in logging_coroutine
+    await coroutine
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/voice_client.py", line 337, in on_voice_server_update
+    await self.ws.close(4000)
+AttributeError: '_MissingSentinel' object has no attribute 'close'
+2022-10-19 14:12:45,260 INFO: ffmpeg process 1559 successfully terminated with return code of 0.
+2022-10-19 14:12:48,154 INFO: MaiMai的Pool in 9又4分之8.7月台[打不出幹話就講出來啊]
+2022-10-19 14:12:48,657 INFO: ffmpeg process 1570 successfully terminated with return code of 0.
+2022-10-19 14:12:49,712 INFO: The voice handshake is being terminated for Channel ID 728631391809437746 (Guild ID 428109526550708234)
+2022-10-19 14:12:49,713 INFO: Connecting to voice...
+2022-10-19 14:12:49,713 INFO: Starting voice handshake... (connection attempt 1)
+2022-10-19 14:12:49,713 INFO: Disconnecting from voice normally, close code 1000.
+2022-10-19 14:12:49,970 INFO: Voice handshake complete. Endpoint found hongkong9989.discord.media
+2022-10-19 14:12:54,165 INFO: ffmpeg process 1581 successfully terminated with return code of 0.
+2022-10-19 14:12:56,179 INFO: ffmpeg process 1591 successfully terminated with return code of 0.
+2022-10-19 14:12:57,203 INFO: The voice handshake is being terminated for Channel ID 428109526550708238 (Guild ID 428109526550708234)
+2022-10-19 14:12:57,203 INFO: Disconnecting from voice normally, close code 1000.
+2022-10-19 14:16:44,967 INFO: 貓嗷嗚飄飄大仙 in 9又4分之8.7月台[打不出幹話就講出來啊]
+2022-10-19 14:16:44,982 INFO: Connecting to voice...
+2022-10-19 14:16:44,983 INFO: Starting voice handshake... (connection attempt 1)
+2022-10-19 14:16:45,352 INFO: Voice handshake complete. Endpoint found hongkong9989.discord.media
+2022-10-19 14:16:49,494 INFO: ffmpeg process 1620 successfully terminated with return code of 0.
+2022-10-19 14:16:52,406 INFO: ffmpeg process 1630 successfully terminated with return code of 0.
+2022-10-19 14:16:53,500 INFO: The voice handshake is being terminated for Channel ID 428109526550708238 (Guild ID 428109526550708234)
+2022-10-19 14:16:53,501 INFO: Disconnecting from voice normally, close code 1000.
+2022-10-19 14:17:29,161 INFO: MaiMai的Pool out 9又4分之8.7月台[打不出幹話就講出來啊]
+2022-10-19 14:17:29,161 INFO: Connecting to voice...
+2022-10-19 14:17:29,161 INFO: Starting voice handshake... (connection attempt 1)
+2022-10-19 14:17:30,055 INFO: MaiMai的Pool in 9又4分之8.7月台[打不出幹話就講出來啊]
+2022-10-19 14:17:30,205 INFO: Voice handshake complete. Endpoint found hongkong9989.discord.media
+2022-10-19 14:17:33,661 INFO: ffmpeg process 1641 successfully terminated with return code of 0.
+2022-10-19 14:17:36,953 INFO: ffmpeg process 1651 successfully terminated with return code of 0.
+2022-10-19 14:17:39,045 INFO: ffmpeg process 1661 successfully terminated with return code of 0.
+2022-10-19 14:17:39,066 INFO: MaiMai的Pool out 9又4分之8.7月台[打不出幹話就講出來啊]
+2022-10-19 14:17:39,909 INFO: MaiMai的Pool in 9又4分之8.7月台[打不出幹話就講出來啊]
+2022-10-19 14:17:42,191 INFO: ffmpeg process 1671 successfully terminated with return code of 0.
+2022-10-19 14:17:45,482 INFO: ffmpeg process 1681 successfully terminated with return code of 0.
+2022-10-19 14:17:47,614 INFO: ffmpeg process 1691 successfully terminated with return code of 0.
+2022-10-19 14:17:48,620 INFO: The voice handshake is being terminated for Channel ID 428109526550708238 (Guild ID 428109526550708234)
+2022-10-19 14:17:48,621 INFO: Disconnecting from voice normally, close code 1000.
+2022-10-19 14:18:40,058 INFO: wawa的n in 9又4分之8.7月台[打不出幹話就講出來啊]
+2022-10-19 14:18:40,073 INFO: Connecting to voice...
+2022-10-19 14:18:40,073 INFO: Starting voice handshake... (connection attempt 1)
+2022-10-19 14:18:40,464 INFO: Voice handshake complete. Endpoint found hongkong9989.discord.media
+2022-10-19 14:18:44,570 INFO: ffmpeg process 1702 successfully terminated with return code of 0.
+2022-10-19 14:18:47,289 INFO: ffmpeg process 1712 successfully terminated with return code of 0.
+2022-10-19 14:18:48,338 INFO: The voice handshake is being terminated for Channel ID 428109526550708238 (Guild ID 428109526550708234)
+2022-10-19 14:18:48,339 INFO: Disconnecting from voice normally, close code 1000.
+2022-10-19 14:30:20,100 INFO: Shard ID None has successfully RESUMED session a1dbe51b0c76b80d4c6689a925b21209.
+2022-10-19 14:31:17,201 INFO: Chi in 9又4分之8.7月台[打不出幹話就講出來啊]
+2022-10-19 14:31:17,214 INFO: Connecting to voice...
+2022-10-19 14:31:17,215 INFO: Starting voice handshake... (connection attempt 1)
+2022-10-19 14:31:18,218 INFO: Voice handshake complete. Endpoint found hongkong9989.discord.media
+2022-10-19 14:31:21,278 INFO: ffmpeg process 1781 successfully terminated with return code of 0.
+2022-10-19 14:31:23,969 INFO: ffmpeg process 1791 successfully terminated with return code of 0.
+2022-10-19 14:31:25,036 INFO: The voice handshake is being terminated for Channel ID 428109526550708238 (Guild ID 428109526550708234)
+2022-10-19 14:31:25,036 INFO: Disconnecting from voice normally, close code 1000.
+2022-10-19 14:31:56,392 ERROR: Ignoring exception in command '拉進垃圾車'
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/app_commands/commands.py", line 851, in _do_call
+    return await self._callback(interaction, **params)  # type: ignore
+  File "main.py", line 472, in cmd_trash
+    channel = await guild.create_voice_channel('垃圾車')
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/guild.py", line 1427, in create_voice_channel
+    data = await self._create_channel(
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/http.py", line 680, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 429 Too Many Requests (error code: 0): <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en-US"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en-US"> <!--<![endif]-->
+<head>
+<title>Access denied | discord.com used Cloudflare to restrict access</title>
+<meta charset="UTF-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta name="robots" content="noindex, nofollow" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<link rel="stylesheet" id="cf_styles-css" href="/cdn-cgi/styles/main.css" />
+
+
+<script>
+(function(){if(document.addEventListener&&window.XMLHttpRequest&&JSON&&JSON.stringify){var e=function(a){var c=document.getElementById("error-feedback-survey"),d=document.getElementById("error-feedback-success"),b=new XMLHttpRequest;a={event:"feedback clicked",properties:{errorCode:1015,helpful:a,version:1}};b.open("POST","https://sparrow.cloudflare.com/api/v1/event");b.setRequestHeader("Content-Type","application/json");b.setRequestHeader("Sparrow-Source-Key","c771f0e4b54944bebf4261d44bd79a1e");
+b.send(JSON.stringify(a));c.classList.add("feedback-hidden");d.classList.remove("feedback-hidden")};document.addEventListener("DOMContentLoaded",function(){var a=document.getElementById("error-feedback"),c=document.getElementById("feedback-button-yes"),d=document.getElementById("feedback-button-no");"classList"in a&&(a.classList.remove("feedback-hidden"),c.addEventListener("click",function(){e(!0)}),d.addEventListener("click",function(){e(!1)}))})}})();
+</script>
+
+<script defer src="https://performance.radar.cloudflare.com/beacon.js"></script>
+</head>
+<body>
+  <div id="cf-wrapper">
+    <div class="cf-alert cf-alert-error cf-cookie-error hidden" id="cookie-alert" data-translate="enable_cookies">Please enable cookies.</div>
+    <div id="cf-error-details" class="p-0">
+      <header class="mx-auto pt-10 lg:pt-6 lg:px-8 w-240 lg:w-full mb-15 antialiased">
+         <h1 class="inline-block md:block mr-2 md:mb-2 font-light text-60 md:text-3xl text-black-dark leading-tight">
+           <span data-translate="error">Error</span>
+           <span>1015</span>
+         </h1>
+         <span class="inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed">Ray ID: 75ca38615f7e2b03 &bull;</span>
+         <span class="inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed">2022-10-19 14:31:56 UTC</span>
+        <h2 class="text-gray-600 leading-1.3 text-3xl lg:text-2xl font-light">You are being rate limited</h2>
+      </header>
+
+      <section class="w-240 lg:w-full mx-auto mb-8 lg:px-8">
+          <div id="what-happened-section" class="w-1/2 md:w-full">
+            <h2 class="text-3xl leading-tight font-normal mb-4 text-black-dark antialiased" data-translate="what_happened">What happened?</h2>
+            <p>The owner of this website (discord.com) has banned you temporarily from accessing this website.</p>
+            
+          </div>
+
+          
+      </section>
+
+      <div class="feedback-hidden py-8 text-center" id="error-feedback">
+    <div id="error-feedback-survey" class="footer-line-wrapper">
+        Was this page helpful?
+        <button class="border border-solid bg-white cf-button cursor-pointer ml-4 px-4 py-2 rounded" id="feedback-button-yes" type="button">Yes</button>
+        <button class="border border-solid bg-white cf-button cursor-pointer ml-4 px-4 py-2 rounded" id="feedback-button-no" type="button">No</button>
+    </div>
+    <div class="feedback-success feedback-hidden" id="error-feedback-success">
+        Thank you for your feedback!
+    </div>
+</div>
+
+
+      <div class="cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300">
+  <p class="text-13">
+    <span class="cf-footer-item sm:block sm:mb-1">Cloudflare Ray ID: <strong class="font-semibold">75ca38615f7e2b03</strong></span>
+    <span class="cf-footer-separator sm:hidden">&bull;</span>
+    <span id="cf-footer-item-ip" class="cf-footer-item hidden sm:block sm:mb-1">
+      Your IP:
+      <button type="button" id="cf-footer-ip-reveal" class="cf-footer-ip-reveal-btn">Click to reveal</button>
+      <span class="hidden" id="cf-footer-ip">34.172.113.134</span>
+      <span class="cf-footer-separator sm:hidden">&bull;</span>
+    </span>
+    <span class="cf-footer-item sm:block sm:mb-1"><span>Performance &amp; security by</span> <a rel="noopener noreferrer" href="https://www.cloudflare.com/5xx-error-landing" id="brand_link" target="_blank">Cloudflare</a></span>
+    
+  </p>
+  <script>(function(){function d(){var b=a.getElementById("cf-footer-item-ip"),c=a.getElementById("cf-footer-ip-reveal");b&&"classList"in b&&(b.classList.remove("hidden"),c.addEventListener("click",function(){c.classList.add("hidden");a.getElementById("cf-footer-ip").classList.remove("hidden")}))}var a=document;document.addEventListener&&a.addEventListener("DOMContentLoaded",d)})();</script>
+</div><!-- /.error-footer -->
+
+
+    </div><!-- /#cf-error-details -->
+  </div><!-- /#cf-wrapper -->
+
+  <script>
+  window._cf_translation = {};
+  
+  
+</script>
+
+<script>(function(){var js = "window['__CF$cv$params']={r:'75ca38615f7e2b03',m:'aU3dqjkuKmOpHYK6qFqH5UUMlj1hz3OKv_goynsz7yU-1666189916-0-AdzS4f7MqtPchIjRGDw4UTezM9W772kpOcf9EmuiSH7eD01OwRTqgKjL1BeHOcgFgdTSUlH1N3kbbfF/I9n3mnKgFMFa2hWY33uNWmPidAi8niiS/hUtaEi9ggzskCbExLuRJFyAHrk8YihrH8i1m2fNOf9Y4Clc6D6NZNvvXQxs',s:[0xea8c3187c7,0x6d13495bd0],u:'/cdn-cgi/challenge-platform/h/b'};var now=Date.now()/1000,offset=14400,ts=''+(Math.floor(now)-Math.floor(now%offset)),_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='/cdn-cgi/challenge-platform/h/b/scripts/alpha/invisible.js?ts='+ts,document.getElementsByTagName('head')[0].appendChild(_cpo);";var _0xh = document.createElement('iframe');_0xh.height = 1;_0xh.width = 1;_0xh.style.position = 'absolute';_0xh.style.top = 0;_0xh.style.left = 0;_0xh.style.border = 'none';_0xh.style.visibility = 'hidden';document.body.appendChild(_0xh);function handler() {var _0xi = _0xh.contentDocument || _0xh.contentWindow.document;if (_0xi) {var _0xj = _0xi.createElement('script');_0xj.nonce = '';_0xj.innerHTML = js;_0xi.getElementsByTagName('head')[0].appendChild(_0xj);}}if (document.readyState !== 'loading') {handler();} else if (window.addEventListener) {document.addEventListener('DOMContentLoaded', handler);} else {var prev = document.onreadystatechange || function () {};document.onreadystatechange = function (e) {prev(e);if (document.readyState !== 'loading') {document.onreadystatechange = prev;handler();}};}})();</script></body>
+</html>
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/app_commands/tree.py", line 1240, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/app_commands/commands.py", line 876, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/app_commands/commands.py", line 869, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command '拉進垃圾車' raised an exception: HTTPException: 429 Too Many Requests (error code: 0): <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en-US"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en-US"> <!--<![endif]-->
+<head>
+<title>Access denied | discord.com used Cloudflare to restrict access</title>
+<meta charset="UTF-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta name="robots" content="noindex, nofollow" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<link rel="stylesheet" id="cf_styles-css" href="/cdn-cgi/styles/main.css" />
+
+
+<script>
+(function(){if(document.addEventListener&&window.XMLHttpRequest&&JSON&&JSON.stringify){var e=function(a){var c=document.getElementById("error-feedback-survey"),d=document.getElementById("error-feedback-success"),b=new XMLHttpRequest;a={event:"feedback clicked",properties:{errorCode:1015,helpful:a,version:1}};b.open("POST","https://sparrow.cloudflare.com/api/v1/event");b.setRequestHeader("Content-Type","application/json");b.setRequestHeader("Sparrow-Source-Key","c771f0e4b54944bebf4261d44bd79a1e");
+b.send(JSON.stringify(a));c.classList.add("feedback-hidden");d.classList.remove("feedback-hidden")};document.addEventListener("DOMContentLoaded",function(){var a=document.getElementById("error-feedback"),c=document.getElementById("feedback-button-yes"),d=document.getElementById("feedback-button-no");"classList"in a&&(a.classList.remove("feedback-hidden"),c.addEventListener("click",function(){e(!0)}),d.addEventListener("click",function(){e(!1)}))})}})();
+</script>
+
+<script defer src="https://performance.radar.cloudflare.com/beacon.js"></script>
+</head>
+<body>
+  <div id="cf-wrapper">
+    <div class="cf-alert cf-alert-error cf-cookie-error hidden" id="cookie-alert" data-translate="enable_cookies">Please enable cookies.</div>
+    <div id="cf-error-details" class="p-0">
+      <header class="mx-auto pt-10 lg:pt-6 lg:px-8 w-240 lg:w-full mb-15 antialiased">
+         <h1 class="inline-block md:block mr-2 md:mb-2 font-light text-60 md:text-3xl text-black-dark leading-tight">
+           <span data-translate="error">Error</span>
+           <span>1015</span>
+         </h1>
+         <span class="inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed">Ray ID: 75ca38615f7e2b03 &bull;</span>
+         <span class="inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed">2022-10-19 14:31:56 UTC</span>
+        <h2 class="text-gray-600 leading-1.3 text-3xl lg:text-2xl font-light">You are being rate limited</h2>
+      </header>
+
+      <section class="w-240 lg:w-full mx-auto mb-8 lg:px-8">
+          <div id="what-happened-section" class="w-1/2 md:w-full">
+            <h2 class="text-3xl leading-tight font-normal mb-4 text-black-dark antialiased" data-translate="what_happened">What happened?</h2>
+            <p>The owner of this website (discord.com) has banned you temporarily from accessing this website.</p>
+            
+          </div>
+
+          
+      </section>
+
+      <div class="feedback-hidden py-8 text-center" id="error-feedback">
+    <div id="error-feedback-survey" class="footer-line-wrapper">
+        Was this page helpful?
+        <button class="border border-solid bg-white cf-button cursor-pointer ml-4 px-4 py-2 rounded" id="feedback-button-yes" type="button">Yes</button>
+        <button class="border border-solid bg-white cf-button cursor-pointer ml-4 px-4 py-2 rounded" id="feedback-button-no" type="button">No</button>
+    </div>
+    <div class="feedback-success feedback-hidden" id="error-feedback-success">
+        Thank you for your feedback!
+    </div>
+</div>
+
+
+      <div class="cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300">
+  <p class="text-13">
+    <span class="cf-footer-item sm:block sm:mb-1">Cloudflare Ray ID: <strong class="font-semibold">75ca38615f7e2b03</strong></span>
+    <span class="cf-footer-separator sm:hidden">&bull;</span>
+    <span id="cf-footer-item-ip" class="cf-footer-item hidden sm:block sm:mb-1">
+      Your IP:
+      <button type="button" id="cf-footer-ip-reveal" class="cf-footer-ip-reveal-btn">Click to reveal</button>
+      <span class="hidden" id="cf-footer-ip">34.172.113.134</span>
+      <span class="cf-footer-separator sm:hidden">&bull;</span>
+    </span>
+    <span class="cf-footer-item sm:block sm:mb-1"><span>Performance &amp; security by</span> <a rel="noopener noreferrer" href="https://www.cloudflare.com/5xx-error-landing" id="brand_link" target="_blank">Cloudflare</a></span>
+    
+  </p>
+  <script>(function(){function d(){var b=a.getElementById("cf-footer-item-ip"),c=a.getElementById("cf-footer-ip-reveal");b&&"classList"in b&&(b.classList.remove("hidden"),c.addEventListener("click",function(){c.classList.add("hidden");a.getElementById("cf-footer-ip").classList.remove("hidden")}))}var a=document;document.addEventListener&&a.addEventListener("DOMContentLoaded",d)})();</script>
+</div><!-- /.error-footer -->
+
+
+    </div><!-- /#cf-error-details -->
+  </div><!-- /#cf-wrapper -->
+
+  <script>
+  window._cf_translation = {};
+  
+  
+</script>
+
+<script>(function(){var js = "window['__CF$cv$params']={r:'75ca38615f7e2b03',m:'aU3dqjkuKmOpHYK6qFqH5UUMlj1hz3OKv_goynsz7yU-1666189916-0-AdzS4f7MqtPchIjRGDw4UTezM9W772kpOcf9EmuiSH7eD01OwRTqgKjL1BeHOcgFgdTSUlH1N3kbbfF/I9n3mnKgFMFa2hWY33uNWmPidAi8niiS/hUtaEi9ggzskCbExLuRJFyAHrk8YihrH8i1m2fNOf9Y4Clc6D6NZNvvXQxs',s:[0xea8c3187c7,0x6d13495bd0],u:'/cdn-cgi/challenge-platform/h/b'};var now=Date.now()/1000,offset=14400,ts=''+(Math.floor(now)-Math.floor(now%offset)),_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='/cdn-cgi/challenge-platform/h/b/scripts/alpha/invisible.js?ts='+ts,document.getElementsByTagName('head')[0].appendChild(_cpo);";var _0xh = document.createElement('iframe');_0xh.height = 1;_0xh.width = 1;_0xh.style.position = 'absolute';_0xh.style.top = 0;_0xh.style.left = 0;_0xh.style.border = 'none';_0xh.style.visibility = 'hidden';document.body.appendChild(_0xh);function handler() {var _0xi = _0xh.contentDocument || _0xh.contentWindow.document;if (_0xi) {var _0xj = _0xi.createElement('script');_0xj.nonce = '';_0xj.innerHTML = js;_0xi.getElementsByTagName('head')[0].appendChild(_0xj);}}if (document.readyState !== 'loading') {handler();} else if (window.addEventListener) {document.addEventListener('DOMContentLoaded', handler);} else {var prev = document.onreadystatechange || function () {};document.onreadystatechange = function (e) {prev(e);if (document.readyState !== 'loading') {document.onreadystatechange = prev;handler();}};}})();</script></body>
+</html>
+
+2022-10-19 14:32:11,712 ERROR: Ignoring exception in command '拉進垃圾車'
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/app_commands/commands.py", line 851, in _do_call
+    return await self._callback(interaction, **params)  # type: ignore
+  File "main.py", line 472, in cmd_trash
+    channel = await guild.create_voice_channel('垃圾車')
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/guild.py", line 1427, in create_voice_channel
+    data = await self._create_channel(
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/http.py", line 680, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 429 Too Many Requests (error code: 0): <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en-US"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en-US"> <!--<![endif]-->
+<head>
+<title>Access denied | discord.com used Cloudflare to restrict access</title>
+<meta charset="UTF-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta name="robots" content="noindex, nofollow" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<link rel="stylesheet" id="cf_styles-css" href="/cdn-cgi/styles/main.css" />
+
+
+<script>
+(function(){if(document.addEventListener&&window.XMLHttpRequest&&JSON&&JSON.stringify){var e=function(a){var c=document.getElementById("error-feedback-survey"),d=document.getElementById("error-feedback-success"),b=new XMLHttpRequest;a={event:"feedback clicked",properties:{errorCode:1015,helpful:a,version:1}};b.open("POST","https://sparrow.cloudflare.com/api/v1/event");b.setRequestHeader("Content-Type","application/json");b.setRequestHeader("Sparrow-Source-Key","c771f0e4b54944bebf4261d44bd79a1e");
+b.send(JSON.stringify(a));c.classList.add("feedback-hidden");d.classList.remove("feedback-hidden")};document.addEventListener("DOMContentLoaded",function(){var a=document.getElementById("error-feedback"),c=document.getElementById("feedback-button-yes"),d=document.getElementById("feedback-button-no");"classList"in a&&(a.classList.remove("feedback-hidden"),c.addEventListener("click",function(){e(!0)}),d.addEventListener("click",function(){e(!1)}))})}})();
+</script>
+
+<script defer src="https://performance.radar.cloudflare.com/beacon.js"></script>
+</head>
+<body>
+  <div id="cf-wrapper">
+    <div class="cf-alert cf-alert-error cf-cookie-error hidden" id="cookie-alert" data-translate="enable_cookies">Please enable cookies.</div>
+    <div id="cf-error-details" class="p-0">
+      <header class="mx-auto pt-10 lg:pt-6 lg:px-8 w-240 lg:w-full mb-15 antialiased">
+         <h1 class="inline-block md:block mr-2 md:mb-2 font-light text-60 md:text-3xl text-black-dark leading-tight">
+           <span data-translate="error">Error</span>
+           <span>1015</span>
+         </h1>
+         <span class="inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed">Ray ID: 75ca38c0ef862a21 &bull;</span>
+         <span class="inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed">2022-10-19 14:32:11 UTC</span>
+        <h2 class="text-gray-600 leading-1.3 text-3xl lg:text-2xl font-light">You are being rate limited</h2>
+      </header>
+
+      <section class="w-240 lg:w-full mx-auto mb-8 lg:px-8">
+          <div id="what-happened-section" class="w-1/2 md:w-full">
+            <h2 class="text-3xl leading-tight font-normal mb-4 text-black-dark antialiased" data-translate="what_happened">What happened?</h2>
+            <p>The owner of this website (discord.com) has banned you temporarily from accessing this website.</p>
+            
+          </div>
+
+          
+      </section>
+
+      <div class="feedback-hidden py-8 text-center" id="error-feedback">
+    <div id="error-feedback-survey" class="footer-line-wrapper">
+        Was this page helpful?
+        <button class="border border-solid bg-white cf-button cursor-pointer ml-4 px-4 py-2 rounded" id="feedback-button-yes" type="button">Yes</button>
+        <button class="border border-solid bg-white cf-button cursor-pointer ml-4 px-4 py-2 rounded" id="feedback-button-no" type="button">No</button>
+    </div>
+    <div class="feedback-success feedback-hidden" id="error-feedback-success">
+        Thank you for your feedback!
+    </div>
+</div>
+
+
+      <div class="cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300">
+  <p class="text-13">
+    <span class="cf-footer-item sm:block sm:mb-1">Cloudflare Ray ID: <strong class="font-semibold">75ca38c0ef862a21</strong></span>
+    <span class="cf-footer-separator sm:hidden">&bull;</span>
+    <span id="cf-footer-item-ip" class="cf-footer-item hidden sm:block sm:mb-1">
+      Your IP:
+      <button type="button" id="cf-footer-ip-reveal" class="cf-footer-ip-reveal-btn">Click to reveal</button>
+      <span class="hidden" id="cf-footer-ip">34.172.113.134</span>
+      <span class="cf-footer-separator sm:hidden">&bull;</span>
+    </span>
+    <span class="cf-footer-item sm:block sm:mb-1"><span>Performance &amp; security by</span> <a rel="noopener noreferrer" href="https://www.cloudflare.com/5xx-error-landing" id="brand_link" target="_blank">Cloudflare</a></span>
+    
+  </p>
+  <script>(function(){function d(){var b=a.getElementById("cf-footer-item-ip"),c=a.getElementById("cf-footer-ip-reveal");b&&"classList"in b&&(b.classList.remove("hidden"),c.addEventListener("click",function(){c.classList.add("hidden");a.getElementById("cf-footer-ip").classList.remove("hidden")}))}var a=document;document.addEventListener&&a.addEventListener("DOMContentLoaded",d)})();</script>
+</div><!-- /.error-footer -->
+
+
+    </div><!-- /#cf-error-details -->
+  </div><!-- /#cf-wrapper -->
+
+  <script>
+  window._cf_translation = {};
+  
+  
+</script>
+
+<script>(function(){var js = "window['__CF$cv$params']={r:'75ca38c0ef862a21',m:'aWuuu.vwf3hoboBIEueTqn3dVlXvYTEDs6UVAmDt7ks-1666189931-0-AVtqd1DoRya8naKSmLe9A19WMygtPWGK44i96Ae7Wq+Enhxz4fM/HiBjjeY/6qk0fpyLo2ozKTnyaqqO9RJ03vlkMy+Vk+VcKIw0Y9qZHj0ErYs1Gm6ZLu6Ud3s4+5RNZPjRe9m+eXmn8BEwDt4P7JDRwz6Oq9Rlpb25H72YA5W+',s:[0x248665e915,0x26ceb86218],u:'/cdn-cgi/challenge-platform/h/b'};var now=Date.now()/1000,offset=14400,ts=''+(Math.floor(now)-Math.floor(now%offset)),_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='/cdn-cgi/challenge-platform/h/b/scripts/alpha/invisible.js?ts='+ts,document.getElementsByTagName('head')[0].appendChild(_cpo);";var _0xh = document.createElement('iframe');_0xh.height = 1;_0xh.width = 1;_0xh.style.position = 'absolute';_0xh.style.top = 0;_0xh.style.left = 0;_0xh.style.border = 'none';_0xh.style.visibility = 'hidden';document.body.appendChild(_0xh);function handler() {var _0xi = _0xh.contentDocument || _0xh.contentWindow.document;if (_0xi) {var _0xj = _0xi.createElement('script');_0xj.nonce = '';_0xj.innerHTML = js;_0xi.getElementsByTagName('head')[0].appendChild(_0xj);}}if (document.readyState !== 'loading') {handler();} else if (window.addEventListener) {document.addEventListener('DOMContentLoaded', handler);} else {var prev = document.onreadystatechange || function () {};document.onreadystatechange = function (e) {prev(e);if (document.readyState !== 'loading') {document.onreadystatechange = prev;handler();}};}})();</script></body>
+</html>
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/app_commands/tree.py", line 1240, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/app_commands/commands.py", line 876, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/app_commands/commands.py", line 869, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command '拉進垃圾車' raised an exception: HTTPException: 429 Too Many Requests (error code: 0): <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en-US"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en-US"> <!--<![endif]-->
+<head>
+<title>Access denied | discord.com used Cloudflare to restrict access</title>
+<meta charset="UTF-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta name="robots" content="noindex, nofollow" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<link rel="stylesheet" id="cf_styles-css" href="/cdn-cgi/styles/main.css" />
+
+
+<script>
+(function(){if(document.addEventListener&&window.XMLHttpRequest&&JSON&&JSON.stringify){var e=function(a){var c=document.getElementById("error-feedback-survey"),d=document.getElementById("error-feedback-success"),b=new XMLHttpRequest;a={event:"feedback clicked",properties:{errorCode:1015,helpful:a,version:1}};b.open("POST","https://sparrow.cloudflare.com/api/v1/event");b.setRequestHeader("Content-Type","application/json");b.setRequestHeader("Sparrow-Source-Key","c771f0e4b54944bebf4261d44bd79a1e");
+b.send(JSON.stringify(a));c.classList.add("feedback-hidden");d.classList.remove("feedback-hidden")};document.addEventListener("DOMContentLoaded",function(){var a=document.getElementById("error-feedback"),c=document.getElementById("feedback-button-yes"),d=document.getElementById("feedback-button-no");"classList"in a&&(a.classList.remove("feedback-hidden"),c.addEventListener("click",function(){e(!0)}),d.addEventListener("click",function(){e(!1)}))})}})();
+</script>
+
+<script defer src="https://performance.radar.cloudflare.com/beacon.js"></script>
+</head>
+<body>
+  <div id="cf-wrapper">
+    <div class="cf-alert cf-alert-error cf-cookie-error hidden" id="cookie-alert" data-translate="enable_cookies">Please enable cookies.</div>
+    <div id="cf-error-details" class="p-0">
+      <header class="mx-auto pt-10 lg:pt-6 lg:px-8 w-240 lg:w-full mb-15 antialiased">
+         <h1 class="inline-block md:block mr-2 md:mb-2 font-light text-60 md:text-3xl text-black-dark leading-tight">
+           <span data-translate="error">Error</span>
+           <span>1015</span>
+         </h1>
+         <span class="inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed">Ray ID: 75ca38c0ef862a21 &bull;</span>
+         <span class="inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed">2022-10-19 14:32:11 UTC</span>
+        <h2 class="text-gray-600 leading-1.3 text-3xl lg:text-2xl font-light">You are being rate limited</h2>
+      </header>
+
+      <section class="w-240 lg:w-full mx-auto mb-8 lg:px-8">
+          <div id="what-happened-section" class="w-1/2 md:w-full">
+            <h2 class="text-3xl leading-tight font-normal mb-4 text-black-dark antialiased" data-translate="what_happened">What happened?</h2>
+            <p>The owner of this website (discord.com) has banned you temporarily from accessing this website.</p>
+            
+          </div>
+
+          
+      </section>
+
+      <div class="feedback-hidden py-8 text-center" id="error-feedback">
+    <div id="error-feedback-survey" class="footer-line-wrapper">
+        Was this page helpful?
+        <button class="border border-solid bg-white cf-button cursor-pointer ml-4 px-4 py-2 rounded" id="feedback-button-yes" type="button">Yes</button>
+        <button class="border border-solid bg-white cf-button cursor-pointer ml-4 px-4 py-2 rounded" id="feedback-button-no" type="button">No</button>
+    </div>
+    <div class="feedback-success feedback-hidden" id="error-feedback-success">
+        Thank you for your feedback!
+    </div>
+</div>
+
+
+      <div class="cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300">
+  <p class="text-13">
+    <span class="cf-footer-item sm:block sm:mb-1">Cloudflare Ray ID: <strong class="font-semibold">75ca38c0ef862a21</strong></span>
+    <span class="cf-footer-separator sm:hidden">&bull;</span>
+    <span id="cf-footer-item-ip" class="cf-footer-item hidden sm:block sm:mb-1">
+      Your IP:
+      <button type="button" id="cf-footer-ip-reveal" class="cf-footer-ip-reveal-btn">Click to reveal</button>
+      <span class="hidden" id="cf-footer-ip">34.172.113.134</span>
+      <span class="cf-footer-separator sm:hidden">&bull;</span>
+    </span>
+    <span class="cf-footer-item sm:block sm:mb-1"><span>Performance &amp; security by</span> <a rel="noopener noreferrer" href="https://www.cloudflare.com/5xx-error-landing" id="brand_link" target="_blank">Cloudflare</a></span>
+    
+  </p>
+  <script>(function(){function d(){var b=a.getElementById("cf-footer-item-ip"),c=a.getElementById("cf-footer-ip-reveal");b&&"classList"in b&&(b.classList.remove("hidden"),c.addEventListener("click",function(){c.classList.add("hidden");a.getElementById("cf-footer-ip").classList.remove("hidden")}))}var a=document;document.addEventListener&&a.addEventListener("DOMContentLoaded",d)})();</script>
+</div><!-- /.error-footer -->
+
+
+    </div><!-- /#cf-error-details -->
+  </div><!-- /#cf-wrapper -->
+
+  <script>
+  window._cf_translation = {};
+  
+  
+</script>
+
+<script>(function(){var js = "window['__CF$cv$params']={r:'75ca38c0ef862a21',m:'aWuuu.vwf3hoboBIEueTqn3dVlXvYTEDs6UVAmDt7ks-1666189931-0-AVtqd1DoRya8naKSmLe9A19WMygtPWGK44i96Ae7Wq+Enhxz4fM/HiBjjeY/6qk0fpyLo2ozKTnyaqqO9RJ03vlkMy+Vk+VcKIw0Y9qZHj0ErYs1Gm6ZLu6Ud3s4+5RNZPjRe9m+eXmn8BEwDt4P7JDRwz6Oq9Rlpb25H72YA5W+',s:[0x248665e915,0x26ceb86218],u:'/cdn-cgi/challenge-platform/h/b'};var now=Date.now()/1000,offset=14400,ts=''+(Math.floor(now)-Math.floor(now%offset)),_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='/cdn-cgi/challenge-platform/h/b/scripts/alpha/invisible.js?ts='+ts,document.getElementsByTagName('head')[0].appendChild(_cpo);";var _0xh = document.createElement('iframe');_0xh.height = 1;_0xh.width = 1;_0xh.style.position = 'absolute';_0xh.style.top = 0;_0xh.style.left = 0;_0xh.style.border = 'none';_0xh.style.visibility = 'hidden';document.body.appendChild(_0xh);function handler() {var _0xi = _0xh.contentDocument || _0xh.contentWindow.document;if (_0xi) {var _0xj = _0xi.createElement('script');_0xj.nonce = '';_0xj.innerHTML = js;_0xi.getElementsByTagName('head')[0].appendChild(_0xj);}}if (document.readyState !== 'loading') {handler();} else if (window.addEventListener) {document.addEventListener('DOMContentLoaded', handler);} else {var prev = document.onreadystatechange || function () {};document.onreadystatechange = function (e) {prev(e);if (document.readyState !== 'loading') {document.onreadystatechange = prev;handler();}};}})();</script></body>
+</html>
+
+2022-10-19 14:33:12,893 INFO: BunnyplayGG in 9又4分之8.7月台[打不出幹話就講出來啊]
+2022-10-19 14:33:12,916 INFO: Connecting to voice...
+2022-10-19 14:33:12,916 INFO: Starting voice handshake... (connection attempt 1)
+2022-10-19 14:33:13,243 INFO: Voice handshake complete. Endpoint found hongkong9989.discord.media
+2022-10-19 14:33:16,551 INFO: ffmpeg process 1915 successfully terminated with return code of 0.
+2022-10-19 14:33:19,423 INFO: ffmpeg process 1930 successfully terminated with return code of 0.
+2022-10-19 14:33:20,511 INFO: The voice handshake is being terminated for Channel ID 428109526550708238 (Guild ID 428109526550708234)
+2022-10-19 14:33:20,512 INFO: Disconnecting from voice normally, close code 1000.
+2022-10-19 14:33:43,781 INFO: logging in using static token
+2022-10-19 14:33:44,374 INFO: Shard ID None has connected to Gateway (Session ID: e441e0c183a74615cb51d163890feac8).
+2022-10-19 14:33:46,385 INFO: 目前登入身份：神奇海螺#3847
+2022-10-19 14:33:57,656 INFO: Connecting to voice...
+2022-10-19 14:33:57,656 INFO: Starting voice handshake... (connection attempt 1)
+2022-10-19 14:33:57,841 INFO: Voice handshake complete. Endpoint found hongkong145.discord.media
+2022-10-19 14:33:58,039 ERROR: Exception occurred during Voice Protocol voice server update handler
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/state.py", line 157, in logging_coroutine
+    await coroutine
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/voice_client.py", line 337, in on_voice_server_update
+    await self.ws.close(4000)
+AttributeError: '_MissingSentinel' object has no attribute 'close'
+2022-10-19 14:34:04,590 INFO: ffmpeg process 208 successfully terminated with return code of 0.
+2022-10-19 14:34:05,672 INFO: The voice handshake is being terminated for Channel ID 1032300579499802654 (Guild ID 428109526550708234)
+2022-10-19 14:34:05,673 INFO: Disconnecting from voice normally, close code 1000.
+2022-10-19 14:34:18,971 INFO: BunnyplayGG in 9又4分之8.7月台[打不出幹話就講出來啊]
+2022-10-19 14:34:19,041 INFO: Connecting to voice...
+2022-10-19 14:34:19,041 INFO: Starting voice handshake... (connection attempt 1)
+2022-10-19 14:34:19,296 INFO: Voice handshake complete. Endpoint found hongkong9989.discord.media
+2022-10-19 14:34:23,225 INFO: ffmpeg process 263 successfully terminated with return code of 0.
+2022-10-19 14:34:25,856 INFO: ffmpeg process 302 successfully terminated with return code of 0.
+2022-10-19 14:34:26,861 INFO: The voice handshake is being terminated for Channel ID 428109526550708238 (Guild ID 428109526550708234)
+2022-10-19 14:34:26,862 INFO: Disconnecting from voice normally, close code 1000.
+2022-10-19 14:37:41,084 INFO: Fiven-chung in 9又4分之8.7月台[打不出幹話就講出來啊]
+2022-10-19 14:37:41,180 INFO: Connecting to voice...
+2022-10-19 14:37:41,180 INFO: Starting voice handshake... (connection attempt 1)
+2022-10-19 14:37:41,437 INFO: Voice handshake complete. Endpoint found hongkong9989.discord.media
+2022-10-19 14:37:46,600 INFO: ffmpeg process 601 successfully terminated with return code of 0.
+2022-10-19 14:37:49,611 INFO: ffmpeg process 624 successfully terminated with return code of 0.
+2022-10-19 14:37:50,638 INFO: The voice handshake is being terminated for Channel ID 428109526550708238 (Guild ID 428109526550708234)
+2022-10-19 14:37:50,638 INFO: Disconnecting from voice normally, close code 1000.
+2022-10-19 14:59:16,676 INFO: 神奇海螺 in 9又4分之8.7月台[打不出幹話就講出來啊]
+2022-10-19 14:59:16,819 INFO: Connecting to voice...
+2022-10-19 14:59:16,819 INFO: Starting voice handshake... (connection attempt 1)
+2022-10-19 14:59:17,080 INFO: Voice handshake complete. Endpoint found hongkong9989.discord.media
+2022-10-19 14:59:20,834 INFO: ffmpeg process 1957 successfully terminated with return code of 0.
+2022-10-19 14:59:27,589 INFO: ffmpeg process 1979 successfully terminated with return code of 0.
+2022-10-19 14:59:28,629 INFO: The voice handshake is being terminated for Channel ID 428109526550708238 (Guild ID 428109526550708234)
+2022-10-19 14:59:28,630 INFO: Disconnecting from voice normally, close code 1000.
+2022-10-19 15:02:39,738 INFO: Lexor in 9又4分之8.7月台[打不出幹話就講出來啊]
+2022-10-19 15:02:39,744 INFO: Connecting to voice...
+2022-10-19 15:02:39,745 INFO: Starting voice handshake... (connection attempt 1)
+2022-10-19 15:02:40,178 INFO: Voice handshake complete. Endpoint found hongkong9989.discord.media
+2022-10-19 15:02:43,997 INFO: ffmpeg process 2217 successfully terminated with return code of 0.
+2022-10-19 15:02:45,489 INFO: ffmpeg process 2238 successfully terminated with return code of 0.
+2022-10-19 15:02:47,032 INFO: The voice handshake is being terminated for Channel ID 428109526550708238 (Guild ID 428109526550708234)
+2022-10-19 15:02:47,032 INFO: Disconnecting from voice normally, close code 1000.
+2022-10-19 15:41:47,691 INFO: Shard ID None has successfully RESUMED session e441e0c183a74615cb51d163890feac8.
+2022-10-19 15:46:23,712 INFO: 貓嗷嗚飄飄大仙 out 9又4分之8.7月台[打不出幹話就講出來啊]
+2022-10-19 15:46:23,712 INFO: Connecting to voice...
+2022-10-19 15:46:23,712 INFO: Starting voice handshake... (connection attempt 1)
+2022-10-19 15:46:24,094 INFO: Voice handshake complete. Endpoint found hongkong9989.discord.media
+2022-10-19 15:46:28,103 INFO: ffmpeg process 4595 successfully terminated with return code of 0.
+2022-10-19 15:46:29,171 INFO: The voice handshake is being terminated for Channel ID 428109526550708238 (Guild ID 428109526550708234)
+2022-10-19 15:46:29,171 INFO: Disconnecting from voice normally, close code 1000.
+2022-10-19 15:46:33,842 INFO: 貓嗷嗚飄飄大仙 in 9又4分之8.7月台[打不出幹話就講出來啊]
+2022-10-19 15:46:33,851 INFO: Connecting to voice...
+2022-10-19 15:46:33,852 INFO: Starting voice handshake... (connection attempt 1)
+2022-10-19 15:46:34,240 INFO: Voice handshake complete. Endpoint found hongkong9989.discord.media
+2022-10-19 15:46:38,835 INFO: ffmpeg process 4623 successfully terminated with return code of 0.
+2022-10-19 15:46:41,569 INFO: ffmpeg process 4647 successfully terminated with return code of 0.
+2022-10-19 15:46:42,634 INFO: The voice handshake is being terminated for Channel ID 428109526550708238 (Guild ID 428109526550708234)
+2022-10-19 15:46:42,634 INFO: Disconnecting from voice normally, close code 1000.
+2022-10-19 15:50:11,847 INFO: MaiMai的Pool out 9又4分之8.7月台[打不出幹話就講出來啊]
+2022-10-19 15:50:11,847 INFO: Connecting to voice...
+2022-10-19 15:50:11,847 INFO: Starting voice handshake... (connection attempt 1)
+2022-10-19 15:50:12,221 INFO: Voice handshake complete. Endpoint found hongkong9989.discord.media
+2022-10-19 15:50:15,683 INFO: ffmpeg process 4897 successfully terminated with return code of 0.
+2022-10-19 15:50:16,690 INFO: The voice handshake is being terminated for Channel ID 428109526550708238 (Guild ID 428109526550708234)
+2022-10-19 15:50:16,690 INFO: Disconnecting from voice normally, close code 1000.
+2022-10-19 15:50:21,120 INFO: wawa的n out 9又4分之8.7月台[打不出幹話就講出來啊]
+2022-10-19 15:50:21,120 INFO: Connecting to voice...
+2022-10-19 15:50:21,120 INFO: Starting voice handshake... (connection attempt 1)
+2022-10-19 15:50:21,229 INFO: Lexor out 9又4分之8.7月台[打不出幹話就講出來啊]
+2022-10-19 15:50:21,528 INFO: Voice handshake complete. Endpoint found hongkong9989.discord.media
+2022-10-19 15:50:24,867 INFO: ffmpeg process 4925 successfully terminated with return code of 0.
+2022-10-19 15:50:27,577 INFO: ffmpeg process 4946 successfully terminated with return code of 0.
+2022-10-19 15:50:28,604 INFO: The voice handshake is being terminated for Channel ID 428109526550708238 (Guild ID 428109526550708234)
+2022-10-19 15:50:28,604 INFO: Disconnecting from voice normally, close code 1000.
+2022-10-19 16:06:51,244 INFO: Shard ID None has successfully RESUMED session e441e0c183a74615cb51d163890feac8.
+2022-10-19 16:29:10,088 INFO: BunnyplayGG out 9又4分之8.7月台[打不出幹話就講出來啊]
+2022-10-19 16:29:10,088 INFO: Connecting to voice...
+2022-10-19 16:29:10,089 INFO: Starting voice handshake... (connection attempt 1)
+2022-10-19 16:29:10,466 INFO: Voice handshake complete. Endpoint found hongkong9989.discord.media
+2022-10-19 16:29:15,278 INFO: Chi out 9又4分之8.7月台[打不出幹話就講出來啊]
+2022-10-19 16:29:15,775 INFO: ffmpeg process 7327 successfully terminated with return code of 0.
+2022-10-19 16:29:17,725 INFO: Fiven-chung out 9又4分之8.7月台[打不出幹話就講出來啊]
+2022-10-19 16:29:18,397 INFO: ffmpeg process 7348 successfully terminated with return code of 0.
+2022-10-19 16:29:21,377 INFO: ffmpeg process 7369 successfully terminated with return code of 0.
+2022-10-19 16:29:22,464 INFO: The voice handshake is being terminated for Channel ID 428109526550708238 (Guild ID 428109526550708234)
+2022-10-19 16:29:22,465 INFO: Disconnecting from voice normally, close code 1000.
+2022-10-19 16:29:30,145 INFO: 貓嗷嗚飄飄大仙 out 9又4分之8.7月台[打不出幹話就講出來啊]
+2022-10-19 16:29:30,146 INFO: Connecting to voice...
+2022-10-19 16:29:30,146 INFO: Starting voice handshake... (connection attempt 1)
+2022-10-19 16:29:30,559 INFO: Voice handshake complete. Endpoint found hongkong9989.discord.media
+2022-10-19 16:29:34,507 INFO: ffmpeg process 7400 successfully terminated with return code of 0.
+2022-10-19 16:29:35,575 INFO: The voice handshake is being terminated for Channel ID 428109526550708238 (Guild ID 428109526550708234)
+2022-10-19 16:29:35,575 INFO: Disconnecting from voice normally, close code 1000.
+2022-10-19 17:27:59,054 INFO: Shard ID None has successfully RESUMED session e441e0c183a74615cb51d163890feac8.
+2022-10-19 20:25:02,975 INFO: Shard ID None has successfully RESUMED session e441e0c183a74615cb51d163890feac8.
+2022-10-19 20:46:10,942 INFO: Shard ID None has successfully RESUMED session e441e0c183a74615cb51d163890feac8.
