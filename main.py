@@ -3,12 +3,14 @@ import discord
 import random
 import os
 import asyncio
+import openai
 from replit import db
 from gtts import gTTS
 from pydub import AudioSegment, effects
 from logger import logger as log
 from audio_player import DC_player
 from discord import app_commands
+from asgiref.sync import sync_to_async
 # import youtube_dl
 # from youtube_search import YoutubeSearch
 
@@ -82,6 +84,8 @@ async def on_voice_state_update(member, before, after):
                 name = '他媽的孫偉夫'
             if (name == 'Bananaa'):
                 name = '他媽的張耕綸'
+            if (name == 'louiskkk28'):
+                name = '實驗室學長'
             if (random.choice(range(1, 3)) == 1
                     and db.prefix("random_" + name)):
                 names = db.prefix("random_" + name)
@@ -375,11 +379,30 @@ async def on_message(message):
             '邁向財富自由\nhttps://max.maicoin.com/signup?r=1448ee5b')
         return
 
+    if '!誒阿致' in message.content:
+        msg = message.content[5:]
+        openai.api_key = os.environ['OPEN_AI_API_KEY']
+        sup_words = ['不是誒老哥','哭啊','我要吐了']
+        mood=['不屑','不爽','生氣']
+        sup_sen = ''
+        if random.choice([1, 2]) == 1:
+            sup_sen = '(以'+random.choice(mood)+'的口吻回答，並在回答中加入"'+random.choice(sup_words)+'"")'
+            msg= msg+sup_sen
+        res = await sync_to_async(openai.Completion.create)(
+            model="text-davinci-003",
+            prompt=msg,
+            max_tokens=1000,
+            temperature=0.7
+        )
+        answer = res.choices[0]['text']  
+        await message.channel.send(answer)
+        return
+
     if message.content == '.sync' and message.author.name =='Chi':
         tree.clear_commands(guild=message.guild)
         await tree.sync()
         new_msg = await message.channel.send('done')
-
+        return
     # if message.content.startswith('!阿致唱'):
     #     keyword = message.content.split()[1]
     #     results = YoutubeSearch(keyword, max_results=1).to_dict()
@@ -438,7 +461,22 @@ https://github.com/chichichen10/Magic_Shell_dcbot
     ]
 
     if random.choice([1, 2, 3]) == 1 and verbose:
-        await message.channel.send(random.choice(a_msg))
+        msg = message.content
+        openai.api_key = os.environ['OPEN_AI_API_KEY']
+        sup_words = ['不是誒老哥','哭啊','我要吐了']
+        mood=['不屑','不爽','生氣']
+        sup_sen = ''
+        if random.choice([1]) == 1:
+            sup_sen = '(以'+random.choice(mood)+'的口吻回答，並在回答中加入"'+random.choice(sup_words)+'"")'
+            msg= msg+sup_sen
+        res = await sync_to_async(openai.Completion.create)(
+            model="text-davinci-003",
+            prompt=msg,
+            max_tokens=1000,
+            temperature=0.7
+        )
+        answer = res.choices[0]['text']  
+        await message.channel.send(answer)
 
 tree = app_commands.CommandTree(client)
 
@@ -513,7 +551,28 @@ async def cmd_split(interaction: discord.Interaction):
     elif len(players) > 10:
         await interaction.response.send_message('人山人海 北七',ephemeral=True)
     
+@tree.command(name='阿致抽籤',description='抽起來~')
+@app_commands.describe( options='選項 (用空格隔開)')
+async def cmd_draw(interaction: discord.Interaction, options: str):
+    option_list = options.split()
+    await interaction.response.send_message("就決定是"+ random.choice(option_list))
 
+
+@tree.command(name='誒阿致',description='跟阿致聊天')
+@app_commands.describe( message='要跟阿致講的話或要問阿致的事')
+async def cmd_talk(interaction: discord.Interaction, message: str):
+    openai.api_key = os.environ['OPEN_AI_API_KEY']
+    res = await sync_to_async(openai.Completion.create)(
+        model="text-davinci-003",
+        prompt=message,
+        max_tokens=1000,
+        temperature=0.5
+    )
+    answer = res.choices[0]['text']
+    
+    await interaction.response.send_message(answer)
+
+    
 try:
     client.run(os.environ['BOT_TOKEN'])
     #only run when updated commands
