@@ -1,0 +1,12 @@
+2022-04-25 21:41:44,651 INFO: logging in using static token
+2022-04-25 21:41:44,904 INFO: Shard ID None has sent the IDENTIFY payload.
+2022-04-25 21:41:45,012 INFO: Shard ID None has connected to Gateway: ["gateway-prd-main-h5x4",{"micros":69695,"calls":["discord-sessions-green-prd-2-103",{"micros":68827,"calls":["start_session",{"micros":46335,"calls":["discord-api-6c9df4dc56-q6f5c",{"micros":41248,"calls":["get_user",{"micros":10823},"add_authorized_ip",{"micros":1764},"get_guilds",{"micros":6965},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":57,"calls":[]},"presence_connect",{"micros":3412,"calls":[]}]}]}] (Session ID: 1e06e7edff506b1b019b9c7c4703abca).
+2022-04-25 21:41:47,066 INFO: 目前登入身份：神奇海螺#3847
+2022-04-26 06:58:10,512 INFO: logging in using static token
+2022-04-26 06:58:10,749 INFO: Shard ID None has sent the IDENTIFY payload.
+2022-04-26 06:58:10,876 INFO: Shard ID None has connected to Gateway: ["gateway-prd-main-czk8",{"micros":83560,"calls":["discord-sessions-green-prd-2-69",{"micros":82542,"calls":["start_session",{"micros":54475,"calls":["discord-api-595497d997-jdnl8",{"micros":50599,"calls":["get_user",{"micros":9071},"add_authorized_ip",{"micros":4501},"get_guilds",{"micros":10734},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":29,"calls":[]},"presence_connect",{"micros":21557,"calls":[]}]}]}] (Session ID: 0674e16f143c45c2a80db51f813c9d27).
+2022-04-26 06:58:13,215 INFO: 目前登入身份：神奇海螺#3847
+2022-04-26 10:57:51,761 INFO: logging in using static token
+2022-04-26 10:57:51,991 INFO: Shard ID None has sent the IDENTIFY payload.
+2022-04-26 10:57:52,135 INFO: Shard ID None has connected to Gateway: ["gateway-prd-main-1qq3",{"micros":106126,"calls":["discord-sessions-green-prd-2-24",{"micros":105009,"calls":["start_session",{"micros":51554,"calls":["discord-api-595497d997-f2vtj",{"micros":46445,"calls":["get_user",{"micros":8445},"add_authorized_ip",{"micros":2435},"get_guilds",{"micros":11908},"coros_wait",{"micros":2}]}]},"guilds_connect",{"micros":24,"calls":[]},"presence_connect",{"micros":21226,"calls":[]}]}]}] (Session ID: b090eaf296f0617fc87d6e439ba8bda2).
+2022-04-26 10:57:54,189 INFO: 目前登入身份：神奇海螺#3847

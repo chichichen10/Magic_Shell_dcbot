@@ -1,0 +1,28 @@
+2022-04-11 23:12:06,441 INFO: logging in using static token
+2022-04-11 23:12:06,687 INFO: Shard ID None has sent the IDENTIFY payload.
+2022-04-11 23:12:06,831 INFO: Shard ID None has connected to Gateway: ["gateway-prd-main-1mll",{"micros":105889,"calls":["discord-sessions-blue-prd-2-35",{"micros":104995,"calls":["start_session",{"micros":86489,"calls":["discord-api-5b5cd6cf64-fkcc6",{"micros":82343,"calls":["get_user",{"micros":15676},"add_authorized_ip",{"micros":6141},"get_guilds",{"micros":18373},"coros_wait",{"micros":2}]}]},"guilds_connect",{"micros":22,"calls":[]},"presence_connect",{"micros":6779,"calls":[]}]}]}] (Session ID: 832f04825fe391421180c71035ac25b7).
+2022-04-11 23:12:08,879 INFO: 目前登入身份：神奇海螺#3847
+2022-04-12 01:05:17,252 INFO: logging in using static token
+2022-04-12 01:05:17,533 INFO: Shard ID None has sent the IDENTIFY payload.
+2022-04-12 01:05:17,673 INFO: Shard ID None has connected to Gateway: ["gateway-prd-main-rp45",{"micros":94885,"calls":["discord-sessions-blue-prd-2-80",{"micros":94030,"calls":["start_session",{"micros":82175,"calls":["discord-api-658bb846d7-24cx2",{"micros":73244,"calls":["get_user",{"micros":13166},"add_authorized_ip",{"micros":5923},"get_guilds",{"micros":15622},"coros_wait",{"micros":3}]}]},"guilds_connect",{"micros":23,"calls":[]},"presence_connect",{"micros":1,"calls":[]}]}]}] (Session ID: 688b4415c253f49774e12e13f3eeea0e).
+2022-04-12 01:05:19,716 INFO: 目前登入身份：神奇海螺#3847
+2022-04-12 05:01:53,646 INFO: logging in using static token
+2022-04-12 05:01:53,878 INFO: Shard ID None has sent the IDENTIFY payload.
+2022-04-12 05:01:53,999 INFO: Shard ID None has connected to Gateway: ["gateway-prd-main-h4nl",{"micros":80851,"calls":["discord-sessions-blue-prd-2-32",{"micros":80017,"calls":["start_session",{"micros":46478,"calls":["discord-api-658bb846d7-tqqlq",{"micros":41615,"calls":["get_user",{"micros":8955},"add_authorized_ip",{"micros":1543},"get_guilds",{"micros":4891},"coros_wait",{"micros":2}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":2,"calls":[]}]}]}] (Session ID: 4a3210a01bd3643c20d07fcc57163807).
+2022-04-12 05:01:56,070 INFO: 目前登入身份：神奇海螺#3847
+2022-04-12 14:43:31,057 INFO: logging in using static token
+2022-04-12 14:43:31,392 INFO: Shard ID None has sent the IDENTIFY payload.
+2022-04-12 14:43:31,556 INFO: Shard ID None has connected to Gateway: ["gateway-prd-main-1kh0",{"micros":123439,"calls":["discord-sessions-blue-prd-2-40",{"micros":122414,"calls":["start_session",{"micros":110713,"calls":["discord-api-54b6d659b9-4cfns",{"micros":98336,"calls":["get_user",{"micros":16155},"add_authorized_ip",{"micros":6014},"get_guilds",{"micros":14536},"coros_wait",{"micros":3}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":2,"calls":[]}]}]}] (Session ID: 36334ce480e04b6fbbd8d1afad510cc9).
+2022-04-12 14:43:33,605 INFO: 目前登入身份：神奇海螺#3847
+2022-04-12 14:48:10,464 INFO: SparkleZ in 9又4分之8.7月台[藍隊]
+2022-04-12 14:48:10,503 INFO: Connecting to voice...
+2022-04-12 14:48:10,504 INFO: Starting voice handshake... (connection attempt 1)
+2022-04-12 14:49:02,834 INFO: SparkleZ in 9又4分之8.7月台[欸欸欸這樣配可以嗎(思]
+2022-04-12 14:49:03,102 INFO: wawa的n out 9又4分之8.7月台[藍隊]
+2022-04-12 14:49:10,507 INFO: The voice handshake is being terminated for Channel ID 963436445807308880 (Guild ID 428109526550708234)
+2022-04-12 14:49:10,507 INFO: The voice handshake is being terminated for Channel ID 963436445807308880 (Guild ID 428109526550708234)
+2022-04-12 14:49:11,775 INFO: BunnyplayGG in 9又4分之8.7月台[123是什麼敷衍的名字]
+2022-04-12 14:49:11,831 INFO: Connecting to voice...
+2022-04-12 14:49:11,832 INFO: Starting voice handshake... (connection attempt 1)
+2022-04-12 14:49:16,025 ERROR: Task was destroyed but it is pending!
+task: <Task pending name='Task-23' coro=<Event.wait() done, defined at /usr/lib/python3.8/asyncio/locks.py:296> wait_for=<Future pending cb=[<TaskWakeupMethWrapper object at 0x7f5b8972caf0>()]>>

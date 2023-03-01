@@ -1,0 +1,30 @@
+2022-02-18 19:02:34,403 INFO: logging in using static token
+2022-02-18 19:02:34,659 INFO: Shard ID None has sent the IDENTIFY payload.
+2022-02-18 19:02:34,800 INFO: Shard ID None has connected to Gateway: ["gateway-prd-main-8lpm",{"micros":102946,"calls":["discord-sessions-green-prd-2-113",{"micros":102014,"calls":["start_session",{"micros":60480,"calls":["api-prd-main-p4ls",{"micros":56015,"calls":["get_user",{"micros":2819},"add_authorized_ip",{"micros":4536},"get_guilds",{"micros":9924},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":6989,"calls":[]}]}]}] (Session ID: a06d49529bb73773f8fbe4084d085dfd).
+2022-02-18 19:02:36,826 INFO: 目前登入身份：神奇海螺#3847
+2022-02-19 13:16:17,797 INFO: logging in using static token
+2022-02-19 13:16:18,041 INFO: Shard ID None has sent the IDENTIFY payload.
+2022-02-19 13:16:18,184 INFO: Shard ID None has connected to Gateway: ["gateway-prd-main-ds4t",{"micros":104546,"calls":["discord-sessions-green-prd-2-121",{"micros":103560,"calls":["start_session",{"micros":48840,"calls":["api-prd-main-z90q",{"micros":44869,"calls":["get_user",{"micros":4554},"add_authorized_ip",{"micros":4563},"get_guilds",{"micros":12727},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":3,"calls":[]},"presence_connect",{"micros":1,"calls":[]}]}]}] (Session ID: cdbb90a3849d03805cea22179048c5e8).
+2022-02-19 13:16:20,286 INFO: 目前登入身份：神奇海螺#3847
+2022-02-19 13:36:43,640 INFO: Lexor in 9又4分之8.7月台[打不出幹話就講出來啊]
+2022-02-19 13:36:43,659 INFO: Connecting to voice...
+2022-02-19 13:36:43,660 INFO: Starting voice handshake... (connection attempt 1)
+2022-02-19 13:36:44,392 INFO: Voice handshake complete. Endpoint found japan325.discord.media
+2022-02-19 13:36:45,394 INFO: selected the voice protocol for use (xsalsa20_poly1305_lite)
+2022-02-19 13:36:45,566 INFO: received secret key for voice connection
+2022-02-19 13:36:47,641 INFO: Preparing to terminate ffmpeg process 127.
+2022-02-19 13:36:47,643 INFO: ffmpeg process 127 successfully terminated with return code of 0.
+2022-02-19 13:36:49,618 INFO: Preparing to terminate ffmpeg process 138.
+2022-02-19 13:36:49,619 INFO: ffmpeg process 138 successfully terminated with return code of 0.
+2022-02-19 13:36:50,804 INFO: The voice handshake is being terminated for Channel ID 428109526550708238 (Guild ID 428109526550708234)
+2022-02-19 13:36:50,805 INFO: Disconnecting from voice normally, close code 1000.
+2022-02-19 13:37:34,245 INFO: Lexor out 9又4分之8.7月台[打不出幹話就講出來啊]
+2022-02-19 13:37:34,246 INFO: Connecting to voice...
+2022-02-19 13:37:34,246 INFO: Starting voice handshake... (connection attempt 1)
+2022-02-19 13:37:34,559 INFO: Voice handshake complete. Endpoint found japan325.discord.media
+2022-02-19 13:37:35,573 INFO: selected the voice protocol for use (xsalsa20_poly1305_lite)
+2022-02-19 13:37:35,743 INFO: received secret key for voice connection
+2022-02-19 13:37:37,633 INFO: Preparing to terminate ffmpeg process 149.
+2022-02-19 13:37:37,633 INFO: ffmpeg process 149 successfully terminated with return code of 0.
+2022-02-19 13:37:37,758 INFO: The voice handshake is being terminated for Channel ID 428109526550708238 (Guild ID 428109526550708234)
+2022-02-19 13:37:37,759 INFO: Disconnecting from voice normally, close code 1000.

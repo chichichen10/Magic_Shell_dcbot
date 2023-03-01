@@ -1,0 +1,39 @@
+2022-01-23 05:23:02,478 INFO: logging in using static token
+2022-01-23 05:23:02,741 INFO: Shard ID None has sent the IDENTIFY payload.
+2022-01-23 05:23:02,848 INFO: Shard ID None has connected to Gateway: ["gateway-prd-main-flg1",{"micros":67246,"calls":["discord-sessions-green-prd-2-168",{"micros":66004,"calls":["start_session",{"micros":31081,"calls":["discord-api-6b9dc45c87-mht86",{"micros":27177,"calls":["get_user",{"micros":3735},"add_authorized_ip",{"micros":1678},"get_guilds",{"micros":4879},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":13084,"calls":[]}]}]}] (Session ID: 854fe94451d02d2e172200213b8e4854).
+2022-01-23 05:23:04,899 INFO: 目前登入身份：神奇海螺#3847
+2022-01-23 12:12:50,265 INFO: logging in using static token
+2022-01-23 12:12:50,518 INFO: Shard ID None has sent the IDENTIFY payload.
+2022-01-23 12:12:50,622 INFO: Shard ID None has connected to Gateway: ["gateway-prd-main-n33d",{"micros":63512,"calls":["discord-sessions-green-prd-2-175",{"micros":62785,"calls":["start_session",{"micros":50724,"calls":["discord-api-56cd49dd65-6w2pw",{"micros":46804,"calls":["get_user",{"micros":5623},"add_authorized_ip",{"micros":2781},"get_guilds",{"micros":11572},"coros_wait",{"micros":2}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":493,"calls":[]}]}]}] (Session ID: 551dcb7fb09c236d52cb7857f09e390a).
+2022-01-23 12:12:52,708 INFO: 目前登入身份：神奇海螺#3847
+2022-01-23 12:23:09,241 INFO: Lexor out 9又4分之8.7月台[打不出幹話就講出來啊]
+2022-01-23 12:23:09,241 INFO: Connecting to voice...
+2022-01-23 12:23:09,242 INFO: Starting voice handshake... (connection attempt 1)
+2022-01-23 12:23:10,191 INFO: Voice handshake complete. Endpoint found hongkong3901.discord.media
+2022-01-23 12:23:11,506 INFO: selected the voice protocol for use (xsalsa20_poly1305_lite)
+2022-01-23 12:23:11,728 INFO: received secret key for voice connection
+2022-01-23 12:23:13,651 INFO: Preparing to terminate ffmpeg process 124.
+2022-01-23 12:23:13,652 INFO: ffmpeg process 124 successfully terminated with return code of 0.
+2022-01-23 12:23:13,794 INFO: The voice handshake is being terminated for Channel ID 428109526550708238 (Guild ID 428109526550708234)
+2022-01-23 12:23:13,795 INFO: Disconnecting from voice normally, close code 1000.
+2022-01-23 12:53:32,665 INFO: logging in using static token
+2022-01-23 12:53:32,889 INFO: Shard ID None has sent the IDENTIFY payload.
+2022-01-23 12:53:33,052 INFO: Shard ID None has connected to Gateway: ["gateway-prd-main-gfgh",{"micros":123802,"calls":["discord-sessions-green-prd-2-89",{"micros":122842,"calls":["start_session",{"micros":104291,"calls":["api-prd-main-ds28",{"micros":101062,"calls":["get_user",{"micros":11101},"add_authorized_ip",{"micros":9548},"get_guilds",{"micros":34276},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":1,"calls":[]}]}]}] (Session ID: 4fde98024d0d069fc9576ff7b26d0a5c).
+2022-01-23 12:53:35,081 INFO: 目前登入身份：神奇海螺#3847
+2022-01-23 13:30:09,716 INFO: Maipool in 9又4分之8.7月台[打不出幹話就講出來啊]
+2022-01-23 13:30:09,734 INFO: Connecting to voice...
+2022-01-23 13:30:09,734 INFO: Starting voice handshake... (connection attempt 1)
+2022-01-23 13:30:10,672 INFO: Voice handshake complete. Endpoint found hongkong3901.discord.media
+2022-01-23 13:30:11,985 INFO: selected the voice protocol for use (xsalsa20_poly1305_lite)
+2022-01-23 13:30:12,206 INFO: received secret key for voice connection
+2022-01-23 13:30:14,897 INFO: Preparing to terminate ffmpeg process 125.
+2022-01-23 13:30:14,899 INFO: ffmpeg process 125 successfully terminated with return code of 0.
+2022-01-23 13:30:16,653 INFO: Preparing to terminate ffmpeg process 136.
+2022-01-23 13:30:16,653 INFO: ffmpeg process 136 successfully terminated with return code of 0.
+2022-01-23 13:30:18,061 INFO: The voice handshake is being terminated for Channel ID 428109526550708238 (Guild ID 428109526550708234)
+2022-01-23 13:30:18,062 INFO: Disconnecting from voice normally, close code 1000.
+2022-01-23 13:30:33,725 INFO: wan in 9又4分之8.7月台[打不出幹話就講出來啊]
+2022-01-23 13:30:33,759 INFO: Connecting to voice...
+2022-01-23 13:30:33,759 INFO: Starting voice handshake... (connection attempt 1)
+2022-01-23 13:30:34,107 INFO: Voice handshake complete. Endpoint found hongkong3901.discord.media
+2022-01-23 13:30:35,458 INFO: selected the voice protocol for use (xsalsa20_poly1305_lite)

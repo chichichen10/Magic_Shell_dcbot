@@ -1,0 +1,14 @@
+2022-01-10 22:46:01,034 INFO: logging in using static token
+2022-01-10 22:46:01,349 INFO: Shard ID None has sent the IDENTIFY payload.
+2022-01-10 22:46:01,467 INFO: Shard ID None has connected to Gateway: ["gateway-prd-main-w9l3",{"micros":79038,"calls":["discord-sessions-blue-prd-2-169",{"micros":78175,"calls":["start_session",{"micros":62964,"calls":["api-prd-main-198t",{"micros":59040,"calls":["get_user",{"micros":5255},"add_authorized_ip",{"micros":4045},"get_guilds",{"micros":13265},"coros_wait",{"micros":2}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":9582,"calls":[]}]}]}] (Session ID: 448fc472ee434fb0e6b507a9518f6784).
+2022-01-10 22:46:03,542 INFO: 目前登入身份：神奇海螺#3847
+2022-01-10 23:19:01,619 INFO: Got a request to RESUME the websocket.
+2022-01-10 23:19:01,811 INFO: Shard ID None has sent the RESUME payload.
+2022-01-10 23:19:01,848 INFO: Shard ID None has successfully RESUMED session 448fc472ee434fb0e6b507a9518f6784 under trace ["gateway-prd-main-g2b5",{"micros":563,"calls":["discord-sessions-blue-prd-2-169",{"micros":15}]}].
+2022-01-11 12:32:49,228 INFO: logging in using static token
+2022-01-11 12:32:49,457 INFO: Shard ID None has sent the IDENTIFY payload.
+2022-01-11 12:32:49,581 INFO: Shard ID None has connected to Gateway: ["gateway-prd-main-rfkq",{"micros":80539,"calls":["discord-sessions-blue-prd-2-39",{"micros":79465,"calls":["start_session",{"micros":35442,"calls":["api-prd-main-cnn7",{"micros":30920,"calls":["get_user",{"micros":3861},"add_authorized_ip",{"micros":1467},"get_guilds",{"micros":5707},"coros_wait",{"micros":2}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":40446,"calls":[]}]}]}] (Session ID: e86a907ffa1c42ff70cc6479a7383909).
+2022-01-11 12:32:51,617 INFO: 目前登入身份：神奇海螺#3847
+2022-01-11 12:56:02,780 INFO: Got a request to RESUME the websocket.
+2022-01-11 12:56:02,932 INFO: Shard ID None has sent the RESUME payload.
+2022-01-11 12:56:02,969 INFO: Shard ID None has successfully RESUMED session e86a907ffa1c42ff70cc6479a7383909 under trace ["gateway-prd-main-h3kg",{"micros":517,"calls":["discord-sessions-blue-prd-2-39",{"micros":17}]}].

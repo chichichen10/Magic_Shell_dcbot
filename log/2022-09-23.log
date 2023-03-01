@@ -1,0 +1,10 @@
+2022-09-23 00:46:47,809 INFO: logging in using static token
+2022-09-23 00:46:48,179 INFO: Shard ID None has sent the IDENTIFY payload.
+2022-09-23 00:46:48,394 INFO: Shard ID None has connected to Gateway: ["gateway-prd-us-east1-b-l72n",{"micros":124224,"calls":["id_created",{"micros":1247,"calls":[]},"session_lookup_time",{"micros":224,"calls":[]},"session_lookup_finished",{"micros":12,"calls":[]},"discord-sessions-blue-prd-2-76",{"micros":121740,"calls":["start_session",{"micros":55665,"calls":["discord-api-698bb66bd4-5nb2k",{"micros":47839,"calls":["get_user",{"micros":20031},"get_guilds",{"micros":4164},"send_scheduled_deletion_message",{"micros":12},"guild_join_requests",{"micros":2},"authorized_ip_coro",{"micros":13}]}]},"starting_guild_connect",{"micros":51,"calls":[]},"presence_started",{"micros":233,"calls":[]},"guilds_started",{"micros":125,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":65642,"calls":[]},"connect_finished",{"micros":65647,"calls":[]},"build_ready",{"micros":16,"calls":[]},"optimize_ready",{"micros":1,"calls":[]},"split_ready",{"micros":0,"calls":[]},"clean_ready",{"micros":1,"calls":[]}]}]}] (Session ID: e7b4db38252af2b6f355a15a37ec9937).
+2022-09-23 00:46:50,461 INFO: 目前登入身份：神奇海螺#3847
+2022-09-23 01:40:41,124 INFO: Got a request to RESUME the websocket.
+2022-09-23 01:40:41,336 INFO: Shard ID None has sent the RESUME payload.
+2022-09-23 01:40:41,430 INFO: Shard ID None has successfully RESUMED session e7b4db38252af2b6f355a15a37ec9937 under trace ["gateway-prd-us-east1-b-57nb",{"micros":458,"calls":["id_created",{"micros":0,"calls":[]},"session_lookup_time",{"micros":234,"calls":[]},"session_lookup_finished",{"micros":12,"calls":[]},"discord-sessions-blue-prd-2-76",{"micros":16}]}].
+2022-09-23 01:54:10,344 INFO: logging in using static token
+2022-09-23 01:54:10,419 INFO: Cleaning up tasks.
+2022-09-23 01:54:10,419 INFO: Closing the event loop.

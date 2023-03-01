@@ -1,0 +1,19 @@
+2022-02-04 05:00:47,545 INFO: logging in using static token
+2022-02-04 05:00:47,773 INFO: Shard ID None has sent the IDENTIFY payload.
+2022-02-04 05:00:47,939 INFO: Shard ID None has connected to Gateway: ["gateway-prd-main-9526",{"micros":125879,"calls":["discord-sessions-blue-prd-2-143",{"micros":125051,"calls":["start_session",{"micros":98658,"calls":["api-prd-main-5k38",{"micros":87692,"calls":["get_user",{"micros":6033},"add_authorized_ip",{"micros":15965},"get_guilds",{"micros":11071},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":3,"calls":[]},"presence_connect",{"micros":18632,"calls":[]}]}]}] (Session ID: 0d61f23fed15ef80553645603e0ab1c2).
+2022-02-04 05:00:49,970 INFO: 目前登入身份：神奇海螺#3847
+2022-02-04 06:01:33,976 INFO: SparkleZ in 9又4分之8.7月台[欸欸欸這樣配可以嗎(思]
+2022-02-04 06:01:34,006 INFO: Connecting to voice...
+2022-02-04 06:01:34,006 INFO: Starting voice handshake... (connection attempt 1)
+2022-02-04 06:01:34,580 INFO: Voice handshake complete. Endpoint found japan3132.discord.media
+2022-02-04 06:01:34,729 ERROR: Exception occurred during Voice Protocol voice server update handler
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/state.py", line 102, in logging_coroutine
+    await coroutine
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/voice_client.py", line 295, in on_voice_server_update
+    await self.ws.close(4000)
+AttributeError: 'NoneType' object has no attribute 'close'
+2022-02-04 06:01:35,579 INFO: selected the voice protocol for use (xsalsa20_poly1305_lite)
+2022-02-04 06:01:35,752 INFO: received secret key for voice connection
+2022-02-04 06:01:37,955 INFO: Preparing to terminate ffmpeg process 151.
+2022-02-04 06:01:37,955 INFO: ffmpeg process 151 successfully terminated with return code of 0.

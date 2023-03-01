@@ -1,0 +1,11 @@
+2022-02-16 17:04:18,928 INFO: logging in using static token
+2022-02-16 17:04:19,227 INFO: Shard ID None has sent the IDENTIFY payload.
+2022-02-16 17:04:19,348 INFO: Shard ID None has connected to Gateway: ["gateway-prd-main-62cv",{"micros":78589,"calls":["discord-sessions-green-prd-2-36",{"micros":76803,"calls":["start_session",{"micros":37487,"calls":["api-prd-main-gjfq",{"micros":33153,"calls":["get_user",{"micros":5095},"add_authorized_ip",{"micros":2075},"get_guilds",{"micros":5373},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":7484,"calls":[]}]}]}] (Session ID: 80fe0fd7c7e672cc60e720c2576d63ef).
+2022-02-17 02:07:57,781 INFO: logging in using static token
+2022-02-17 02:07:58,121 INFO: Shard ID None has sent the IDENTIFY payload.
+2022-02-17 02:07:58,245 INFO: Shard ID None has connected to Gateway: ["gateway-prd-main-ds4t",{"micros":81438,"calls":["discord-sessions-blue-prd-2-74",{"micros":77510,"calls":["start_session",{"micros":49600,"calls":["api-prd-main-vmhx",{"micros":44788,"calls":["get_user",{"micros":6600},"add_authorized_ip",{"micros":3195},"get_guilds",{"micros":6322},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":10331,"calls":[]}]}]}] (Session ID: 7e9feffa80e4a3355c11f5ca2a727886).
+2022-02-17 02:08:00,509 INFO: 目前登入身份：神奇海螺#3847
+2022-02-17 02:12:49,851 INFO: logging in using static token
+2022-02-17 02:12:50,123 INFO: Shard ID None has sent the IDENTIFY payload.
+2022-02-17 02:12:50,262 INFO: Shard ID None has connected to Gateway: ["gateway-prd-main-k1hv",{"micros":98607,"calls":["discord-sessions-blue-prd-2-20",{"micros":93844,"calls":["start_session",{"micros":89393,"calls":["api-prd-main-f41v",{"micros":83033,"calls":["get_user",{"micros":11858},"add_authorized_ip",{"micros":5941},"get_guilds",{"micros":17532},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":1,"calls":[]}]}]}] (Session ID: 4c7f96841b49fa666a574deb95314e6e).
+2022-02-17 02:12:52,294 INFO: 目前登入身份：神奇海螺#3847

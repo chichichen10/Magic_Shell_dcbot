@@ -1,0 +1,189 @@
+2022-06-04 21:22:44,533 INFO: logging in using static token
+2022-06-04 21:22:44,778 INFO: Shard ID None has sent the IDENTIFY payload.
+2022-06-04 21:22:44,868 INFO: Shard ID None has connected to Gateway: ["gateway-prd-main-d3nv",{"micros":52823,"calls":["discord-sessions-blue-prd-2-54",{"micros":50312,"calls":["start_session",{"micros":43700,"calls":["discord-api-bb88cc9b5-zrcws",{"micros":36741,"calls":["get_user",{"micros":7304},"add_authorized_ip",{"micros":1765},"get_guilds",{"micros":5117},"coros_wait",{"micros":2}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":1,"calls":[]}]}]}] (Session ID: 04f8f9441045712ff4d62b18f8f0f85c).
+2022-06-04 21:22:46,923 INFO: 目前登入身份：神奇海螺#3847
+2022-06-04 22:48:44,498 INFO: logging in using static token
+2022-06-04 22:48:44,748 INFO: Shard ID None has sent the IDENTIFY payload.
+2022-06-04 22:48:44,873 INFO: Shard ID None has connected to Gateway: ["gateway-prd-main-njrl",{"micros":86782,"calls":["discord-sessions-blue-prd-2-44",{"micros":83176,"calls":["start_session",{"micros":38959,"calls":["discord-api-bb88cc9b5-zzn5f",{"micros":33418,"calls":["get_user",{"micros":9851},"add_authorized_ip",{"micros":1383},"get_guilds",{"micros":4556},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":10158,"calls":[]}]}]}] (Session ID: 4ad18ec72ff9c14a3ea1c869f5f2f2bf).
+2022-06-04 22:48:46,936 INFO: 目前登入身份：神奇海螺#3847
+2022-06-05 00:09:40,211 INFO: logging in using static token
+2022-06-05 00:09:40,503 INFO: Shard ID None has sent the IDENTIFY payload.
+2022-06-05 00:09:40,607 INFO: Shard ID None has connected to Gateway: ["gateway-prd-main-v49w",{"micros":65999,"calls":["discord-sessions-blue-prd-2-167",{"micros":65144,"calls":["start_session",{"micros":47761,"calls":["discord-api-bb88cc9b5-jmsm6",{"micros":43486,"calls":["get_user",{"micros":8535},"add_authorized_ip",{"micros":1817},"get_guilds",{"micros":3961},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":0,"calls":[]}]}]}] (Session ID: 8d43779dbb2ebf9bd5547d3e9f927290).
+2022-06-05 00:09:42,713 INFO: 目前登入身份：神奇海螺#3847
+2022-06-05 00:20:59,529 INFO: logging in using static token
+2022-06-05 00:20:59,792 INFO: Shard ID None has sent the IDENTIFY payload.
+2022-06-05 00:20:59,945 INFO: Shard ID None has connected to Gateway: ["gateway-prd-main-w2h3",{"micros":112904,"calls":["discord-sessions-blue-prd-2-89",{"micros":111889,"calls":["start_session",{"micros":95813,"calls":["discord-api-bb88cc9b5-2wc29",{"micros":89933,"calls":["get_user",{"micros":22713},"add_authorized_ip",{"micros":11353},"get_guilds",{"micros":6430},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":8162,"calls":[]}]}]}] (Session ID: 35878e0ee084134d91e3558535a60b87).
+2022-06-05 00:21:02,065 INFO: 目前登入身份：神奇海螺#3847
+2022-06-05 00:36:43,100 INFO: Got a request to RESUME the websocket.
+2022-06-05 00:36:43,258 INFO: Shard ID None has sent the RESUME payload.
+2022-06-05 00:36:43,298 INFO: Shard ID None has successfully RESUMED session 35878e0ee084134d91e3558535a60b87 under trace ["gateway-prd-main-vhjr",{"micros":571,"calls":["discord-sessions-blue-prd-2-89",{"micros":21}]}].
+2022-06-05 01:30:40,451 INFO: Got a request to RESUME the websocket.
+2022-06-05 01:30:40,614 INFO: Shard ID None has sent the RESUME payload.
+2022-06-05 01:30:40,671 INFO: Shard ID None has successfully RESUMED session 35878e0ee084134d91e3558535a60b87 under trace ["gateway-prd-main-hr0t",{"micros":7397,"calls":["discord-sessions-blue-prd-2-89",{"micros":23}]}].
+2022-06-05 01:33:51,878 INFO: logging in using static token
+2022-06-05 01:33:52,132 INFO: Shard ID None has sent the IDENTIFY payload.
+2022-06-05 01:33:52,287 INFO: Shard ID None has connected to Gateway: ["gateway-prd-main-n5dl",{"micros":115635,"calls":["discord-sessions-blue-prd-2-169",{"micros":114652,"calls":["start_session",{"micros":50691,"calls":["discord-api-bb88cc9b5-8qjmq",{"micros":46442,"calls":["get_user",{"micros":12937},"add_authorized_ip",{"micros":3164},"get_guilds",{"micros":4704},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":2320,"calls":[]}]}]}] (Session ID: 945491bc34198cf9108d502cd01f0602).
+2022-06-05 01:33:54,331 INFO: 目前登入身份：神奇海螺#3847
+2022-06-05 04:55:12,235 INFO: Got a request to RESUME the websocket.
+2022-06-05 04:55:12,388 INFO: Shard ID None has sent the RESUME payload.
+2022-06-05 04:55:12,430 INFO: Shard ID None has successfully RESUMED session 945491bc34198cf9108d502cd01f0602 under trace ["gateway-prd-main-qx01",{"micros":670,"calls":["discord-sessions-blue-prd-2-169",{"micros":16}]}].
+2022-06-05 06:19:58,678 INFO: MaiMai的Pool in 9又4分之8.7月台[123是什麼敷衍的名字]
+2022-06-05 06:19:58,721 INFO: Connecting to voice...
+2022-06-05 06:19:58,721 INFO: Starting voice handshake... (connection attempt 1)
+2022-06-05 06:19:59,255 INFO: Voice handshake complete. Endpoint found japan125.discord.media
+2022-06-05 06:19:59,425 ERROR: Exception occurred during Voice Protocol voice server update handler
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/state.py", line 102, in logging_coroutine
+    await coroutine
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/voice_client.py", line 295, in on_voice_server_update
+    await self.ws.close(4000)
+AttributeError: 'NoneType' object has no attribute 'close'
+2022-06-05 06:20:00,257 INFO: selected the voice protocol for use (xsalsa20_poly1305_lite)
+2022-06-05 06:20:00,423 INFO: received secret key for voice connection
+2022-06-05 06:20:03,253 INFO: Preparing to terminate ffmpeg process 889.
+2022-06-05 06:20:03,253 INFO: ffmpeg process 889 successfully terminated with return code of 0.
+2022-06-05 06:20:06,032 INFO: Preparing to terminate ffmpeg process 900.
+2022-06-05 06:20:06,032 INFO: ffmpeg process 900 successfully terminated with return code of 0.
+2022-06-05 06:20:07,099 INFO: The voice handshake is being terminated for Channel ID 728631391809437746 (Guild ID 428109526550708234)
+2022-06-05 06:20:07,100 INFO: Disconnecting from voice normally, close code 1000.
+2022-06-05 06:23:17,690 INFO: wawa的n in 9又4分之8.7月台[123是什麼敷衍的名字]
+2022-06-05 06:23:17,704 INFO: Connecting to voice...
+2022-06-05 06:23:17,705 INFO: Starting voice handshake... (connection attempt 1)
+2022-06-05 06:23:18,453 INFO: Voice handshake complete. Endpoint found japan125.discord.media
+2022-06-05 06:23:19,445 INFO: selected the voice protocol for use (xsalsa20_poly1305_lite)
+2022-06-05 06:23:19,610 INFO: received secret key for voice connection
+2022-06-05 06:23:21,756 INFO: Preparing to terminate ffmpeg process 911.
+2022-06-05 06:23:21,757 INFO: ffmpeg process 911 successfully terminated with return code of 0.
+2022-06-05 06:23:24,569 INFO: Preparing to terminate ffmpeg process 921.
+2022-06-05 06:23:24,570 INFO: ffmpeg process 921 successfully terminated with return code of 0.
+2022-06-05 06:23:25,636 INFO: The voice handshake is being terminated for Channel ID 728631391809437746 (Guild ID 428109526550708234)
+2022-06-05 06:23:25,637 INFO: Disconnecting from voice normally, close code 1000.
+2022-06-05 06:27:53,054 INFO: Got a request to RESUME the websocket.
+2022-06-05 06:27:53,213 INFO: Shard ID None has sent the RESUME payload.
+2022-06-05 06:27:53,252 INFO: Shard ID None has successfully RESUMED session 945491bc34198cf9108d502cd01f0602 under trace ["gateway-prd-main-90ph",{"micros":444,"calls":["discord-sessions-blue-prd-2-169",{"micros":16}]}].
+2022-06-05 08:03:33,628 INFO: Got a request to RESUME the websocket.
+2022-06-05 08:03:33,778 INFO: Shard ID None has sent the RESUME payload.
+2022-06-05 08:03:33,835 INFO: Shard ID None has successfully RESUMED session 945491bc34198cf9108d502cd01f0602 under trace ["gateway-prd-main-8k6c",{"micros":19288,"calls":["discord-sessions-blue-prd-2-169",{"micros":20}]}].
+2022-06-05 09:00:50,727 INFO: BunnyplayGG in 9又4分之8.7月台[123是什麼敷衍的名字]
+2022-06-05 09:00:50,796 INFO: Connecting to voice...
+2022-06-05 09:00:50,796 INFO: Starting voice handshake... (connection attempt 1)
+2022-06-05 09:00:51,467 INFO: Voice handshake complete. Endpoint found japan125.discord.media
+2022-06-05 09:00:52,464 INFO: selected the voice protocol for use (xsalsa20_poly1305_lite)
+2022-06-05 09:00:52,629 INFO: received secret key for voice connection
+2022-06-05 09:00:55,023 INFO: Preparing to terminate ffmpeg process 1365.
+2022-06-05 09:00:55,025 INFO: ffmpeg process 1365 successfully terminated with return code of 0.
+2022-06-05 09:00:57,124 INFO: Preparing to terminate ffmpeg process 1375.
+2022-06-05 09:00:57,124 INFO: ffmpeg process 1375 successfully terminated with return code of 0.
+2022-06-05 09:00:58,168 INFO: The voice handshake is being terminated for Channel ID 728631391809437746 (Guild ID 428109526550708234)
+2022-06-05 09:00:58,168 INFO: Disconnecting from voice normally, close code 1000.
+2022-06-05 09:02:59,737 INFO: wawa的n out 9又4分之8.7月台[123是什麼敷衍的名字]
+2022-06-05 09:02:59,738 INFO: Connecting to voice...
+2022-06-05 09:02:59,739 INFO: Starting voice handshake... (connection attempt 1)
+2022-06-05 09:03:00,495 INFO: Voice handshake complete. Endpoint found japan125.discord.media
+2022-06-05 09:03:01,484 INFO: selected the voice protocol for use (xsalsa20_poly1305_lite)
+2022-06-05 09:03:01,648 INFO: received secret key for voice connection
+2022-06-05 09:03:01,987 INFO: BunnyplayGG out 9又4分之8.7月台[123是什麼敷衍的名字]
+2022-06-05 09:03:03,636 INFO: Preparing to terminate ffmpeg process 1386.
+2022-06-05 09:03:03,637 INFO: ffmpeg process 1386 successfully terminated with return code of 0.
+2022-06-05 09:03:07,028 INFO: Preparing to terminate ffmpeg process 1396.
+2022-06-05 09:03:07,030 INFO: ffmpeg process 1396 successfully terminated with return code of 0.
+2022-06-05 09:03:08,090 INFO: The voice handshake is being terminated for Channel ID 728631391809437746 (Guild ID 428109526550708234)
+2022-06-05 09:03:08,090 INFO: Disconnecting from voice normally, close code 1000.
+2022-06-05 09:03:12,280 INFO: MaiMai的Pool out 9又4分之8.7月台[123是什麼敷衍的名字]
+2022-06-05 09:03:12,280 INFO: Connecting to voice...
+2022-06-05 09:03:12,281 INFO: Starting voice handshake... (connection attempt 1)
+2022-06-05 09:03:12,457 INFO: Voice handshake complete. Endpoint found us-central4170.discord.media
+2022-06-05 09:03:12,571 INFO: selected the voice protocol for use (xsalsa20_poly1305_lite)
+2022-06-05 09:03:12,585 INFO: received secret key for voice connection
+2022-06-05 09:03:14,694 INFO: Preparing to terminate ffmpeg process 1407.
+2022-06-05 09:03:14,695 INFO: ffmpeg process 1407 successfully terminated with return code of 0.
+2022-06-05 09:03:15,706 INFO: The voice handshake is being terminated for Channel ID 728631391809437746 (Guild ID 428109526550708234)
+2022-06-05 09:03:15,706 INFO: Disconnecting from voice normally, close code 1000.
+2022-06-05 09:44:42,891 INFO: Got a request to RESUME the websocket.
+2022-06-05 09:44:43,060 INFO: Shard ID None has sent the RESUME payload.
+2022-06-05 09:44:43,098 INFO: Shard ID None has successfully RESUMED session 945491bc34198cf9108d502cd01f0602 under trace ["gateway-prd-main-whjq",{"micros":492,"calls":["discord-sessions-blue-prd-2-169",{"micros":18}]}].
+2022-06-05 09:49:31,827 INFO: Websocket closed with 1006, attempting a reconnect.
+2022-06-05 09:49:31,827 INFO: Got a request to RESUME the websocket.
+2022-06-05 09:49:31,978 INFO: Shard ID None has sent the RESUME payload.
+2022-06-05 09:49:32,020 INFO: Shard ID None has successfully RESUMED session 945491bc34198cf9108d502cd01f0602 under trace ["gateway-prd-main-ltm2",{"micros":620,"calls":["discord-sessions-blue-prd-2-169",{"micros":20}]}].
+2022-06-05 10:57:11,313 INFO: logging in using static token
+2022-06-05 10:57:11,377 INFO: Cleaning up tasks.
+2022-06-05 10:57:11,378 INFO: Closing the event loop.
+2022-06-05 10:59:58,033 INFO: logging in using static token
+2022-06-05 10:59:58,094 INFO: Cleaning up tasks.
+2022-06-05 10:59:58,094 INFO: Closing the event loop.
+2022-06-05 11:14:58,800 INFO: logging in using static token
+2022-06-05 11:14:58,865 INFO: Cleaning up tasks.
+2022-06-05 11:14:58,865 INFO: Closing the event loop.
+2022-06-05 11:29:57,869 INFO: logging in using static token
+2022-06-05 11:29:57,929 INFO: Cleaning up tasks.
+2022-06-05 11:29:57,929 INFO: Closing the event loop.
+2022-06-05 11:44:58,000 INFO: logging in using static token
+2022-06-05 11:44:58,064 INFO: Cleaning up tasks.
+2022-06-05 11:44:58,064 INFO: Closing the event loop.
+2022-06-05 11:57:00,501 INFO: logging in using static token
+2022-06-05 11:57:00,567 INFO: Cleaning up tasks.
+2022-06-05 11:57:00,567 INFO: Closing the event loop.
+2022-06-05 11:59:57,998 INFO: logging in using static token
+2022-06-05 11:59:58,065 INFO: Cleaning up tasks.
+2022-06-05 11:59:58,066 INFO: Closing the event loop.
+2022-06-05 12:14:58,400 INFO: logging in using static token
+2022-06-05 12:14:58,464 INFO: Cleaning up tasks.
+2022-06-05 12:14:58,464 INFO: Closing the event loop.
+2022-06-05 12:29:58,722 INFO: logging in using static token
+2022-06-05 12:29:58,788 INFO: Cleaning up tasks.
+2022-06-05 12:29:58,788 INFO: Closing the event loop.
+2022-06-05 12:44:58,587 INFO: logging in using static token
+2022-06-05 12:44:58,652 INFO: Cleaning up tasks.
+2022-06-05 12:44:58,652 INFO: Closing the event loop.
+2022-06-05 12:57:02,436 INFO: logging in using static token
+2022-06-05 12:57:02,504 INFO: Cleaning up tasks.
+2022-06-05 12:57:02,504 INFO: Closing the event loop.
+2022-06-05 12:59:58,877 INFO: logging in using static token
+2022-06-05 12:59:58,948 INFO: Cleaning up tasks.
+2022-06-05 12:59:58,949 INFO: Closing the event loop.
+2022-06-05 13:14:59,206 INFO: logging in using static token
+2022-06-05 13:14:59,277 INFO: Cleaning up tasks.
+2022-06-05 13:14:59,277 INFO: Closing the event loop.
+2022-06-05 13:29:58,740 INFO: logging in using static token
+2022-06-05 13:29:58,806 INFO: Cleaning up tasks.
+2022-06-05 13:29:58,806 INFO: Closing the event loop.
+2022-06-05 13:44:58,742 INFO: logging in using static token
+2022-06-05 13:44:58,812 INFO: Cleaning up tasks.
+2022-06-05 13:44:58,812 INFO: Closing the event loop.
+2022-06-05 13:57:06,736 INFO: logging in using static token
+2022-06-05 13:57:06,808 INFO: Cleaning up tasks.
+2022-06-05 13:57:06,809 INFO: Closing the event loop.
+2022-06-05 13:59:58,839 INFO: logging in using static token
+2022-06-05 13:59:58,912 INFO: Cleaning up tasks.
+2022-06-05 13:59:58,913 INFO: Closing the event loop.
+2022-06-05 14:14:59,155 INFO: logging in using static token
+2022-06-05 14:14:59,218 INFO: Cleaning up tasks.
+2022-06-05 14:14:59,219 INFO: Closing the event loop.
+2022-06-05 14:29:59,262 INFO: logging in using static token
+2022-06-05 14:29:59,333 INFO: Cleaning up tasks.
+2022-06-05 14:29:59,333 INFO: Closing the event loop.
+2022-06-05 14:44:59,281 INFO: logging in using static token
+2022-06-05 14:44:59,346 INFO: Cleaning up tasks.
+2022-06-05 14:44:59,346 INFO: Closing the event loop.
+2022-06-05 14:57:10,247 INFO: logging in using static token
+2022-06-05 14:57:10,328 INFO: Cleaning up tasks.
+2022-06-05 14:57:10,328 INFO: Closing the event loop.
+2022-06-05 15:00:00,200 INFO: logging in using static token
+2022-06-05 15:00:00,285 INFO: Cleaning up tasks.
+2022-06-05 15:00:00,285 INFO: Closing the event loop.
+2022-06-05 15:15:01,606 INFO: logging in using static token
+2022-06-05 15:15:01,681 INFO: Cleaning up tasks.
+2022-06-05 15:15:01,681 INFO: Closing the event loop.
+2022-06-05 15:30:00,921 INFO: logging in using static token
+2022-06-05 15:30:00,994 INFO: Cleaning up tasks.
+2022-06-05 15:30:00,994 INFO: Closing the event loop.
+2022-06-05 15:45:02,082 INFO: logging in using static token
+2022-06-05 15:45:02,156 INFO: Cleaning up tasks.
+2022-06-05 15:45:02,157 INFO: Closing the event loop.
+2022-06-05 15:57:14,133 INFO: logging in using static token
+2022-06-05 15:57:14,198 INFO: Cleaning up tasks.
+2022-06-05 15:57:14,198 INFO: Closing the event loop.
+2022-06-05 16:00:00,060 INFO: logging in using static token
+2022-06-05 16:00:00,146 INFO: Cleaning up tasks.
+2022-06-05 16:00:00,147 INFO: Closing the event loop.

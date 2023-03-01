@@ -1,0 +1,170 @@
+2022-12-13 18:11:47,927 INFO: logging in using static token
+2022-12-13 18:11:48,420 INFO: Shard ID None has connected to Gateway (Session ID: 27d34d68d8f5e4c12aee366b2d209f6a).
+2022-12-13 18:11:50,424 INFO: 目前登入身份：神奇海螺#3847
+2022-12-13 19:30:52,167 INFO: Shard ID None has successfully RESUMED session 27d34d68d8f5e4c12aee366b2d209f6a.
+2022-12-13 19:55:48,487 INFO: logging in using static token
+2022-12-13 19:55:49,283 INFO: Shard ID None has connected to Gateway (Session ID: 7695b0b2ea9bf61e9a35e380a44bf121).
+2022-12-13 19:55:51,286 INFO: 目前登入身份：神奇海螺#3847
+2022-12-13 22:14:12,199 INFO: Shard ID None has successfully RESUMED session 7695b0b2ea9bf61e9a35e380a44bf121.
+2022-12-13 23:28:54,622 INFO: Shard ID None has successfully RESUMED session 7695b0b2ea9bf61e9a35e380a44bf121.
+2022-12-14 01:03:22,183 INFO: logging in using static token
+2022-12-14 01:03:23,543 INFO: Shard ID None has connected to Gateway (Session ID: d0482f6505383a7b3560b0522f137781).
+2022-12-14 01:03:25,548 INFO: 目前登入身份：神奇海螺#3847
+2022-12-14 02:58:19,256 INFO: Shard ID None has successfully RESUMED session d0482f6505383a7b3560b0522f137781.
+2022-12-14 04:47:23,890 INFO: logging in using static token
+2022-12-14 04:47:24,540 INFO: Shard ID None has connected to Gateway (Session ID: d053f504e4d237aeff6d1d869f02a643).
+2022-12-14 04:47:26,565 INFO: 目前登入身份：神奇海螺#3847
+2022-12-14 07:50:22,080 INFO: Shard ID None has successfully RESUMED session d053f504e4d237aeff6d1d869f02a643.
+2022-12-14 11:39:54,567 INFO: Shard ID None has successfully RESUMED session d053f504e4d237aeff6d1d869f02a643.
+2022-12-14 12:41:07,343 INFO: 神奇海螺 in 9又4分之8.7月台[123是什麼敷衍的名字]
+2022-12-14 12:41:07,475 INFO: Connecting to voice...
+2022-12-14 12:41:07,475 INFO: Starting voice handshake... (connection attempt 1)
+2022-12-14 12:41:07,780 INFO: Voice handshake complete. Endpoint found hongkong3101.discord.media
+2022-12-14 12:41:11,679 INFO: ffmpeg process 909 successfully terminated with return code of 0.
+2022-12-14 12:41:20,128 INFO: ffmpeg process 920 successfully terminated with return code of 0.
+2022-12-14 12:41:21,179 INFO: The voice handshake is being terminated for Channel ID 728631391809437746 (Guild ID 428109526550708234)
+2022-12-14 12:41:21,179 INFO: Disconnecting from voice normally, close code 1000.
+2022-12-14 12:48:07,728 INFO: Shard ID None has successfully RESUMED session d053f504e4d237aeff6d1d869f02a643.
+2022-12-14 12:51:20,968 INFO: Shard ID None has successfully RESUMED session d053f504e4d237aeff6d1d869f02a643.
+2022-12-14 12:55:00,417 WARNING: Can't keep up, shard ID None websocket is 13.3s behind.
+2022-12-14 13:09:22,187 INFO: Shard ID None has successfully RESUMED session d053f504e4d237aeff6d1d869f02a643.
+2022-12-14 13:42:51,546 INFO: Chi in 9又4分之8.7月台[123是什麼敷衍的名字]
+2022-12-14 13:42:51,639 INFO: Connecting to voice...
+2022-12-14 13:42:51,639 INFO: Starting voice handshake... (connection attempt 1)
+2022-12-14 13:42:51,938 INFO: Voice handshake complete. Endpoint found hongkong3101.discord.media
+2022-12-14 13:42:54,619 INFO: ffmpeg process 1020 successfully terminated with return code of 0.
+2022-12-14 13:42:57,214 INFO: ffmpeg process 1030 successfully terminated with return code of 0.
+2022-12-14 13:42:58,285 INFO: The voice handshake is being terminated for Channel ID 728631391809437746 (Guild ID 428109526550708234)
+2022-12-14 13:42:58,286 INFO: Disconnecting from voice normally, close code 1000.
+2022-12-14 13:51:20,703 INFO: BunnyplayGG in 9又4分之8.7月台[123是什麼敷衍的名字]
+2022-12-14 13:51:20,797 INFO: Connecting to voice...
+2022-12-14 13:51:20,798 INFO: Starting voice handshake... (connection attempt 1)
+2022-12-14 13:51:21,100 INFO: Voice handshake complete. Endpoint found hongkong3101.discord.media
+2022-12-14 13:51:24,021 INFO: ffmpeg process 1041 successfully terminated with return code of 0.
+2022-12-14 13:51:26,159 INFO: ffmpeg process 1051 successfully terminated with return code of 0.
+2022-12-14 13:51:27,214 INFO: The voice handshake is being terminated for Channel ID 728631391809437746 (Guild ID 428109526550708234)
+2022-12-14 13:51:27,215 INFO: Disconnecting from voice normally, close code 1000.
+2022-12-14 14:03:29,705 INFO: 楓夜 in 9又4分之8.7月台[123是什麼敷衍的名字]
+2022-12-14 14:03:29,759 INFO: Connecting to voice...
+2022-12-14 14:03:29,759 INFO: Starting voice handshake... (connection attempt 1)
+2022-12-14 14:03:30,067 INFO: Voice handshake complete. Endpoint found hongkong3101.discord.media
+2022-12-14 14:03:34,139 INFO: ffmpeg process 1079 successfully terminated with return code of 0.
+2022-12-14 14:03:38,397 INFO: ffmpeg process 1089 successfully terminated with return code of 0.
+2022-12-14 14:03:39,448 INFO: The voice handshake is being terminated for Channel ID 728631391809437746 (Guild ID 428109526550708234)
+2022-12-14 14:03:39,449 INFO: Disconnecting from voice normally, close code 1000.
+2022-12-14 14:07:55,323 INFO: MaiMai的Pool in 9又4分之8.7月台[打不出幹話就講出來啊]
+2022-12-14 14:07:55,433 INFO: Connecting to voice...
+2022-12-14 14:07:55,433 INFO: Starting voice handshake... (connection attempt 1)
+2022-12-14 14:07:55,755 INFO: Voice handshake complete. Endpoint found hongkong9969.discord.media
+2022-12-14 14:07:59,088 INFO: ffmpeg process 1152 successfully terminated with return code of 0.
+2022-12-14 14:08:01,530 INFO: ffmpeg process 1162 successfully terminated with return code of 0.
+2022-12-14 14:08:02,536 INFO: The voice handshake is being terminated for Channel ID 428109526550708238 (Guild ID 428109526550708234)
+2022-12-14 14:08:02,537 INFO: Disconnecting from voice normally, close code 1000.
+2022-12-14 14:08:45,779 INFO: WeIrdnA in 9又4分之8.7月台[打不出幹話就講出來啊]
+2022-12-14 14:08:45,828 INFO: Connecting to voice...
+2022-12-14 14:08:45,829 INFO: Starting voice handshake... (connection attempt 1)
+2022-12-14 14:08:46,138 INFO: Voice handshake complete. Endpoint found hongkong9969.discord.media
+2022-12-14 14:08:49,400 INFO: ffmpeg process 1173 successfully terminated with return code of 0.
+2022-12-14 14:08:52,082 INFO: ffmpeg process 1183 successfully terminated with return code of 0.
+2022-12-14 14:08:53,130 INFO: The voice handshake is being terminated for Channel ID 428109526550708238 (Guild ID 428109526550708234)
+2022-12-14 14:08:53,131 INFO: Disconnecting from voice normally, close code 1000.
+2022-12-14 14:10:16,519 INFO: wawa的n in 9又4分之8.7月台[打不出幹話就講出來啊]
+2022-12-14 14:10:16,613 INFO: Connecting to voice...
+2022-12-14 14:10:16,613 INFO: Starting voice handshake... (connection attempt 1)
+2022-12-14 14:10:16,942 INFO: Voice handshake complete. Endpoint found hongkong9969.discord.media
+2022-12-14 14:10:20,112 INFO: ffmpeg process 1194 successfully terminated with return code of 0.
+2022-12-14 14:10:22,731 INFO: ffmpeg process 1204 successfully terminated with return code of 0.
+2022-12-14 14:10:23,797 INFO: The voice handshake is being terminated for Channel ID 428109526550708238 (Guild ID 428109526550708234)
+2022-12-14 14:10:23,798 INFO: Disconnecting from voice normally, close code 1000.
+2022-12-14 14:12:52,368 INFO: 阿凱 in 9又4分之8.7月台[打不出幹話就講出來啊]
+2022-12-14 14:12:52,462 INFO: Connecting to voice...
+2022-12-14 14:12:52,463 INFO: Starting voice handshake... (connection attempt 1)
+2022-12-14 14:12:52,766 INFO: Voice handshake complete. Endpoint found hongkong9969.discord.media
+2022-12-14 14:12:56,167 INFO: ffmpeg process 1215 successfully terminated with return code of 0.
+2022-12-14 14:13:00,427 INFO: ffmpeg process 1225 successfully terminated with return code of 0.
+2022-12-14 14:13:01,487 INFO: The voice handshake is being terminated for Channel ID 428109526550708238 (Guild ID 428109526550708234)
+2022-12-14 14:13:01,487 INFO: Disconnecting from voice normally, close code 1000.
+2022-12-14 14:14:08,758 INFO: 楓夜 out 9又4分之8.7月台[123是什麼敷衍的名字]
+2022-12-14 14:14:08,758 INFO: Connecting to voice...
+2022-12-14 14:14:08,758 INFO: Starting voice handshake... (connection attempt 1)
+2022-12-14 14:14:09,141 INFO: Voice handshake complete. Endpoint found hongkong3101.discord.media
+2022-12-14 14:14:12,538 INFO: ffmpeg process 1236 successfully terminated with return code of 0.
+2022-12-14 14:14:13,611 INFO: The voice handshake is being terminated for Channel ID 728631391809437746 (Guild ID 428109526550708234)
+2022-12-14 14:14:13,612 INFO: Disconnecting from voice normally, close code 1000.
+2022-12-14 14:15:04,091 INFO: 楓夜 in 9又4分之8.7月台[123是什麼敷衍的名字]
+2022-12-14 14:15:04,232 INFO: Connecting to voice...
+2022-12-14 14:15:04,232 INFO: Starting voice handshake... (connection attempt 1)
+2022-12-14 14:15:04,541 INFO: Voice handshake complete. Endpoint found hongkong3101.discord.media
+2022-12-14 14:15:07,968 INFO: ffmpeg process 1247 successfully terminated with return code of 0.
+2022-12-14 14:15:10,845 INFO: ffmpeg process 1257 successfully terminated with return code of 0.
+2022-12-14 14:15:11,894 INFO: The voice handshake is being terminated for Channel ID 728631391809437746 (Guild ID 428109526550708234)
+2022-12-14 14:15:11,894 INFO: Disconnecting from voice normally, close code 1000.
+2022-12-14 14:34:21,004 INFO: KyrieR in 9又4分之8.7月台[123是什麼敷衍的名字]
+2022-12-14 14:34:21,248 INFO: Connecting to voice...
+2022-12-14 14:34:21,248 INFO: Starting voice handshake... (connection attempt 1)
+2022-12-14 14:34:21,566 INFO: Voice handshake complete. Endpoint found hongkong3101.discord.media
+2022-12-14 14:34:25,223 INFO: ffmpeg process 1286 successfully terminated with return code of 0.
+2022-12-14 14:34:27,527 INFO: ffmpeg process 1296 successfully terminated with return code of 0.
+2022-12-14 14:34:28,552 INFO: The voice handshake is being terminated for Channel ID 728631391809437746 (Guild ID 428109526550708234)
+2022-12-14 14:34:28,552 INFO: Disconnecting from voice normally, close code 1000.
+2022-12-14 15:04:23,288 INFO: Fiven-chung in 9又4分之8.7月台[123是什麼敷衍的名字]
+2022-12-14 15:04:23,384 INFO: Connecting to voice...
+2022-12-14 15:04:23,384 INFO: Starting voice handshake... (connection attempt 1)
+2022-12-14 15:04:23,691 INFO: Voice handshake complete. Endpoint found hongkong3101.discord.media
+2022-12-14 15:04:26,610 INFO: ffmpeg process 1343 successfully terminated with return code of 0.
+2022-12-14 15:04:28,647 INFO: ffmpeg process 1353 successfully terminated with return code of 0.
+2022-12-14 15:04:29,671 INFO: The voice handshake is being terminated for Channel ID 728631391809437746 (Guild ID 428109526550708234)
+2022-12-14 15:04:29,672 INFO: Disconnecting from voice normally, close code 1000.
+2022-12-14 15:11:44,569 INFO: Shard ID None has successfully RESUMED session d053f504e4d237aeff6d1d869f02a643.
+2022-12-14 15:12:24,121 INFO: Shard ID None has successfully RESUMED session d053f504e4d237aeff6d1d869f02a643.
+2022-12-14 15:54:46,428 INFO: 阿凱 out 9又4分之8.7月台[打不出幹話就講出來啊]
+2022-12-14 15:54:46,428 INFO: Connecting to voice...
+2022-12-14 15:54:46,428 INFO: Starting voice handshake... (connection attempt 1)
+2022-12-14 15:54:46,725 INFO: Voice handshake complete. Endpoint found hongkong9969.discord.media
+2022-12-14 15:54:46,781 INFO: WeIrdnA out 9又4分之8.7月台[打不出幹話就講出來啊]
+2022-12-14 15:54:49,475 INFO: ffmpeg process 1455 successfully terminated with return code of 0.
+2022-12-14 15:54:52,568 INFO: ffmpeg process 1465 successfully terminated with return code of 0.
+2022-12-14 15:54:53,660 INFO: The voice handshake is being terminated for Channel ID 428109526550708238 (Guild ID 428109526550708234)
+2022-12-14 15:54:53,661 INFO: Disconnecting from voice normally, close code 1000.
+2022-12-14 15:54:54,743 INFO: MaiMai的Pool out 9又4分之8.7月台[打不出幹話就講出來啊]
+2022-12-14 15:54:54,743 INFO: Connecting to voice...
+2022-12-14 15:54:54,743 INFO: Starting voice handshake... (connection attempt 1)
+2022-12-14 15:54:55,018 INFO: wawa的n out 9又4分之8.7月台[打不出幹話就講出來啊]
+2022-12-14 15:54:55,117 INFO: Voice handshake complete. Endpoint found hongkong9969.discord.media
+2022-12-14 15:54:55,842 ERROR: Failed to connect to voice... Retrying...
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/voice_client.py", line 395, in connect
+    self.ws = await self.connect_websocket()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/voice_client.py", line 366, in connect_websocket
+    await ws.poll_event()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/gateway.py", line 1005, in poll_event
+    raise ConnectionClosed(self.ws, shard_id=None, code=self._close_code)
+discord.errors.ConnectionClosed: Shard ID None WebSocket closed with 4006
+2022-12-14 15:54:56,845 INFO: The voice handshake is being terminated for Channel ID 428109526550708238 (Guild ID 428109526550708234)
+2022-12-14 15:54:56,845 INFO: Starting voice handshake... (connection attempt 2)
+2022-12-14 15:54:57,045 INFO: Voice handshake complete. Endpoint found seattle6284.discord.media
+2022-12-14 15:54:59,272 INFO: ffmpeg process 1477 successfully terminated with return code of 0.
+2022-12-14 15:55:02,273 INFO: ffmpeg process 1487 successfully terminated with return code of 0.
+2022-12-14 15:55:03,302 INFO: The voice handshake is being terminated for Channel ID 428109526550708238 (Guild ID 428109526550708234)
+2022-12-14 15:55:03,303 INFO: Disconnecting from voice normally, close code 1000.
+2022-12-14 15:55:55,679 WARNING: Shard ID None has stopped responding to the gateway. Closing and restarting.
+2022-12-14 16:31:38,939 INFO: Chi out 9又4分之8.7月台[123是什麼敷衍的名字]
+2022-12-14 16:31:38,940 INFO: Connecting to voice...
+2022-12-14 16:31:38,940 INFO: Starting voice handshake... (connection attempt 1)
+2022-12-14 16:31:39,298 INFO: Voice handshake complete. Endpoint found hongkong3101.discord.media
+2022-12-14 16:31:40,349 INFO: Fiven-chung out 9又4分之8.7月台[123是什麼敷衍的名字]
+2022-12-14 16:31:40,595 INFO: 楓夜 out 9又4分之8.7月台[123是什麼敷衍的名字]
+2022-12-14 16:31:41,921 INFO: ffmpeg process 1572 successfully terminated with return code of 0.
+2022-12-14 16:31:43,509 INFO: KyrieR out 9又4分之8.7月台[123是什麼敷衍的名字]
+2022-12-14 16:31:44,910 INFO: ffmpeg process 1582 successfully terminated with return code of 0.
+2022-12-14 16:31:48,352 INFO: ffmpeg process 1592 successfully terminated with return code of 0.
+2022-12-14 16:31:48,583 INFO: BunnyplayGG out 9又4分之8.7月台[123是什麼敷衍的名字]
+2022-12-14 16:31:51,237 INFO: ffmpeg process 1602 successfully terminated with return code of 0.
+2022-12-14 16:31:54,613 INFO: ffmpeg process 1612 successfully terminated with return code of 0.
+2022-12-14 16:31:55,664 INFO: The voice handshake is being terminated for Channel ID 728631391809437746 (Guild ID 428109526550708234)
+2022-12-14 16:31:55,664 INFO: Disconnecting from voice normally, close code 1000.
+2022-12-14 16:38:19,320 INFO: Shard ID None has successfully RESUMED session d053f504e4d237aeff6d1d869f02a643.
+2022-12-14 17:06:52,825 INFO: Shard ID None has successfully RESUMED session d053f504e4d237aeff6d1d869f02a643.
+2022-12-14 17:44:50,564 INFO: Shard ID None has successfully RESUMED session d053f504e4d237aeff6d1d869f02a643.
+2022-12-14 18:47:22,422 INFO: Shard ID None has successfully RESUMED session d053f504e4d237aeff6d1d869f02a643.
+2022-12-14 21:50:15,327 INFO: Shard ID None has successfully RESUMED session d053f504e4d237aeff6d1d869f02a643.

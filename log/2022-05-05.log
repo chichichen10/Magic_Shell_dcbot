@@ -1,0 +1,18 @@
+2022-05-04 19:02:22,111 INFO: logging in using static token
+2022-05-04 19:02:22,425 INFO: Shard ID None has sent the IDENTIFY payload.
+2022-05-04 19:02:22,790 INFO: Shard ID None has connected to Gateway: ["gateway-prd-main-h2s2",{"micros":317492,"calls":["discord-sessions-green-prd-2-111",{"micros":316534,"calls":["start_session",{"micros":60025,"calls":["discord-api-fc76c74b6-47s9g",{"micros":53657,"calls":["get_user",{"micros":9525},"add_authorized_ip",{"micros":2579},"get_guilds",{"micros":12871},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":1,"calls":[]}]}]}] (Session ID: bc004a33eb464e95d47f6de1140d6a80).
+2022-05-04 19:02:24,839 INFO: 目前登入身份：神奇海螺#3847
+2022-05-04 19:08:02,293 INFO: KyrieR out 9又4分之8.7月台[123是什麼敷衍的名字]
+2022-05-04 19:08:02,293 INFO: Connecting to voice...
+2022-05-04 19:08:02,293 INFO: Starting voice handshake... (connection attempt 1)
+2022-05-04 19:08:03,069 INFO: Voice handshake complete. Endpoint found japan6963.discord.media
+2022-05-04 19:08:04,108 INFO: selected the voice protocol for use (xsalsa20_poly1305_lite)
+2022-05-04 19:08:04,286 INFO: received secret key for voice connection
+2022-05-04 19:08:06,117 INFO: Preparing to terminate ffmpeg process 138.
+2022-05-04 19:08:06,118 INFO: ffmpeg process 138 successfully terminated with return code of 0.
+2022-05-04 19:08:07,124 INFO: The voice handshake is being terminated for Channel ID 728631391809437746 (Guild ID 428109526550708234)
+2022-05-04 19:08:07,124 INFO: Disconnecting from voice normally, close code 1000.
+2022-05-05 01:24:24,895 INFO: logging in using static token
+2022-05-05 01:24:25,141 INFO: Shard ID None has sent the IDENTIFY payload.
+2022-05-05 01:24:25,244 INFO: Shard ID None has connected to Gateway: ["gateway-prd-main-8mh9",{"micros":60897,"calls":["discord-sessions-green-prd-2-48",{"micros":59946,"calls":["start_session",{"micros":42553,"calls":["discord-api-7b59cc5b49-bzhnd",{"micros":37722,"calls":["get_user",{"micros":6609},"add_authorized_ip",{"micros":1340},"get_guilds",{"micros":6340},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":23,"calls":[]},"presence_connect",{"micros":14462,"calls":[]}]}]}] (Session ID: a71462a602951591b51cf13a7ce91dff).
+2022-05-05 01:24:27,289 INFO: 目前登入身份：神奇海螺#3847

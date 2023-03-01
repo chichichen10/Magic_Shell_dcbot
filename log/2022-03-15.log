@@ -1,0 +1,23 @@
+2022-03-14 16:36:52,270 INFO: logging in using static token
+2022-03-14 16:36:52,338 INFO: Cleaning up tasks.
+2022-03-14 16:36:52,338 INFO: Closing the event loop.
+2022-03-14 17:36:44,849 INFO: logging in using static token
+2022-03-14 17:36:44,918 INFO: Cleaning up tasks.
+2022-03-14 17:36:44,918 INFO: Closing the event loop.
+2022-03-15 15:41:42,166 INFO: logging in using static token
+2022-03-15 15:41:42,482 INFO: Shard ID None has sent the IDENTIFY payload.
+2022-03-15 15:41:42,621 INFO: Shard ID None has connected to Gateway: ["gateway-prd-main-2dx6",{"micros":101470,"calls":["discord-sessions-green-prd-2-147",{"micros":100010,"calls":["start_session",{"micros":73921,"calls":["discord-api-7bc6d4466c-lspwf",{"micros":64993,"calls":["get_user",{"micros":10850},"add_authorized_ip",{"micros":1557},"get_guilds",{"micros":7863},"coros_wait",{"micros":2}]}]},"guilds_connect",{"micros":3,"calls":[]},"presence_connect",{"micros":2,"calls":[]}]}]}] (Session ID: da48f5e905316a5b3c06a2b2269b991a).
+2022-03-15 15:41:44,668 INFO: 目前登入身份：神奇海螺#3847
+2022-03-15 16:10:29,325 INFO: MaiMai的Pool out 9又4分之8.7月台[打不出幹話就講出來啊]
+2022-03-15 16:10:29,325 INFO: Connecting to voice...
+2022-03-15 16:10:29,325 INFO: Starting voice handshake... (connection attempt 1)
+2022-03-15 16:10:30,313 INFO: Voice handshake complete. Endpoint found hongkong5375.discord.media
+2022-03-15 16:10:31,595 INFO: selected the voice protocol for use (xsalsa20_poly1305_lite)
+2022-03-15 16:10:31,790 INFO: wawa的n out 9又4分之8.7月台[打不出幹話就講出來啊]
+2022-03-15 16:10:31,812 INFO: received secret key for voice connection
+2022-03-15 16:10:33,931 INFO: Preparing to terminate ffmpeg process 142.
+2022-03-15 16:10:33,931 INFO: ffmpeg process 142 successfully terminated with return code of 0.
+2022-03-15 16:10:36,926 INFO: Preparing to terminate ffmpeg process 153.
+2022-03-15 16:10:36,927 INFO: ffmpeg process 153 successfully terminated with return code of 0.
+2022-03-15 16:10:37,954 INFO: The voice handshake is being terminated for Channel ID 428109526550708238 (Guild ID 428109526550708234)
+2022-03-15 16:10:37,955 INFO: Disconnecting from voice normally, close code 1000.

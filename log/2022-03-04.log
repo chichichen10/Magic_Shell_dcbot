@@ -1,0 +1,27 @@
+2022-03-03 17:15:01,485 INFO: logging in using static token
+2022-03-03 17:15:01,766 INFO: Shard ID None has sent the IDENTIFY payload.
+2022-03-03 17:15:01,914 INFO: Shard ID None has connected to Gateway: ["gateway-prd-main-zzhk",{"micros":107831,"calls":["discord-sessions-blue-prd-2-30",{"micros":106211,"calls":["start_session",{"micros":76236,"calls":["api-prd-main-wr2r",{"micros":69936,"calls":["get_user",{"micros":8230},"add_authorized_ip",{"micros":8068},"get_guilds",{"micros":10776},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":19375,"calls":[]}]}]}] (Session ID: 083fddfa10000bfeb410f731b6bf8cd7).
+2022-03-03 17:15:03,945 INFO: 目前登入身份：神奇海螺#3847
+2022-03-03 18:24:36,747 INFO: Got a request to RESUME the websocket.
+2022-03-03 18:24:36,906 INFO: Shard ID None has sent the RESUME payload.
+2022-03-03 18:24:36,957 INFO: Shard ID None has successfully RESUMED session 083fddfa10000bfeb410f731b6bf8cd7 under trace ["gateway-prd-main-5nk6",{"micros":4079,"calls":["discord-sessions-blue-prd-2-30",{"micros":15}]}].
+2022-03-04 08:52:45,130 INFO: logging in using static token
+2022-03-04 08:52:45,417 INFO: Shard ID None has sent the IDENTIFY payload.
+2022-03-04 08:52:45,533 INFO: Shard ID None has connected to Gateway: ["gateway-prd-main-wgk4",{"micros":77915,"calls":["discord-sessions-blue-prd-2-38",{"micros":77197,"calls":["start_session",{"micros":51820,"calls":["discord-api-74558dc54c-4c657",{"micros":47016,"calls":["get_user",{"micros":5191},"add_authorized_ip",{"micros":8941},"get_guilds",{"micros":7951},"coros_wait",{"micros":2}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":22877,"calls":[]}]}]}] (Session ID: e78e0247fed11dd8aa8147f1a855214a).
+2022-03-04 08:52:47,746 INFO: 目前登入身份：神奇海螺#3847
+2022-03-04 11:53:27,844 INFO: logging in using static token
+2022-03-04 11:53:28,085 INFO: Shard ID None has sent the IDENTIFY payload.
+2022-03-04 11:53:28,196 INFO: Shard ID None has connected to Gateway: ["gateway-prd-main-kr64",{"micros":74180,"calls":["discord-sessions-blue-prd-2-128",{"micros":60498,"calls":["start_session",{"micros":42010,"calls":["discord-api-74558dc54c-cl5kj",{"micros":37362,"calls":["get_user",{"micros":5320},"add_authorized_ip",{"micros":3855},"get_guilds",{"micros":3966},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":2217,"calls":[]}]}]}] (Session ID: f53f70d85ec15c1effcc73d910b3d462).
+2022-03-04 11:53:30,228 INFO: 目前登入身份：神奇海螺#3847
+2022-03-04 12:01:57,633 INFO: logging in using static token
+2022-03-04 12:01:57,911 INFO: Shard ID None has sent the IDENTIFY payload.
+2022-03-04 12:01:58,049 INFO: Shard ID None has connected to Gateway: ["gateway-prd-main-h6gh",{"micros":99953,"calls":["discord-sessions-blue-prd-2-132",{"micros":99207,"calls":["start_session",{"micros":70535,"calls":["discord-api-74558dc54c-g7872",{"micros":66135,"calls":["get_user",{"micros":8610},"add_authorized_ip",{"micros":2720},"get_guilds",{"micros":4266},"coros_wait",{"micros":2}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":25001,"calls":[]}]}]}] (Session ID: 8ec3513711829f4ba0978ad737f705f3).
+2022-03-04 12:02:00,086 INFO: 目前登入身份：神奇海螺#3847
+2022-03-04 12:28:12,196 INFO: Websocket closed with 1006, attempting a reconnect.
+2022-03-04 12:28:12,197 INFO: Got a request to RESUME the websocket.
+2022-03-04 12:28:12,353 INFO: Shard ID None has sent the RESUME payload.
+2022-03-04 12:28:12,393 INFO: Shard ID None has successfully RESUMED session 8ec3513711829f4ba0978ad737f705f3 under trace ["gateway-prd-main-7j45",{"micros":525,"calls":["discord-sessions-blue-prd-2-132",{"micros":19}]}].
+2022-03-04 12:55:50,589 INFO: Websocket closed with 1006, attempting a reconnect.
+2022-03-04 12:55:50,589 INFO: Got a request to RESUME the websocket.
+2022-03-04 12:55:50,749 INFO: Shard ID None has sent the RESUME payload.
+2022-03-04 12:55:50,789 INFO: Shard ID None has successfully RESUMED session 8ec3513711829f4ba0978ad737f705f3 under trace ["gateway-prd-main-6qnw",{"micros":813,"calls":["discord-sessions-blue-prd-2-132",{"micros":17}]}].

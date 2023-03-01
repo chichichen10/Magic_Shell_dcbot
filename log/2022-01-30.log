@@ -1,0 +1,44 @@
+2022-01-29 16:16:18,251 INFO: logging in using static token
+2022-01-29 16:16:18,326 INFO: Cleaning up tasks.
+2022-01-29 16:16:18,327 INFO: Closing the event loop.
+2022-01-29 17:16:21,443 INFO: logging in using static token
+2022-01-29 17:16:21,526 INFO: Cleaning up tasks.
+2022-01-29 17:16:21,526 INFO: Closing the event loop.
+2022-01-29 18:16:24,347 INFO: logging in using static token
+2022-01-29 18:16:24,427 INFO: Cleaning up tasks.
+2022-01-29 18:16:24,428 INFO: Closing the event loop.
+2022-01-29 18:54:57,465 INFO: logging in using static token
+2022-01-29 18:54:57,543 INFO: Cleaning up tasks.
+2022-01-29 18:54:57,543 INFO: Closing the event loop.
+2022-01-29 19:16:27,412 INFO: logging in using static token
+2022-01-29 19:16:27,500 INFO: Cleaning up tasks.
+2022-01-29 19:16:27,502 INFO: Closing the event loop.
+2022-01-29 20:16:28,238 INFO: logging in using static token
+2022-01-29 20:16:28,316 INFO: Cleaning up tasks.
+2022-01-29 20:16:28,316 INFO: Closing the event loop.
+2022-01-29 21:16:30,260 INFO: logging in using static token
+2022-01-29 21:16:30,332 INFO: Cleaning up tasks.
+2022-01-29 21:16:30,333 INFO: Closing the event loop.
+2022-01-29 22:16:32,338 INFO: logging in using static token
+2022-01-29 22:16:32,406 INFO: Cleaning up tasks.
+2022-01-29 22:16:32,407 INFO: Closing the event loop.
+2022-01-29 23:03:47,055 INFO: logging in using static token
+2022-01-29 23:03:47,168 INFO: Cleaning up tasks.
+2022-01-29 23:03:47,169 INFO: Closing the event loop.
+2022-01-30 00:03:49,803 INFO: logging in using static token
+2022-01-30 00:03:49,880 INFO: Cleaning up tasks.
+2022-01-30 00:03:49,881 INFO: Closing the event loop.
+2022-01-30 01:03:52,430 INFO: logging in using static token
+2022-01-30 01:03:52,535 INFO: Cleaning up tasks.
+2022-01-30 01:03:52,535 INFO: Closing the event loop.
+2022-01-30 02:03:52,561 INFO: logging in using static token
+2022-01-30 02:03:52,638 INFO: Cleaning up tasks.
+2022-01-30 02:03:52,639 INFO: Closing the event loop.
+2022-01-30 02:38:15,375 INFO: logging in using static token
+2022-01-30 02:38:15,651 INFO: Shard ID None has sent the IDENTIFY payload.
+2022-01-30 02:38:15,771 INFO: Shard ID None has connected to Gateway: ["gateway-prd-main-nrpr",{"micros":81471,"calls":["discord-sessions-green-prd-2-160",{"micros":78181,"calls":["start_session",{"micros":55546,"calls":["api-prd-main-p567",{"micros":45156,"calls":["get_user",{"micros":5964},"add_authorized_ip",{"micros":1562},"get_guilds",{"micros":7137},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":3,"calls":[]},"presence_connect",{"micros":2,"calls":[]}]}]}] (Session ID: 70df3f92eae39190695fd8d7423f4a39).
+2022-01-30 02:38:18,041 INFO: 目前登入身份：神奇海螺#3847
+2022-01-30 03:01:06,985 INFO: logging in using static token
+2022-01-30 03:01:07,227 INFO: Shard ID None has sent the IDENTIFY payload.
+2022-01-30 03:01:07,336 INFO: Shard ID None has connected to Gateway: ["gateway-prd-main-m957",{"micros":69270,"calls":["discord-sessions-green-prd-2-115",{"micros":68316,"calls":["start_session",{"micros":59698,"calls":["api-prd-main-r9xm",{"micros":51616,"calls":["get_user",{"micros":3370},"add_authorized_ip",{"micros":7284},"get_guilds",{"micros":5307},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":1210,"calls":[]}]}]}] (Session ID: c94f517dc2f4b83b270b0b463c79a93f).
+2022-01-30 03:01:09,375 INFO: 目前登入身份：神奇海螺#3847

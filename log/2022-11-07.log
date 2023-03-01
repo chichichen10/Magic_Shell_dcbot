@@ -1,0 +1,69 @@
+2022-11-07 05:36:44,157 INFO: logging in using static token
+2022-11-07 05:36:44,944 INFO: Shard ID None has connected to Gateway (Session ID: 38ebe20b70482e893b1fa38c1672c98e).
+2022-11-07 05:36:46,948 INFO: 目前登入身份：神奇海螺#3847
+2022-11-07 07:12:36,627 INFO: Shard ID None has successfully RESUMED session 38ebe20b70482e893b1fa38c1672c98e.
+2022-11-07 08:49:43,968 INFO: Shard ID None has successfully RESUMED session 38ebe20b70482e893b1fa38c1672c98e.
+2022-11-07 11:51:24,879 INFO: Shard ID None has successfully RESUMED session 38ebe20b70482e893b1fa38c1672c98e.
+2022-11-07 14:45:35,796 INFO: Shard ID None has successfully RESUMED session 38ebe20b70482e893b1fa38c1672c98e.
+2022-11-07 14:57:51,120 INFO: BunnyplayGG in 9又4分之8.7月台[打不出幹話就講出來啊]
+2022-11-07 14:57:51,270 INFO: Connecting to voice...
+2022-11-07 14:57:51,270 INFO: Starting voice handshake... (connection attempt 1)
+2022-11-07 14:57:51,881 INFO: Voice handshake complete. Endpoint found hongkong2591.discord.media
+2022-11-07 14:57:52,117 ERROR: Exception occurred during Voice Protocol voice server update handler
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/state.py", line 157, in logging_coroutine
+    await coroutine
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/voice_client.py", line 337, in on_voice_server_update
+    await self.ws.close(4000)
+AttributeError: '_MissingSentinel' object has no attribute 'close'
+2022-11-07 14:57:55,328 INFO: ffmpeg process 1085 successfully terminated with return code of 0.
+2022-11-07 14:57:57,653 INFO: ffmpeg process 1096 successfully terminated with return code of 0.
+2022-11-07 14:57:58,678 INFO: The voice handshake is being terminated for Channel ID 428109526550708238 (Guild ID 428109526550708234)
+2022-11-07 14:57:58,679 INFO: Disconnecting from voice normally, close code 1000.
+2022-11-07 14:58:07,569 INFO: Fiven-chung in 9又4分之8.7月台[打不出幹話就講出來啊]
+2022-11-07 14:58:07,663 INFO: Connecting to voice...
+2022-11-07 14:58:07,663 INFO: Starting voice handshake... (connection attempt 1)
+2022-11-07 14:58:08,002 INFO: Voice handshake complete. Endpoint found hongkong2591.discord.media
+2022-11-07 14:58:11,445 INFO: ffmpeg process 1107 successfully terminated with return code of 0.
+2022-11-07 14:58:13,544 INFO: ffmpeg process 1117 successfully terminated with return code of 0.
+2022-11-07 14:58:14,588 INFO: The voice handshake is being terminated for Channel ID 428109526550708238 (Guild ID 428109526550708234)
+2022-11-07 14:58:14,589 INFO: Disconnecting from voice normally, close code 1000.
+2022-11-07 15:20:03,398 INFO: MaiMai的Pool in 9又4分之8.7月台[打不出幹話就講出來啊]
+2022-11-07 15:20:03,495 INFO: Connecting to voice...
+2022-11-07 15:20:03,496 INFO: Starting voice handshake... (connection attempt 1)
+2022-11-07 15:20:03,817 INFO: Voice handshake complete. Endpoint found hongkong2591.discord.media
+2022-11-07 15:20:07,724 INFO: ffmpeg process 1145 successfully terminated with return code of 0.
+2022-11-07 15:20:09,824 INFO: ffmpeg process 1155 successfully terminated with return code of 0.
+2022-11-07 15:20:10,869 INFO: The voice handshake is being terminated for Channel ID 428109526550708238 (Guild ID 428109526550708234)
+2022-11-07 15:20:10,869 INFO: Disconnecting from voice normally, close code 1000.
+2022-11-07 15:42:54,107 INFO: Lexor in 9又4分之8.7月台[打不出幹話就講出來啊]
+2022-11-07 15:42:54,224 INFO: Connecting to voice...
+2022-11-07 15:42:54,224 INFO: Starting voice handshake... (connection attempt 1)
+2022-11-07 15:42:54,548 INFO: Voice handshake complete. Endpoint found hongkong2591.discord.media
+2022-11-07 15:42:58,006 INFO: ffmpeg process 1219 successfully terminated with return code of 0.
+2022-11-07 15:43:00,446 INFO: ffmpeg process 1229 successfully terminated with return code of 0.
+2022-11-07 15:43:01,453 INFO: The voice handshake is being terminated for Channel ID 428109526550708238 (Guild ID 428109526550708234)
+2022-11-07 15:43:01,454 INFO: Disconnecting from voice normally, close code 1000.
+2022-11-07 16:25:35,399 INFO: BunnyplayGG out 9又4分之8.7月台[打不出幹話就講出來啊]
+2022-11-07 16:25:35,399 INFO: Connecting to voice...
+2022-11-07 16:25:35,399 INFO: Starting voice handshake... (connection attempt 1)
+2022-11-07 16:25:36,383 INFO: Voice handshake complete. Endpoint found hongkong2591.discord.media
+2022-11-07 16:25:39,186 INFO: MaiMai的Pool out 9又4分之8.7月台[打不出幹話就講出來啊]
+2022-11-07 16:25:39,829 INFO: ffmpeg process 1296 successfully terminated with return code of 0.
+2022-11-07 16:25:40,000 INFO: Lexor out 9又4分之8.7月台[打不出幹話就講出來啊]
+2022-11-07 16:25:43,002 INFO: ffmpeg process 1306 successfully terminated with return code of 0.
+2022-11-07 16:25:45,703 INFO: ffmpeg process 1316 successfully terminated with return code of 0.
+2022-11-07 16:25:46,729 INFO: The voice handshake is being terminated for Channel ID 428109526550708238 (Guild ID 428109526550708234)
+2022-11-07 16:25:46,730 INFO: Disconnecting from voice normally, close code 1000.
+2022-11-07 16:25:47,982 INFO: Fiven-chung out 9又4分之8.7月台[打不出幹話就講出來啊]
+2022-11-07 16:25:47,982 INFO: Connecting to voice...
+2022-11-07 16:25:47,983 INFO: Starting voice handshake... (connection attempt 1)
+2022-11-07 16:25:48,144 INFO: Voice handshake complete. Endpoint found oregon10002.discord.media
+2022-11-07 16:25:50,236 INFO: ffmpeg process 1327 successfully terminated with return code of 0.
+2022-11-07 16:25:51,324 INFO: The voice handshake is being terminated for Channel ID 428109526550708238 (Guild ID 428109526550708234)
+2022-11-07 16:25:51,325 INFO: Disconnecting from voice normally, close code 1000.
+2022-11-07 16:44:20,590 INFO: Shard ID None has successfully RESUMED session 38ebe20b70482e893b1fa38c1672c98e.
+2022-11-07 19:21:38,300 INFO: Shard ID None has successfully RESUMED session 38ebe20b70482e893b1fa38c1672c98e.
+2022-11-07 22:34:46,033 INFO: Shard ID None has successfully RESUMED session 38ebe20b70482e893b1fa38c1672c98e.
+2022-11-07 23:02:17,716 INFO: Shard ID None has successfully RESUMED session 38ebe20b70482e893b1fa38c1672c98e.
+2022-11-08 01:58:45,262 INFO: Shard ID None has successfully RESUMED session 38ebe20b70482e893b1fa38c1672c98e.

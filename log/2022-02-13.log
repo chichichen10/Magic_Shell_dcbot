@@ -1,0 +1,19 @@
+2022-02-12 21:02:56,340 INFO: logging in using static token
+2022-02-12 21:02:56,632 INFO: Shard ID None has sent the IDENTIFY payload.
+2022-02-12 21:02:56,734 INFO: Shard ID None has connected to Gateway: ["gateway-prd-main-zj7v",{"micros":64267,"calls":["discord-sessions-green-prd-2-136",{"micros":62970,"calls":["start_session",{"micros":49447,"calls":["api-prd-main-zpdc",{"micros":41348,"calls":["get_user",{"micros":6096},"add_authorized_ip",{"micros":6031},"get_guilds",{"micros":5633},"coros_wait",{"micros":0}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":9385,"calls":[]}]}]}] (Session ID: 9327ab1fd418dbb7ca40b80f8ba923d9).
+2022-02-12 21:02:58,769 INFO: 目前登入身份：神奇海螺#3847
+2022-02-12 21:33:42,975 INFO: logging in using static token
+2022-02-12 21:33:43,207 INFO: Shard ID None has sent the IDENTIFY payload.
+2022-02-12 21:33:43,470 INFO: Shard ID None has connected to Gateway: ["gateway-prd-main-gbj6",{"micros":224575,"calls":["discord-sessions-green-prd-2-63",{"micros":220843,"calls":["start_session",{"micros":165215,"calls":["api-prd-main-609n",{"micros":161642,"calls":["get_user",{"micros":10472},"add_authorized_ip",{"micros":2968},"get_guilds",{"micros":131690},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":4,"calls":[]}]}]}] (Session ID: c3e6a2b9ae72099506ed0a76a28e98ae).
+2022-02-12 21:33:45,505 INFO: 目前登入身份：神奇海螺#3847
+2022-02-12 22:11:07,652 INFO: Got a request to RESUME the websocket.
+2022-02-12 22:11:07,807 INFO: Shard ID None has sent the RESUME payload.
+2022-02-12 22:11:07,847 INFO: Shard ID None has successfully RESUMED session c3e6a2b9ae72099506ed0a76a28e98ae under trace ["gateway-prd-main-fpb0",{"micros":543,"calls":["discord-sessions-green-prd-2-63",{"micros":24}]}].
+2022-02-13 05:08:27,428 INFO: logging in using static token
+2022-02-13 05:08:27,676 INFO: Shard ID None has sent the IDENTIFY payload.
+2022-02-13 05:08:27,813 INFO: Shard ID None has connected to Gateway: ["gateway-prd-main-r9rq",{"micros":97819,"calls":["discord-sessions-green-prd-2-160",{"micros":96726,"calls":["start_session",{"micros":47958,"calls":["api-prd-main-knjx",{"micros":44326,"calls":["get_user",{"micros":3518},"add_authorized_ip",{"micros":2477},"get_guilds",{"micros":13772},"coros_wait",{"micros":2}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":18678,"calls":[]}]}]}] (Session ID: 13667366df5cd4b834b192ff411a2db6).
+2022-02-13 05:08:29,860 INFO: 目前登入身份：神奇海螺#3847
+2022-02-13 05:28:53,049 INFO: 飄飄的飄飄大仙 in 9又4分之8.7月台[打不出幹話就講出來啊]
+2022-02-13 05:28:53,073 INFO: Connecting to voice...
+2022-02-13 05:28:53,073 INFO: Starting voice handshake... (connection attempt 1)
+2022-02-13 05:28:53,789 INFO: Voice handshake complete. Endpoint found japan1951.discord.media
