@@ -16,6 +16,7 @@ from asgiref.sync import sync_to_async
 
 intents = discord.Intents.default()
 intents.message_content = True
+intents.members = True
 client = discord.Client(command_prefix="!",intents=intents)
 
 dc_player = DC_player()
@@ -122,9 +123,11 @@ async def on_voice_state_update(member, before, after):
             print(e)
     elif (user.id == 429657581313720321 and after.channel == None):
         dc_player.add('recording2.webm',before.channel)
+        await dc_player.play()
         return
     elif (after.channel == None):
         try:
+            print('debug: flag:out')
             name = user.display_name
             log.info(name + ' out ' + user.guild.name + '[' +
                      before.channel.name + ']')
@@ -153,6 +156,27 @@ async def on_voice_state_update(member, before, after):
             print('that')
 
     return
+
+@client.event
+async def on_member_join(member):
+        guild = member.guild
+        print('new person!')
+        for channel in guild.channels:
+            if channel.name == '一般' or channel.name == '這絕對不是幹話區':
+                print('sfsg')
+                openai.api_key = os.environ['OPEN_AI_API_KEY']
+        
+                msg= f'給我一段約500字的歡迎詞，歡迎 {member.name} 加入這個頻道，並告訴他這裡雖然有很多奇怪的人，也有可能會吵架，但仍希望他玩得開心。有問題可以找阿致，雖然他可能不能解決。' 
+                res = await sync_to_async(openai.Completion.create)(
+            model="text-davinci-003",
+            prompt=msg,
+            max_tokens=1000,
+            temperature=0.8
+        )
+                answer = res.choices[0]['text']
+                edited_answer = answer.replace(member.name,f'<@{member.id}>')
+                await channel.send(edited_answer)
+
 
 
 @client.event
