@@ -1,0 +1,47 @@
+2023-03-01 16:49:37,340 INFO: logging in using static token
+2023-03-01 16:49:37,808 INFO: Shard ID None has connected to Gateway (Session ID: 8fdd3c6176cdc248e2fc55ce232d1bd6).
+2023-03-01 16:49:39,815 INFO: 目前登入身份：神奇海螺#3847
+2023-03-01 16:51:36,956 INFO: Connecting to voice...
+2023-03-01 16:51:36,956 INFO: Starting voice handshake... (connection attempt 1)
+2023-03-01 16:51:37,134 INFO: Voice handshake complete. Endpoint found hongkong11023.discord.media
+2023-03-01 16:51:37,350 ERROR: Exception occurred during Voice Protocol voice server update handler
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/state.py", line 157, in logging_coroutine
+    await coroutine
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/voice_client.py", line 337, in on_voice_server_update
+    await self.ws.close(4000)
+AttributeError: '_MissingSentinel' object has no attribute 'close'
+2023-03-01 16:51:38,871 INFO: ffmpeg process 835 successfully terminated with return code of 1.
+2023-03-01 16:51:40,495 INFO: The voice handshake is being terminated for Channel ID 1080532807438307379 (Guild ID 876364969904578591)
+2023-03-01 16:51:40,496 INFO: Disconnecting from voice normally, close code 1000.
+2023-03-01 16:53:10,528 INFO: logging in using static token
+2023-03-01 16:53:10,982 INFO: Shard ID None has connected to Gateway (Session ID: 34f59d2fd7e0e499100beedc54bad38f).
+2023-03-01 16:53:13,001 INFO: 目前登入身份：神奇海螺#3847
+2023-03-01 16:53:32,852 INFO: Connecting to voice...
+2023-03-01 16:53:32,852 INFO: Starting voice handshake... (connection attempt 1)
+2023-03-01 16:53:33,111 INFO: Voice handshake complete. Endpoint found hongkong11036.discord.media
+2023-03-01 16:53:34,493 INFO: ffmpeg process 1092 successfully terminated with return code of 1.
+2023-03-01 16:53:36,451 INFO: The voice handshake is being terminated for Channel ID 1080533292866080869 (Guild ID 876364969904578591)
+2023-03-01 16:53:36,452 INFO: Disconnecting from voice normally, close code 1000.
+2023-03-01 16:56:02,902 INFO: logging in using static token
+2023-03-01 16:56:03,477 INFO: Shard ID None has connected to Gateway (Session ID: 4eb53988912c4de127ae5070fdcc925d).
+2023-03-01 16:56:05,484 INFO: 目前登入身份：神奇海螺#3847
+2023-03-01 16:56:10,793 INFO: 1 in test[一般]
+2023-03-01 16:56:10,802 INFO: Connecting to voice...
+2023-03-01 16:56:10,802 INFO: Starting voice handshake... (connection attempt 1)
+2023-03-01 16:56:11,054 INFO: Voice handshake complete. Endpoint found hongkong5464.discord.media
+2023-03-01 16:57:11,747 WARNING: Shard ID None has stopped responding to the gateway. Closing and restarting.
+2023-03-01 17:13:34,114 INFO: logging in using static token
+2023-03-01 17:13:34,633 INFO: Shard ID None has connected to Gateway (Session ID: 2972eae7e71152d7b365f51f8df82ace).
+2023-03-01 17:13:36,639 INFO: 目前登入身份：神奇海螺#3847
+2023-03-01 17:55:37,602 INFO: logging in using static token
+2023-03-01 17:55:38,186 INFO: Shard ID None has connected to Gateway (Session ID: 1295ae0cdd4a41458a7a27034b6a000a).
+2023-03-01 17:55:40,204 INFO: 目前登入身份：神奇海螺#3847
+2023-03-01 17:55:44,673 INFO: 1 in test[一般]
+2023-03-01 17:55:44,747 INFO: Connecting to voice...
+2023-03-01 17:55:44,747 INFO: Starting voice handshake... (connection attempt 1)
+2023-03-01 17:55:45,043 INFO: Voice handshake complete. Endpoint found hongkong11035.discord.media
+2023-03-01 17:55:47,946 INFO: ffmpeg process 10316 successfully terminated with return code of 0.
+2023-03-01 17:55:50,060 INFO: ffmpeg process 10343 successfully terminated with return code of 0.
+2023-03-01 17:55:51,105 INFO: The voice handshake is being terminated for Channel ID 876364970638585882 (Guild ID 876364969904578591)
+2023-03-01 17:55:51,105 INFO: Disconnecting from voice normally, close code 1000.

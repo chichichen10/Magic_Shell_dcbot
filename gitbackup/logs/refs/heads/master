@@ -1,0 +1,21 @@
+0000000000000000000000000000000000000000 478dadddcd9b9f5037b9d0f8c5ccbdbed13d9bbb chichichen10 <37727069+chichichen10@users.noreply.github.com> 1629208959 +0000	commit (initial): Initial commit
+478dadddcd9b9f5037b9d0f8c5ccbdbed13d9bbb efcda11d9ab58988cfe5ac488d0d6b5ed1c91cd3 chichichen10 <37727069+chichichen10@users.noreply.github.com> 1629210393 +0000	commit: disable flask
+efcda11d9ab58988cfe5ac488d0d6b5ed1c91cd3 26b1ce0af6a8b69ad78e5a73703a6f92e60bbe96 chichichen10 <37727069+chichichen10@users.noreply.github.com> 1629285268 +0000	commit: add audio function
+26b1ce0af6a8b69ad78e5a73703a6f92e60bbe96 aa15cf736ecfee1978ed3f6863919012eb77a2e3 chichichen10 <> 1629285270 +0000	merge origin/master: Merge made by the 'recursive' strategy.
+aa15cf736ecfee1978ed3f6863919012eb77a2e3 29532edd7cc36fd231204f760d74f80bd62b3c43 chichichen10 <37727069+chichichen10@users.noreply.github.com> 1635356820 +0000	commit: fix
+29532edd7cc36fd231204f760d74f80bd62b3c43 a707f876099321f9e6569dc1293fb2dbc097a75f chichichen10 <37727069+chichichen10@users.noreply.github.com> 1635427898 +0000	commit: 分隊
+a707f876099321f9e6569dc1293fb2dbc097a75f 024b5c8bde6e816a1fc37b16e0f5a06ba09f14c4 chichichen10 <37727069+chichichen10@users.noreply.github.com> 1635432799 +0000	commit: fix
+024b5c8bde6e816a1fc37b16e0f5a06ba09f14c4 ab297c5e10139c5553f6f9c9bda5260ae80d8b2e chichichen10 <37727069+chichichen10@users.noreply.github.com> 1635446451 +0000	commit: team building w/ vocie channel
+ab297c5e10139c5553f6f9c9bda5260ae80d8b2e 61ad08c02116880dd71a4e581b3959bcaad5871f chichichen10 <37727069+chichichen10@users.noreply.github.com> 1635446509 +0000	commit: help msg
+61ad08c02116880dd71a4e581b3959bcaad5871f bba5ed88bf266aa5002bd36b315c528fde0f5529 chichichen10 <37727069+chichichen10@users.noreply.github.com> 1635446758 +0000	commit: help msg
+bba5ed88bf266aa5002bd36b315c528fde0f5529 b0a3fbab3deca841a3abba1fde64b658705212b1 chichichen10 <37727069+chichichen10@users.noreply.github.com> 1635513004 +0000	commit: more voice
+b0a3fbab3deca841a3abba1fde64b658705212b1 d290f5cc05694ae3afc949de321b4405cec67a80 chichichen10 <37727069+chichichen10@users.noreply.github.com> 1635514962 +0000	commit: update help message
+d290f5cc05694ae3afc949de321b4405cec67a80 bd3c93df07f737615c69f3fd6f258779ab45fc67 chichichen10 <37727069+chichichen10@users.noreply.github.com> 1635533304 +0000	commit: more voices
+bd3c93df07f737615c69f3fd6f258779ab45fc67 ab3d58337c8132297260349401b58d2008797314 chichichen10 <> 1635533305 +0000	merge origin/master: Merge made by the 'recursive' strategy.
+ab3d58337c8132297260349401b58d2008797314 765bdc2bbe8c0d5efba8623d6e7300076fca8592 chichichen10 <37727069+chichichen10@users.noreply.github.com> 1636228481 +0000	commit: bugs fixed
+765bdc2bbe8c0d5efba8623d6e7300076fca8592 8729eb455a95ec870119ee440ea5d0e985aa8c9f chichichen10 <37727069+chichichen10@users.noreply.github.com> 1636230391 +0000	commit: more mute options
+8729eb455a95ec870119ee440ea5d0e985aa8c9f a7279c1092b62b0093cae5e2d2c35258f72507ad chichichen10 <37727069+chichichen10@users.noreply.github.com> 1643483036 +0000	commit: entering notification
+a7279c1092b62b0093cae5e2d2c35258f72507ad 1353c7e768b3460d050ae50c3c82c93b3799cf64 chichichen10 <37727069+chichichen10@users.noreply.github.com> 1648733886 +0000	commit: Add audio player class and change behavior
+1353c7e768b3460d050ae50c3c82c93b3799cf64 0c1723dfdb622828b85ad595021a992a23993ed9 chichichen10 <37727069+chichichen10@users.noreply.github.com> 1666016826 +0000	commit: Add new voices
+0c1723dfdb622828b85ad595021a992a23993ed9 59b24649353f842e009315494bc0f26006891357 chichichen10 <37727069+chichichen10@users.noreply.github.com> 1666723146 +0000	commit: Add new voices and refactor voice files
+59b24649353f842e009315494bc0f26006891357 22fce14ea1a1eba0da40525188cacb2ae6720d49 chichichen10 <37727069+chichichen10@users.noreply.github.com> 1672752587 +0000	commit: Add open-ai api.

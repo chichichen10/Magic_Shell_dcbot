@@ -1,0 +1,354 @@
+2023-01-30 16:07:51,104 INFO: logging in using static token
+2023-01-30 16:07:51,755 INFO: Shard ID None has connected to Gateway (Session ID: 1e834fc1d744c8ff7951961103ea351f).
+2023-01-30 16:07:53,760 INFO: 目前登入身份：神奇海螺#3847
+2023-01-30 16:39:32,081 INFO: Fiven-chung out 9又4分之8.7月台[123是什麼敷衍的名字]
+2023-01-30 16:39:32,081 INFO: Connecting to voice...
+2023-01-30 16:39:32,082 INFO: Starting voice handshake... (connection attempt 1)
+2023-01-30 16:39:32,366 INFO: Voice handshake complete. Endpoint found hongkong10004.discord.media
+2023-01-30 16:39:35,416 INFO: ffmpeg process 286 successfully terminated with return code of 0.
+2023-01-30 16:39:36,503 INFO: The voice handshake is being terminated for Channel ID 728631391809437746 (Guild ID 428109526550708234)
+2023-01-30 16:39:36,504 INFO: Disconnecting from voice normally, close code 1000.
+2023-01-30 16:41:10,548 INFO: 貓嗷嗚飄飄大仙 out 9又4分之8.7月台[123是什麼敷衍的名字]
+2023-01-30 16:41:10,548 INFO: Connecting to voice...
+2023-01-30 16:41:10,548 INFO: Starting voice handshake... (connection attempt 1)
+2023-01-30 16:41:10,721 INFO: Voice handshake complete. Endpoint found seattle6700.discord.media
+2023-01-30 16:41:14,097 INFO: ffmpeg process 316 successfully terminated with return code of 0.
+2023-01-30 16:41:17,695 INFO: ffmpeg process 326 successfully terminated with return code of 0.
+2023-01-30 16:41:18,764 INFO: The voice handshake is being terminated for Channel ID 728631391809437746 (Guild ID 428109526550708234)
+2023-01-30 16:41:18,764 INFO: Disconnecting from voice normally, close code 1000.
+2023-01-30 16:42:28,105 INFO: Shard ID None has successfully RESUMED session 1e834fc1d744c8ff7951961103ea351f.
+2023-01-30 20:07:29,303 INFO: Shard ID None has successfully RESUMED session 1e834fc1d744c8ff7951961103ea351f.
+2023-01-30 21:04:50,203 INFO: logging in using static token
+2023-01-30 21:04:50,973 INFO: Shard ID None has connected to Gateway (Session ID: fcb0cfb87596b10939594109de918dea).
+2023-01-30 21:04:52,981 INFO: 目前登入身份：神奇海螺#3847
+2023-01-31 00:49:40,881 INFO: Shard ID None has successfully RESUMED session fcb0cfb87596b10939594109de918dea.
+2023-01-31 03:39:10,177 INFO: Shard ID None has successfully RESUMED session fcb0cfb87596b10939594109de918dea.
+2023-01-31 06:10:18,901 INFO: Shard ID None has successfully RESUMED session fcb0cfb87596b10939594109de918dea.
+2023-01-31 07:58:04,664 INFO: Shard ID None has successfully RESUMED session fcb0cfb87596b10939594109de918dea.
+2023-01-31 10:30:43,785 INFO: Shard ID None has successfully RESUMED session fcb0cfb87596b10939594109de918dea.
+2023-01-31 12:23:05,825 INFO: Shard ID None has successfully RESUMED session fcb0cfb87596b10939594109de918dea.
+2023-01-31 13:12:36,779 INFO: 神奇海螺 in 9又4分之8.7月台[123是什麼敷衍的名字]
+2023-01-31 13:12:36,838 INFO: Connecting to voice...
+2023-01-31 13:12:36,839 INFO: Starting voice handshake... (connection attempt 1)
+2023-01-31 13:12:37,127 INFO: Voice handshake complete. Endpoint found hongkong2014.discord.media
+2023-01-31 13:12:41,182 INFO: ffmpeg process 2107 successfully terminated with return code of 0.
+2023-01-31 13:12:49,634 INFO: ffmpeg process 2118 successfully terminated with return code of 0.
+2023-01-31 13:12:50,706 INFO: The voice handshake is being terminated for Channel ID 728631391809437746 (Guild ID 428109526550708234)
+2023-01-31 13:12:50,707 INFO: Disconnecting from voice normally, close code 1000.
+2023-01-31 13:48:49,270 INFO: 貓嗷嗚飄飄大仙 in 9又4分之8.7月台[123是什麼敷衍的名字]
+2023-01-31 13:48:49,375 INFO: Connecting to voice...
+2023-01-31 13:48:49,375 INFO: Starting voice handshake... (connection attempt 1)
+2023-01-31 13:48:49,666 INFO: Voice handshake complete. Endpoint found hongkong2014.discord.media
+2023-01-31 13:48:53,481 INFO: ffmpeg process 2183 successfully terminated with return code of 0.
+2023-01-31 13:48:55,049 INFO: ffmpeg process 2193 successfully terminated with return code of 0.
+2023-01-31 13:48:56,594 INFO: The voice handshake is being terminated for Channel ID 728631391809437746 (Guild ID 428109526550708234)
+2023-01-31 13:48:56,595 INFO: Disconnecting from voice normally, close code 1000.
+2023-01-31 13:55:05,590 INFO: Chi in 9又4分之8.7月台[123是什麼敷衍的名字]
+2023-01-31 13:55:05,736 INFO: Connecting to voice...
+2023-01-31 13:55:05,736 INFO: Starting voice handshake... (connection attempt 1)
+2023-01-31 13:55:06,032 INFO: Voice handshake complete. Endpoint found hongkong2014.discord.media
+2023-01-31 13:55:09,342 INFO: ffmpeg process 2239 successfully terminated with return code of 0.
+2023-01-31 13:55:11,924 INFO: ffmpeg process 2249 successfully terminated with return code of 0.
+2023-01-31 13:55:12,993 INFO: The voice handshake is being terminated for Channel ID 728631391809437746 (Guild ID 428109526550708234)
+2023-01-31 13:55:12,994 INFO: Disconnecting from voice normally, close code 1000.
+2023-01-31 13:57:05,035 INFO: logging in using static token
+2023-01-31 13:57:05,508 INFO: Shard ID None has connected to Gateway (Session ID: 42a8cea5c1fba02eefb45cff6c214437).
+2023-01-31 13:57:07,513 INFO: 目前登入身份：神奇海螺#3847
+2023-01-31 13:57:40,945 INFO: Connecting to voice...
+2023-01-31 13:57:40,945 INFO: Starting voice handshake... (connection attempt 1)
+2023-01-31 13:59:15,392 INFO: logging in using static token
+2023-01-31 13:59:16,080 INFO: Shard ID None has connected to Gateway (Session ID: 715180e47e197d71ce0ffd90ecd653d1).
+2023-01-31 13:59:18,084 INFO: 目前登入身份：神奇海螺#3847
+2023-01-31 14:06:16,624 INFO: message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+2023-01-31 14:06:18,432 INFO: message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=1476 request_id=8987a2b4459911edf71455d5cb13f304 response_code=200
+2023-01-31 14:06:24,201 INFO: Fiven-chung in 9又4分之8.7月台[123是什麼敷衍的名字]
+2023-01-31 14:06:24,334 INFO: Connecting to voice...
+2023-01-31 14:06:24,335 INFO: Starting voice handshake... (connection attempt 1)
+2023-01-31 14:06:24,639 INFO: Voice handshake complete. Endpoint found hongkong2014.discord.media
+2023-01-31 14:06:27,658 INFO: ffmpeg process 232 successfully terminated with return code of 0.
+2023-01-31 14:06:29,993 INFO: ffmpeg process 243 successfully terminated with return code of 0.
+2023-01-31 14:06:31,019 INFO: The voice handshake is being terminated for Channel ID 728631391809437746 (Guild ID 428109526550708234)
+2023-01-31 14:06:31,019 INFO: Disconnecting from voice normally, close code 1000.
+2023-01-31 14:06:32,233 INFO: KyrieR in 9又4分之8.7月台[123是什麼敷衍的名字]
+2023-01-31 14:06:32,376 INFO: Connecting to voice...
+2023-01-31 14:06:32,376 INFO: Starting voice handshake... (connection attempt 1)
+2023-01-31 14:06:32,687 INFO: Voice handshake complete. Endpoint found hongkong2014.discord.media
+2023-01-31 14:06:36,355 INFO: ffmpeg process 254 successfully terminated with return code of 0.
+2023-01-31 14:06:38,522 INFO: ffmpeg process 264 successfully terminated with return code of 0.
+2023-01-31 14:06:39,586 INFO: The voice handshake is being terminated for Channel ID 728631391809437746 (Guild ID 428109526550708234)
+2023-01-31 14:06:39,587 INFO: Disconnecting from voice normally, close code 1000.
+2023-01-31 14:07:14,233 INFO: BunnyplayGG in 9又4分之8.7月台[123是什麼敷衍的名字]
+2023-01-31 14:07:14,377 INFO: Connecting to voice...
+2023-01-31 14:07:14,377 INFO: Starting voice handshake... (connection attempt 1)
+2023-01-31 14:07:14,675 INFO: Voice handshake complete. Endpoint found hongkong2014.discord.media
+2023-01-31 14:07:18,142 INFO: ffmpeg process 275 successfully terminated with return code of 0.
+2023-01-31 14:07:20,342 INFO: ffmpeg process 285 successfully terminated with return code of 0.
+2023-01-31 14:07:21,388 INFO: The voice handshake is being terminated for Channel ID 728631391809437746 (Guild ID 428109526550708234)
+2023-01-31 14:07:21,389 INFO: Disconnecting from voice normally, close code 1000.
+2023-01-31 14:08:13,753 INFO: 楓夜 in 9又4分之8.7月台[123是什麼敷衍的名字]
+2023-01-31 14:08:13,875 INFO: Connecting to voice...
+2023-01-31 14:08:13,875 INFO: Starting voice handshake... (connection attempt 1)
+2023-01-31 14:08:14,185 INFO: Voice handshake complete. Endpoint found hongkong2014.discord.media
+2023-01-31 14:08:17,669 INFO: ffmpeg process 316 successfully terminated with return code of 0.
+2023-01-31 14:08:19,974 INFO: ffmpeg process 326 successfully terminated with return code of 0.
+2023-01-31 14:08:20,998 INFO: The voice handshake is being terminated for Channel ID 728631391809437746 (Guild ID 428109526550708234)
+2023-01-31 14:08:20,999 INFO: Disconnecting from voice normally, close code 1000.
+2023-01-31 14:10:33,324 INFO: message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+2023-01-31 14:10:33,981 INFO: message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=394 request_id=6bdf640724310b309197d955d8224b11 response_code=200
+2023-01-31 14:10:34,006 ERROR: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/client.py", line 409, in _run_event
+    await coro(*args, **kwargs)
+  File "main.py", line 501, in on_message
+    await message.channel.send(answer)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/abc.py", line 1536, in send
+    data = await state.http.send_message(channel.id, params=params)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/http.py", line 680, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 429 Too Many Requests (error code: 0): You are being blocked from accessing our API temporarily due to exceeding our rate limits frequently. Please read our docs at https://discord.com/developers/docs/topics/rate-limits to prevent this moving forward.
+2023-01-31 14:21:03,012 INFO: MaiMai的Pool in 9又4分之8.7月台[123是什麼敷衍的名字]
+2023-01-31 14:21:03,066 INFO: Connecting to voice...
+2023-01-31 14:21:03,066 INFO: Starting voice handshake... (connection attempt 1)
+2023-01-31 14:21:03,365 INFO: Voice handshake complete. Endpoint found hongkong2014.discord.media
+2023-01-31 14:21:06,735 INFO: ffmpeg process 373 successfully terminated with return code of 0.
+2023-01-31 14:21:10,133 INFO: ffmpeg process 383 successfully terminated with return code of 0.
+2023-01-31 14:21:11,188 INFO: The voice handshake is being terminated for Channel ID 728631391809437746 (Guild ID 428109526550708234)
+2023-01-31 14:21:11,188 INFO: Disconnecting from voice normally, close code 1000.
+2023-01-31 14:21:45,202 INFO: MaiMai的Pool out 9又4分之8.7月台[123是什麼敷衍的名字]
+2023-01-31 14:21:45,202 INFO: Connecting to voice...
+2023-01-31 14:21:45,203 INFO: Starting voice handshake... (connection attempt 1)
+2023-01-31 14:21:45,556 INFO: Voice handshake complete. Endpoint found hongkong2014.discord.media
+2023-01-31 14:21:48,736 INFO: ffmpeg process 394 successfully terminated with return code of 0.
+2023-01-31 14:21:49,745 INFO: The voice handshake is being terminated for Channel ID 728631391809437746 (Guild ID 428109526550708234)
+2023-01-31 14:21:49,746 INFO: Disconnecting from voice normally, close code 1000.
+2023-01-31 14:22:01,764 INFO: MaiMai的Pool in 9又4分之8.7月台[123是什麼敷衍的名字]
+2023-01-31 14:22:01,857 INFO: Connecting to voice...
+2023-01-31 14:22:01,858 INFO: Starting voice handshake... (connection attempt 1)
+2023-01-31 14:22:02,151 INFO: Voice handshake complete. Endpoint found hongkong2014.discord.media
+2023-01-31 14:22:03,639 INFO: wawa的n in 9又4分之8.7月台[123是什麼敷衍的名字]
+2023-01-31 14:22:06,020 INFO: ffmpeg process 405 successfully terminated with return code of 0.
+2023-01-31 14:22:07,521 INFO: ffmpeg process 415 successfully terminated with return code of 0.
+2023-01-31 14:22:11,730 INFO: ffmpeg process 425 successfully terminated with return code of 0.
+2023-01-31 14:22:14,216 INFO: ffmpeg process 435 successfully terminated with return code of 0.
+2023-01-31 14:22:15,302 INFO: The voice handshake is being terminated for Channel ID 728631391809437746 (Guild ID 428109526550708234)
+2023-01-31 14:22:15,303 INFO: Disconnecting from voice normally, close code 1000.
+2023-01-31 14:41:12,243 ERROR: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/client.py", line 409, in _run_event
+    await coro(*args, **kwargs)
+  File "main.py", line 373, in on_message
+    await message.channel.send('藍方: ' +
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/abc.py", line 1536, in send
+    data = await state.http.send_message(channel.id, params=params)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/http.py", line 680, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 429 Too Many Requests (error code: 0): You are being blocked from accessing our API temporarily due to exceeding our rate limits frequently. Please read our docs at https://discord.com/developers/docs/topics/rate-limits to prevent this moving forward.
+2023-01-31 14:41:25,679 INFO: message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+2023-01-31 14:41:27,940 INFO: message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=1975 request_id=b34e2a98bd79e5c6040c3666bc0793cc response_code=200
+2023-01-31 14:41:27,963 ERROR: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/client.py", line 409, in _run_event
+    await coro(*args, **kwargs)
+  File "main.py", line 501, in on_message
+    await message.channel.send(answer)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/abc.py", line 1536, in send
+    data = await state.http.send_message(channel.id, params=params)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/http.py", line 680, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 429 Too Many Requests (error code: 0): You are being blocked from accessing our API temporarily due to exceeding our rate limits frequently. Please read our docs at https://discord.com/developers/docs/topics/rate-limits to prevent this moving forward.
+2023-01-31 14:41:33,056 INFO: message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+2023-01-31 14:41:36,017 INFO: message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=2833 request_id=053a1717ed77a30cdcb3216c3571f875 response_code=200
+2023-01-31 14:41:36,035 ERROR: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/client.py", line 409, in _run_event
+    await coro(*args, **kwargs)
+  File "main.py", line 501, in on_message
+    await message.channel.send(answer)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/abc.py", line 1536, in send
+    data = await state.http.send_message(channel.id, params=params)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/http.py", line 680, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 429 Too Many Requests (error code: 0): You are being blocked from accessing our API temporarily due to exceeding our rate limits frequently. Please read our docs at https://discord.com/developers/docs/topics/rate-limits to prevent this moving forward.
+2023-01-31 14:41:42,543 ERROR: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/client.py", line 409, in _run_event
+    await coro(*args, **kwargs)
+  File "main.py", line 373, in on_message
+    await message.channel.send('藍方: ' +
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/abc.py", line 1536, in send
+    data = await state.http.send_message(channel.id, params=params)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/http.py", line 680, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 429 Too Many Requests (error code: 0): You are being blocked from accessing our API temporarily due to exceeding our rate limits frequently. Please read our docs at https://discord.com/developers/docs/topics/rate-limits to prevent this moving forward.
+2023-01-31 14:41:49,584 ERROR: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/client.py", line 409, in _run_event
+    await coro(*args, **kwargs)
+  File "main.py", line 373, in on_message
+    await message.channel.send('藍方: ' +
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/abc.py", line 1536, in send
+    data = await state.http.send_message(channel.id, params=params)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/http.py", line 680, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 429 Too Many Requests (error code: 0): You are being blocked from accessing our API temporarily due to exceeding our rate limits frequently. Please read our docs at https://discord.com/developers/docs/topics/rate-limits to prevent this moving forward.
+2023-01-31 14:42:18,778 ERROR: Ignoring exception in command '阿致分隊'
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/app_commands/commands.py", line 851, in _do_call
+    return await self._callback(interaction, **params)  # type: ignore
+  File "main.py", line 551, in cmd_split
+    await interaction.channel.send('藍方: ' +
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/abc.py", line 1536, in send
+    data = await state.http.send_message(channel.id, params=params)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/http.py", line 680, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 429 Too Many Requests (error code: 0): You are being blocked from accessing our API temporarily due to exceeding our rate limits frequently. Please read our docs at https://discord.com/developers/docs/topics/rate-limits to prevent this moving forward.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/app_commands/tree.py", line 1240, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/app_commands/commands.py", line 876, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/app_commands/commands.py", line 869, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command '阿致分隊' raised an exception: HTTPException: 429 Too Many Requests (error code: 0): You are being blocked from accessing our API temporarily due to exceeding our rate limits frequently. Please read our docs at https://discord.com/developers/docs/topics/rate-limits to prevent this moving forward.
+2023-01-31 14:43:38,900 INFO: logging in using static token
+2023-01-31 14:43:39,527 INFO: Shard ID None has connected to Gateway (Session ID: 7cf8034d3b518bea639cfcdffac15d29).
+2023-01-31 14:43:41,536 INFO: 目前登入身份：神奇海螺#3847
+2023-01-31 14:43:57,303 INFO: MaiMai的Pool in 9又4分之8.7月台[藍隊]
+2023-01-31 14:43:57,362 INFO: Connecting to voice...
+2023-01-31 14:43:57,362 INFO: Starting voice handshake... (connection attempt 1)
+2023-01-31 14:43:57,658 INFO: 楓夜 in 9又4分之8.7月台[藍隊]
+2023-01-31 14:43:57,893 INFO: Voice handshake complete. Endpoint found hongkong7234.discord.media
+2023-01-31 14:43:58,137 INFO: KyrieR in 9又4分之8.7月台[藍隊]
+2023-01-31 14:43:58,444 INFO: BunnyplayGG in 9又4分之8.7月台[藍隊]
+2023-01-31 14:43:58,801 INFO: Fiven-chung in 9又4分之8.7月台[藍隊]
+2023-01-31 14:43:59,487 INFO: 神奇海螺 in 9又4分之8.7月台[紅隊]
+2023-01-31 14:43:59,794 INFO: 貓嗷嗚飄飄大仙 in 9又4分之8.7月台[紅隊]
+2023-01-31 14:44:00,056 INFO: Chi in 9又4分之8.7月台[紅隊]
+2023-01-31 14:44:00,451 INFO: wawa的n in 9又4分之8.7月台[紅隊]
+2023-01-31 14:44:00,820 INFO: SparkleZ in 9又4分之8.7月台[紅隊]
+2023-01-31 14:44:02,214 INFO: ffmpeg process 448 successfully terminated with return code of 0.
+2023-01-31 14:44:04,189 INFO: ffmpeg process 483 successfully terminated with return code of 0.
+2023-01-31 14:44:07,119 INFO: ffmpeg process 509 successfully terminated with return code of 0.
+2023-01-31 14:44:09,114 INFO: ffmpeg process 535 successfully terminated with return code of 0.
+2023-01-31 14:44:12,244 INFO: ffmpeg process 561 successfully terminated with return code of 0.
+2023-01-31 14:44:15,138 INFO: ffmpeg process 598 successfully terminated with return code of 0.
+2023-01-31 14:44:18,572 INFO: ffmpeg process 630 successfully terminated with return code of 0.
+2023-01-31 14:44:22,772 INFO: ffmpeg process 658 successfully terminated with return code of 0.
+2023-01-31 14:44:25,691 INFO: ffmpeg process 692 successfully terminated with return code of 0.
+2023-01-31 14:44:28,486 INFO: ffmpeg process 718 successfully terminated with return code of 0.
+2023-01-31 14:44:29,554 INFO: The voice handshake is being terminated for Channel ID 1069991431579648122 (Guild ID 428109526550708234)
+2023-01-31 14:44:29,554 INFO: Connecting to voice...
+2023-01-31 14:44:29,554 INFO: Starting voice handshake... (connection attempt 1)
+2023-01-31 14:44:29,555 INFO: Disconnecting from voice normally, close code 1000.
+2023-01-31 14:44:29,877 INFO: Voice handshake complete. Endpoint found hongkong2800.discord.media
+2023-01-31 14:44:33,348 INFO: ffmpeg process 764 successfully terminated with return code of 0.
+2023-01-31 14:44:41,806 INFO: ffmpeg process 790 successfully terminated with return code of 0.
+2023-01-31 14:44:45,579 INFO: ffmpeg process 840 successfully terminated with return code of 0.
+2023-01-31 14:44:49,039 INFO: ffmpeg process 874 successfully terminated with return code of 0.
+2023-01-31 14:44:51,758 INFO: ffmpeg process 900 successfully terminated with return code of 0.
+2023-01-31 14:44:53,791 INFO: ffmpeg process 926 successfully terminated with return code of 0.
+2023-01-31 14:44:56,961 INFO: ffmpeg process 952 successfully terminated with return code of 0.
+2023-01-31 14:44:59,096 INFO: ffmpeg process 986 successfully terminated with return code of 0.
+2023-01-31 14:45:02,126 INFO: ffmpeg process 1012 successfully terminated with return code of 0.
+2023-01-31 14:45:04,139 INFO: ffmpeg process 1038 successfully terminated with return code of 0.
+2023-01-31 14:45:05,161 INFO: The voice handshake is being terminated for Channel ID 1069991440693862511 (Guild ID 428109526550708234)
+2023-01-31 14:45:05,162 INFO: Disconnecting from voice normally, close code 1000.
+2023-01-31 15:17:29,876 INFO: Shard ID None has successfully RESUMED session 7cf8034d3b518bea639cfcdffac15d29.
+2023-01-31 15:26:06,511 INFO: MaiMai的Pool in 9又4分之8.7月台[紅隊]
+2023-01-31 15:26:06,560 INFO: Connecting to voice...
+2023-01-31 15:26:06,561 INFO: Starting voice handshake... (connection attempt 1)
+2023-01-31 15:26:06,856 INFO: Voice handshake complete. Endpoint found hongkong2800.discord.media
+2023-01-31 15:26:10,718 INFO: ffmpeg process 1462 successfully terminated with return code of 0.
+2023-01-31 15:26:13,416 INFO: ffmpeg process 1480 successfully terminated with return code of 0.
+2023-01-31 15:26:13,604 INFO: MaiMai的Pool in 9又4分之8.7月台[藍隊]
+2023-01-31 15:26:14,462 INFO: The voice handshake is being terminated for Channel ID 1069991440693862511 (Guild ID 428109526550708234)
+2023-01-31 15:26:14,463 INFO: Connecting to voice...
+2023-01-31 15:26:14,463 INFO: Starting voice handshake... (connection attempt 1)
+2023-01-31 15:26:14,464 INFO: Disconnecting from voice normally, close code 1000.
+2023-01-31 15:26:14,774 INFO: Voice handshake complete. Endpoint found hongkong7234.discord.media
+2023-01-31 15:26:18,637 INFO: ffmpeg process 1499 successfully terminated with return code of 0.
+2023-01-31 15:26:21,095 INFO: ffmpeg process 1517 successfully terminated with return code of 0.
+2023-01-31 15:26:22,181 INFO: The voice handshake is being terminated for Channel ID 1069991431579648122 (Guild ID 428109526550708234)
+2023-01-31 15:26:22,181 INFO: Disconnecting from voice normally, close code 1000.
+2023-01-31 16:07:23,966 INFO: 楓夜 in 9又4分之8.7月台[紅隊]
+2023-01-31 16:07:24,060 INFO: Connecting to voice...
+2023-01-31 16:07:24,060 INFO: Starting voice handshake... (connection attempt 1)
+2023-01-31 16:07:24,354 INFO: Voice handshake complete. Endpoint found hongkong2800.discord.media
+2023-01-31 16:07:28,522 INFO: ffmpeg process 1626 successfully terminated with return code of 0.
+2023-01-31 16:07:29,476 INFO: MaiMai的Pool in 9又4分之8.7月台[紅隊]
+2023-01-31 16:07:31,457 INFO: ffmpeg process 1644 successfully terminated with return code of 0.
+2023-01-31 16:07:35,061 INFO: Fiven-chung in 9又4分之8.7月台[紅隊]
+2023-01-31 16:07:35,291 INFO: ffmpeg process 1662 successfully terminated with return code of 0.
+2023-01-31 16:07:37,294 INFO: ffmpeg process 1680 successfully terminated with return code of 0.
+2023-01-31 16:07:38,533 INFO: BunnyplayGG in 9又4分之8.7月台[紅隊]
+2023-01-31 16:07:40,483 INFO: KyrieR in 9又4分之8.7月台[紅隊]
+2023-01-31 16:07:40,701 INFO: ffmpeg process 1698 successfully terminated with return code of 0.
+2023-01-31 16:07:43,391 INFO: ffmpeg process 1716 successfully terminated with return code of 0.
+2023-01-31 16:07:46,823 INFO: ffmpeg process 1734 successfully terminated with return code of 0.
+2023-01-31 16:07:48,819 INFO: ffmpeg process 1752 successfully terminated with return code of 0.
+2023-01-31 16:07:51,947 INFO: ffmpeg process 1770 successfully terminated with return code of 0.
+2023-01-31 16:07:54,520 INFO: ffmpeg process 1788 successfully terminated with return code of 0.
+2023-01-31 16:07:55,586 INFO: The voice handshake is being terminated for Channel ID 1069991440693862511 (Guild ID 428109526550708234)
+2023-01-31 16:07:55,586 INFO: Disconnecting from voice normally, close code 1000.
+2023-01-31 16:07:57,818 INFO: wawa的n out 9又4分之8.7月台[紅隊]
+2023-01-31 16:07:57,819 INFO: Connecting to voice...
+2023-01-31 16:07:57,819 INFO: Starting voice handshake... (connection attempt 1)
+2023-01-31 16:07:58,196 INFO: Voice handshake complete. Endpoint found hongkong2800.discord.media
+2023-01-31 16:07:58,405 INFO: MaiMai的Pool out 9又4分之8.7月台[紅隊]
+2023-01-31 16:08:01,260 INFO: ffmpeg process 1807 successfully terminated with return code of 0.
+2023-01-31 16:08:04,393 INFO: ffmpeg process 1825 successfully terminated with return code of 0.
+2023-01-31 16:08:05,401 INFO: The voice handshake is being terminated for Channel ID 1069991440693862511 (Guild ID 428109526550708234)
+2023-01-31 16:08:05,402 INFO: Disconnecting from voice normally, close code 1000.
+2023-01-31 16:09:31,503 INFO: BunnyplayGG out 9又4分之8.7月台[紅隊]
+2023-01-31 16:09:31,503 INFO: Connecting to voice...
+2023-01-31 16:09:31,504 INFO: Starting voice handshake... (connection attempt 1)
+2023-01-31 16:09:31,791 INFO: Voice handshake complete. Endpoint found hongkong2800.discord.media
+2023-01-31 16:09:35,240 INFO: ffmpeg process 1844 successfully terminated with return code of 0.
+2023-01-31 16:09:36,287 INFO: The voice handshake is being terminated for Channel ID 1069991440693862511 (Guild ID 428109526550708234)
+2023-01-31 16:09:36,288 INFO: Disconnecting from voice normally, close code 1000.
+2023-01-31 16:09:40,205 INFO: SparkleZ out 9又4分之8.7月台[紅隊]
+2023-01-31 16:09:40,205 INFO: Connecting to voice...
+2023-01-31 16:09:40,205 INFO: Starting voice handshake... (connection attempt 1)
+2023-01-31 16:09:40,561 INFO: Voice handshake complete. Endpoint found hongkong2800.discord.media
+2023-01-31 16:09:43,622 INFO: ffmpeg process 1863 successfully terminated with return code of 0.
+2023-01-31 16:09:44,648 INFO: The voice handshake is being terminated for Channel ID 1069991440693862511 (Guild ID 428109526550708234)
+2023-01-31 16:09:44,648 INFO: Disconnecting from voice normally, close code 1000.
+2023-01-31 16:27:48,589 INFO: Chi out 9又4分之8.7月台[紅隊]
+2023-01-31 16:27:48,589 INFO: Connecting to voice...
+2023-01-31 16:27:48,589 INFO: Starting voice handshake... (connection attempt 1)
+2023-01-31 16:27:48,880 INFO: Voice handshake complete. Endpoint found hongkong2800.discord.media
+2023-01-31 16:27:51,579 INFO: ffmpeg process 1918 successfully terminated with return code of 0.
+2023-01-31 16:27:52,624 INFO: The voice handshake is being terminated for Channel ID 1069991440693862511 (Guild ID 428109526550708234)
+2023-01-31 16:27:52,625 INFO: Disconnecting from voice normally, close code 1000.
+2023-01-31 16:30:29,261 INFO: Fiven-chung out 9又4分之8.7月台[紅隊]
+2023-01-31 16:30:29,261 INFO: Connecting to voice...
+2023-01-31 16:30:29,262 INFO: Starting voice handshake... (connection attempt 1)
+2023-01-31 16:30:29,555 INFO: Voice handshake complete. Endpoint found hongkong2800.discord.media
+2023-01-31 16:30:32,620 INFO: ffmpeg process 1937 successfully terminated with return code of 0.
+2023-01-31 16:30:33,706 INFO: The voice handshake is being terminated for Channel ID 1069991440693862511 (Guild ID 428109526550708234)
+2023-01-31 16:30:33,706 INFO: Disconnecting from voice normally, close code 1000.
+2023-01-31 16:39:05,197 INFO: KyrieR out 9又4分之8.7月台[紅隊]
+2023-01-31 16:39:05,197 INFO: Connecting to voice...
+2023-01-31 16:39:05,197 INFO: Starting voice handshake... (connection attempt 1)
+2023-01-31 16:39:06,080 INFO: Voice handshake complete. Endpoint found hongkong2800.discord.media
+2023-01-31 16:39:09,019 INFO: ffmpeg process 1956 successfully terminated with return code of 0.
+2023-01-31 16:39:10,027 INFO: The voice handshake is being terminated for Channel ID 1069991440693862511 (Guild ID 428109526550708234)
+2023-01-31 16:39:10,027 INFO: Disconnecting from voice normally, close code 1000.
+2023-01-31 18:14:37,887 INFO: 楓夜 out 9又4分之8.7月台[紅隊]
+2023-01-31 18:14:37,888 INFO: Connecting to voice...
+2023-01-31 18:14:37,888 INFO: Starting voice handshake... (connection attempt 1)
+2023-01-31 18:14:38,200 INFO: Voice handshake complete. Endpoint found hongkong2800.discord.media
+2023-01-31 18:14:41,676 INFO: ffmpeg process 2193 successfully terminated with return code of 0.
+2023-01-31 18:14:42,746 INFO: The voice handshake is being terminated for Channel ID 1069991440693862511 (Guild ID 428109526550708234)
+2023-01-31 18:14:42,747 INFO: Disconnecting from voice normally, close code 1000.
+2023-01-31 18:16:59,889 INFO: 貓嗷嗚飄飄大仙 out 9又4分之8.7月台[紅隊]
+2023-01-31 18:16:59,890 INFO: Connecting to voice...
+2023-01-31 18:16:59,890 INFO: Starting voice handshake... (connection attempt 1)
+2023-01-31 18:17:59,911 INFO: The voice handshake is being terminated for Channel ID 1069991440693862511 (Guild ID 428109526550708234)
+2023-01-31 18:17:59,912 INFO: The voice handshake is being terminated for Channel ID 1069991440693862511 (Guild ID 428109526550708234)
+2023-01-31 18:22:53,775 INFO: Shard ID None has successfully RESUMED session 7cf8034d3b518bea639cfcdffac15d29.
+2023-01-31 20:14:04,686 INFO: Shard ID None has successfully RESUMED session 7cf8034d3b518bea639cfcdffac15d29.
+2023-01-31 20:39:38,138 INFO: Shard ID None has successfully RESUMED session 7cf8034d3b518bea639cfcdffac15d29.
