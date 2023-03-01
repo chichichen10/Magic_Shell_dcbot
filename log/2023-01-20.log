@@ -1,0 +1,134 @@
+2023-01-19 16:26:33,026 INFO: logging in using static token
+2023-01-19 16:26:33,675 INFO: Shard ID None has connected to Gateway (Session ID: a76973b2c83e7dc9b08b0145a79645b8).
+2023-01-19 16:26:35,684 INFO: 目前登入身份：神奇海螺#3847
+2023-01-19 17:00:38,268 INFO: Fiven-chung out 9又4分之8.7月台[123是什麼敷衍的名字]
+2023-01-19 17:00:38,269 INFO: Connecting to voice...
+2023-01-19 17:00:38,269 INFO: Starting voice handshake... (connection attempt 1)
+2023-01-19 17:00:38,564 INFO: Voice handshake complete. Endpoint found hongkong592.discord.media
+2023-01-19 17:00:41,619 INFO: ffmpeg process 304 successfully terminated with return code of 0.
+2023-01-19 17:00:42,706 INFO: The voice handshake is being terminated for Channel ID 728631391809437746 (Guild ID 428109526550708234)
+2023-01-19 17:00:42,706 INFO: Disconnecting from voice normally, close code 1000.
+2023-01-19 17:02:21,834 INFO: 貓嗷嗚飄飄大仙 out 9又4分之8.7月台[123是什麼敷衍的名字]
+2023-01-19 17:02:21,834 INFO: Connecting to voice...
+2023-01-19 17:02:21,834 INFO: Starting voice handshake... (connection attempt 1)
+2023-01-19 17:02:22,137 INFO: Voice handshake complete. Endpoint found hongkong592.discord.media
+2023-01-19 17:02:25,850 INFO: ffmpeg process 316 successfully terminated with return code of 0.
+2023-01-19 17:02:30,189 INFO: ffmpeg process 326 successfully terminated with return code of 0.
+2023-01-19 17:02:31,240 INFO: The voice handshake is being terminated for Channel ID 728631391809437746 (Guild ID 428109526550708234)
+2023-01-19 17:02:31,241 INFO: Disconnecting from voice normally, close code 1000.
+2023-01-19 17:03:25,790 INFO: Shard ID None has successfully RESUMED session a76973b2c83e7dc9b08b0145a79645b8.
+2023-01-19 18:47:58,264 INFO: Shard ID None has successfully RESUMED session a76973b2c83e7dc9b08b0145a79645b8.
+2023-01-19 19:53:49,347 INFO: logging in using static token
+2023-01-19 19:53:50,008 INFO: Shard ID None has connected to Gateway (Session ID: 1c176f76bf03ec20efd8686fc400c212).
+2023-01-19 19:53:52,034 INFO: 目前登入身份：神奇海螺#3847
+2023-01-19 21:53:33,838 INFO: Shard ID None has successfully RESUMED session 1c176f76bf03ec20efd8686fc400c212.
+2023-01-19 22:24:07,342 INFO: Shard ID None has successfully RESUMED session 1c176f76bf03ec20efd8686fc400c212.
+2023-01-20 01:26:13,367 INFO: Shard ID None has successfully RESUMED session 1c176f76bf03ec20efd8686fc400c212.
+2023-01-20 04:40:13,742 INFO: Shard ID None has successfully RESUMED session 1c176f76bf03ec20efd8686fc400c212.
+2023-01-20 06:15:21,805 INFO: logging in using static token
+2023-01-20 06:15:22,507 INFO: Shard ID None has connected to Gateway (Session ID: d23145192085680d8527720e686bab92).
+2023-01-20 06:15:24,511 INFO: 目前登入身份：神奇海螺#3847
+2023-01-20 09:01:40,369 INFO: Shard ID None has successfully RESUMED session d23145192085680d8527720e686bab92.
+2023-01-20 09:03:46,840 INFO: logging in using static token
+2023-01-20 09:03:47,338 INFO: Shard ID None has connected to Gateway (Session ID: 1c50a83a0715511aafcea6c59d90ceee).
+2023-01-20 09:03:49,344 INFO: 目前登入身份：神奇海螺#3847
+2023-01-20 09:04:47,308 INFO: logging in using static token
+2023-01-20 09:04:47,709 INFO: Shard ID None has connected to Gateway (Session ID: 466a095e98cd82d930f54d683a7db0f8).
+2023-01-20 09:04:49,714 INFO: 目前登入身份：神奇海螺#3847
+2023-01-20 10:26:24,061 INFO: Shard ID None has successfully RESUMED session 466a095e98cd82d930f54d683a7db0f8.
+2023-01-20 12:55:30,614 INFO: 神奇海螺 in 9又4分之8.7月台[123是什麼敷衍的名字]
+2023-01-20 12:55:30,655 INFO: Connecting to voice...
+2023-01-20 12:55:30,655 INFO: Starting voice handshake... (connection attempt 1)
+2023-01-20 12:55:30,932 INFO: Voice handshake complete. Endpoint found hongkong854.discord.media
+2023-01-20 12:55:34,803 INFO: ffmpeg process 573 successfully terminated with return code of 0.
+2023-01-20 12:55:43,282 INFO: ffmpeg process 584 successfully terminated with return code of 0.
+2023-01-20 12:55:44,334 INFO: The voice handshake is being terminated for Channel ID 728631391809437746 (Guild ID 428109526550708234)
+2023-01-20 12:55:44,336 INFO: Disconnecting from voice normally, close code 1000.
+2023-01-20 13:24:07,344 INFO: Shard ID None has successfully RESUMED session 466a095e98cd82d930f54d683a7db0f8.
+2023-01-20 13:53:13,678 ERROR: Attempting a reconnect in 0.15s
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/client.py", line 627, in connect
+    await self.ws.poll_event()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/gateway.py", line 645, in poll_event
+    raise ConnectionClosed(self.socket, shard_id=self.shard_id, code=code) from None
+discord.errors.ConnectionClosed: Shard ID None WebSocket closed with 1000
+2023-01-20 13:53:44,910 ERROR: Attempting a reconnect in 2.89s
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/client.py", line 624, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 494, in wait_for
+    return fut.result()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/gateway.py", line 371, in from_client
+    socket = await client.http.ws_connect(url)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/http.py", line 536, in ws_connect
+    return await self.__session.ws_connect(url, **kwargs)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/aiohttp/client.py", line 769, in _ws_connect
+    raise WSServerHandshakeError(
+aiohttp.client_exceptions.WSServerHandshakeError: 522, message='Invalid response status', url=URL('wss://gateway-us-east1-d.discord.gg/?v=10&encoding=json&compress=zlib-stream')
+2023-01-20 13:54:18,700 ERROR: Attempting a reconnect in 5.21s
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/client.py", line 624, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 494, in wait_for
+    return fut.result()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/gateway.py", line 371, in from_client
+    socket = await client.http.ws_connect(url)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/http.py", line 536, in ws_connect
+    return await self.__session.ws_connect(url, **kwargs)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/aiohttp/client.py", line 769, in _ws_connect
+    raise WSServerHandshakeError(
+aiohttp.client_exceptions.WSServerHandshakeError: 522, message='Invalid response status', url=URL('wss://gateway-us-east1-d.discord.gg/?v=10&encoding=json&compress=zlib-stream')
+2023-01-20 13:54:54,768 ERROR: Attempting a reconnect in 11.25s
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/client.py", line 624, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 494, in wait_for
+    return fut.result()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/gateway.py", line 371, in from_client
+    socket = await client.http.ws_connect(url)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/http.py", line 536, in ws_connect
+    return await self.__session.ws_connect(url, **kwargs)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/aiohttp/client.py", line 769, in _ws_connect
+    raise WSServerHandshakeError(
+aiohttp.client_exceptions.WSServerHandshakeError: 522, message='Invalid response status', url=URL('wss://gateway-us-east1-d.discord.gg/?v=10&encoding=json&compress=zlib-stream')
+2023-01-20 13:55:36,755 ERROR: Attempting a reconnect in 9.69s
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/client.py", line 624, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 494, in wait_for
+    return fut.result()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/gateway.py", line 371, in from_client
+    socket = await client.http.ws_connect(url)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/http.py", line 536, in ws_connect
+    return await self.__session.ws_connect(url, **kwargs)
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/aiohttp/client.py", line 769, in _ws_connect
+    raise WSServerHandshakeError(
+aiohttp.client_exceptions.WSServerHandshakeError: 522, message='Invalid response status', url=URL('wss://gateway-us-east1-d.discord.gg/?v=10&encoding=json&compress=zlib-stream')
+2023-01-20 13:56:01,853 INFO: Shard ID None session has been invalidated.
+2023-01-20 13:56:07,210 INFO: Shard ID None has connected to Gateway (Session ID: 2318e325d8bb1306b6f3171bd45fac9e).
+2023-01-20 13:56:09,232 INFO: 目前登入身份：神奇海螺#3847
+2023-01-20 14:15:19,748 INFO: Shard ID None has successfully RESUMED session 2318e325d8bb1306b6f3171bd45fac9e.
+2023-01-20 15:01:20,703 INFO: Chi in 9又4分之8.7月台[123是什麼敷衍的名字]
+2023-01-20 15:01:20,865 INFO: Connecting to voice...
+2023-01-20 15:01:20,865 INFO: Starting voice handshake... (connection attempt 1)
+2023-01-20 15:01:21,125 INFO: Voice handshake complete. Endpoint found hongkong854.discord.media
+2023-01-20 15:01:24,818 INFO: ffmpeg process 808 successfully terminated with return code of 0.
+2023-01-20 15:01:27,400 INFO: ffmpeg process 818 successfully terminated with return code of 0.
+2023-01-20 15:01:28,468 INFO: The voice handshake is being terminated for Channel ID 728631391809437746 (Guild ID 428109526550708234)
+2023-01-20 15:01:28,469 INFO: Disconnecting from voice normally, close code 1000.
+2023-01-20 15:13:45,963 INFO: 貓嗷嗚飄飄大仙 in 9又4分之8.7月台[123是什麼敷衍的名字]
+2023-01-20 15:13:46,009 INFO: Connecting to voice...
+2023-01-20 15:13:46,010 INFO: Starting voice handshake... (connection attempt 1)
+2023-01-20 15:13:46,263 INFO: Voice handshake complete. Endpoint found hongkong854.discord.media
+2023-01-20 15:13:50,475 INFO: ffmpeg process 849 successfully terminated with return code of 0.
+2023-01-20 15:13:52,642 INFO: ffmpeg process 859 successfully terminated with return code of 0.
+2023-01-20 15:13:53,688 INFO: The voice handshake is being terminated for Channel ID 728631391809437746 (Guild ID 428109526550708234)
+2023-01-20 15:13:53,689 INFO: Disconnecting from voice normally, close code 1000.
+2023-01-20 15:16:06,868 INFO: KyrieR in 9又4分之8.7月台[123是什麼敷衍的名字]
+2023-01-20 15:16:06,979 INFO: Connecting to voice...
+2023-01-20 15:16:06,980 INFO: Starting voice handshake... (connection attempt 1)
+2023-01-20 15:16:07,435 INFO: Voice handshake complete. Endpoint found hongkong854.discord.media
+2023-01-20 15:16:11,488 INFO: ffmpeg process 870 successfully terminated with return code of 0.
+2023-01-20 15:16:13,793 INFO: ffmpeg process 880 successfully terminated with return code of 0.
+2023-01-20 15:16:14,819 INFO: The voice handshake is being terminated for Channel ID 728631391809437746 (Guild ID 428109526550708234)
+2023-01-20 15:16:14,819 INFO: Disconnecting from voice normally, close code 1000.

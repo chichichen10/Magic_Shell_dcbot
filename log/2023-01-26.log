@@ -1,0 +1,114 @@
+2023-01-25 17:49:07,763 INFO: logging in using static token
+2023-01-25 17:49:08,189 INFO: Shard ID None has connected to Gateway (Session ID: 4f878fcf89c91a80cf04bdba1453b0c3).
+2023-01-25 17:49:10,199 INFO: 目前登入身份：神奇海螺#3847
+2023-01-25 20:08:10,452 INFO: logging in using static token
+2023-01-25 20:08:10,859 INFO: Shard ID None has connected to Gateway (Session ID: 46d2c69987e4bb0c35e5958e7caea6dc).
+2023-01-25 20:08:12,881 INFO: 目前登入身份：神奇海螺#3847
+2023-01-25 20:27:32,695 INFO: logging in using static token
+2023-01-25 20:27:33,619 INFO: Shard ID None has connected to Gateway (Session ID: 497c171ef6321da965ab6490a28612eb).
+2023-01-25 20:27:35,623 INFO: 目前登入身份：神奇海螺#3847
+2023-01-26 03:07:55,992 INFO: logging in using static token
+2023-01-26 03:07:56,519 INFO: Shard ID None has connected to Gateway (Session ID: a5d6cccb43d44bdc1cc741c22225460a).
+2023-01-26 03:07:58,530 INFO: 目前登入身份：神奇海螺#3847
+2023-01-26 03:28:07,367 INFO: Shard ID None has successfully RESUMED session a5d6cccb43d44bdc1cc741c22225460a.
+2023-01-26 04:13:01,376 INFO: logging in using static token
+2023-01-26 04:13:02,041 INFO: Shard ID None has connected to Gateway (Session ID: 95facdae76b25db085101d9fbc91a928).
+2023-01-26 04:13:04,060 INFO: 目前登入身份：神奇海螺#3847
+2023-01-26 05:22:28,447 INFO: Shard ID None has successfully RESUMED session 95facdae76b25db085101d9fbc91a928.
+2023-01-26 05:51:28,282 INFO: logging in using static token
+2023-01-26 05:52:15,586 INFO: logging in using static token
+2023-01-26 05:52:16,056 INFO: Shard ID None has connected to Gateway (Session ID: 503689cb3c38aa5df2834b39445f7b98).
+2023-01-26 05:52:18,070 INFO: 目前登入身份：神奇海螺#3847
+2023-01-26 08:06:24,880 INFO: logging in using static token
+2023-01-26 08:06:26,071 INFO: Shard ID None has connected to Gateway (Session ID: 0fb022595138514c6c4784b81225a953).
+2023-01-26 08:06:28,196 INFO: 目前登入身份：神奇海螺#3847
+2023-01-26 09:02:21,595 INFO: Shard ID None has successfully RESUMED session 0fb022595138514c6c4784b81225a953.
+2023-01-26 10:16:50,274 INFO: Shard ID None has successfully RESUMED session 0fb022595138514c6c4784b81225a953.
+2023-01-26 11:46:51,833 INFO: Shard ID None has successfully RESUMED session 0fb022595138514c6c4784b81225a953.
+2023-01-26 12:38:34,853 INFO: Shard ID None has successfully RESUMED session 0fb022595138514c6c4784b81225a953.
+2023-01-26 13:09:21,822 INFO: Shard ID None has successfully RESUMED session 0fb022595138514c6c4784b81225a953.
+2023-01-26 13:20:35,361 INFO: WeIrdnA in 9又4分之8.7月台[123是什麼敷衍的名字]
+2023-01-26 13:20:35,409 INFO: Connecting to voice...
+2023-01-26 13:20:35,409 INFO: Starting voice handshake... (connection attempt 1)
+2023-01-26 13:20:35,703 INFO: Voice handshake complete. Endpoint found hongkong8134.discord.media
+2023-01-26 13:20:38,105 INFO: WeIrdnA out 9又4分之8.7月台[123是什麼敷衍的名字]
+2023-01-26 13:20:39,060 INFO: WeIrdnA in 9又4分之8.7月台[123是什麼敷衍的名字]
+2023-01-26 13:20:39,455 INFO: ffmpeg process 743 successfully terminated with return code of 0.
+2023-01-26 13:20:40,512 INFO: WeIrdnA out 9又4分之8.7月台[123是什麼敷衍的名字]
+2023-01-26 13:20:41,260 INFO: WeIrdnA in 9又4分之8.7月台[123是什麼敷衍的名字]
+2023-01-26 13:20:42,264 INFO: ffmpeg process 754 successfully terminated with return code of 0.
+2023-01-26 13:20:42,458 INFO: WeIrdnA out 9又4分之8.7月台[123是什麼敷衍的名字]
+2023-01-26 13:20:43,152 INFO: WeIrdnA in 9又4分之8.7月台[123是什麼敷衍的名字]
+2023-01-26 13:20:44,676 INFO: WeIrdnA out 9又4分之8.7月台[123是什麼敷衍的名字]
+2023-01-26 13:20:45,364 INFO: ffmpeg process 764 successfully terminated with return code of 0.
+2023-01-26 13:20:45,626 INFO: WeIrdnA in 9又4分之8.7月台[123是什麼敷衍的名字]
+2023-01-26 13:20:47,595 INFO: WeIrdnA out 9又4分之8.7月台[123是什麼敷衍的名字]
+2023-01-26 13:20:48,336 INFO: WeIrdnA in 9又4分之8.7月台[123是什麼敷衍的名字]
+2023-01-26 13:20:49,112 INFO: ffmpeg process 774 successfully terminated with return code of 0.
+2023-01-26 13:20:49,754 INFO: WeIrdnA out 9又4分之8.7月台[123是什麼敷衍的名字]
+2023-01-26 13:20:50,849 INFO: WeIrdnA in 9又4分之8.7月台[123是什麼敷衍的名字]
+2023-01-26 13:20:51,771 INFO: ffmpeg process 784 successfully terminated with return code of 0.
+2023-01-26 13:20:52,471 INFO: WeIrdnA out 9又4分之8.7月台[123是什麼敷衍的名字]
+2023-01-26 13:20:53,322 INFO: WeIrdnA in 9又4分之8.7月台[123是什麼敷衍的名字]
+2023-01-26 13:20:54,871 INFO: ffmpeg process 794 successfully terminated with return code of 0.
+2023-01-26 13:20:55,012 INFO: WeIrdnA out 9又4分之8.7月台[123是什麼敷衍的名字]
+2023-01-26 13:20:56,206 INFO: WeIrdnA in 9又4分之8.7月台[123是什麼敷衍的名字]
+2023-01-26 13:20:57,890 INFO: WeIrdnA out 9又4分之8.7月台[123是什麼敷衍的名字]
+2023-01-26 13:20:58,183 INFO: ffmpeg process 804 successfully terminated with return code of 0.
+2023-01-26 13:20:58,842 INFO: WeIrdnA in 9又4分之8.7月台[123是什麼敷衍的名字]
+2023-01-26 13:20:59,990 INFO: WeIrdnA out 9又4分之8.7月台[123是什麼敷衍的名字]
+2023-01-26 13:21:00,907 INFO: WeIrdnA in 9又4分之8.7月台[123是什麼敷衍的名字]
+2023-01-26 13:21:01,023 INFO: ffmpeg process 814 successfully terminated with return code of 0.
+2023-01-26 13:21:02,697 INFO: WeIrdnA out 9又4分之8.7月台[123是什麼敷衍的名字]
+2023-01-26 13:21:03,503 INFO: WeIrdnA in 9又4分之8.7月台[123是什麼敷衍的名字]
+2023-01-26 13:21:04,087 INFO: ffmpeg process 824 successfully terminated with return code of 0.
+2023-01-26 13:21:04,853 INFO: WeIrdnA out 9又4分之8.7月台[123是什麼敷衍的名字]
+2023-01-26 13:21:05,840 INFO: WeIrdnA in 9又4分之8.7月台[123是什麼敷衍的名字]
+2023-01-26 13:21:07,027 INFO: WeIrdnA out 9又4分之8.7月台[123是什麼敷衍的名字]
+2023-01-26 13:21:07,844 INFO: ffmpeg process 834 successfully terminated with return code of 0.
+2023-01-26 13:21:08,459 INFO: WeIrdnA in 9又4分之8.7月台[123是什麼敷衍的名字]
+2023-01-26 13:21:09,405 INFO: ffmpeg process 844 successfully terminated with return code of 0.
+2023-01-26 13:21:12,977 INFO: ffmpeg process 854 successfully terminated with return code of 0.
+2023-01-26 13:21:16,292 INFO: ffmpeg process 864 successfully terminated with return code of 0.
+2023-01-26 13:21:18,453 INFO: ffmpeg process 874 successfully terminated with return code of 0.
+2023-01-26 13:21:21,549 INFO: ffmpeg process 884 successfully terminated with return code of 0.
+2023-01-26 13:21:25,372 INFO: ffmpeg process 894 successfully terminated with return code of 0.
+2023-01-26 13:21:28,295 INFO: ffmpeg process 904 successfully terminated with return code of 0.
+2023-01-26 13:21:31,415 INFO: ffmpeg process 914 successfully terminated with return code of 0.
+2023-01-26 13:21:35,234 INFO: ffmpeg process 924 successfully terminated with return code of 0.
+2023-01-26 13:21:39,505 INFO: ffmpeg process 934 successfully terminated with return code of 0.
+2023-01-26 13:21:42,587 INFO: ffmpeg process 944 successfully terminated with return code of 0.
+2023-01-26 13:21:45,895 INFO: ffmpeg process 954 successfully terminated with return code of 0.
+2023-01-26 13:21:48,185 INFO: ffmpeg process 964 successfully terminated with return code of 0.
+2023-01-26 13:21:51,261 INFO: ffmpeg process 974 successfully terminated with return code of 0.
+2023-01-26 13:21:55,097 INFO: ffmpeg process 984 successfully terminated with return code of 0.
+2023-01-26 13:21:57,770 INFO: ffmpeg process 994 successfully terminated with return code of 0.
+2023-01-26 13:22:00,845 INFO: ffmpeg process 1004 successfully terminated with return code of 0.
+2023-01-26 13:22:04,147 INFO: ffmpeg process 1014 successfully terminated with return code of 0.
+2023-01-26 13:22:04,741 INFO: WeIrdnA out 9又4分之8.7月台[123是什麼敷衍的名字]
+2023-01-26 13:22:06,568 INFO: ffmpeg process 1024 successfully terminated with return code of 0.
+2023-01-26 13:22:09,605 INFO: ffmpeg process 1034 successfully terminated with return code of 0.
+2023-01-26 13:22:12,959 INFO: ffmpeg process 1050 successfully terminated with return code of 0.
+2023-01-26 13:22:15,638 INFO: ffmpeg process 1071 successfully terminated with return code of 0.
+2023-01-26 13:22:18,715 INFO: ffmpeg process 1081 successfully terminated with return code of 0.
+2023-01-26 13:22:22,012 INFO: ffmpeg process 1091 successfully terminated with return code of 0.
+2023-01-26 13:22:24,778 INFO: ffmpeg process 1101 successfully terminated with return code of 0.
+2023-01-26 13:22:27,885 INFO: ffmpeg process 1111 successfully terminated with return code of 0.
+2023-01-26 13:22:31,707 INFO: ffmpeg process 1121 successfully terminated with return code of 0.
+2023-01-26 13:22:34,632 INFO: ffmpeg process 1131 successfully terminated with return code of 0.
+2023-01-26 13:22:37,750 INFO: ffmpeg process 1141 successfully terminated with return code of 0.
+2023-01-26 13:22:41,573 INFO: ffmpeg process 1151 successfully terminated with return code of 0.
+2023-01-26 13:22:44,212 INFO: ffmpeg process 1161 successfully terminated with return code of 0.
+2023-01-26 13:22:47,314 INFO: ffmpeg process 1171 successfully terminated with return code of 0.
+2023-01-26 13:22:48,408 INFO: The voice handshake is being terminated for Channel ID 728631391809437746 (Guild ID 428109526550708234)
+2023-01-26 13:22:48,409 INFO: Disconnecting from voice normally, close code 1000.
+2023-01-26 15:31:58,062 INFO: Shard ID None has successfully RESUMED session 0fb022595138514c6c4784b81225a953.
+2023-01-26 16:23:37,374 INFO: Shard ID None has successfully RESUMED session 0fb022595138514c6c4784b81225a953.
+2023-01-26 18:53:17,429 INFO: Shard ID None has successfully RESUMED session 0fb022595138514c6c4784b81225a953.
+2023-01-26 21:30:02,889 INFO: Shard ID None has successfully RESUMED session 0fb022595138514c6c4784b81225a953.
+2023-01-26 22:38:13,081 INFO: Shard ID None has successfully RESUMED session 0fb022595138514c6c4784b81225a953.
+2023-01-26 23:48:35,978 INFO: Shard ID None has successfully RESUMED session 0fb022595138514c6c4784b81225a953.
+2023-01-27 00:08:59,775 INFO: Shard ID None has successfully RESUMED session 0fb022595138514c6c4784b81225a953.
+2023-01-27 00:17:56,243 INFO: Shard ID None has successfully RESUMED session 0fb022595138514c6c4784b81225a953.
+2023-01-27 01:15:10,124 INFO: Shard ID None has successfully RESUMED session 0fb022595138514c6c4784b81225a953.
+2023-01-27 04:59:59,721 INFO: Shard ID None has successfully RESUMED session 0fb022595138514c6c4784b81225a953.

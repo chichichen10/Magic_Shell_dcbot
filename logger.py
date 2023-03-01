@@ -10,7 +10,7 @@ class logger:
         print('[INFO] ' + msg)
     def warn(msg):
         logging.warning(msg)
-        print('pWARNING] '+msg)
+        print('[WARNING] '+msg)
     def err(msg):
         logging.error(msg)
         print('[ERROR]'+msg)
