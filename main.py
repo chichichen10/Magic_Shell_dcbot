@@ -11,6 +11,7 @@ from logger import logger as log
 from audio_player import DC_player
 from discord import app_commands
 from asgiref.sync import sync_to_async
+from message_handler import messageHandler
 # import youtube_dl
 # from youtube_search import YoutubeSearch
 
@@ -22,6 +23,8 @@ client = discord.Client(command_prefix="!",intents=intents)
 dc_player = DC_player()
 
 verbose = True
+
+VOICE_FILE_COUNT = 25
 
 
 @client.event
@@ -113,7 +116,7 @@ async def on_voice_state_update(member, before, after):
                 welcome.export(welcome_voice, format="mp3")
             print(welcome_voice)
             dc_player.add(welcome_voice, voice_channel)
-            file_name = 'voice/voice_' + str(random.choice(range(1, 25))) + '.mp3'
+            file_name = 'voice/voice_' + str(random.choice(range(1, VOICE_FILE_COUNT))) + '.mp3'
             if (user.id == 429657581313720321):
                 file_name = 'voice/voice_angry.mp3'
             print(file_name)
@@ -188,81 +191,81 @@ async def on_message(message):
     if (message.author.display_name == "傑哥KTV"):
         return
 
-    if message.content == '!阿致當兵':
-        await message.channel.send('信仰堅定 紀律嚴明')
-        verbose = False
-        db["mode"] = "0"
-        return
+    # if message.content == '!阿致當兵':
+    #     await message.channel.send('信仰堅定 紀律嚴明')
+    #     verbose = False
+    #     db["mode"] = "0"
+    #     return
 
-    if message.content == '!阿致放假':
-        await message.channel.send('放假啦老哥')
-        verbose = True
-        db["mode"] = "1"
-        user = message.author
-        voice_channel = None
-        if (user.voice):
-            voice_channel = user.voice.channel
-        if (voice_channel != None):
-            try:
-                vc = await voice_channel.connect()
-                await asyncio.sleep(0.2)
-                audio_source = discord.FFmpegPCMAudio('voice_15.mp3')
-                vc.play(audio_source, after=None)
-                vc.source.volume = 10.0
-                await asyncio.sleep(2)
-                await vc.disconnect()
-            except:
-                print('erroR')
-        return
+    # if message.content == '!阿致放假':
+    #     await message.channel.send('放假啦老哥')
+    #     verbose = True
+    #     db["mode"] = "1"
+    #     user = message.author
+    #     voice_channel = None
+    #     if (user.voice):
+    #         voice_channel = user.voice.channel
+    #     if (voice_channel != None):
+    #         try:
+    #             vc = await voice_channel.connect()
+    #             await asyncio.sleep(0.2)
+    #             audio_source = discord.FFmpegPCMAudio('voice_15.mp3')
+    #             vc.play(audio_source, after=None)
+    #             vc.source.volume = 10.0
+    #             await asyncio.sleep(2)
+    #             await vc.disconnect()
+    #         except:
+    #             print('erroR')
+    #     return
 
-    if message.content == '!阿致嘴閉閉':
-        if verbose:
-            await message.channel.send('好啊都這樣')
-            verbose = False
-        else:
-            await message.channel.send('到底想怎樣')
-        return
+    # if message.content == '!阿致嘴閉閉':
+    #     if verbose:
+    #         await message.channel.send('好啊都這樣')
+    #         verbose = False
+    #     else:
+    #         await message.channel.send('到底想怎樣')
+    #     return
 
-    if message.content == '!阿致回來':
-        if not verbose:
-            await message.channel.send('想不到吧')
-            verbose = True
-            user = message.author
-            voice_channel = None
-            if (user.voice):
-                voice_channel = user.voice.channel
-            if (voice_channel != None):
-                try:
-                    vc = await voice_channel.connect()
-                    await asyncio.sleep(0.2)
-                    audio_source = discord.FFmpegPCMAudio('voice_15.mp3')
-                    vc.play(audio_source, after=None)
-                    vc.source.volume = 10.0
-                    await asyncio.sleep(2)
-                    await vc.disconnect()
-                except:
-                    print('erroR')
+    # if message.content == '!阿致回來':
+    #     if not verbose:
+    #         await message.channel.send('想不到吧')
+    #         verbose = True
+    #         user = message.author
+    #         voice_channel = None
+    #         if (user.voice):
+    #             voice_channel = user.voice.channel
+    #         if (voice_channel != None):
+    #             try:
+    #                 vc = await voice_channel.connect()
+    #                 await asyncio.sleep(0.2)
+    #                 audio_source = discord.FFmpegPCMAudio('voice_15.mp3')
+    #                 vc.play(audio_source, after=None)
+    #                 vc.source.volume = 10.0
+    #                 await asyncio.sleep(2)
+    #                 await vc.disconnect()
+    #             except:
+    #                 print('erroR')
 
-        else:
-            await message.channel.send('回你媽')
-        return
+    #     else:
+    #         await message.channel.send('回你媽')
+    #     return
 
-    if "!阿致叫我" in message.content:
-        random_name = message.content[5:]
-        db["random_" + message.author.display_name + "_" +
-           str(hash(random_name))] = random_name
-        await message.channel.send(random.choice(["考慮", "喔", "我想想", "不要"]))
-        return
+    # if "!阿致叫我" in message.content:
+    #     random_name = message.content[5:]
+    #     db["random_" + message.author.display_name + "_" +
+    #        str(hash(random_name))] = random_name
+    #     await message.channel.send(random.choice(["考慮", "喔", "我想想", "不要"]))
+    #     return
 
-    if message.content.startswith('!把') and message.content.endswith('拉進垃圾車'):
-        guild = message.author.guild
-        channel = await guild.create_voice_channel('垃圾車')
-        for player in mentions:
-            if player.voice:
-                await player.move_to(channel)
-                await message.channel.send('<@' + str(player.id) + '> 下去')
+    # if message.content.startswith('!把') and message.content.endswith('拉進垃圾車'):
+    #     guild = message.author.guild
+    #     channel = await guild.create_voice_channel('垃圾車')
+    #     for player in mentions:
+    #         if player.voice:
+    #             await player.move_to(channel)
+    #             await message.channel.send('<@' + str(player.id) + '> 下去')
 
-        return
+    #     return
 
     if message.content == '!阿致講話':
         user = message.author
@@ -484,23 +487,24 @@ https://github.com/chichichen10/Magic_Shell_dcbot
         '哭啊', '不是誒老哥', '誒你剛有看到嗎 我剛很強吧', '外掛啦外掛', '這對面很有水準誒', '我要吐了', '那是肯定的'
     ]
 
-    if random.choice([1, 2, 3]) == 1 and verbose:
-        msg = message.content
-        openai.api_key = os.environ['OPEN_AI_API_KEY']
-        sup_words = ['不是誒老哥','哭啊','我要吐了']
-        mood=['不屑','不爽','生氣']
-        sup_sen = ''
-        if random.choice([1]) == 1:
-            sup_sen = '(以'+random.choice(mood)+'的口吻回答，並在回答中加入"'+random.choice(sup_words)+'"")'
-            msg= msg+sup_sen
-        res = await sync_to_async(openai.Completion.create)(
-            model="text-davinci-003",
-            prompt=msg,
-            max_tokens=1000,
-            temperature=0.7
-        )
-        answer = res.choices[0]['text']  
-        await message.channel.send(answer)
+    await messageHandler(message,client.user)
+    # if random.choice([1, 2, 3]) == 1 and verbose:
+    #     msg = message.content
+    #     openai.api_key = os.environ['OPEN_AI_API_KEY']
+    #     sup_words = ['不是誒老哥','哭啊','我要吐了']
+    #     mood=['不屑','不爽','生氣']
+    #     sup_sen = ''
+    #     if random.choice([1]) == 1:
+    #         sup_sen = '(以'+random.choice(mood)+'的口吻回答，並在回答中加入"'+random.choice(sup_words)+'"")'
+    #         msg= msg+sup_sen
+    #     res = await sync_to_async(openai.Completion.create)(
+    #         model="text-davinci-003",
+    #         prompt=msg,
+    #         max_tokens=1000,
+    #         temperature=0.7
+    #     )
+    #     answer = res.choices[0]['text']  
+    #     await message.channel.send(answer)
 
 tree = app_commands.CommandTree(client)
 

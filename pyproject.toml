@@ -13,9 +13,9 @@ pydub = "^0.25.1"
 gTTS = "^2.2.3"
 youtube_dl = "^2021.12.17"
 youtube-search = "^2.1.0"
-"discord.py" = "^2.0.1"
-openai = "^0.25.0"
-asgiref = "^3.5.2"
+"discord.py" = "2.1.0"
+openai = "^0.27.0"
+asgiref = "^3.6.0"
 
 [tool.poetry.dev-dependencies]
 
