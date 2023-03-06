@@ -1,8 +1,0 @@
-2022-05-01 20:58:22,090 INFO: logging in using static token
-2022-05-01 20:58:22,352 INFO: Shard ID None has sent the IDENTIFY payload.
-2022-05-01 20:58:22,483 INFO: Shard ID None has connected to Gateway: ["gateway-prd-main-chzj",{"micros":85743,"calls":["discord-sessions-green-prd-2-125",{"micros":76220,"calls":["start_session",{"micros":52900,"calls":["discord-api-55db4fc98f-btzl5",{"micros":46732,"calls":["get_user",{"micros":8134},"add_authorized_ip",{"micros":2577},"get_guilds",{"micros":6752},"coros_wait",{"micros":2}]}]},"guilds_connect",{"micros":44,"calls":[]},"presence_connect",{"micros":13375,"calls":[]}]}]}] (Session ID: d27cf690c4110fbcf5b985a2f3c9d4eb).
-2022-05-01 20:58:24,549 INFO: 目前登入身份：神奇海螺#3847
-2022-05-02 00:35:48,407 INFO: logging in using static token
-2022-05-02 00:35:48,673 INFO: Shard ID None has sent the IDENTIFY payload.
-2022-05-02 00:35:48,842 INFO: Shard ID None has connected to Gateway: ["gateway-prd-main-q2sk",{"micros":121621,"calls":["discord-sessions-green-prd-2-170",{"micros":119770,"calls":["start_session",{"micros":51408,"calls":["discord-api-55db4fc98f-4g4vq",{"micros":46796,"calls":["get_user",{"micros":10617},"add_authorized_ip",{"micros":1679},"get_guilds",{"micros":6979},"coros_wait",{"micros":2}]}]},"guilds_connect",{"micros":25,"calls":[]},"presence_connect",{"micros":1,"calls":[]}]}]}] (Session ID: 20b197099b2534486ed0562e524c8270).
-2022-05-02 00:35:50,913 INFO: 目前登入身份：神奇海螺#3847

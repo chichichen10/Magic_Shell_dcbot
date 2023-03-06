@@ -1,7 +1,0 @@
-2022-02-13 22:25:21,190 INFO: logging in using static token
-2022-02-13 22:25:21,454 INFO: Shard ID None has sent the IDENTIFY payload.
-2022-02-13 22:25:21,561 INFO: Shard ID None has connected to Gateway: ["gateway-prd-main-nb20",{"micros":64412,"calls":["discord-sessions-green-prd-2-78",{"micros":60383,"calls":["start_session",{"micros":46781,"calls":["api-prd-main-zfw5",{"micros":42716,"calls":["get_user",{"micros":5325},"add_authorized_ip",{"micros":4402},"get_guilds",{"micros":8762},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":7979,"calls":[]}]}]}] (Session ID: 7ade36e246b283f9e08b04f1d8f99937).
-2022-02-13 22:25:23,581 INFO: 目前登入身份：神奇海螺#3847
-2022-02-13 23:13:37,787 INFO: Got a request to RESUME the websocket.
-2022-02-13 23:13:37,950 INFO: Shard ID None has sent the RESUME payload.
-2022-02-13 23:13:37,986 INFO: Shard ID None has successfully RESUMED session 7ade36e246b283f9e08b04f1d8f99937 under trace ["gateway-prd-main-7g6p",{"micros":652,"calls":["discord-sessions-green-prd-2-78",{"micros":14}]}].

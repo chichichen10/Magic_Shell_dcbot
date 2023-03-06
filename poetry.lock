@@ -393,6 +393,14 @@ pycryptodomex = ">=3.12.0,<4.0.0"
 docs = ["Sphinx[docs] (>=4.3.2,<6.0.0)", "sphinx-autodoc-typehints[docs] (==1.21.0)", "sphinx-rtd-theme[docs] (>=1.0.0,<2.0.0)"]
 
 [[package]]
+name = "pytz"
+version = "2022.7.1"
+description = "World timezone definitions, modern and historical"
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
 name = "replit"
 version = "3.2.5"
 description = "A library for interacting with features of repl.it"
@@ -525,7 +533,7 @@ testing = ["pytest (>=6)", "pytest-checkdocs (>=2.4)", "flake8 (<5)", "pytest-co
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "6dbcfc11f990e422ddd8afc5c5cc0addfc001bed864f7c386474ca901941d8bc"
+content-hash = "224b632659cf60a9341da3e91d9677cfb7446c59ff6ecdef0c400ad5315f597d"
 
 [metadata.files]
 aiohttp = []
@@ -560,6 +568,7 @@ pycryptodomex = []
 pydub = []
 pynacl = []
 pyseto = []
+pytz = []
 replit = []
 requests = []
 tqdm = []
