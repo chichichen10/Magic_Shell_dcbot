@@ -4,4 +4,4 @@ Pay tribute to our friends, shadow_script aka elite in Eastern Harvard, who devo
 
 This bot is made with Discord.py, and may not be copied for commercial use or distribution.
 
-&copy; 2021 All Rights Reserved.
+&copy; 2023 All Rights Reserved.
