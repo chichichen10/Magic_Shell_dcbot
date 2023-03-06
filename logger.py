@@ -4,7 +4,7 @@ import datetime
 class logger:
     tz = datetime.timezone(datetime.timedelta(hours=+8))
     FORMAT = '%(asctime)s %(levelname)s: %(message)s'
-    logging.basicConfig(level=logging.INFO, filename='log/'+str(datetime.datetime.now(tz).date())+'.log', filemode='a', format=FORMAT)
+    logging.basicConfig(level=logging.INFO, filename='log/'+str(datetime.datetime.now(tz).date())+'.log', filemode='a', format=FORMAT, datefmt='%m/%d/%Y %I:%M:%S +0800')
     def info(msg):
         logging.info(msg)
         print('[INFO] ' + msg)

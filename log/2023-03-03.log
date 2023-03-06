@@ -119,3 +119,98 @@ TypeError: can't subtract offset-naive and offset-aware datetimes
 2023-03-03 09:46:24,764 INFO: logging in using static token
 2023-03-03 09:46:25,176 INFO: Shard ID None has connected to Gateway (Session ID: 3449b90d9279154a033cb9bca8c57a1a).
 2023-03-03 09:46:27,226 INFO: 目前登入身份：神奇海螺#3847
+2023-03-03 09:50:34,592 INFO: logging in using static token
+2023-03-03 09:50:35,055 INFO: Shard ID None has connected to Gateway (Session ID: 07229f55ddace2d45b085c55b19e51fc).
+2023-03-03 09:50:37,071 INFO: 目前登入身份：神奇海螺#3847
+2023-03-03 09:50:47,631 INFO: 501
+2023-03-03 09:50:47,631 ERROR: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/client.py", line 409, in _run_event
+    await coro(*args, **kwargs)
+  File "main.py", line 490, in on_message
+    await messageHandler(message,client.user)
+  File "/home/runner/dcbot/message_handler.py", line 26, in messageHandler
+    log.info(res.usage.total_tokens)
+  File "/home/runner/dcbot/logger.py", line 10, in info
+    print('[INFO] ' + msg)
+TypeError: can only concatenate str (not "int") to str
+2023-03-03 09:51:56,444 INFO: logging in using static token
+2023-03-03 09:51:56,870 INFO: Shard ID None has connected to Gateway (Session ID: 19835bfc7be3c400f676c36b66b4d9fc).
+2023-03-03 09:51:58,874 INFO: 目前登入身份：神奇海螺#3847
+2023-03-03 09:52:07,927 INFO: Tokens used: 444
+03/03/2023 10:04:59 +0800 INFO: logging in using static token
+03/03/2023 10:05:00 +0800 INFO: Shard ID None has connected to Gateway (Session ID: 6a11e79ede2664f71f2a9c20d5c5e08b).
+03/03/2023 10:05:02 +0800 INFO: 目前登入身份：神奇海螺#3847
+03/03/2023 10:05:08 +0800 INFO: Tokens used: 327
+03/03/2023 10:32:57 +0800 INFO: Tokens used: 288
+03/03/2023 10:33:14 +0800 INFO: Tokens used: 413
+03/03/2023 10:33:27 +0800 INFO: Tokens used: 486
+03/03/2023 10:33:56 +0800 INFO: Tokens used: 612
+03/03/2023 10:34:13 +0800 INFO: Tokens used: 738
+03/03/2023 10:34:48 +0800 INFO: Tokens used: 931
+03/03/2023 10:35:29 +0800 INFO: Tokens used: 930
+03/03/2023 10:35:57 +0800 INFO: Tokens used: 1101
+03/03/2023 10:37:25 +0800 INFO: Tokens used: 966
+03/03/2023 10:37:51 +0800 INFO: Tokens used: 1020
+03/03/2023 10:39:09 +0800 INFO: Tokens used: 775
+03/03/2023 10:39:31 +0800 INFO: Tokens used: 755
+03/03/2023 10:39:57 +0800 INFO: Tokens used: 891
+03/03/2023 11:06:31 +0800 INFO: Tokens used: 293
+03/03/2023 11:17:22 +0800 INFO: Tokens used: 310
+03/03/2023 11:19:06 +0800 INFO: Tokens used: 580
+03/03/2023 11:19:48 +0800 INFO: Tokens used: 537
+03/03/2023 11:20:08 +0800 INFO: Tokens used: 394
+03/03/2023 11:20:19 +0800 INFO: Tokens used: 559
+03/03/2023 11:20:40 +0800 INFO: Tokens used: 589
+03/03/2023 11:20:51 +0800 INFO: Tokens used: 711
+03/03/2023 11:20:55 +0800 INFO: Tokens used: 735
+03/03/2023 11:20:58 +0800 INFO: Tokens used: 596
+03/03/2023 11:21:01 +0800 INFO: Tokens used: 563
+03/03/2023 11:21:09 +0800 INFO: Tokens used: 944
+03/03/2023 11:21:35 +0800 INFO: Tokens used: 783
+03/03/2023 11:22:07 +0800 INFO: Tokens used: 613
+03/03/2023 11:23:14 +0800 INFO: Tokens used: 707
+03/03/2023 11:25:05 +0800 INFO: Tokens used: 1069
+03/03/2023 11:25:17 +0800 INFO: Tokens used: 908
+03/03/2023 11:57:28 +0800 INFO: Tokens used: 307
+03/03/2023 11:57:40 +0800 INFO: Tokens used: 363
+03/03/2023 02:01:33 +0800 INFO: Shard ID None has successfully RESUMED session 6a11e79ede2664f71f2a9c20d5c5e08b.
+03/03/2023 02:02:38 +0800 INFO: Tokens used: 299
+03/03/2023 02:35:09 +0800 INFO: Shard ID None has successfully RESUMED session 6a11e79ede2664f71f2a9c20d5c5e08b.
+03/03/2023 03:19:35 +0800 INFO: BunnyplayGG in 9又4分之8.7月台[123是什麼敷衍的名字]
+03/03/2023 03:19:35 +0800 INFO: Connecting to voice...
+03/03/2023 03:19:35 +0800 INFO: Starting voice handshake... (connection attempt 1)
+03/03/2023 03:19:35 +0800 INFO: Voice handshake complete. Endpoint found japan11043.discord.media
+03/03/2023 03:19:36 +0800 ERROR: Exception occurred during Voice Protocol voice server update handler
+Traceback (most recent call last):
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/state.py", line 157, in logging_coroutine
+    await coroutine
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/discord/voice_client.py", line 337, in on_voice_server_update
+    await self.ws.close(4000)
+AttributeError: '_MissingSentinel' object has no attribute 'close'
+03/03/2023 03:19:39 +0800 INFO: ffmpeg process 27746 successfully terminated with return code of 0.
+03/03/2023 03:19:41 +0800 INFO: ffmpeg process 27765 successfully terminated with return code of 0.
+03/03/2023 03:19:42 +0800 INFO: The voice handshake is being terminated for Channel ID 728631391809437746 (Guild ID 428109526550708234)
+03/03/2023 03:19:42 +0800 INFO: Disconnecting from voice normally, close code 1000.
+03/03/2023 03:23:49 +0800 INFO: Fiven-chung in 9又4分之8.7月台[123是什麼敷衍的名字]
+03/03/2023 03:23:49 +0800 INFO: Connecting to voice...
+03/03/2023 03:23:49 +0800 INFO: Starting voice handshake... (connection attempt 1)
+03/03/2023 03:23:50 +0800 INFO: Voice handshake complete. Endpoint found japan11043.discord.media
+03/03/2023 03:23:53 +0800 INFO: ffmpeg process 27784 successfully terminated with return code of 0.
+03/03/2023 03:23:55 +0800 INFO: ffmpeg process 27802 successfully terminated with return code of 0.
+03/03/2023 03:23:56 +0800 INFO: The voice handshake is being terminated for Channel ID 728631391809437746 (Guild ID 428109526550708234)
+03/03/2023 03:23:56 +0800 INFO: Disconnecting from voice normally, close code 1000.
+03/03/2023 03:36:16 +0800 INFO: logging in using static token
+03/03/2023 03:36:16 +0800 INFO: Shard ID None has connected to Gateway (Session ID: 045f75505da0b333a8c3ae16fe584940).
+03/03/2023 03:36:18 +0800 INFO: 目前登入身份：神奇海螺#3847
+03/03/2023 03:38:20 +0800 INFO: logging in using static token
+03/03/2023 03:38:21 +0800 INFO: Shard ID None has connected to Gateway (Session ID: 8feb4c6d29a627db1e0280ae90547131).
+03/03/2023 03:38:23 +0800 INFO: 目前登入身份：神奇海螺#3847
+03/03/2023 04:05:55 +0800 INFO: 貓嗷嗚飄飄大仙 in 9又4分之8.7月台[123是什麼敷衍的名字]
+03/03/2023 04:05:55 +0800 INFO: Connecting to voice...
+03/03/2023 04:05:55 +0800 INFO: Starting voice handshake... (connection attempt 1)
+03/03/2023 04:05:55 +0800 INFO: Voice handshake complete. Endpoint found japan11043.discord.media
+03/03/2023 04:05:59 +0800 INFO: ffmpeg process 478 successfully terminated with return code of 0.
+03/03/2023 04:06:02 +0800 INFO: ffmpeg process 497 successfully terminated with return code of 0.
+03/03/2023 04:06:03 +0800 INFO: The voice handshake is being terminated for Channel ID 728631391809437746 (Guild ID 428109526550708234)
+03/03/2023 04:06:03 +0800 INFO: Disconnecting from voice normally, close code 1000.
