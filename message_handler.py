@@ -6,7 +6,7 @@ import datetime
 from logger import logger as log
 
 
-async def messageHandler(message: discord.Message, bot_user: discord.Member):
+async def message_handler(message: discord.Message, bot_user: discord.Member):
     msg = message.content
     if (len(msg) > 100):
         await message.channel.send('太長了，請節約資源')

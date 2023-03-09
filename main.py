@@ -11,7 +11,7 @@ from logger import logger as log
 from audio_player import DC_player
 from discord import app_commands
 from asgiref.sync import sync_to_async
-from message_handler import messageHandler
+from message_handler import message_handler
 # import youtube_dl
 # from youtube_search import YoutubeSearch
 
@@ -487,7 +487,7 @@ https://github.com/chichichen10/Magic_Shell_dcbot
         '哭啊', '不是誒老哥', '誒你剛有看到嗎 我剛很強吧', '外掛啦外掛', '這對面很有水準誒', '我要吐了', '那是肯定的'
     ]
 
-    await messageHandler(message,client.user)
+    await message_handler(message,client.user)
     # if random.choice([1, 2, 3]) == 1 and verbose:
     #     msg = message.content
     #     openai.api_key = os.environ['OPEN_AI_API_KEY']
