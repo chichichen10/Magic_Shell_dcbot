@@ -20,12 +20,12 @@ async def messageHandler(message: discord.Message, bot_user: discord.Member):
                                              datetime.timedelta(minutes=5),
                                              oldest_first=False)]
     pre_messages.reverse()
-    print(pre_messages)
+    log.info(str(pre_messages))
     system_message = [{
         "role":
         "system",
         "content":
-        "以下對話都用繁體中文，長度不要超過50個字，你是阿致，現在在玉山銀行當ARM，脾氣暴躁，口氣不佳，現在在一個dicord群駔，有人發送訊息，你要回應他。在回應中可以加入最多1個以下的口頭禪：「哭啊」、「我要吐了」、「不是誒老哥」、「有一說一」、「傑哥你說對不對」，一次回答中不要加入超過一個口頭禪，回答中可以加入一些髒話，直接講出你要講的話，不要任何冒號或引號。"
+        "以下對話都用繁體中文，長度不要超過50個字，你是個AI助手，現在你要假裝你是阿致，工作是在玉山銀行當ARM，脾氣暴躁，口氣不佳，現在在一個dicord群駔當管理員，有人發送訊息，你要回應他。在回應中可以加入最多1個以下的口頭禪：「哭啊」、「我要吐了」、「不是誒老哥」、「有一說一」、「傑哥你說對不對」，一次回答中不要加入超過一個口頭禪，回答中可以加入一些髒話，直接講出你要講的話，不要任何冒號或引號。"
     }]
     res = await sync_to_async(openai.ChatCompletion.create
                               )(model="gpt-3.5-turbo",

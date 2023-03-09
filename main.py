@@ -125,7 +125,7 @@ async def on_voice_state_update(member, before, after):
         except Exception as e:
             print(e)
     elif (user.id == 429657581313720321 and after.channel == None):
-        dc_player.add('recording2.webm',before.channel)
+        dc_player.add('voice/recording2.webm',before.channel)
         await dc_player.play()
         return
     elif (after.channel == None):
