@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css">
+      <style>
+          ul,li{padding: 0;margin:0; list-style:none}
+          ul{margin-left:0 !important}
+      </style>
+  </head>
+  <body>
+    <section class="hero is-primary">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title">
+            Dashboard
+          </h1>
+        </div>
+      </div>
+    </section>
+    
+    <section class="section">
+      <div class="container">
+        <div class="columns is-desktop">
+          <div class="column">
+            <div class="card">
+              <div class="card-content">
+                <p class="title is-4">{{bot_name}}</p>
+                <p class="subtitle is-6">Status: 
+                    {% if online %}
+                    <span class="tag is-success">Online</span>
+                    {% else %}<span class="tag is-danger">Offline</span>    
+                    {% endif %}
+                </p>
+                <p>Amount used: ${{price}}。</p>
+<!--                   <form method="post">
+                      <input class="input" type="password" placeholder="password" name="password">
+                  <input class="button" type="submit" value="restart">
+                  </form> -->
+              </div>
+            </div>
+          </div>
+          <div class="column">
+            <div class="card">
+              <div class="card-header">
+                <p class="card-header-title">
+                  Log
+                </p>
+              </div>
+              <div class="card-content">
+                <div class="content">
+                  <ul>
+                      {% for message in log_messages %}
+                    <li>{{message}}</li>
+                      {% endfor %}
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

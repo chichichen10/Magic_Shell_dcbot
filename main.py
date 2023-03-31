@@ -2,34 +2,59 @@
 import discord
 import random
 import os
+import atexit
+import traceback
 import asyncio
 import openai
+import datetime
 from replit import db
 from gtts import gTTS
 from pydub import AudioSegment, effects
-from logger import logger as log
+from logger import logger
 from audio_player import DC_player
 from discord import app_commands
 from asgiref.sync import sync_to_async
 from message_handler import message_handler
+from utils import name_parser
+from bot_constant import VOICE_FILE_COUNT, VIP_ID, ADMIN_NAME
+from dashboard import dashboard
+import logging
+# from quart import Quart
 # import youtube_dl
 # from youtube_search import YoutubeSearch
 
 intents = discord.Intents.default()
 intents.message_content = True
 intents.members = True
-client = discord.Client(command_prefix="!",intents=intents)
+client = discord.Client(command_prefix="!", intents=intents)
+bot_dashboard = dashboard()
+# discord.utils.setup_logging(root=True)
+
+log = logger()
 
 dc_player = DC_player()
 
 verbose = True
 
-VOICE_FILE_COUNT = 25
+def exit_handler():
+    os.unlink('running.lock')
+
+atexit.register(exit_handler)
 
 
 @client.event
 async def on_ready():
+    logging.getLogger('hypercorn.access').setLevel(logging.FATAL)
     log.info('目前登入身份：' + str(client.user))
+    db['bot_name'] = str(client.user)
+    if(db['token'][0]!=datetime.datetime.now().month):
+        db['token'] = [datetime.datetime.now().month, 0]
+    await client.change_presence(activity=discord.Game('League of Legends'))
+    with open('running.lock', 'w') as f:
+        f.write('running!')
+    # loggers = [logging.getLogger(name) for name in         logging.root.manager.loggerDict]
+    # print(loggers)
+    # print(logging.getLogger('hypercorn.access').handlers)
 
 
 @client.event
@@ -76,7 +101,7 @@ async def on_voice_state_update(member, before, after):
             await user.move_to(channel)
             return
         if (user.voice.channel.name == '垃圾車'):
-            dc_player.add('trash2.mp3',user.voice.channel)
+            dc_player.add('trash2.mp3', user.voice.channel)
             await dc_player.play()
             return
 
@@ -84,18 +109,7 @@ async def on_voice_state_update(member, before, after):
             name = user.display_name
             log.info(name + ' in ' + user.guild.name + '[' +
                      user.voice.channel.name + ']')
-            if (name == '楓夜' and random.choice(range(1, 3)) == 1):
-                name = '他媽的孫偉夫'
-            if (name == 'Bananaa'):
-                name = '他媽的張耕綸'
-            if (name == 'louiskkk28'):
-                name = '實驗室學長'
-            if (random.choice(range(1, 3)) == 1
-                    and db.prefix("random_" + name)):
-                names = db.prefix("random_" + name)
-                name = db[random.choice(names)]
-            elif ("nickname_" + name in db.prefix("nickname_")):
-                name = db["nickname_" + name]
+            name = name_parser(name)
             name_voice_file = "name/" + name + ".mp3"
             welcome_num = str(random.choice(range(1, 3)))
             welcome_voice = "welcome" + welcome_num + "/" + name + ".mp3"
@@ -116,16 +130,19 @@ async def on_voice_state_update(member, before, after):
                 welcome.export(welcome_voice, format="mp3")
             print(welcome_voice)
             dc_player.add(welcome_voice, voice_channel)
-            file_name = 'voice/voice_' + str(random.choice(range(1, VOICE_FILE_COUNT))) + '.mp3'
-            if (user.id == 429657581313720321):
+            file_name = 'voice/voice_' + str(
+                random.choice(range(1, VOICE_FILE_COUNT))) + '.mp3'
+            if (user.id == VIP_ID):
                 file_name = 'voice/voice_angry.mp3'
             print(file_name)
             dc_player.add(file_name, voice_channel)
             await dc_player.play()
         except Exception as e:
+            print(traceback.format_exc())
+            print('WTF')
             print(e)
-    elif (user.id == 429657581313720321 and after.channel == None):
-        dc_player.add('voice/recording2.webm',before.channel)
+    elif (user.id == VIP_ID and after.channel == None):
+        dc_player.add('voice/recording2.webm', before.channel)
         await dc_player.play()
         return
     elif (after.channel == None):
@@ -134,12 +151,7 @@ async def on_voice_state_update(member, before, after):
             name = user.display_name
             log.info(name + ' out ' + user.guild.name + '[' +
                      before.channel.name + ']')
-            if (name == 'Chi'):
-                name = 'Chee'
-            if (name == '楓夜' and random.choice(range(1, 3)) == 1):
-                name = '他媽的孫偉夫'
-            if (name == 'Bananaa'):
-                name = '美國的走狗的張耕綸'
+            name = name_parser(name)
             name_voice_file = "name/" + name + ".mp3"
             bye_voice = "bye/" + name + ".mp3"
             if (not os.path.isfile(bye_voice)):
@@ -152,7 +164,7 @@ async def on_voice_state_update(member, before, after):
                 bye = name_voice + pre_bye
                 bye.export(bye_voice, format="mp3")
 
-            dc_player.add(bye_voice,before.channel)
+            dc_player.add(bye_voice, before.channel)
             await dc_player.play()
         except Exception as e:
             print(e)
@@ -160,26 +172,25 @@ async def on_voice_state_update(member, before, after):
 
     return
 
+
 @client.event
 async def on_member_join(member):
-        guild = member.guild
-        print('new person!')
-        for channel in guild.channels:
-            if channel.name == '一般' or channel.name == '這絕對不是幹話區':
-                print('sfsg')
-                openai.api_key = os.environ['OPEN_AI_API_KEY']
-        
-                msg= f'給我一段約500字的歡迎詞，歡迎 {member.name} 加入這個頻道，並告訴他這裡雖然有很多奇怪的人，也有可能會吵架，但仍希望他玩得開心。有問題可以找阿致，雖然他可能不能解決。' 
-                res = await sync_to_async(openai.Completion.create)(
-            model="text-davinci-003",
-            prompt=msg,
-            max_tokens=1000,
-            temperature=0.8
-        )
-                answer = res.choices[0]['text']
-                edited_answer = answer.replace(member.name,f'<@{member.id}>')
-                await channel.send(edited_answer)
+    guild = member.guild
+    print('new person!')
+    for channel in guild.channels:
+        if channel.name == '一般' or channel.name == '這絕對不是幹話區':
+            print('sfsg')
+            openai.api_key = os.environ['OPEN_AI_API_KEY']
 
+            msg = f'給我一段約500字的歡迎詞，歡迎 {member.name} 加入這個頻道，並告訴他這裡雖然有很多奇怪的人，也有可能會吵架，但仍希望他玩得開心。有問題可以找阿致，雖然他可能不能解決。'
+            res = await sync_to_async(openai.Completion.create
+                                      )(model="text-davinci-003",
+                                        prompt=msg,
+                                        max_tokens=1000,
+                                        temperature=0.8)
+            answer = res.choices[0]['text']
+            edited_answer = answer.replace(member.name, f'<@{member.id}>')
+            await channel.send(edited_answer)
 
 
 @client.event
@@ -409,23 +420,23 @@ async def on_message(message):
     if '!誒阿致' in message.content:
         msg = message.content[5:]
         openai.api_key = os.environ['OPEN_AI_API_KEY']
-        sup_words = ['不是誒老哥','哭啊','我要吐了']
-        mood=['不屑','不爽','生氣']
+        sup_words = ['不是誒老哥', '哭啊', '我要吐了']
+        mood = ['不屑', '不爽', '生氣']
         sup_sen = ''
         if random.choice([1, 2]) == 1:
-            sup_sen = '(以'+random.choice(mood)+'的口吻回答，並在回答中加入"'+random.choice(sup_words)+'"")'
-            msg= msg+sup_sen
-        res = await sync_to_async(openai.Completion.create)(
-            model="text-davinci-003",
-            prompt=msg,
-            max_tokens=1000,
-            temperature=0.7
-        )
-        answer = res.choices[0]['text']  
+            sup_sen = '(以' + random.choice(
+                mood) + '的口吻回答，並在回答中加入"' + random.choice(sup_words) + '"")'
+            msg = msg + sup_sen
+        res = await sync_to_async(openai.Completion.create
+                                  )(model="text-davinci-003",
+                                    prompt=msg,
+                                    max_tokens=1000,
+                                    temperature=0.7)
+        answer = res.choices[0]['text']
         await message.channel.send(answer)
         return
 
-    if message.content == '.sync' and message.author.name =='Chi':
+    if message.content == '.sync' and message.author.name == ADMIN_NAME:
         tree.clear_commands(guild=message.guild)
         await tree.sync()
         new_msg = await message.channel.send('done')
@@ -437,14 +448,14 @@ async def on_message(message):
     #     await dc_player.play_music('https://www.youtube.com'+url_suffix, message.author.voice.channel)
 
     # if message.content == '!阿致暫停':
-    #     await dc_player.pause(client,message.author.voice.channel)    
+    #     await dc_player.pause(client,message.author.voice.channel)
 
     # if message.content == '!阿致繼續':
     #     await dc_player.resume(client,message.author.voice.channel)
 
     # if message.content == '!阿致停':
     #     await dc_player.stop(client,message.author.voice.channel)
-        
+
     if message.content == '!阿致新功能':
         msg = '''
 
@@ -487,7 +498,7 @@ https://github.com/chichichen10/Magic_Shell_dcbot
         '哭啊', '不是誒老哥', '誒你剛有看到嗎 我剛很強吧', '外掛啦外掛', '這對面很有水準誒', '我要吐了', '那是肯定的'
     ]
 
-    await message_handler(message,client.user)
+    await message_handler(message, client.user)
     # if random.choice([1, 2, 3]) == 1 and verbose:
     #     msg = message.content
     #     openai.api_key = os.environ['OPEN_AI_API_KEY']
@@ -503,18 +514,21 @@ https://github.com/chichichen10/Magic_Shell_dcbot
     #         max_tokens=1000,
     #         temperature=0.7
     #     )
-    #     answer = res.choices[0]['text']  
+    #     answer = res.choices[0]['text']
     #     await message.channel.send(answer)
+
 
 tree = app_commands.CommandTree(client)
 
-@tree.command(name='測試',description='拉基')
-@app_commands.describe(name='名字')
-async def test(interaction: discord.Interaction, name:discord.Member):
-    await interaction.response.send_message("Test "+ name.name)
-    await interaction.channel.send("Second "+ interaction.user.name)
 
-@tree.command(name='阿致嘴閉閉',description='叫阿致閉嘴')
+@tree.command(name='測試', description='拉基')
+@app_commands.describe(name='名字')
+async def test(interaction: discord.Interaction, name: discord.Member):
+    await interaction.response.send_message("Test " + name.name)
+    await interaction.channel.send("Second " + interaction.user.name)
+
+
+@tree.command(name='阿致嘴閉閉', description='叫阿致閉嘴')
 async def cmd_silent(interaction: discord.Interaction):
     global verbose
     if verbose:
@@ -523,7 +537,8 @@ async def cmd_silent(interaction: discord.Interaction):
     else:
         await interaction.response.send_message('到底想怎樣')
 
-@tree.command(name='阿致回來',description='回到阿致的懷抱')
+
+@tree.command(name='阿致回來', description='回到阿致的懷抱')
 async def cmd_back(interaction: discord.Interaction):
     global verbose
     if not verbose:
@@ -531,23 +546,25 @@ async def cmd_back(interaction: discord.Interaction):
         verbose = True
     else:
         await interaction.response.send_message('回你媽')
-    
-@tree.command(name='拉進垃圾車',description='拉~進~垃~圾~車~~~')
+
+
+@tree.command(name='拉進垃圾車', description='拉~進~垃~圾~車~~~')
 @app_commands.describe(user='是誰要被拉進去ㄋ')
-async def cmd_trash(interaction: discord.Interaction, user:discord.Member):
+async def cmd_trash(interaction: discord.Interaction, user: discord.Member):
     guild = interaction.user.guild
     channel = await guild.create_voice_channel('垃圾車')
     if user.voice:
         await user.move_to(channel)
         await interaction.response.send_message('<@' + str(user.id) + '> 下去')
-    
-@tree.command(name='阿致分隊',description='內戰啦內戰')
+
+
+@tree.command(name='阿致分隊', description='內戰啦內戰')
 @app_commands.describe()
 async def cmd_split(interaction: discord.Interaction):
     guild = interaction.user.guild
-    user =interaction.user
+    user = interaction.user
     if not user.voice:
-        await interaction.response.send_message('先進語音啦',ephemeral=True)
+        await interaction.response.send_message('先進語音啦', ephemeral=True)
         return
     voice_channel = user.voice.channel
     print(voice_channel.members)
@@ -555,11 +572,11 @@ async def cmd_split(interaction: discord.Interaction):
     if len(players) == 10:
         random.shuffle(players)
         await interaction.channel.send('藍方: ' +
-                                   ' ,'.join('<@' + str(x.id) + '> '
-                                             for x in players[:5]))
+                                       ' ,'.join('<@' + str(x.id) + '> '
+                                                 for x in players[:5]))
         await interaction.channel.send('紅方: ' +
-                                   ' ,'.join('<@' + str(x.id) + '> '
-                                             for x in players[5:]))
+                                       ' ,'.join('<@' + str(x.id) + '> '
+                                                 for x in players[5:]))
         new_msg = await interaction.channel.send('倒數5秒')
         for i in range(5):
             await asyncio.sleep(1)
@@ -575,37 +592,52 @@ async def cmd_split(interaction: discord.Interaction):
             if player.voice:
                 await player.move_to(red_channel)
     elif len(players) < 10:
-        await interaction.response.send_message('人不夠 北七',ephemeral=True)
+        await interaction.response.send_message('人不夠 北七', ephemeral=True)
     elif len(players) > 10:
-        await interaction.response.send_message('人山人海 北七',ephemeral=True)
-    
-@tree.command(name='阿致抽籤',description='抽起來~')
-@app_commands.describe( options='選項 (用空格隔開)')
+        await interaction.response.send_message('人山人海 北七', ephemeral=True)
+
+
+@tree.command(name='阿致抽籤', description='抽起來~')
+@app_commands.describe(options='選項 (用空格隔開)')
 async def cmd_draw(interaction: discord.Interaction, options: str):
     option_list = options.split()
-    await interaction.response.send_message("就決定是"+ random.choice(option_list))
+    await interaction.response.send_message("就決定是" +
+                                            random.choice(option_list))
 
 
-@tree.command(name='誒阿致',description='跟阿致聊天')
-@app_commands.describe( message='要跟阿致講的話或要問阿致的事')
+@tree.command(name='誒阿致', description='跟阿致聊天')
+@app_commands.describe(message='要跟阿致講的話或要問阿致的事')
 async def cmd_talk(interaction: discord.Interaction, message: str):
     openai.api_key = os.environ['OPEN_AI_API_KEY']
-    res = await sync_to_async(openai.Completion.create)(
-        model="text-davinci-003",
-        prompt=message,
-        max_tokens=1000,
-        temperature=0.5
-    )
+    res = await sync_to_async(openai.Completion.create
+                              )(model="text-davinci-003",
+                                prompt=message,
+                                max_tokens=1000,
+                                temperature=0.5)
     answer = res.choices[0]['text']
-    
+
     await interaction.response.send_message(answer)
 
-    
+
+
+async def main():
+    async with client:
+        client.loop.create_task(bot_dashboard.app.run_task(host="0.0.0.0", port=80))
+        await client.start(os.environ['BOT_TOKEN'])
+        
 try:
-    client.run(os.environ['BOT_TOKEN'])
+    if(os.path.exists('running.lock')):
+        os.unlink('running.lock')
+    asyncio.run(main())
+except Exception as e:
+    print('ERROR!!')
+    print(e)
+finally:
+    os.unlink('running.lock')
+          
+
+
     #only run when updated commands
     # sync()
-except:
-    os.system("kill 1")
-    
 
+    # os.system("kill 1")
