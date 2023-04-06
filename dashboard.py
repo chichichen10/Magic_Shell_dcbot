@@ -1,4 +1,4 @@
-from quart import Quart, render_template, request
+from quart import Quart, render_template
 import logging
 import os
 import datetime
@@ -27,12 +27,17 @@ class dashboard:
     def __init__(self):
         print('hi')
 
-    @app.route("/",methods=["GET", "POST"])
+    @app.route("/", methods=["GET", "POST"])
     async def home():
-        # a = datetime.datetime.now()
-        log_file_name = 'log/' + str(datetime.datetime.now().year) + '/' + str(
-            datetime.datetime.now().month).zfill(2) + '/' + str(
-                datetime.datetime.now().date()) + '.log'
+        today = datetime.datetime.now()
+        log_file_name = 'log/' + str(today.year) + '/' + str(
+            today.month).zfill(2) + '/' + str(today.date()) + '.log'
+        time_delta = datetime.timedelta(days=1)
+        while (not os.path.exists(log_file_name)):
+            today = today - time_delta
+            log_file_name = 'log/' + str(
+                today.year) + '/' + str(today.month).zfill(2) + '/' + str(
+                    today.date()) + '.log'
         bot_name = db['bot_name']
         log_messages = []
         with open(log_file_name, 'r') as f:

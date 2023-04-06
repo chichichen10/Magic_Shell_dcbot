@@ -49,7 +49,7 @@ async def on_ready():
     db['bot_name'] = str(client.user)
     if(db['token'][0]!=datetime.datetime.now().month):
         db['token'] = [datetime.datetime.now().month, 0]
-    await client.change_presence(activity=discord.Game('League of Legends'))
+    await client.change_presence(activity=discord.Game('武漢肺炎'))
     with open('running.lock', 'w') as f:
         f.write('running!')
     # loggers = [logging.getLogger(name) for name in         logging.root.manager.loggerDict]

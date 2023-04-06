@@ -1,5 +1,6 @@
 import logging
 import datetime
+import os
 from pytz import timezone
 import sys
 
@@ -20,6 +21,8 @@ class logger:
 
     logging.Formatter.converter = timetz
     FORMAT = '%(asctime)s %(levelname)6s %(name)15s: %(message)s'
+    os.makedirs('log/' + str(datetime.datetime.now(tz).year) + '/' +
+            str(datetime.datetime.now(tz).month).zfill(2),exist_ok=True)
     handlers = [
         logging.FileHandler(
             'log/' + str(datetime.datetime.now(tz).year) + '/' +
