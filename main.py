@@ -36,8 +36,10 @@ dc_player = DC_player()
 
 verbose = True
 
+
 def exit_handler():
     os.unlink('running.lock')
+
 
 atexit.register(exit_handler)
 
@@ -47,9 +49,12 @@ async def on_ready():
     logging.getLogger('hypercorn.access').setLevel(logging.FATAL)
     log.info('目前登入身份：' + str(client.user))
     db['bot_name'] = str(client.user)
-    if(db['token'][0]!=datetime.datetime.now().month):
+    if (db['token'][0] != datetime.datetime.now().month):
         db['token'] = [datetime.datetime.now().month, 0]
-    await client.change_presence(activity=discord.Game('武漢肺炎'))
+    await client.change_presence(activity=discord.Activity(
+        type=discord.ActivityType.listening,
+        name='戀愛ing',
+    ))
     with open('running.lock', 'w') as f:
         f.write('running!')
     # loggers = [logging.getLogger(name) for name in         logging.root.manager.loggerDict]
@@ -619,14 +624,15 @@ async def cmd_talk(interaction: discord.Interaction, message: str):
     await interaction.response.send_message(answer)
 
 
-
 async def main():
     async with client:
-        client.loop.create_task(bot_dashboard.app.run_task(host="0.0.0.0", port=80))
+        client.loop.create_task(
+            bot_dashboard.app.run_task(host="0.0.0.0", port=80))
         await client.start(os.environ['BOT_TOKEN'])
-        
+
+
 try:
-    if(os.path.exists('running.lock')):
+    if (os.path.exists('running.lock')):
         os.unlink('running.lock')
     asyncio.run(main())
 except Exception as e:
@@ -634,8 +640,6 @@ except Exception as e:
     print(e)
 finally:
     os.unlink('running.lock')
-          
-
 
     #only run when updated commands
     # sync()

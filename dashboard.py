@@ -1,4 +1,4 @@
-from quart import Quart, render_template
+from quart import Quart, render_template, request, jsonify
 import logging
 import os
 import datetime
@@ -29,33 +29,66 @@ class dashboard:
 
     @app.route("/", methods=["GET", "POST"])
     async def home():
+        dashboard_logger = logging.getLogger('dashboard')
         today = datetime.datetime.now()
+        today += datetime.timedelta(hours=8)
         log_file_name = 'log/' + str(today.year) + '/' + str(
             today.month).zfill(2) + '/' + str(today.date()) + '.log'
         time_delta = datetime.timedelta(days=1)
         while (not os.path.exists(log_file_name)):
             today = today - time_delta
-            log_file_name = 'log/' + str(
-                today.year) + '/' + str(today.month).zfill(2) + '/' + str(
-                    today.date()) + '.log'
+            log_file_name = 'log/' + str(today.year) + '/' + str(
+                today.month).zfill(2) + '/' + str(today.date()) + '.log'
         bot_name = db['bot_name']
         log_messages = []
         with open(log_file_name, 'r') as f:
-            log_messages = f.readlines()[-20:]
+            log_messages = f.readlines()
         tokens = db['token'][1]
         online = os.path.exists('running.lock')
         price = f'{(tokens * 0.002 / 1000):.5f}'
-        # if request.method == "POST":
-        #     # os.system('kill 1')
-        #     print(await request.form.get("password"))
+
+        split_messages = [i.split() for i in log_messages]
+        if request.method == "POST":
+            # os.system('kill 1')
+            form = await request.get_json()
+            if form['command'] == "kill 1":
+                dashboard_logger.info('command: kill 1')
+                os.system('kill 1')
+            elif 'set verbose' in form['command']:
+                n = form['command'].split()[2]
+                if (n.isnumeric()):
+                    if (int(n) <= 7 and int(n) >= 0):
+                        dashboard_logger.info('command: ' + form['command'])
+                        db['verbose'] = n
+                    else:
+                        dashboard_logger.error(
+                            'command error: verbose level should be 0-7')
+                else:
+                    dashboard_logger.error('wrong usage ' + form['command'])
+            else:
+                dashboard_logger.error('wrong command: ' + form['command'])
+
+        online_text = 'Online' if online else 'Offline'
+        online_class = 'is-success' if online else 'is-danger'
         return await render_template('index.html',
                                      online=online,
                                      bot_name=bot_name,
-                                     log_messages=log_messages,
-                                     price=price)
+                                     log_messages=split_messages,
+                                     price=price,
+                                     online_text=online_text,
+                                     online_class=online_class)
 
-    # lo = logging.getLogger('quart.serving')
-    # lo.handlers.clear()
+    @app.route('/online_status')
+    async def online_status():
+        # 返回在线状态信息的 JSON 数据
+        online = os.path.exists('running.lock')
+        return jsonify({
+            'online': online
+        })
 
-    # logger = logger('dashboard')
-    # lo.addHandler(logger.get_handler())
+
+# lo = logging.getLogger('quart.serving')
+# lo.handlers.clear()
+
+# logger = logger('dashboard')
+# lo.addHandler(logger.get_handler())

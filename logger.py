@@ -21,6 +21,7 @@ class logger:
 
     logging.Formatter.converter = timetz
     FORMAT = '%(asctime)s %(levelname)6s %(name)15s: %(message)s'
+    datefmt = '%Y-%m-%d %H:%M:%S'
     os.makedirs('log/' + str(datetime.datetime.now(tz).year) + '/' +
             str(datetime.datetime.now(tz).month).zfill(2),exist_ok=True)
     handlers = [
@@ -31,7 +32,7 @@ class logger:
             mode='a'),
         # logging.StreamHandler(sys.stdout)
     ]
-    logging.basicConfig(level=logging.INFO, format=FORMAT, handlers=handlers)
+    logging.basicConfig(level=logging.INFO, format=FORMAT, handlers=handlers, datefmt=datefmt)
     # logging.getLogger('quart.app').handlers.clear()
     # logging.getLogger('quart.app').addHandler(logging.FileHandler(
     #         'log/' + str(datetime.datetime.now(tz).year) + '/' +

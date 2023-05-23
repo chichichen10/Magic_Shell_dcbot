@@ -278,6 +278,24 @@ optional = false
 python-versions = ">=3.6.1"
 
 [[package]]
+name = "html5lib"
+version = "1.1"
+description = "HTML parser based on the WHATWG HTML specification"
+category = "main"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*"
+
+[package.dependencies]
+six = ">=1.9"
+webencodings = "*"
+
+[package.extras]
+all = ["genshi", "chardet (>=2.2)", "lxml"]
+chardet = ["chardet (>=2.2)"]
+genshi = ["genshi"]
+lxml = ["lxml"]
+
+[[package]]
 name = "hypercorn"
 version = "0.14.3"
 description = "A ASGI Server based on Hyper libraries and inspired by Gunicorn"
@@ -367,6 +385,22 @@ description = "Safely add untrusted strings to HTML/XML markup."
 category = "main"
 optional = false
 python-versions = ">=3.7"
+
+[[package]]
+name = "mechanize"
+version = "0.4.8"
+description = "Stateful, programmatic web browsing"
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.dependencies]
+html5lib = ">=0.999999999"
+
+[package.extras]
+binarytest = ["lxml", "html5-parser"]
+fast = ["html5-parser (>=0.4.4)"]
+test = ["twisted", "service-identity", "six", "html5lib"]
 
 [[package]]
 name = "multidict"
@@ -551,6 +585,14 @@ socks = ["PySocks (>=1.5.6,!=1.5.7)"]
 use_chardet_on_py3 = ["chardet (>=3.0.2,<6)"]
 
 [[package]]
+name = "six"
+version = "1.16.0"
+description = "Python 2 and 3 compatibility utilities"
+category = "main"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*"
+
+[[package]]
 name = "toml"
 version = "0.10.2"
 description = "Python Library for Tom's Obvious, Minimal Language"
@@ -595,6 +637,14 @@ python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*, !=3.5.*"
 brotli = ["brotlicffi (>=0.8.0)", "brotli (>=1.0.9)", "brotlipy (>=0.6.0)"]
 secure = ["pyOpenSSL (>=0.14)", "cryptography (>=1.3.4)", "idna (>=2.0.0)", "certifi", "urllib3-secure-extra", "ipaddress"]
 socks = ["PySocks (>=1.5.6,!=1.5.7,<2.0)"]
+
+[[package]]
+name = "webencodings"
+version = "0.5.1"
+description = "Character encoding aliases for legacy web content"
+category = "main"
+optional = false
+python-versions = "*"
 
 [[package]]
 name = "werkzeug"
@@ -667,7 +717,7 @@ testing = ["pytest (>=6)", "pytest-checkdocs (>=2.4)", "flake8 (<5)", "pytest-co
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "c1c0f421a8d20e650cd475a83b3d067f27f6185d641803ea12ae1211ed9e5386"
+content-hash = "1fdaabc6d80c5798a075b6337602360dbc5027556efff891af89b23f53b1983c"
 
 [metadata.files]
 aiofiles = []
@@ -693,6 +743,7 @@ gtts = []
 h11 = []
 h2 = []
 hpack = []
+html5lib = []
 hypercorn = []
 hyperframe = []
 idna = []
@@ -701,6 +752,7 @@ iso8601 = []
 itsdangerous = []
 jinja2 = []
 markupsafe = []
+mechanize = []
 multidict = []
 openai = []
 passlib = []
@@ -715,10 +767,12 @@ pytz = []
 quart = []
 replit = []
 requests = []
+six = []
 toml = []
 tqdm = []
 typing-extensions = []
 urllib3 = []
+webencodings = []
 werkzeug = []
 wsproto = []
 yarl = []

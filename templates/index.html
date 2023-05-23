@@ -1,65 +1,104 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Dashboard</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css">
-      <style>
-          ul,li{padding: 0;margin:0; list-style:none}
-          ul{margin-left:0 !important}
-      </style>
-  </head>
-  <body>
-    <section class="hero is-primary">
-      <div class="hero-body">
-        <div class="container">
-          <h1 class="title">
-            Dashboard
-          </h1>
-        </div>
-      </div>
-    </section>
+	<head>
+		<title>
+			Dashboard
+		</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css">
+		<style>
+			ul,li{padding: 0;margin:0; list-style:none} ul{margin-left:0 !important;
+			display:block} li{display:inline-flex}
+		</style>
+	</head>
+	<body>
+		<section class="hero is-primary">
+			<div class="hero-body">
+				<div class="container">
+					<h1 class="title">
+						Dashboard
+					</h1>
+				</div>
+			</div>
+		</section>
+		<section class="section">
+			<div class="container">
+				<div class="columns is-desktop">
+					<div class="column">
+						<div class="card">
+							<div class="card-content">
+								<p class="title is-4">
+									{{bot_name}}
+								</p>
+								<p class="subtitle is-6">
+  Status: <span id="status" class="tag {{ online_class }}">{{ online_text }}</span>
+</p>
+                                <p>
+									Amount used: ${{price}}。
+								</p>
+								<div>
+								<input class="input" type="text" placeholder="command" name="command" id="command">
+								<input class="button" type="button" value="send" onclick="handleCommand()">
+                            </div>
+							</div>
+						</div>
+					</div>
+					<div class="column">
+						<div class="card">
+							<div class="card-header">
+								<p class="card-header-title">
+									Log
+								</p>
+							</div>
+							<div style="max-height: 65vh;overflow: auto;display: flex;
+							flex-direction: column-reverse" class="card-content">
+								<div class="content">
+									<ul>
+										{% for message in log_messages %}
+										<li>
+											{% if message[2] == 'INFO' %}
+											<p style="color:#181818;width:12rem">
+												{{' '.join(message[0:2])}}
+											</p>
+											<p style="width:3.5rem;color:blue">
+												{{message[2]}}
+											</p>
+											<p style="width:10rem;color:#9726cb">
+												{{message[3]}}
+											</p>
+											<p style="width:25rem">
+												{{' '.join(message[4:])}}
+											</p>
+											{% elif message[2] == 'ERROR' %}
+											<p style="color:#df2300;width:12rem">
+												{{' '.join(message[0:2])}}
+											</p>
+											<p style="width:3.5rem;color:#df2300">
+												{{message[2]}}
+											</p>
+											<p style="width:10rem;color:#df2300">
+												{{message[3]}}
+											</p>
+											<p style="width:25rem;color:#df2300">
+												{{' '.join(message[4:])}}
+											</p>
+											{% else %}
+											<p style="color:#df2300">
+												{{' '.join(message)}}
+											</p>
+											{% endif %}
+										</li>
+										{% endfor %}
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</body>
+    <script type="text/javascript" src="{{url_for('static', filename='index.js')}}" ></script>
     
-    <section class="section">
-      <div class="container">
-        <div class="columns is-desktop">
-          <div class="column">
-            <div class="card">
-              <div class="card-content">
-                <p class="title is-4">{{bot_name}}</p>
-                <p class="subtitle is-6">Status: 
-                    {% if online %}
-                    <span class="tag is-success">Online</span>
-                    {% else %}<span class="tag is-danger">Offline</span>    
-                    {% endif %}
-                </p>
-                <p>Amount used: ${{price}}。</p>
-<!--                   <form method="post">
-                      <input class="input" type="password" placeholder="password" name="password">
-                  <input class="button" type="submit" value="restart">
-                  </form> -->
-              </div>
-            </div>
-          </div>
-          <div class="column">
-            <div class="card">
-              <div class="card-header">
-                <p class="card-header-title">
-                  Log
-                </p>
-              </div>
-              <div class="card-content">
-                <div class="content">
-                  <ul>
-                      {% for message in log_messages %}
-                    <li>{{message}}</li>
-                      {% endfor %}
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  </body>
+    
+
 </html>
