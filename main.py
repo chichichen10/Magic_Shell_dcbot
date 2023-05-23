@@ -28,7 +28,7 @@ intents.message_content = True
 intents.members = True
 client = discord.Client(command_prefix="!", intents=intents)
 bot_dashboard = dashboard()
-# discord.utils.setup_logging(root=True)
+# discord.utils.setup_logging(log_level=logging.DEBUG)
 
 log = logger()
 
@@ -635,6 +635,7 @@ try:
     if (os.path.exists('running.lock')):
         os.unlink('running.lock')
     asyncio.run(main())
+    # client.run(os.environ['BOT_TOKEN'],log_level=logging.DEBUG)
 except Exception as e:
     print('ERROR!!')
     print(e)

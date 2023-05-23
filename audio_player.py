@@ -1,6 +1,7 @@
 import discord
 import asyncio
 import youtube_dl
+import os
 
 class Audio:
     def __init__(self,filename:str,voice_channel:discord.VoiceChannel):
@@ -50,6 +51,7 @@ class DC_player:
     
     async def play(self):
         # self.playList.add(Audio(file,voice_channel))
+        discord.opus.load_opus(os.getenv("OPUS_PATH") + "/libopus.so")
         voice_channel = self.playList.get_current_channel()
         print(voice_channel)
         if(not self.isPlaying):
@@ -64,8 +66,9 @@ class DC_player:
                 while(self.playList.len()>0):  
                     print(self.playList.queue)
                     if(self.playList.get_current_channel() == voice_channel):
-                        audio_source = discord.FFmpegPCMAudio(self.playList.pop().filename)
-                        vc.play(audio_source, after=None)
+                        # audio_source = discord.FFmpegPCMAudio(self.playList.pop().filename)
+
+                        vc.play(discord.FFmpegPCMAudio(self.playList.pop().filename), after=None)
                         vc.source.volume = 10.0
                         await asyncio.sleep(1)
                         while (vc.is_playing()):
@@ -74,7 +77,10 @@ class DC_player:
                     else:
                         break
 
-            except:
+            except Exception as e:
+                print('debug line 4===================================')
+                print(repr(e))
+                print('debug line 5===================================')
                 pass
             finally:
                 self.isPlaying = False
