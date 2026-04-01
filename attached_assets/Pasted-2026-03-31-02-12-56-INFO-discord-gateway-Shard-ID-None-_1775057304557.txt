@@ -1,0 +1,1469 @@
+2026-03-31 02:12:56
+
+INFO
+
+discord.gateway:
+
+Shard ID None has successfully RESUMED session 0d5989774711fd90c5eb4d1e94794381.
+
+ 
+2026-03-31 02:12:56
+
+INFO
+
+bot:
+
+Gateway reconnected, checking voice status...
+
+ 
+2026-03-31 05:02:52
+
+ERROR
+
+bot:
+
+Gateway disconnected
+
+ 
+2026-03-31 05:02:52
+
+INFO
+
+discord.gateway:
+
+Shard ID None has successfully RESUMED session 0d5989774711fd90c5eb4d1e94794381.
+
+ 
+2026-03-31 05:02:52
+
+INFO
+
+bot:
+
+Gateway reconnected, checking voice status...
+
+ 
+2026-03-31 08:56:02
+
+ERROR
+
+bot:
+
+Gateway disconnected
+
+ 
+2026-03-31 08:56:03
+
+INFO
+
+discord.gateway:
+
+Shard ID None has successfully RESUMED session 0d5989774711fd90c5eb4d1e94794381.
+
+ 
+2026-03-31 08:56:03
+
+INFO
+
+bot:
+
+Gateway reconnected, checking voice status...
+
+ 
+2026-03-31 09:44:19
+
+ERROR
+
+bot:
+
+Gateway disconnected
+
+ 
+2026-03-31 09:44:19
+
+INFO
+
+discord.gateway:
+
+Shard ID None has successfully RESUMED session 0d5989774711fd90c5eb4d1e94794381.
+
+ 
+2026-03-31 09:44:19
+
+INFO
+
+bot:
+
+Gateway reconnected, checking voice status...
+
+ 
+2026-03-31 12:45:09
+
+ERROR
+
+bot:
+
+Gateway disconnected
+
+ 
+2026-03-31 12:45:09
+
+INFO
+
+discord.gateway:
+
+Shard ID None has successfully RESUMED session 0d5989774711fd90c5eb4d1e94794381.
+
+ 
+2026-03-31 12:45:09
+
+INFO
+
+bot:
+
+Gateway reconnected, checking voice status...
+
+ 
+2026-03-31 13:30:04
+
+ERROR
+
+bot:
+
+Gateway disconnected
+
+ 
+2026-03-31 13:30:04
+
+INFO
+
+discord.gateway:
+
+Shard ID None has successfully RESUMED session 0d5989774711fd90c5eb4d1e94794381.
+
+ 
+2026-03-31 13:30:04
+
+INFO
+
+bot:
+
+Gateway reconnected, checking voice status...
+
+ 
+2026-03-31 14:02:46
+
+ERROR
+
+bot:
+
+Gateway disconnected
+
+ 
+2026-03-31 14:02:47
+
+INFO
+
+discord.gateway:
+
+Shard ID None has successfully RESUMED session 0d5989774711fd90c5eb4d1e94794381.
+
+ 
+2026-03-31 14:02:47
+
+INFO
+
+bot:
+
+Gateway reconnected, checking voice status...
+
+ 
+2026-03-31 14:50:04 WARNING urllib3.connectionpool: Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ProtocolError('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))': /v0/v2.public.Q2lSaFkyUmpOVEk0WkMxbVpHSTFMVFJqTVRNdE9URTRZeTAxTnpOa00yRXlPVFkxWlRVU0RHTm9hV05vYVdOb1pXNHhNQm9GWkdOaWIzUWlDWEpsY0d4cGRDMXJkaklrTVRRNU0yVmtZVGd0TUdReFpDMDBNekZtTFdFNE5qZ3RaR001Wm1VNE1XSmpZemd3T1Avemx3UkNWZ29rTUROa1pqaGhNbU10WVRnek1TMDBNalkyTFRsbFlqQXRPR1U1WWpZMk9HUmhaakF6R2lSaFkyUmpOVEk0WkMxbVpHSTFMVFJqTVRNdE9URTRZeTAxTnpOa00yRXlPVFkxWlRVaUNHVXlMWE50WVd4c1lnQT0-1xvF3D95C3n-Q-mZLJe7GNJlZGfSqKlUMJiEleZ6kbslYbGTMUvvwJjZRhgyP-nPXKOekSuK6jhi6j6f6GMC.R0FFaUNHaGxhVzFrWVd4c0V2c0hkakl1Y0hWaWJHbGpMbEV5WkROVFYyZDJWak5PTmxveGJGSmhTRWw1V2pKNGJsSldUa1ZSVjNCWVRtMUtWVlF3U205U1JVWXpXVlZPV0ZGV1NuWlJNR1JDVmxkR1Mxb3lPWEpYVm1SUFlURnNObFpZYkZCU01VWXdWMjB4VTJGVk5WUk5SRUphWld0V05sUkdVbkpsUlRsSVZGaFNUMVpIVGpaWGExSlBZVVV4Y1dGNlNrOVdNVlY0VWpKak1GVXdVa2hVYlRsb1ZqQTFkbGxXWkU5aU1YQllUa2hvVGxGdE9VZFVNVUYyWlcxNE0xVlhSa0poUjJSTVVqSmtTbVF3UmxSVFZFWm9aV3RzTVZrd2FGZGhWMHBJWWtkd1RXRnNXa2xWYTFKUFUwVTFkRlZyZEZoV1YxRXhWRVpvUzFsWFVuTlhXR2hzVmpGR05WVlVRa3RrUm14WlZHcE9hazFJUWxKV1ZFcGhWMGRTU1ZScVNsbE5NVW8yVmxjeE1GSlhTbFpoZWpFMFkxVkVhRkZPVWtRNFVHMXFaMHhmUXpkUk5tZHVTbVpMVlZvM1RWSlZObm93YldWS1gzbzNiMlp2VXpGVGNtRTNVR0pvUkY5V2N6UlJRVkZ0UWxSU09GcFhOalF6ZVdSUWIwRXhkelY2TUZCUU9GVk1MbEl3UmtaaFZVcDBWRzVhYVdKVVJtOVpiV2hOV1d0R2RWZFliRTFpYTBsNFYxY3hOR05HYkRWT1ZrcE9ZbFpKTWxaVVJtdE5SMVowVTJ4YVZHSnVRbGRXYlRFMFZURlNjbFZ0Ums1V2JrSlhWVEowVDFaR1dsbGhSVlpXWld0S2NsVnFRVEZUVmtaeVUyeGFUbEpzY0ZOV2JYQlBXVmRTVjJJemFGTmlWMmhUVm1wS2IyUldWbGhrUjNScFlrVTFXRmxyVms5V2JVcFZZa1ZXVm1GclNraGFSM2h6Vm14S2RWSnNTbGRXV0VKS1ZqSndRMk14WkhOU2JHaG9VMFp3VTFSVlpGTlJNVnBIV2tWa1VtSlZXa2xYYTFWNFZUQXhkRlZyZEZkTlZscFVWVlJLU21ReFVuSmhSa3BYWVRGd2RsWldXbXRpTWtwelZHNUthVk5GV2xoWmJYUjNWREZzVjFWc1pFNU5XRUpJVjJ0V01HRnJNWEpYYkd4WFVtMW9XRlpFUm1Ga1IxWkpZMFprVjJKV1NrbFdSbEpMVkRKTmVWTnFXbFpoZW14WVZGZDRTMkl4V1hsTlZGSlVUV3RhUjFSV1ZtdFdSMHBHVjJ4YVdsWjZSVEJYVmxwelRteEdWVkp0Y0dsU1dFSTJWa1JHVjFsWFJYbFRiR3hXVmtWYVYxbHJXbUZqYkhCSVpVVmFiRkp1UWtaV01qRjNZVWRGZUdOSE9WZGhhMXBVVlhwR1RtVkdXbk5UYkVaWFVrVktNMVl5ZEdGWGJVNTBZMFV4VUZkRk5IcGFSVlphVGxad1JWSllVbWxpVkZaUlZEQmtZVlZ0U2xoaFJFcFVVbFp3ZUZaclZuSmtSMUpGWVVWd2FXSldjRkZYUkVsNFZsVXhkRmw2VW1wWFNFSkdWV3RrVms1R1drVmlSbEpvVFZaS05sZHRlRzlpVjFaeVlucENXRlpWTVRaWGJYTjNaV3hrVms1WVNsUldSMUpaVjFkcmQwNVdTbkpWYlRsUFlWUkdURlJxU1RWU1JYaHpVMWhrVTJFeGNHOVdiRlozVFVaYVNFNVhSbWhXTUhCV1ZXMHdOVmR0U2xoVmFrcFdZV3R3VUZVeFdrOWtWbVIwVW14T1UyVnRaekE9/bot_name
+
+ 
+2026-03-31 16:12:49
+
+ERROR
+
+bot:
+
+Gateway disconnected
+
+ 
+2026-03-31 16:12:49
+
+INFO
+
+discord.gateway:
+
+Shard ID None has successfully RESUMED session 0d5989774711fd90c5eb4d1e94794381.
+
+ 
+2026-03-31 16:12:49
+
+INFO
+
+bot:
+
+Gateway reconnected, checking voice status...
+
+ 
+2026-03-31 16:42:40
+
+ERROR
+
+bot:
+
+Gateway disconnected
+
+ 
+2026-03-31 16:42:40
+
+INFO
+
+discord.gateway:
+
+Shard ID None has successfully RESUMED session 0d5989774711fd90c5eb4d1e94794381.
+
+ 
+2026-03-31 16:42:40
+
+INFO
+
+bot:
+
+Gateway reconnected, checking voice status...
+
+ 
+2026-03-31 18:35:30
+
+ERROR
+
+bot:
+
+Gateway disconnected
+
+ 
+2026-03-31 18:35:30
+
+INFO
+
+discord.gateway:
+
+Shard ID None has successfully RESUMED session 0d5989774711fd90c5eb4d1e94794381.
+
+ 
+2026-03-31 18:35:30
+
+INFO
+
+bot:
+
+Gateway reconnected, checking voice status...
+
+ 
+2026-03-31 19:35:12
+
+ERROR
+
+bot:
+
+Gateway disconnected
+
+ 
+2026-03-31 19:35:13
+
+INFO
+
+discord.gateway:
+
+Shard ID None has successfully RESUMED session 0d5989774711fd90c5eb4d1e94794381.
+
+ 
+2026-03-31 19:35:13
+
+INFO
+
+bot:
+
+Gateway reconnected, checking voice status...
+
+ 
+2026-03-31 20:33:38
+
+ERROR
+
+bot:
+
+Gateway disconnected
+
+ 
+2026-03-31 20:33:38
+
+INFO
+
+discord.gateway:
+
+Shard ID None has successfully RESUMED session 0d5989774711fd90c5eb4d1e94794381.
+
+ 
+2026-03-31 20:33:38
+
+INFO
+
+bot:
+
+Gateway reconnected, checking voice status...
+
+ 
+2026-03-31 23:55:01
+
+ERROR
+
+bot:
+
+Gateway disconnected
+
+ 
+2026-03-31 23:55:01
+
+INFO
+
+discord.gateway:
+
+Shard ID None has successfully RESUMED session 0d5989774711fd90c5eb4d1e94794381.
+
+ 
+2026-03-31 23:55:01
+
+INFO
+
+bot:
+
+Gateway reconnected, checking voice status...
+
+ 
+2026-04-01 03:35:36
+
+ERROR
+
+bot:
+
+Gateway disconnected
+
+ 
+2026-04-01 03:35:36
+
+INFO
+
+discord.gateway:
+
+Shard ID None has successfully RESUMED session 0d5989774711fd90c5eb4d1e94794381.
+
+ 
+2026-04-01 03:35:36
+
+INFO
+
+bot:
+
+Gateway reconnected, checking voice status...
+
+ 
+2026-04-01 06:47:31
+
+ERROR
+
+bot:
+
+Gateway disconnected
+
+ 
+2026-04-01 06:47:32
+
+INFO
+
+discord.gateway:
+
+Shard ID None has successfully RESUMED session 0d5989774711fd90c5eb4d1e94794381.
+
+ 
+2026-04-01 06:47:32
+
+INFO
+
+bot:
+
+Gateway reconnected, checking voice status...
+
+ 
+2026-04-01 09:30:30
+
+ERROR
+
+bot:
+
+Gateway disconnected
+
+ 
+2026-04-01 09:30:31
+
+INFO
+
+discord.gateway:
+
+Shard ID None has successfully RESUMED session 0d5989774711fd90c5eb4d1e94794381.
+
+ 
+2026-04-01 09:30:31
+
+INFO
+
+bot:
+
+Gateway reconnected, checking voice status...
+
+ 
+2026-04-01 09:48:00
+
+ERROR
+
+bot:
+
+Gateway disconnected
+
+ 
+2026-04-01 09:48:00
+
+INFO
+
+discord.gateway:
+
+Shard ID None has successfully RESUMED session 0d5989774711fd90c5eb4d1e94794381.
+
+ 
+2026-04-01 09:48:00
+
+INFO
+
+bot:
+
+Gateway reconnected, checking voice status...
+
+ 
+2026-04-01 11:44:31
+
+ERROR
+
+bot:
+
+Gateway disconnected
+
+ 
+2026-04-01 11:44:32
+
+INFO
+
+discord.gateway:
+
+Shard ID None has successfully RESUMED session 0d5989774711fd90c5eb4d1e94794381.
+
+ 
+2026-04-01 11:44:32
+
+INFO
+
+bot:
+
+Gateway reconnected, checking voice status...
+
+ 
+2026-04-01 12:34:46
+
+ERROR
+
+bot:
+
+Gateway disconnected
+
+ 
+2026-04-01 12:34:46
+
+INFO
+
+discord.gateway:
+
+Shard ID None has successfully RESUMED session 0d5989774711fd90c5eb4d1e94794381.
+
+ 
+2026-04-01 12:34:46
+
+INFO
+
+bot:
+
+Gateway reconnected, checking voice status...
+
+ 
+2026-04-01 13:24:25
+
+ERROR
+
+bot:
+
+Gateway disconnected
+
+ 
+2026-04-01 13:24:25
+
+INFO
+
+discord.gateway:
+
+Shard ID None has successfully RESUMED session 0d5989774711fd90c5eb4d1e94794381.
+
+ 
+2026-04-01 13:24:25
+
+INFO
+
+bot:
+
+Gateway reconnected, checking voice status...
+
+ 
+2026-04-01 14:45:13
+
+ERROR
+
+bot:
+
+Gateway disconnected
+
+ 
+2026-04-01 14:45:13
+
+INFO
+
+discord.gateway:
+
+Shard ID None has successfully RESUMED session 0d5989774711fd90c5eb4d1e94794381.
+
+ 
+2026-04-01 14:45:13
+
+INFO
+
+bot:
+
+Gateway reconnected, checking voice status...
+
+ 
+2026-04-01 16:32:30
+
+ERROR
+
+bot:
+
+Gateway disconnected
+
+ 
+2026-04-01 16:32:30
+
+INFO
+
+discord.gateway:
+
+Shard ID None has successfully RESUMED session 0d5989774711fd90c5eb4d1e94794381.
+
+ 
+2026-04-01 16:32:30
+
+INFO
+
+bot:
+
+Gateway reconnected, checking voice status...
+
+ 
+2026-04-01 17:09:28
+
+ERROR
+
+bot:
+
+Gateway disconnected
+
+ 
+2026-04-01 17:09:28
+
+INFO
+
+discord.gateway:
+
+Shard ID None has successfully RESUMED session 0d5989774711fd90c5eb4d1e94794381.
+
+ 
+2026-04-01 17:09:28
+
+INFO
+
+bot:
+
+Gateway reconnected, checking voice status...
+
+ 
+2026-04-01 17:21:10
+
+ERROR
+
+bot:
+
+Gateway disconnected
+
+ 
+2026-04-01 17:21:10
+
+INFO
+
+discord.gateway:
+
+Shard ID None has successfully RESUMED session 0d5989774711fd90c5eb4d1e94794381.
+
+ 
+2026-04-01 17:21:10
+
+INFO
+
+bot:
+
+Gateway reconnected, checking voice status...
+
+ 
+2026-04-01 17:48:46
+
+ERROR
+
+bot:
+
+Gateway disconnected
+
+ 
+2026-04-01 17:48:46
+
+INFO
+
+discord.gateway:
+
+Shard ID None has successfully RESUMED session 0d5989774711fd90c5eb4d1e94794381.
+
+ 
+2026-04-01 17:48:46
+
+INFO
+
+bot:
+
+Gateway reconnected, checking voice status...
+
+ 
+2026-04-01 20:54:09
+
+ERROR
+
+bot:
+
+Gateway disconnected
+
+ 
+2026-04-01 20:54:09
+
+INFO
+
+discord.gateway:
+
+Shard ID None has successfully RESUMED session 0d5989774711fd90c5eb4d1e94794381.
+
+ 
+2026-04-01 20:54:10
+
+INFO
+
+bot:
+
+Gateway reconnected, checking voice status...
+
+ 
+2026-04-01 21:09:58
+
+ERROR
+
+bot:
+
+Gateway disconnected
+
+ 
+2026-04-01 21:09:59
+
+INFO
+
+discord.gateway:
+
+Shard ID None has successfully RESUMED session 0d5989774711fd90c5eb4d1e94794381.
+
+ 
+2026-04-01 21:09:59
+
+INFO
+
+bot:
+
+Gateway reconnected, checking voice status...
+
+ 
+2026-04-01 22:17:21
+
+ERROR
+
+bot:
+
+Gateway disconnected
+
+ 
+2026-04-01 22:17:21
+
+INFO
+
+discord.gateway:
+
+Shard ID None has successfully RESUMED session 0d5989774711fd90c5eb4d1e94794381.
+
+ 
+2026-04-01 22:17:21
+
+INFO
+
+bot:
+
+Gateway reconnected, checking voice status...
+
+ 
+2026-04-01 22:21:29
+
+ERROR
+
+bot:
+
+Gateway disconnected
+
+ 
+2026-04-01 22:21:29
+
+INFO
+
+discord.gateway:
+
+Shard ID None has successfully RESUMED session 0d5989774711fd90c5eb4d1e94794381.
+
+ 
+2026-04-01 22:21:29
+
+INFO
+
+bot:
+
+Gateway reconnected, checking voice status...
+
+ 
+2026-04-01 22:31:48
+
+ERROR
+
+bot:
+
+Gateway disconnected
+
+ 
+2026-04-01 22:31:48
+
+INFO
+
+discord.gateway:
+
+Shard ID None has successfully RESUMED session 0d5989774711fd90c5eb4d1e94794381.
+
+ 
+2026-04-01 22:31:48
+
+INFO
+
+bot:
+
+Gateway reconnected, checking voice status...
+
+ 
+2026-04-01 22:41:25
+
+ERROR
+
+bot:
+
+Gateway disconnected
+
+ 
+2026-04-01 22:41:26
+
+INFO
+
+discord.gateway:
+
+Shard ID None has successfully RESUMED session 0d5989774711fd90c5eb4d1e94794381.
+
+ 
+2026-04-01 22:41:26
+
+INFO
+
+bot:
+
+Gateway reconnected, checking voice status...
+
+ 
+2026-04-01 23:20:34
+
+INFO
+
+bot:
+
+Chi in 9又4分之8.7月台[123是什麼敷衍的名字]
+
+ 
+2026-04-01 23:20:34
+
+INFO
+
+discord.voice_state:
+
+Connecting to voice...
+
+ 
+2026-04-01 23:20:34
+
+INFO
+
+discord.voice_state:
+
+Starting voice handshake... (connection attempt 1)
+
+ 
+2026-04-01 23:20:35
+
+INFO
+
+discord.voice_state:
+
+Voice handshake complete. Endpoint found: hongkong12036.discord.media:443
+
+ 
+2026-04-01 23:20:36
+
+ERROR
+
+discord.voice_state:
+
+Failed to connect to voice... Retrying in 1.0s...
+
+ 
+Traceback (most recent call last):
+
+ 
+File "/home/runner/workspace/.pythonlibs/lib/python3.10/site-packages/discord/voice_state.py", line 413, in _inner_connect
+
+ 
+await self._handshake_websocket()
+
+ 
+File "/home/runner/workspace/.pythonlibs/lib/python3.10/site-packages/discord/voice_state.py", line 586, in _handshake_websocket
+
+ 
+await self.ws.poll_event()
+
+ 
+File "/home/runner/workspace/.pythonlibs/lib/python3.10/site-packages/discord/gateway.py", line 1053, in poll_event
+
+ 
+raise ConnectionClosed(self.ws, shard_id=None, code=self._close_code)
+
+ 
+discord.errors.ConnectionClosed: Shard ID None WebSocket closed with 4017
+
+ 
+2026-04-01 23:20:36
+
+INFO
+
+discord.voice_state:
+
+The voice handshake is being terminated for Channel ID 728631391809437746 (Guild ID 428109526550708234)
+
+ 
+2026-04-01 23:20:37
+
+INFO
+
+discord.voice_state:
+
+Starting voice handshake... (connection attempt 2)
+
+ 
+2026-04-01 23:20:37
+
+INFO
+
+discord.voice_state:
+
+Voice handshake complete. Endpoint found: hongkong12036.discord.media:443
+
+ 
+2026-04-01 23:20:38
+
+ERROR
+
+discord.voice_state:
+
+Failed to connect to voice... Retrying in 3.0s...
+
+ 
+Traceback (most recent call last):
+
+ 
+File "/home/runner/workspace/.pythonlibs/lib/python3.10/site-packages/discord/voice_state.py", line 413, in _inner_connect
+
+ 
+await self._handshake_websocket()
+
+ 
+File "/home/runner/workspace/.pythonlibs/lib/python3.10/site-packages/discord/voice_state.py", line 586, in _handshake_websocket
+
+ 
+await self.ws.poll_event()
+
+ 
+File "/home/runner/workspace/.pythonlibs/lib/python3.10/site-packages/discord/gateway.py", line 1053, in poll_event
+
+ 
+raise ConnectionClosed(self.ws, shard_id=None, code=self._close_code)
+
+ 
+discord.errors.ConnectionClosed: Shard ID None WebSocket closed with 4017
+
+ 
+2026-04-01 23:20:38
+
+INFO
+
+discord.voice_state:
+
+The voice handshake is being terminated for Channel ID 728631391809437746 (Guild ID 428109526550708234)
+
+ 
+2026-04-01 23:20:41
+
+INFO
+
+discord.voice_state:
+
+Starting voice handshake... (connection attempt 3)
+
+ 
+2026-04-01 23:20:41
+
+INFO
+
+discord.voice_state:
+
+Voice handshake complete. Endpoint found: hongkong12036.discord.media:443
+
+ 
+2026-04-01 23:20:42
+
+ERROR
+
+discord.voice_state:
+
+Failed to connect to voice... Retrying in 5.0s...
+
+ 
+Traceback (most recent call last):
+
+ 
+File "/home/runner/workspace/.pythonlibs/lib/python3.10/site-packages/discord/voice_state.py", line 413, in _inner_connect
+
+ 
+await self._handshake_websocket()
+
+ 
+File "/home/runner/workspace/.pythonlibs/lib/python3.10/site-packages/discord/voice_state.py", line 586, in _handshake_websocket
+
+ 
+await self.ws.poll_event()
+
+ 
+File "/home/runner/workspace/.pythonlibs/lib/python3.10/site-packages/discord/gateway.py", line 1053, in poll_event
+
+ 
+raise ConnectionClosed(self.ws, shard_id=None, code=self._close_code)
+
+ 
+discord.errors.ConnectionClosed: Shard ID None WebSocket closed with 4017
+
+ 
+2026-04-01 23:20:42
+
+INFO
+
+discord.voice_state:
+
+The voice handshake is being terminated for Channel ID 728631391809437746 (Guild ID 428109526550708234)
+
+ 
+2026-04-01 23:20:47
+
+INFO
+
+discord.voice_state:
+
+Starting voice handshake... (connection attempt 4)
+
+ 
+2026-04-01 23:20:47
+
+INFO
+
+discord.voice_state:
+
+Voice handshake complete. Endpoint found: hongkong12036.discord.media:443
+
+ 
+2026-04-01 23:20:48
+
+ERROR
+
+discord.voice_state:
+
+Failed to connect to voice... Retrying in 7.0s...
+
+ 
+Traceback (most recent call last):
+
+ 
+File "/home/runner/workspace/.pythonlibs/lib/python3.10/site-packages/discord/voice_state.py", line 413, in _inner_connect
+
+ 
+await self._handshake_websocket()
+
+ 
+File "/home/runner/workspace/.pythonlibs/lib/python3.10/site-packages/discord/voice_state.py", line 586, in _handshake_websocket
+
+ 
+await self.ws.poll_event()
+
+ 
+File "/home/runner/workspace/.pythonlibs/lib/python3.10/site-packages/discord/gateway.py", line 1053, in poll_event
+
+ 
+raise ConnectionClosed(self.ws, shard_id=None, code=self._close_code)
+
+ 
+discord.errors.ConnectionClosed: Shard ID None WebSocket closed with 4017
+
+ 
+2026-04-01 23:20:48
+
+INFO
+
+discord.voice_state:
+
+The voice handshake is being terminated for Channel ID 728631391809437746 (Guild ID 428109526550708234)
+
+ 
+2026-04-01 23:20:55
+
+INFO
+
+discord.voice_state:
+
+Starting voice handshake... (connection attempt 5)
+
+ 
+2026-04-01 23:20:56
+
+INFO
+
+discord.voice_state:
+
+Voice handshake complete. Endpoint found: hongkong12036.discord.media:443
+
+ 
+2026-04-01 23:20:57
+
+ERROR
+
+discord.voice_state:
+
+Failed to connect to voice... Retrying in 9.0s...
+
+ 
+Traceback (most recent call last):
+
+ 
+File "/home/runner/workspace/.pythonlibs/lib/python3.10/site-packages/discord/voice_state.py", line 413, in _inner_connect
+
+ 
+await self._handshake_websocket()
+
+ 
+File "/home/runner/workspace/.pythonlibs/lib/python3.10/site-packages/discord/voice_state.py", line 586, in _handshake_websocket
+
+ 
+await self.ws.poll_event()
+
+ 
+File "/home/runner/workspace/.pythonlibs/lib/python3.10/site-packages/discord/gateway.py", line 1053, in poll_event
+
+ 
+raise ConnectionClosed(self.ws, shard_id=None, code=self._close_code)
+
+ 
+discord.errors.ConnectionClosed: Shard ID None WebSocket closed with 4017
+
+ 
+2026-04-01 23:20:57
+
+INFO
+
+discord.voice_state:
+
+The voice handshake is being terminated for Channel ID 728631391809437746 (Guild ID 428109526550708234)
+
+ 
+2026-04-01 23:21:04
+
+INFO
+
+discord.voice_state:
+
+Timed out connecting to voice
+
+ 
+2026-04-01 23:21:04
+
+INFO
+
+discord.voice_state:
+
+The voice handshake is being terminated for Channel ID 728631391809437746 (Guild ID 428109526550708234)
+
+ 
+2026-04-01 23:21:04
+
+INFO
+
+discord.voice_state:
+
+The voice handshake is being terminated for Channel ID 728631391809437746 (Guild ID 428109526550708234)
+
+ 
+2026-04-01 23:21:34 WARNING urllib3.connectionpool: Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ProtocolError('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))': /v0/v2.public.Q2lSaFkyUmpOVEk0WkMxbVpHSTFMVFJqTVRNdE9URTRZeTAxTnpOa00yRXlPVFkxWlRVU0RHTm9hV05vYVdOb1pXNHhNQm9GWkdOaWIzUWlDWEpsY0d4cGRDMXJkaklrTVRRNU0yVmtZVGd0TUdReFpDMDBNekZtTFdFNE5qZ3RaR001Wm1VNE1XSmpZemd3T1Avemx3UkNWZ29rTUROa1pqaGhNbU10WVRnek1TMDBNalkyTFRsbFlqQXRPR1U1WWpZMk9HUmhaakF6R2lSaFkyUmpOVEk0WkMxbVpHSTFMVFJqTVRNdE9URTRZeTAxTnpOa00yRXlPVFkxWlRVaUNHVXlMWE50WVd4c1lnQT3mHbU2a4jIu-uyA2ZALTsZUXjgxTMa2VcG9GmbHrDqfPmn6rZS_urMtqbLVg_X8s61SqjNtrIDAiuWY3CyeB8N.R0FFaUNHaGxhVzFrWVd4c0V2c0hkakl1Y0hWaWJHbGpMbEV5WkROVFYzTXdUbXBDTmxveGJGSmlSVGxNV1c1d1FsSldUa1ZSVjNCd1dqTktObFF3U205U1JtOHhUbGhhVGxGV1NuWlJNR1JDVmxkR1Mxb3lPWEpYVm1SUFlURnNObFpZYkZCU01VWXdWMjB4VTJGVk5WUk5SRUphWld0V05sUkdVbkpsUlRsSVZGaFNUMVpIVGpaWGExSlBZVVV4Y1dGNlNrOVdNVlY0VWpKak1GVXdVa2hVYlRsb1ZqQTFkbGxXWkU5aU1YQllUa2hvVGxGdE9VZFVNVUYyWlcxNE0xVlhSa0poUjJSTVVqSmtTbVF3UmxSVFZFWm9aV3RzTVZrd2FGZGhWMHBJWWtkd1RXRXhSVEJhVnpWM1kwZEtWbFJyT1U5V01WcFdXVEZrVDFJd05IZGFSMXBzWW14d1VWbDZTbnBPVms0MVRWWktUazFIVGpWVlYzaHlUVVpTUkUxWE5WTk5NRmw2VlRKMFMxZHRTWGhoZWpGSVMwRXRZakF0VVdoVVZWQkZiVVp0YVhGWlExbHFSbU4wUlVobFpUZE5PUzF3TkhrMmExSk1MVEJIYjBSUVVETkJNSFpmWTJzdGVEZGhUVjh3VHpsbVRpMU1jbmhOVnkxMGMzWlZaVW95TFY4d1gwVlFMbEl3UmtaaFZVcDBWRzVhYVdKVVJtOVpiV2hOV1d0R2RWZFliRTFpYTBsNFYxY3hOR05HYkRWT1ZrcE9ZbFpKTWxaVVJtdE5SMVowVTJ4YVZHSnVRbGRXYlRFMFZURlNjbFZ0Ums1V2JrSlhWVEowVDFaR1dsbGhSVlpXWld0S2NsVnFRVEZUVmtaeVUyeGFUbEpzY0ZOV2JYQlBXVmRTVjJJemFGTmlWMmhUVm1wS2IyUldWbGhrUjNScFlrVTFXRmxyVms5V2JVcFZZa1ZXVm1GclNraGFSM2h6Vm14S2RWSnNTbGRXV0VKS1ZqSndRMk14WkhOU2JHaG9VMFp3VTFSVlpGTlJNVnBIV2tWa1VtSlZXa2xYYTFWNFZUQXhkRlZyZEZkTlZscFVWVlJLU21ReFVuSmhSa3BYWVRGd2RsWldXbXRpTWtwelZHNUthVk5GV2xoWmJYUjNWREZzVjFWc1pFNU5XRUpJVjJ0V01HRnJNWEpYYkd4WFVtMW9XRlpFUm1Ga1IxWkpZMFprVjJKV1NrbFdSbEpMVkRKTmVWTnFXbFpoZW14WVZGZDRTMkl4V1hsTlZGSlVUV3RhUjFSV1ZtdFdSMHBHVjJ4YVdsWjZSVEJYVmxwelRteEdWVkp0Y0dsU1dFSTJWa1JHVjFsWFJYbFRiR3hXVmtWYVYxbHJXbUZqYkhCSVpVVmFiRkp1UWtaV01qRjNZVWRGZUdOSE9WZGhhMXBVVlhwR1RtVkdXbk5UYkVaWFVrVktNMVl5ZEdGWGJVNTBZMFV4VUZkRk5IcGFSVlphVGxad1JWSllVbWxpVkZaUlZEQmtZVlZ0U2xoaFJFcFVVbFp3ZUZaclZuSmtSMUpGWVVWd2FXSldjRkZYUkVsNFZsVXhkRmw2VW1wWFNFSkdWV3RrVms1R1drVmlSbEpvVFZaS05sZHRlRzlpVjFaeVlucENXRlpWTVRaWGJYTjNaV3hrVms1WVNsUldSMUpaVjFkcmQwNVdTbkpWYlRsUFlWUkdURlJxU1RWU1JYaHpVMWhrVTJFeGNHOVdiRlozVFVaYVNFNVhSbWhXTUhCV1ZXMHdOVmR0U2xoVmFrcFdZV3R3VUZVeFdrOWtWbVIwVW14T1UyVnRaekE9/mode
+
+ 
+2026-04-01 23:21:34
+
+INFO
+
+bot:
+
+fivenchung in 9又4分之8.7月台[123是什麼敷衍的名字]
+
+ 
+2026-04-01 23:21:34
+
+INFO
+
+discord.voice_state:
+
+Connecting to voice...
+
+ 
+2026-04-01 23:21:34
+
+INFO
+
+discord.voice_state:
+
+Starting voice handshake... (connection attempt 1)
+
+ 
+2026-04-01 23:21:35
+
+INFO
+
+discord.voice_state:
+
+Voice handshake complete. Endpoint found: hongkong12036.discord.media:443
+
+ 
+2026-04-01 23:21:36
+
+ERROR
+
+discord.voice_state:
+
+Failed to connect to voice... Retrying in 1.0s...
+
+ 
+Traceback (most recent call last):
+
+ 
+File "/home/runner/workspace/.pythonlibs/lib/python3.10/site-packages/discord/voice_state.py", line 413, in _inner_connect
+
+ 
+await self._handshake_websocket()
+
+ 
+File "/home/runner/workspace/.pythonlibs/lib/python3.10/site-packages/discord/voice_state.py", line 586, in _handshake_websocket
+
+ 
+await self.ws.poll_event()
+
+ 
+File "/home/runner/workspace/.pythonlibs/lib/python3.10/site-packages/discord/gateway.py", line 1053, in poll_event
+
+ 
+raise ConnectionClosed(self.ws, shard_id=None, code=self._close_code)
+
+ 
+discord.errors.ConnectionClosed: Shard ID None WebSocket closed with 4017
+
+ 
+2026-04-01 23:21:36
+
+INFO
+
+discord.voice_state:
+
+The voice handshake is being terminated for Channel ID 728631391809437746 (Guild ID 428109526550708234)
+
+ 
+2026-04-01 23:21:37
+
+INFO
+
+discord.voice_state:
+
+Starting voice handshake... (connection attempt 2)
+
+ 
+2026-04-01 23:21:37
+
+INFO
+
+discord.voice_state:
+
+Voice handshake complete. Endpoint found: hongkong12036.discord.media:443
+
+ 
+2026-04-01 23:21:38
+
+ERROR
+
+discord.voice_state:
+
+Failed to connect to voice... Retrying in 3.0s...
+
+ 
+Traceback (most recent call last):
+
+ 
+File "/home/runner/workspace/.pythonlibs/lib/python3.10/site-packages/discord/voice_state.py", line 413, in _inner_connect
+
+ 
+await self._handshake_websocket()
+
+ 
+File "/home/runner/workspace/.pythonlibs/lib/python3.10/site-packages/discord/voice_state.py", line 586, in _handshake_websocket
+
+ 
+await self.ws.poll_event()
+
+ 
+File "/home/runner/workspace/.pythonlibs/lib/python3.10/site-packages/discord/gateway.py", line 1053, in poll_event
+
+ 
+raise ConnectionClosed(self.ws, shard_id=None, code=self._close_code)
+
+ 
+discord.errors.ConnectionClosed: Shard ID None WebSocket closed with 4017
+
+ 
+2026-04-01 23:21:38
+
+INFO
+
+discord.voice_state:
+
+The voice handshake is being terminated for Channel ID 728631391809437746 (Guild ID 428109526550708234)
+
+ 
+2026-04-01 23:21:41
+
+INFO
+
+discord.voice_state:
+
+Starting voice handshake... (connection attempt 3)
+
+ 
+2026-04-01 23:21:41
+
+INFO
+
+discord.voice_state:
+
+Voice handshake complete. Endpoint found: hongkong12036.discord.media:443
+
+ 
+2026-04-01 23:21:42
+
+ERROR
+
+discord.voice_state:
+
+Failed to connect to voice... Retrying in 5.0s...
+
+ 
+Traceback (most recent call last):
+
+ 
+File "/home/runner/workspace/.pythonlibs/lib/python3.10/site-packages/discord/voice_state.py", line 413, in _inner_connect
+
+ 
+await self._handshake_websocket()
+
+ 
+File "/home/runner/workspace/.pythonlibs/lib/python3.10/site-packages/discord/voice_state.py", line 586, in _handshake_websocket
+
+ 
+await self.ws.poll_event()
+
+ 
+File "/home/runner/workspace/.pythonlibs/lib/python3.10/site-packages/discord/gateway.py", line 1053, in poll_event
+
+ 
+raise ConnectionClosed(self.ws, shard_id=None, code=self._close_code)
+
+ 
+discord.errors.ConnectionClosed: Shard ID None WebSocket closed with 4017
+
+ 
+2026-04-01 23:21:42
+
+INFO
+
+discord.voice_state:
+
+The voice handshake is being terminated for Channel ID 728631391809437746 (Guild ID 428109526550708234)
+
+ 
+2026-04-01 23:21:47
+
+INFO
+
+discord.voice_state:
+
+Starting voice handshake... (connection attempt 4)
+
+ 
+2026-04-01 23:21:47
+
+INFO
+
+discord.voice_state:
+
+Voice handshake complete. Endpoint found: hongkong12036.discord.media:443
+
+ 
+2026-04-01 23:21:49
+
+ERROR
+
+discord.voice_state:
+
+Failed to connect to voice... Retrying in 7.0s...
+
+ 
+Traceback (most recent call last):
+
+ 
+File "/home/runner/workspace/.pythonlibs/lib/python3.10/site-packages/discord/voice_state.py", line 413, in _inner_connect
+
+ 
+await self._handshake_websocket()
+
+ 
+File "/home/runner/workspace/.pythonlibs/lib/python3.10/site-packages/discord/voice_state.py", line 586, in _handshake_websocket
+
+ 
+await self.ws.poll_event()
+
+ 
+File "/home/runner/workspace/.pythonlibs/lib/python3.10/site-packages/discord/gateway.py", line 1053, in poll_event
+
+ 
+raise ConnectionClosed(self.ws, shard_id=None, code=self._close_code)
+
+ 
+discord.errors.ConnectionClosed: Shard ID None WebSocket closed with 4017
+
+ 
+2026-04-01 23:21:49
+
+INFO
+
+discord.voice_state:
+
+The voice handshake is being terminated for Channel ID 728631391809437746 (Guild ID 428109526550708234)
+
+ 
+2026-04-01 23:21:56
+
+INFO
+
+discord.voice_state:
+
+Starting voice handshake... (connection attempt 5)
+
+ 
+2026-04-01 23:21:56
+
+INFO
+
+discord.voice_state:
+
+Voice handshake complete. Endpoint found: hongkong12036.discord.media:443
+
+ 
+2026-04-01 23:21:57
+
+ERROR
+
+discord.voice_state:
+
+Failed to connect to voice... Retrying in 9.0s...
+
+ 
+Traceback (most recent call last):
+
+ 
+File "/home/runner/workspace/.pythonlibs/lib/python3.10/site-packages/discord/voice_state.py", line 413, in _inner_connect
+

@@ -23,6 +23,8 @@ class PlayList:
         return len(self.queue)
     def add(self, audio):
         self.queue.append(audio)
+    def clear(self):
+        self.queue.clear()
     def get_current_channel(self)->discord.VoiceChannel: 
         return self.queue[0].voice_channel
 
@@ -36,6 +38,8 @@ class MusicPlayList:
         return len(self.queue)
     def add(self, audio):
         self.queue.append(audio)
+    def clear(self):
+        self.queue.clear()
     def get_current_channel(self)->discord.VoiceChannel: 
         return self.queue[0].voice_channel
 
@@ -48,16 +52,23 @@ class DC_player:
 
     def add(self,file,voice_channel):
         self.playList.add(Audio(file,voice_channel))
-    
+
+    def clear(self):
+        self.playList.clear()
+        self.isPlaying = False
+
     async def play(self):
-        # self.playList.add(Audio(file,voice_channel))
         discord.opus.load_opus(os.getenv("OPUS_PATH") + "/libopus.so")
         voice_channel = self.playList.get_current_channel()
         print(voice_channel)
         if(not self.isPlaying):
             try:
                 vc = await voice_channel.connect()
-            except:
+            except discord.errors.ConnectionClosed as e:
+                print(f'Voice connect rejected (code {e.code}), clearing queue')
+                self.playList.clear()
+                return
+            except Exception:
                 if(voice_channel.name == '垃圾車'):
                     self.playList.pop()                
                 return
@@ -66,8 +77,6 @@ class DC_player:
                 while(self.playList.len()>0):  
                     print(self.playList.queue)
                     if(self.playList.get_current_channel() == voice_channel):
-                        # audio_source = discord.FFmpegPCMAudio(self.playList.pop().filename)
-
                         vc.play(discord.FFmpegPCMAudio(self.playList.pop().filename), after=None)
                         vc.source.volume = 10.0
                         await asyncio.sleep(1)
@@ -77,14 +86,19 @@ class DC_player:
                     else:
                         break
 
+            except discord.errors.ConnectionClosed as e:
+                print(f'Voice connection lost mid-play (code {e.code}), clearing queue')
+                self.playList.clear()
             except Exception as e:
                 print('debug line 4===================================')
                 print(repr(e))
                 print('debug line 5===================================')
-                pass
             finally:
                 self.isPlaying = False
-                await vc.disconnect()
+                try:
+                    await vc.disconnect()
+                except Exception:
+                    pass
                 if(self.playList.len()>0):
                     print('redo')
                     print(self.playList.get_current_channel())

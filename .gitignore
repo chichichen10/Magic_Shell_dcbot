@@ -1,6 +1,7 @@
 log/
 __pycache__/
 .cache
+.breakpoint
 voice/
 name/
 bye/

@@ -1,15 +1,30 @@
 { pkgs }: {
   deps = [
-    pkgs.libopus.out
-    pkgs.ffmpeg.bin
-    pkgs.sudo
-    pkgs.nodePackages.prettier
-    pkgs.python38Full
-    pkgs.replitPackages.prybar-python3
-    pkgs.libuuid
+    pkgs.libsodium
+    pkgs.ffmpeg-full
+    pkgs.zlib
+    pkgs.tk
+    pkgs.tcl
+    pkgs.openjpeg
+    pkgs.libxcrypt
+    pkgs.libwebp
+    pkgs.libtiff
+    pkgs.libjpeg
+    pkgs.libimagequant
+    pkgs.lcms2
+    pkgs.freetype
+      pkgs.ffmpeg.bin
   ];
   env = rec {
     PYTHON_LD_LIBRARY_PATH = pkgs.lib.makeLibraryPath [
+      pkgs.libsodium
+      pkgs.tk
+      pkgs.tcl
+      pkgs.openjpeg
+      pkgs.libxcrypt
+      pkgs.libwebp
+      pkgs.libimagequant
+      pkgs.freetype
       pkgs.libopus.out
       # Needed for pandas / numpy
       pkgs.stdenv.cc.cc.lib
@@ -18,10 +33,10 @@
       pkgs.glib
       # Needed for matplotlib
       pkgs.xorg.libX11
-        
+
     ];
-    PYTHONBIN = "${pkgs.python38Full}/bin/python3.8";
     OPUS_PATH = "${pkgs.libopus.out}/lib";
     LANG = "en_US.UTF-8";
   };
+
 }

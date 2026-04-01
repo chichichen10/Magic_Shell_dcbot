@@ -5,7 +5,7 @@ import os
 import atexit
 import traceback
 import asyncio
-import openai
+# import openai
 import datetime
 from replit import db
 from gtts import gTTS
@@ -14,9 +14,14 @@ from logger import logger
 from audio_player import DC_player
 from discord import app_commands
 from asgiref.sync import sync_to_async
+from io import BytesIO
+from PIL import Image
+# from discord.ext import tasks
 from message_handler import message_handler
 from utils import name_parser
 from bot_constant import VOICE_FILE_COUNT, VIP_ID, ADMIN_NAME
+from fish import tts
+
 from dashboard import dashboard
 import logging
 # from quart import Quart
@@ -36,6 +41,9 @@ dc_player = DC_player()
 
 verbose = True
 
+FISH_API_KEY = os.environ['FISH_AUDIO_API_KEY']
+FISH_REFERENCE_ID = "f22282c781844c66bfc6e91602bd74c5"
+
 
 def exit_handler():
     os.unlink('running.lock')
@@ -51,10 +59,7 @@ async def on_ready():
     db['bot_name'] = str(client.user)
     if (db['token'][0] != datetime.datetime.now().month):
         db['token'] = [datetime.datetime.now().month, 0]
-    await client.change_presence(activity=discord.Activity(
-        type=discord.ActivityType.listening,
-        name='戀愛ing',
-    ))
+    await client.change_presence(activity=discord.Game('聯盟戰棋'))
     with open('running.lock', 'w') as f:
         f.write('running!')
     # loggers = [logging.getLogger(name) for name in         logging.root.manager.loggerDict]
@@ -120,8 +125,9 @@ async def on_voice_state_update(member, before, after):
             welcome_voice = "welcome" + welcome_num + "/" + name + ".mp3"
             if (not os.path.isfile(welcome_voice)):
                 if (not os.path.isfile(name_voice_file)):
-                    tts = gTTS(text=name, lang='zh-tw')
-                    tts.save(name_voice_file)
+                    # tts = gTTS(text=name, lang='zh-tw')
+                    # tts.save(name_voice_file)
+                    tts(name, name_voice_file, FISH_API_KEY, FISH_REFERENCE_ID)
                 pre_welcome = AudioSegment.from_mp3('voice/prewelcome' +
                                                     welcome_num + '.mp3')
                 name_voice_origin = AudioSegment.from_mp3(name_voice_file)
@@ -147,7 +153,7 @@ async def on_voice_state_update(member, before, after):
             print('WTF')
             print(e)
     elif (user.id == VIP_ID and after.channel == None):
-        dc_player.add('voice/recording2.webm', before.channel)
+        dc_player.add('voice/vip_bye.mp3', before.channel)
         await dc_player.play()
         return
     elif (after.channel == None):
@@ -161,8 +167,9 @@ async def on_voice_state_update(member, before, after):
             bye_voice = "bye/" + name + ".mp3"
             if (not os.path.isfile(bye_voice)):
                 if (not os.path.isfile(name_voice_file)):
-                    tts = gTTS(text=name, lang='zh-tw')
-                    tts.save(name_voice_file)
+                    # tts = gTTS(text=name, lang='zh-tw')
+                    # tts.save(name_voice_file)
+                    tts(name, name_voice_file, FISH_API_KEY, FISH_REFERENCE_ID)
                 pre_bye = AudioSegment.from_mp3('voice/bye.mp3')
                 name_voice_origin = AudioSegment.from_mp3(name_voice_file)
                 name_voice = effects.speedup(name_voice_origin, 1.3)
@@ -179,109 +186,89 @@ async def on_voice_state_update(member, before, after):
 
 
 @client.event
+async def on_disconnect():
+    log.err("Gateway disconnected")
+
+
+@client.event
+async def on_resumed():
+    log.info("Gateway reconnected, checking voice status...")
+    await recover_voice()
+
+
+async def recover_voice():
+    dc_player.clear()
+    for vc in client.voice_clients:
+        try:
+            await vc.disconnect(force=True)
+            log.info("語音連線壞掉，自動離開")
+        except Exception as e:
+            log.err(f"離開語音頻道失敗：{e}")
+
+
+@client.event
 async def on_member_join(member):
     guild = member.guild
     print('new person!')
     for channel in guild.channels:
         if channel.name == '一般' or channel.name == '這絕對不是幹話區':
             print('sfsg')
-            openai.api_key = os.environ['OPEN_AI_API_KEY']
-
-            msg = f'給我一段約500字的歡迎詞，歡迎 {member.name} 加入這個頻道，並告訴他這裡雖然有很多奇怪的人，也有可能會吵架，但仍希望他玩得開心。有問題可以找阿致，雖然他可能不能解決。'
-            res = await sync_to_async(openai.Completion.create
-                                      )(model="text-davinci-003",
-                                        prompt=msg,
-                                        max_tokens=1000,
-                                        temperature=0.8)
-            answer = res.choices[0]['text']
-            edited_answer = answer.replace(member.name, f'<@{member.id}>')
-            await channel.send(edited_answer)
+            # openai.api_key = os.environ['OPEN_AI_API_KEY']
+            await (message_handler(None,
+                                   client.user,
+                                   is_welcome=True,
+                                   new_member=member,
+                                   channel=channel))
+            # msg = f'給我一段約500字的歡迎詞，歡迎 {member.name} 加入這個頻道，並告訴他這裡雖然有很多奇怪的人，也有可能會吵架，但仍希望他玩得開心。有問題可以找阿致，雖然他可能不能解決。'
+            # res = await sync_to_async(openai.Completion.create
+            #                           )(model="text-davinci-003",
+            #                             prompt=msg,
+            #                             max_tokens=1000,
+            #                             temperature=0.8)
+            # answer = res.choices[0]['text']
+            # edited_answer = answer.replace(member.name, f'<@{member.id}>')
+            # await channel.send(edited_answer)
 
 
 @client.event
 async def on_message(message):
     global verbose
     mentions = message.mentions
+    log.info('get message')
     if message.author == client.user:
         return
     if (message.author.display_name == "傑哥KTV"):
         return
+    if message.content == '' and (
+            len(message.attachments) == 0 or
+        (not message.attachments[0].content_type.startswith("image"))):
+        return
 
-    # if message.content == '!阿致當兵':
-    #     await message.channel.send('信仰堅定 紀律嚴明')
-    #     verbose = False
-    #     db["mode"] = "0"
-    #     return
-
-    # if message.content == '!阿致放假':
-    #     await message.channel.send('放假啦老哥')
-    #     verbose = True
-    #     db["mode"] = "1"
-    #     user = message.author
-    #     voice_channel = None
-    #     if (user.voice):
-    #         voice_channel = user.voice.channel
-    #     if (voice_channel != None):
-    #         try:
-    #             vc = await voice_channel.connect()
-    #             await asyncio.sleep(0.2)
-    #             audio_source = discord.FFmpegPCMAudio('voice_15.mp3')
-    #             vc.play(audio_source, after=None)
-    #             vc.source.volume = 10.0
-    #             await asyncio.sleep(2)
-    #             await vc.disconnect()
-    #         except:
-    #             print('erroR')
-    #     return
-
-    # if message.content == '!阿致嘴閉閉':
-    #     if verbose:
-    #         await message.channel.send('好啊都這樣')
-    #         verbose = False
-    #     else:
-    #         await message.channel.send('到底想怎樣')
-    #     return
-
-    # if message.content == '!阿致回來':
-    #     if not verbose:
-    #         await message.channel.send('想不到吧')
-    #         verbose = True
-    #         user = message.author
-    #         voice_channel = None
-    #         if (user.voice):
-    #             voice_channel = user.voice.channel
-    #         if (voice_channel != None):
-    #             try:
-    #                 vc = await voice_channel.connect()
-    #                 await asyncio.sleep(0.2)
-    #                 audio_source = discord.FFmpegPCMAudio('voice_15.mp3')
-    #                 vc.play(audio_source, after=None)
-    #                 vc.source.volume = 10.0
-    #                 await asyncio.sleep(2)
-    #                 await vc.disconnect()
-    #             except:
-    #                 print('erroR')
-
-    #     else:
-    #         await message.channel.send('回你媽')
-    #     return
-
-    # if "!阿致叫我" in message.content:
-    #     random_name = message.content[5:]
-    #     db["random_" + message.author.display_name + "_" +
-    #        str(hash(random_name))] = random_name
-    #     await message.channel.send(random.choice(["考慮", "喔", "我想想", "不要"]))
-    #     return
-
-    # if message.content.startswith('!把') and message.content.endswith('拉進垃圾車'):
-    #     guild = message.author.guild
-    #     channel = await guild.create_voice_channel('垃圾車')
-    #     for player in mentions:
-    #         if player.voice:
-    #             await player.move_to(channel)
-    #             await message.channel.send('<@' + str(player.id) + '> 下去')
-
-    #     return
+    # for attachment in message.attachments:
+    #     try:
+    #         print(attachment.content_type)
+    #         if attachment.content_type.startswith("image"):
+    #             content = await attachment.read()
+    #             width, height = 1024, 1024
+    #             image = Image.open(BytesIO(content))
+    #             image = image.resize((width, height))
+    #             byte_stream = BytesIO()
+    #             image.save(byte_stream, format='PNG')
+    #             byte_array = byte_stream.getvalue()
+    #             openai.api_key = os.environ['OPEN_AI_API_KEY']
+    #             response = await sync_to_async(openai.Image.create_variation)(
+    #               image=byte_array,
+    #               n=1,
+    #               size="1024x1024"
+    #             )
+    #             image_url = response['data'][0]['url']
+    #             print(image_url)
+    #             await message.channel.send(image_url)
+    #         if not(message.content):
+    #             return
+    #     except Exception as e:
+    #         print('ERROR processing image')
+    #         print(str(e))
 
     if message.content == '!阿致講話':
         user = message.author
@@ -422,26 +409,26 @@ async def on_message(message):
             '邁向財富自由\nhttps://max.maicoin.com/signup?r=1448ee5b')
         return
 
-    if '!誒阿致' in message.content:
-        msg = message.content[5:]
-        openai.api_key = os.environ['OPEN_AI_API_KEY']
-        sup_words = ['不是誒老哥', '哭啊', '我要吐了']
-        mood = ['不屑', '不爽', '生氣']
-        sup_sen = ''
-        if random.choice([1, 2]) == 1:
-            sup_sen = '(以' + random.choice(
-                mood) + '的口吻回答，並在回答中加入"' + random.choice(sup_words) + '"")'
-            msg = msg + sup_sen
-        res = await sync_to_async(openai.Completion.create
-                                  )(model="text-davinci-003",
-                                    prompt=msg,
-                                    max_tokens=1000,
-                                    temperature=0.7)
-        answer = res.choices[0]['text']
-        await message.channel.send(answer)
-        return
+    # if '!誒阿致' in message.content:
+    #     msg = message.content[5:]
+    #     openai.api_key = os.environ['OPEN_AI_API_KEY']
+    #     sup_words = ['不是誒老哥', '哭啊', '我要吐了']
+    #     mood = ['不屑', '不爽', '生氣']
+    #     sup_sen = ''
+    #     if random.choice([1, 2]) == 1:
+    #         sup_sen = '(以' + random.choice(
+    #             mood) + '的口吻回答，並在回答中加入"' + random.choice(sup_words) + '"")'
+    #         msg = msg + sup_sen
+    #     res = await sync_to_async(openai.Completion.create
+    #                               )(model="text-davinci-003",
+    #                                 prompt=msg,
+    #                                 max_tokens=1000,
+    #                                 temperature=0.7)
+    #     answer = res.choices[0]['text']
+    #     await message.channel.send(answer)
+    #     return
 
-    if message.content == '.sync' and message.author.name == ADMIN_NAME:
+    if message.content == '.sync' and message.author.display_name == ADMIN_NAME:
         tree.clear_commands(guild=message.guild)
         await tree.sync()
         new_msg = await message.channel.send('done')
@@ -610,24 +597,28 @@ async def cmd_draw(interaction: discord.Interaction, options: str):
                                             random.choice(option_list))
 
 
-@tree.command(name='誒阿致', description='跟阿致聊天')
-@app_commands.describe(message='要跟阿致講的話或要問阿致的事')
-async def cmd_talk(interaction: discord.Interaction, message: str):
-    openai.api_key = os.environ['OPEN_AI_API_KEY']
-    res = await sync_to_async(openai.Completion.create
-                              )(model="text-davinci-003",
-                                prompt=message,
-                                max_tokens=1000,
-                                temperature=0.5)
-    answer = res.choices[0]['text']
+# @tree.command(name='阿致畫', description='叫阿致畫畫')
+# @app_commands.describe(message='要畫啥')
+# async def cmd_draw(interaction: discord.Interaction, message: str):
+#     await interaction.response.send_message('Working on it');
+#     openai.api_key = os.environ['OPEN_AI_API_KEY']
+#     res = await sync_to_async(openai.Image.create
+#                              )(prompt=message,n=1,size="1024x1024")
+#     answer = res['data'][0]['url']
+#     print(answer)
+#     await interaction.edit_original_response(content=answer)
 
-    await interaction.response.send_message(answer)
+# async def task():
+#     while(True):
+#         print('doing task!!!')
+#         await asyncio.sleep(1)
 
 
 async def main():
     async with client:
         client.loop.create_task(
             bot_dashboard.app.run_task(host="0.0.0.0", port=80))
+        # client.loop.create_task(task())
         await client.start(os.environ['BOT_TOKEN'])
 
 
