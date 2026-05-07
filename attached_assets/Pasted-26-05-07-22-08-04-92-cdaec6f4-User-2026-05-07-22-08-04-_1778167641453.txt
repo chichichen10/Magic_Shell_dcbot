@@ -1,0 +1,92 @@
+26-05-07 22:08:04.92
+cdaec6f4
+User
+[2026-05-07 22:08:04] [INFO ] message_handler: [{'role': 'user', 'content': '嗨阿致'}, {'role': 'assistant', 'content': '嗨，有什麼可以幫助你嗎？'}, {'role': 'user', 'content': '海螺早安'}]
+2026-05-07 22:08:06.35
+cdaec6f4
+User
+[2026-05-07 22:08:06] [INFO ] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-07 22:08:06.35
+cdaec6f4
+User
+[2026-05-07 22:08:06] [INFO ] openai._base_client: Retrying request to /chat/completions in 0.387585 seconds
+2026-05-07 22:08:07.74
+cdaec6f4
+User
+[2026-05-07 22:08:07] [INFO ] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-07 22:08:07.74
+cdaec6f4
+User
+[2026-05-07 22:08:07] [INFO ] openai._base_client: Retrying request to /chat/completions in 0.774667 seconds
+2026-05-07 22:08:09.62
+cdaec6f4
+User
+[2026-05-07 22:08:09] [INFO ] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-07 22:08:09.63
+cdaec6f4
+User
+File "/nix/store/hjsb7k7is6hncr5xvkanv2wqq07zmq9r-python3-3.10.19/lib/python3.10/concurrent/futures/thread.py", line 58, in run
+2026-05-07 22:08:09.63
+cdaec6f4
+User
+File "/home/runner/workspace/.pythonlibs/lib/python3.10/site-packages/openai/_utils/_utils.py", line 275, in wrapper
+2026-05-07 22:08:09.63
+cdaec6f4
+User
+return func(*args, **kwargs)
+2026-05-07 22:08:09.63
+cdaec6f4
+User
+await message_handler(message, client.user)
+2026-05-07 22:08:09.63
+cdaec6f4
+User
+return self._post(
+2026-05-07 22:08:09.63
+cdaec6f4
+User
+ret: _R = await loop.run_in_executor(
+2026-05-07 22:08:09.63
+cdaec6f4
+User
+return func(*args, **kwargs)
+2026-05-07 22:08:09.63
+cdaec6f4
+User
+File "/home/runner/workspace/main.py", line 493, in on_message
+2026-05-07 22:08:09.63
+cdaec6f4
+User
+Traceback (most recent call last):
+2026-05-07 22:08:09.63
+cdaec6f4
+User
+File "/home/runner/workspace/.pythonlibs/lib/python3.10/site-packages/asgiref/sync.py", line 479, in __call__
+2026-05-07 22:08:09.63
+cdaec6f4
+User
+result = self.fn(*self.args, **self.kwargs)
+2026-05-07 22:08:09.63
+cdaec6f4
+User
+await coro(*args, **kwargs)
+2026-05-07 22:08:09.63
+cdaec6f4
+User
+[2026-05-07 22:08:09] [ERROR ] discord.client: Ignoring exception in on_message
+2026-05-07 22:08:09.63
+cdaec6f4
+User
+File "/home/runner/workspace/message_handler.py", line 140, in message_handler
+2026-05-07 22:08:09.63
+cdaec6f4
+User
+File "/home/runner/workspace/.pythonlibs/lib/python3.10/site-packages/asgiref/sync.py", line 538, in thread_handler
+2026-05-07 22:08:09.63
+cdaec6f4
+User
+res = await sync_to_async(client.chat.completions.create
+2026-05-07 22:08:09.63
+cdaec6f4
+User
+File "/home/runner/workspace/.pythonlibs/lib/python3.10/site-packages/openai/resources/chat/completions.py", line 829, in create
