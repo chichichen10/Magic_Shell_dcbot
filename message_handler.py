@@ -141,7 +141,7 @@ async def message_handler(message: discord.Message,
                               )(model="gpt-5.6-luna",
                                 messages=system_message + pre_messages,
                                 temperature=1.2,
-                                max_tokens=800,
+                                max_completion_tokens=800,
                                 presence_penalty=1,
                                 frequency_penalty=1)
     answer = res.choices[0].message.content
