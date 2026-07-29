@@ -138,7 +138,7 @@ async def message_handler(message: discord.Message,
 
     system_message = [{"role": "system", "content": setting_message}]
     res = await sync_to_async(client.chat.completions.create
-                              )(model="gpt-5-chat-latest",
+                              )(model="gpt-5.6-luna",
                                 messages=system_message + pre_messages,
                                 temperature=1.2,
                                 max_tokens=800,
