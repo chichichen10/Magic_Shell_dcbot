@@ -1,30 +1,22 @@
 [tool.poetry]
-name = "python-template"
+name = "magic-shell-dcbot"
 version = "0.1.0"
-description = ""
-authors = ["Your Name <you@example.com>"]
+description = "Magic Shell Discord bot"
+authors = ["chichichen10"]
 
 [tool.poetry.dependencies]
 python = "^3.10.11"
-discord = "^2.3.2"
+discord-py = "^2.7.1"
 openai = "1.55.3"
 replit = "3.3.2"
-gtts = "2.4.0"
 pydub = "0.25.1"
 pytz = "2023.3.post1"
 youtube-dl = "2021.12.17"
-asgiref = "3.7.2"
-pillow = "10.1.0"
 mechanize = "0.4.9"
 quart = ">0.17"
 pynacl = "1.5.0"
 davey = ">=0.1.5"
-volkswagencarnet = "^4.4.62"
-logger = "^1.4"
-utils = "^1.0.1"
-discord-py = "^2.7.1"
 httpx = "0.27.2"
-ormsgpack = "1.6.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]

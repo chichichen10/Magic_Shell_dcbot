@@ -1,17 +1,18 @@
-import json
 import httpx
 from logger import logger
 
 log = logger()
 
 
-def tts(text: str,
-        filename: str,
-        api_key: str,
-        reference_id: str = None,
-        format: str = "mp3",
-        mp3_bitrate: int = 128,
-        latency: str = "normal"):
+def tts(
+    text: str,
+    filename: str,
+    api_key: str,
+    reference_id: str = None,
+    format: str = "mp3",
+    mp3_bitrate: int = 128,
+    latency: str = "normal",
+):
     """
     調用 Fish Audio TTS API，將文本轉換為語音並儲存為音檔。
 
